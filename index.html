@@ -1,105 +1,179 @@
-<!DOCTYPE html>
-<!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.png">
+---
+layout: bootstrap
+title: Kinonation Investor Deck
+---
+<!-- Navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Kinonation</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Summary</a></li>
+        <li><a href="#">DaaS</a></li>
+        <li><a href="#">Team</a></li>
+      </ul>
+    </div><!--/.navbar-collapse -->
+  </div>
+</div>
 
-    <title>Kinonation Investor Deck</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <div class="container">
+    <!-- <h2 class="text-muted">Kinonation</h2> -->
+    <h1>Kinonation</h1>
+    <p>Power worldwide VoD cloud-distribution of every movie, in every language, anytime, to anyone.</p>
+    <!-- <p><a class="btn btn-primary btn-lg">Read our deck »</a></p> -->
+  </div>
+</div>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="../../assets/js/html5shiv.js"></script>
-      <script src="../../assets/js/respond.min.js"></script>
-    <![endif]-->
-  </head>
 
-  <body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Kinonation</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">What We Do</a></li>
-            <li><a href="#">Disruptive</a></li>
-            <li><a href="#">Problem? Solution.</a></li>
-          </ul>
-        </div><!--/.navbar-collapse -->
+<div class="container">
+  <div class="row">
+    
+    <!-- Sidebar Nav ================================================== -->
+    
+    <div class="col-lg-4">
+      <div class="sidenav" data-spy="affix" data-offset-top="200">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a href="#daas">Executive Summary</a></li>
+          <li><a href="#summary">Distribution-as-a-Service (Daas)</a></li>
+          <li><a href="#team">Management Team</a></li>
+        </ul>
       </div>
     </div>
     
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h2 class="text-muted">Kinonation</h2>
-        <h1>Distribution as a Service</h1>
-        <p>Read the Kinonation investor deck.</p>
-        <p><a class="btn btn-primary btn-lg">Learn more »</a></p>
-      </div>
-    </div>
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-lg-4">
-          <h2>What We Do.</h2>
-          <h4 class="text-muted">And how that's different</h4>
-          <p>cloud based: scalable. 1 or 2 technology terms. reduce cost from $1000s to pennies. screen shots: vod sites, our site </p>
-          <p><a class="btn btn-default" href="#whatwedo">View details »</a></p>
+    
+    <div class="col-lg-8" role="main">
+      
+      <!-- 1) Distribution as a Service ================================================== -->
+      
+      <section id="daas">
+        <div class="slide">
+          <h1 class="page-header">Distribution-as-a-Service (Daas)</h1>
+          <!-- <h4 class="text-muted">How we shake up the industry</h4> -->
+          <ul class="lead">
+            <li>250,000+ dormant or under-exploited feature films  = investment of at least $50 billion</li>
+            <li>$5 billion invested annually in 25,000 films not offered for sale to the public</li>
+            <li>Hundreds of high-quality feature film catalogs radically under-exploited</li>
+            <li>Can now monetize via Video-on-Demand (VoD) in multiple countries & language</li>
+            <li>Kinonation is DaaS solution to monetize these unexploited movie assets</li>
+            <li>Delivering to Netflix, iTunes, Amazon, Hulu + hundreds global VoD outlets</li>
+          </ul>
+          <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#">View details »</a></p> -->
         </div>
-        <div class="col-lg-4">
-          <h2>Disruptive.</h2>
-          <h4 class="text-muted">How we shake up the industry</h4>
-          <p>aaS model changes everything: film distribution as a service (DaaS)
-no gatekeeper
-minimal human intervention
-consistent high quality
-can handle unlimited catalog 
-major shifts in the industry
-unlimited shelf space, inventory, replication </p>
-          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#">View details »</a></p>
-       </div>
-        <div class="col-lg-4">
-          <h2>Problem? Solution.</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#">View details »</a></p>
+        
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>Header</h3>
+            <p>Every year 25,000 feature length films are completed globally, but less than 2,000 are distributed. The rest languish or are under-exploited, unable to get traditional theatrical, TV or DVD distribution. There’s now a pool of 250,000+ dormant or under-exploited feature film assets, representing an investment of at least $50 billion (assuming $200k average production cost per film).</p>
+          </div>
+        
+          <div class="col-lg-6">
+            <h3>Header</h3>
+            <p>Each year $5 billion of movie product is made but not even offered for sale to the public, trapped in a broken, high cost, inefficient, legacy distribution system. There are hundreds of high quality feature film catalogs that are radically under-exploited -- which can now be monetized via Video-on-Demand (VoD) in multiple formats, countries & languages. Kinonation does not compete with Netflix, iTunes, Amazon, Hulu and the hundreds of digital and cable VoD outlets throughout the world. Instead, these outlets are all paying customers for the content we deliver.</p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4">
-          <h2>Market Size.</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#">View details »</a></p>
+      </section>
+      
+      <!-- 3) Executive Summary ================================================== -->
+      
+      <section id="summary">
+        <div class="slide">
+          <h1 class="page-header">Executive Summary</h1>
+          <!-- <h4 class="text-muted">How we shake up the industry</h4> -->
+          <ul class="lead">
+            <li>film super-aggregator for global Video-on-Demand (VoD)</li>
+            <li>scalable cloud-based pipeline for content owners to distribute & monetize films</li>
+            <li>crunch distribution cost from $1000s per film to pennies</li>
+            <li>unfair technology advantages</li>
+            <li>operational in private beta, ingesting, storing, transcoding & delivering films to VoD</li>
+            <li>DaaS model allows content owner to choose fee or commission or hybrid</li>
+            <li>need capital to scale 100x to catalog of 10,000 films and 200+ channels & outlets</li>
+            <li>founders have deep expertise in distributing, marketing & monetizing video</li>
+          </ul>
+          <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#">View details »</a></p> -->
         </div>
-      </div>
+        
+        <p>Kinonation is a start-up solving a big problem in the content supply chain for video-on-demand (VoD) platforms such as Netflix, Hulu, Amazon, iTunes, Google Play and hundreds of non-US VoD outlets. Our cloud-based Distribution-as-a-Service (DaaS) delivers a 100x cost reduction in the highly complex and wholly non-standardized process of ingesting, transcoding, authoring & delivering movie assets for VoD.</p>
+        <ul>
+          <li>Beta clients Hulu, Amazon, iTunes</li>
+          <li>Gives content creators distribution access to global VoD network</li>
+          <li>Crushes VoD supply chain costs 100x</li>
+          <li>CTO Klaus Badelt scored Pirates of the Caribbean, Gladiator, Beijing Olympics</li>
+          <li>CEO Roger Jackson was head of content at iFilm.com, Lexis-Nexis Hong Kong</li>
+          <li>Revenue $2k Q2/13 → $20k Q3/13 --> $20m Q4/18</li>
+          <li>Based in Santa Monica, CA</li>
+        </ul>
 
-      <hr>
+        <p>
+          Every year 25,000 feature length films are completed globally, but less than 2,000 are distributed. The rest languish or are under-exploited, unable to get theatrical, TV or DVD distribution. There’s now a pool of 250,000+ under-exploited feature film assets, representing an investment of at least $50 billion (assuming $200k average production cost per film). Each year $5 billion of movie product is made but not even offered for sale to the public, trapped in a high cost, inefficient, legacy distribution system. These films can now be monetized via VoD in multiple formats, countries & languages.
+        </p>
+        <p>
+          BUT: Prepping & delivering feature film assets for VoD is highly complex, wholly unstandardized, inefficient and expensive. Kinonation solves that problem.
+        </p>
+        <p>
+          Kinonation does not compete with Netflix, iTunes, Amazon, Hulu and the 1000+ digital and cable VoD outlets throughout the world. We supply movies to them at scale.
+        </p>
+        <p>
+          KinoNation is a cloud-based Distribution-as-a-Service (DaaS) pipeline for content owners to distribute and monetize under-exploited feature films. Our enterprise software allows these massive digital assets to be uploaded, stored, transcoded, packaged and distributed at scale to VoD outlets & channels worldwide, in multiple languages. 
+        </p>
+        <p>
+          Revenue is generated from VoD outlets and Distribution-as-a-Service (DaaS) fees from studios, distributors, and catalog owners.
+        </p>
+        <p>
+          The founding team have deep expertise in creating, distributing, marketing and monetizing digital assets, with executive roles at iFilm, Lexis-Nexis, Reuters, and have created content for 100+ Hollywood and independent movies.
+        </p>
+        <p>
+          KinoNation is live & operational, ingesting award-winning feature films (100+) and distributing to VoD platforms such as iTunes, Amazon, Hulu, Google Play, Netflix, Viewster. Generating revenue since Q2 2013. We’ve proved the business model, now need to scale 100x, to a catalog of 10,000 films and 1,000 VoD channels & outlets. Angel funding of $250k from founder. Raising A round of $1.5 - $2.0 million.
+        </p>
 
-      <footer>
-        <p>© Company 2013</p>
-      </footer>
-    </div> <!-- /container -->
+      </section>
+      
+
+      <!-- 4) Management Team ================================================== -->
+      
+      <section id="team">
+        <div class="slide">
+          <h1 class="page-header">Management Team</h1>
+          <!-- <h4 class="text-muted">How we shake up the industry</h4> -->
+          <ul class="lead">
+            <li><em>Roger Jackson</em> ran Lexis-Nexis/Asia, was VP Content for iFilm.com (sold to MTV for $49m) and launched documentary platform Explore.org. UCLA Anderson School of Management.</li>
+            <li><em>Klaus Badelt</em> is a software developer and film composer. He started his first software company at 16 in Germany, then introduced software-based music scoring to the film industry. Scored 80+ movies, inc. Pirates of the Caribbean, Gladiator, U-571, Rescue Dawn. Wrote music for the Beijing Olympics closing ceremony</li>
+            <li><em>Robyn Klein</em> manages legal and business affairs for Kinonation. An entertainment attorney for more than 25 years, Robyn has deep experience with film financing, intellectual property, media royalties and multi-territory film licensing.</li>
+          </ul>
+          <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#">View details »</a></p> -->
+        <div class="slide">
+        
+        <h2>Roger Jackson</h2>
+        <p>Roger is an online content producer with a track record of accomplishment.  He started his media career in London with Thomson-Reuters, and then moved to Hong Kong to establish the China business (HK, China, Taiwan, Singapore) for Lexis-Nexis.  He moved to Los Angeles in 1997, working at internet incubator Idealab before joining the founding team of iFilm.com in San Francisco.  Roger spent 7 years at iFilm as Vice President Content, growing the content library to 30,000+ films and helping to sell iFilm to MTV Networks for $49m in 2006.  He subsequently joined documentary film startup Explore.org as Executive Producer, responsible for building an integrated production, post-production and distribution organization.  Roger has produced more than a dozen films, including Team Extreme (2006), Arsenic: The Largest Mass Poisoning in History (2005), No Child is Born a Terrorist (2008), and Darfur: Quest for the Human Spirit (2009.) Roger attended the University of Southampton in England (B.Sc. Politics & Law), the Royal Military Academy Sandhurst, and is a graduate of the UCLA Anderson School of Management.</p>
+
+        <h2>Klaus Badelt</h2>
+        <p>Klaus Badelt is an award-winning composer, best known for composing hit film scores.  Klaus co-wrote and co-produced the score to Hollywood box office hit Gladiator, directed by Ridley Scott. Having contributed music to Gladiator, Mission: Impossible 2 and Michael Kamen's score for X-Men, Klaus was involved in the three most successful movies in 2000. Klaus also collaborated with Hans Zimmer on other successful films, such as The Pledge, and 2001 blockbusters Hannibal and Pearl Harbor. One of his more famous and popular scores was for the 2003 film Pirates of the Caribbean: The Curse of the Black Pearl. In 2004, Klaus branched out of Zimmer's studio and founded his own film music company, Theme Park Studios, in Santa Monica, CA. Since then, he has scored over 100 feature films. Among Klaus's most critically celebrated scores are the Chinese fantasy film The Promise and Dreamworks' remake of The Time Machine, the latter which earned him the Discovery of the Year Award at the World Soundtrack Awards 2003. He also wrote the music for the closing ceremonies at the Beijing Olympics in 2008, and was commissioned to write the opera about China's First Emperor, to be premiered in 2012.  Klaus is the founder and CEO of an innovative digital music company, LabelZero, and is known for his use of advanced media networking and compression technology to collaborate in real-time with clients and musicians in China, Europe and North America.</p>
+
+        <h2>Robyn Klein</h2>
+        <p>Robyn Klein manages legal and business affairs for Kinonation.  An entertainment attorney for more than 25 years, Robyn has deep experience with film financing, intellectual property, music royalties and multi-territory film licensing.</p>
+        
+      </section>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./Jumbotron Template for Bootstrap_files/jquery.js"></script>
-    <script src="./Jumbotron Template for Bootstrap_files/bootstrap.min.js"></script>
-  
 
-</body></html>
+
+
+    </div> <!-- main -->
+
+  </div> <!-- row -->
+</div> <!-- /container -->
+
+<hr>
+
+<footer>
+  <p>© Kinonation 2013</p>
+</footer>

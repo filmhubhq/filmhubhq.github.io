@@ -3,43 +3,26 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
-#masthead  {
-  text-align: center;
-  background-color: transparent;
+.jumbotron {
+  margin-bottom: 0;
 }
-#masthead  .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+section {
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
-.sidenav.affix {
-  top: 80px;
+section:nth-child(even) {
+  background-color: #eee;   
 }
-
-/*section:nth-child(even) {
-    background-color: #eee;   
+section:nth-child(3n) {
+  background-color: #563d7c;
+  color: #fff;
 }
-*/
-
-/* Carousel base class */
-/*.carousel {
-  height: 500px;
-  margin-bottom: 60px;
-*/}
-/* Since positioning the image, we need to help out the caption */
-/*.carousel-caption {
-  z-index: 10;
+section h1 {
+  margin-bottom: 40px;
 }
-*/
-/* Declare heights because of positioning of img element */
-/*.carousel .item {
-  height: 500px;
-  background-color: #777;
+.btn ~ p {
+  margin-top: 20px;
 }
-*//*.carousel-inner > .item > div.new_html_code {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
+.details > * {
+  margin-top: 0;
 }
-*/

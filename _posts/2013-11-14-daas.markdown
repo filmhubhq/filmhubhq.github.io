@@ -3,7 +3,6 @@ layout: post
 title:  "Distribution-as-a-Service"
 subtitle: "Cloud-based Film & TV distribution"
 menu: DaaS
-date:   2013-11-14 00:00:00
 categories: investors deck
 ---
 * 250,000+ dormant or under-exploited feature films  = investment of at least $50 billion

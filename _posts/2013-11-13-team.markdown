@@ -3,7 +3,6 @@ layout: post
 title:  "Team"
 subtitle: "About the Founders"
 menu: Team
-date: 2013-11-13 00:00:00
 categories: investors deck
 excerpt: ''
 ---

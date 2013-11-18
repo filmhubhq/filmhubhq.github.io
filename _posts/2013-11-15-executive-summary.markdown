@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Executive Summary"
+subtitle: "Business Overview"
+menu: Summary
+categories: investors deck
+---
+* film super-aggregator for global Video-on-Demand (VoD)
+* scalable cloud-based pipeline for content owners to distribute & monetize films
+* crunch distribution cost from $1000s per film to pennies
+* unfair technology advantages
+* operational in private beta, ingesting, storing, transcoding & delivering films to VoD
+* DaaS model allows content owner to choose fee or commission or hybrid
+* need capital to scale 100x to catalog of 10,000 films and 200+ channels & outlets
+* founders have deep expertise in distributing, marketing & monetizing video
+
+<!--more-->
+
+Kinonation is a start-up solving a big problem in the content supply chain for video-on-demand (VoD) platforms such as Netflix, Hulu, Amazon, iTunes, Google Play and hundreds of non-US VoD outlets. Our cloud-based Distribution-as-a-Service (DaaS) delivers a 100x cost reduction in the highly complex and wholly non-standardized process of ingesting, transcoding, authoring & delivering movie assets for VoD.
+
+* Beta clients Hulu, Amazon, iTunes
+* Gives content creators distribution access to global VoD network
+* Crushes VoD supply chain costs 100x
+* CTO Klaus Badelt scored Pirates of the Caribbean, Gladiator, Beijing Olympics
+* CEO Roger Jackson was head of content at iFilm.com, Lexis-Nexis Hong Kong
+* Revenue $2k Q2/13 → $20k Q3/13 --> $20m Q4/18
+* Based in Santa Monica, CA
+
+Every year 25,000 feature length films are completed globally, but less than 2,000 are distributed. The rest languish or are under-exploited, unable to get theatrical, TV or DVD distribution. There’s now a pool of 250,000+ under-exploited feature film assets, representing an investment of at least $50 billion (assuming $200k average production cost per film). Each year $5 billion of movie product is made but not even offered for sale to the public, trapped in a high cost, inefficient, legacy distribution system. These films can now be monetized via VoD in multiple formats, countries & languages.
+
+BUT: Prepping & delivering feature film assets for VoD is highly complex, wholly unstandardized, inefficient and expensive. Kinonation solves that problem.
+
+Kinonation does not compete with Netflix, iTunes, Amazon, Hulu and the 1000+ digital and cable VoD outlets throughout the world. We supply movies to them at scale.
+
+KinoNation is a cloud-based Distribution-as-a-Service (DaaS) pipeline for content owners to distribute and monetize under-exploited feature films. Our enterprise software allows these massive digital assets to be uploaded, stored, transcoded, packaged and distributed at scale to VoD outlets & channels worldwide, in multiple languages. 
+
+Revenue is generated from VoD outlets and Distribution-as-a-Service (DaaS) fees from studios, distributors, and catalog owners.
+
+The founding team have deep expertise in creating, distributing, marketing and monetizing digital assets, with executive roles at iFilm, Lexis-Nexis, Reuters, and have created content for 100+ Hollywood and independent movies.
+
+KinoNation is live & operational, ingesting award-winning feature films (100+) and distributing to VoD platforms such as iTunes, Amazon, Hulu, Google Play, Netflix, Viewster. Generating revenue since Q2 2013. We’ve proved the business model, now need to scale 100x, to a catalog of 10,000 films and 1,000 VoD channels & outlets. Angel funding of $250k from founder. Raising A round of $1.5 - $2.0 million.

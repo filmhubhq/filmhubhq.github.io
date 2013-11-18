@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Distribution-as-a-Service"
+subtitle: "Cloud-based Film & TV distribution"
+menu: DaaS
+date:   2013-11-14 00:00:00
+categories: investors deck
+---
+* 250,000+ dormant or under-exploited feature films  = investment of at least $50 billion
+* $5 billion invested annually in 25,000 films not offered for sale to the public
+* Hundreds of high-quality feature film catalogs radically under-exploited
+* Can now monetize via Video-on-Demand (VoD) in multiple countries & language
+* Kinonation is DaaS solution to monetize these unexploited movie assets
+* Delivering to Netflix, iTunes, Amazon, Hulu + hundreds global VoD outlets
+
+<!--more-->
+
+Every year 25,000 feature length films are completed globally, but less than 2,000 are distributed. The rest languish or are under-exploited, unable to get traditional theatrical, TV or DVD distribution. There’s now a pool of 250,000+ dormant or under-exploited feature film assets, representing an investment of at least $50 billion (assuming $200k average production cost per film).
+  
+Each year $5 billion of movie product is made but not even offered for sale to the public, trapped in a broken, high cost, inefficient, legacy distribution system. There are hundreds of high quality feature film catalogs that are radically under-exploited -- which can now be monetized via Video-on-Demand (VoD) in multiple formats, countries & languages. Kinonation does not compete with Netflix, iTunes, Amazon, Hulu and the hundreds of digital and cable VoD outlets throughout the world. Instead, these outlets are all paying customers for the content we deliver.

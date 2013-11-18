@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Team"
+subtitle: "About the Founders"
+menu: Team
+date: 2013-11-13 00:00:00
+categories: investors deck
+excerpt: ''
+---
+<div class="col-lg-4">
+  <h3>Roger Jackson</h3>
+  <p class="lead">
+    Ran Lexis-Nexis/Asia, was VP Content for iFilm.com (sold to MTV for $49m) and launched documentary platform Explore.org. UCLA Anderson School of Management.
+  </p>
+  <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#roger">
+    More...
+  </button>
+  <p id="roger" class="collapse">Roger is an online content producer with a track record of accomplishment.  He started his media career in London with Thomson-Reuters, and then moved to Hong Kong to establish the China business (HK, China, Taiwan, Singapore) for Lexis-Nexis.  He moved to Los Angeles in 1997, working at internet incubator Idealab before joining the founding team of iFilm.com in San Francisco.  Roger spent 7 years at iFilm as Vice President Content, growing the content library to 30,000+ films and helping to sell iFilm to MTV Networks for $49m in 2006.  He subsequently joined documentary film startup Explore.org as Executive Producer, responsible for building an integrated production, post-production and distribution organization.  Roger has produced more than a dozen films, including Team Extreme (2006), Arsenic: The Largest Mass Poisoning in History (2005), No Child is Born a Terrorist (2008), and Darfur: Quest for the Human Spirit (2009.) Roger attended the University of Southampton in England (B.Sc. Politics & Law), the Royal Military Academy Sandhurst, and is a graduate of the UCLA Anderson School of Management.</p>
+</div>
+
+<div class="col-lg-4">
+  <h3>Klaus Badelt</h3>
+  <p class="lead">
+    Equally entrepreneur and artist, Klaus started hacking on the first Apple II, was Germany's youngest CEO of an IBM VAR (with 18), pioneered software-based music production - and wrote film music history with <em>Pirates of the Caribbean</em>
+  </p>
+  <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#klaus">
+    More
+  </button>
+  <p id="klaus" class="collapse">Always both artist and IT entrepreneur, Klaus wrote and produced music to many Hollywood box office hits like Pirates of the Carribean, Gladiator, Mission: Impossible 2 and Michael Kamen's score for X-Men. Klaus was involved in the three most successful movies in 2000. and founded his own film music company, Theme Park Studios, in Santa Monica, CA. Since then, he has scored over 100 feature films. Among Klaus's most critically celebrated scores are the Chinese fantasy film The Promise and Dreamworks' remake of The Time Machine, the latter which earned him the Discovery of the Year Award at the World Soundtrack Awards 2003. He also wrote the music for the closing ceremonies at the Beijing Olympics in 2008, and was commissioned to write the opera about China's First Emperor, to be premiered in 2012.  Klaus is the founder and CEO of an innovative digital music company, LabelZero, and is known for his use of advanced media networking and compression technology to collaborate in real-time with clients and musicians in China, Europe and North America.</p>
+</div>
+
+<div class="col-lg-4">
+  <h3>Robyn Klein</h3>
+  <p class="lead">
+    Legal and business affairs. Entertainment attorney for 25+ years, deep experience with multi-territory film financing & licensing, intellectual property and media royalties.
+  </p>
+  <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#robyn">
+    More...
+  </button>
+  <p id="robyn" class="collapse">Robyn Klein manages legal and business affairs for Kinonation.  An entertainment attorney for more than 25 years, Robyn has deep experience with film financing, intellectual property, music royalties and multi-territory film licensing.</p>
+</div>

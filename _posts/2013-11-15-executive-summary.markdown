@@ -5,12 +5,13 @@ subtitle: "Business Overview"
 menu: Summary
 categories: investors deck
 ---
-* film super-aggregator for global Video-on-Demand (VoD)
+* super-aggregator for Video-on-Demand (VoD
+* Distribution-as-a-Service
 * scalable cloud-based pipeline for content owners to distribute & monetize films
 * crunch distribution cost from $1000s per film to pennies
 * unfair technology advantages
-* operational in private beta, ingesting, storing, transcoding & delivering films to VoD
-* DaaS model allows content owner to choose fee or commission or hybrid
+* site operational (beta) with full ingest->delivery cycle, generating revenue
+* content owner can choose fee model
 * need capital to scale 100x to catalog of 10,000 films and 200+ channels & outlets
 * founders have deep expertise in distributing, marketing & monetizing video
 

@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Addressable Market"
+subtitle: 
+menu: Market
+categories: investors deck
+---
+* Global shift from DVD to VoD
+* 4 billion VoD users by 2018
+* 2012 $18b USA home video (DVD+VoD) sales
+* 2012 $4b USA VoD
+* 90% of home video spend will be VoD by 2017
+* Global shift in VoD consumption to Long Form content
+* Global online TV and video revenues $30 billion in 2017
+* Increase from $4 billion in 2010 and $12 billion in 2012
+
+> Data: IHS Screen Digest, June 2012; Infiniti Research "Global VoD Market 2011-15"; NPD Group "VideoWatch VoD 2012"; Baseline Intelligence; Rentrak: State of VOD Trend Report 2012; IMDb
+
+<!--more-->
+
+**Video-on-demand** will continue to grow explosively as DVD sales decline. Is it a zero-sum game? Probably not, but it’s complex. Per unit rentals or sales via VoD tend to be lower dollar amounts than for DVD. But the ubiquity of multiple devices to consume VoD will mean consumers watch more movies each month than they watched on DVD. Producers want to get their film on as many digital and cable VoD platforms as possible, in multiple languages and countries. It’ll be common to commence watching a film in the evening on a connected TV, then watch a little more of that film on your phone while you ride the subway, then finish viewing on a tablet during a coffee break at work. Fragmented? Yes, but more films will be watched. Prints delivered to movie theaters will be history. Theaters will be able to program and show movies on the fly, based on the aggregate demand of the audience. e.g. a dozen pals show up at the cinema and ask to watch Pulp Fiction…and within minutes it’s on that afternoon’s roster. This type of disruption is being led by Tugg, who have combined the best aspects of Groupon with the shared community experience of going to a theater to watch a film the group is passionate about. Tugg are building an incredible business based on packing theaters during off-peak days & times, and providing indie filmmakers with a viable path to a profitable theatrical release.
+
+### Home Theater
+A big chunk of consumers — perhaps more than half by 2018 — will have what can be described as a home theater. The combination of really big screen, plus surround sound, plus seating — that we imagine the movie mogul watching with his cronies. These are mini-movie theaters — and there will be millions of them. This trend will radically compress the difference between “going to a movie” and “let’s rent a film tonight.” It’s game changing because it allows that movie theater experience of big screen, big sound and big audience to be scaled up from thousands of venues to millions of homes.
+
+###Free
+There will be lots more models for people to watch films for free. Or rather, without spending cash. We’re already there with Hulu. It’s the conventional TV quid-pro-quo: view some ads and you can have this content without paying. HitBliss is another disruptor: watch ads and do other stuff online to “earn” the cash to rent a film. They’re growing fast, and there’ll be others. Bottom line: more people will see your film and you’ll make more money.
+
+###Discovery
+There will be one or two big winners in the “VoD Program Guide” space. From the 1950’s, TV Guide Magazine dominated the TV listings business, until News Corp bought them for $3+ billion. Then they were disrupted by Gemstar in the 90’s with the ascendancy of the Electronic Program Guide (EPG). Then the two companies merged to form the ill-fated Gemstar-TV Guide.  Now there’s a new battle to dominate the listings space…this time for video-on-demand. No one wants to search Netflix for a film (which probably won’t be there) and then search Amazon, and then iTunes…and so on. Everyone wants a one-stop service that lists every outlet that has the movie you want, with price and terms. The players now include FlickList (co-founded by Ted Hope), CaniStream.it, GoWatchIt, OV Guide and (in the UK) FindAnyFilm. Expect a winner to emerge and dominate.
+
+
+###VoD Growth
+Global online TV and video revenues will reach $28.72 billion in 2017, a massive increase from the $3.79 billion recorded in 2010 and the $11.14 billion expected in 2012. The over-the-top TV sector is on the brink of a huge take-off as the key players expand globally, companies consolidate and as new partnerships are announced on a daily basis. By 2017, 480 million homes in 40 countries will watch online television and video, up from 182 million in 2010. By 2017, 64.6% of the world’s 745 million fixed broadband homes will view television and video online, up from 33.5% of the 473 million fixed broadband total in 2010.  Online TV and video advertising is the key driver in the OTT sector, recording revenues of $6.0 billion in 2012, up from $2.4 billion in 2010. Rapid advertising expenditure growth will continue, to reach a global total of $14.7 billion in 2017. The US will remain the dominant territory for online TV and video revenues.
+
+###Globalisation
+There are 7+ billion people on the planet. Right now most don’t have access to movies. Or at least not your movies. Early last year — just before we started KinoNation — I was working in a poor, village in a remote part of Africa, on the border of Mauritania and Mali. Despite extreme poverty and isolation, most of these rural subsistence farmers and their families had cellphones. OK, they were somewhat outdated Nokia flip-phones. But very soon they’ll have smartphones and tablets — and African entrepreneurs will realise that indie films are the best and simplest movies to license…as long as they’re available in the local lingua-franca. In Mauritania and Mali that’s French. And there’ll be a similar content explosion throughout the developing world. My conclusion is that producers must seriously — and properly — plan for multi-country and multi-language distribution. Back in the 1930’s, movies were routinely shot in a dozen languages. That is, the director would sequence 12 groups of actors — each speaking a different language — for each scene he shot — same movie, same set, same script, different words. Hard work, but very efficient. At least until sound dubbing technology made that process obsolete.

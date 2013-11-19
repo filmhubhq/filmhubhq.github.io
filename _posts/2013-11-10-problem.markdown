@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Problem"
+subtitle: ""
+menu: Problem
+categories: investors deck
+---
+* 250,000 dormant or unexploited films
+* Thousands of major studio films under-exploited
+* Globally 25,000+ feature films made every year
+* 95% don't get "conventional" distribution deals, but all want VoD distribution
+* Difficult & expensive for owners to access VoD platforms
+* No metrics based ranking for unreleased films, difficult for VoD outlets to analyse future value
+
+<!--more-->
+
+Talented creators of film & video struggle to find distribution for their content, in an analog system dominated by established players, relationships and “film markets” such as Cannes, American Film Market, Mipcom, etc.  The existing path to VoD distribution requires filmmakers to pay for expensive custom encodes in multiple versions, and entails high levels of cost, friction and difficulty. There’s a pool of 250,000 dormant or unexploited feature films. Plus, thousands of major studio films are under-exploited. Globally 25,000+ feature films are made every year -- 95% don't get "conventional" distribution deals, but all want VoD distribution
+

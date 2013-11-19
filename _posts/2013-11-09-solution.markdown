@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Solution"
+subtitle: ""
+menu: Solution
+categories: investors deck
+---
+* One-Stop Platform That Automates VoD Distribution
+* Give content creators simple way to access global VoD market
+* Eliminate gatekeepers and upfront costs
+* Scalable, cloud-based Super-Aggregator
+* Automated Upload > Transcode > Delivery to Outlets
+* Slash distribution cost by 100x
+* Metrics-based ranking system assesses value of each film
+* Tools for content owners to match films to global VoD audience
+
+<!--more-->
+
+Kinonation provides content creators an effortless route to digital distribution that is usually closed to them. For VoD outlets, Kinonation provides a guarantee of content quality, integrity and legality. It’s a true win-win, a One-Stop Platform that simplifies & automates online movie distribution. This automation crushes distribution cost from $500-1000 per outlet to just a few dollars.

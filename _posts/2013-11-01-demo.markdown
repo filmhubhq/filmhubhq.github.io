@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Financial Model"
-subtitle: "Highlights"
-menu: Model
+title:  "Demo Pages"
+subtitle: ""
+menu: Demo
 categories: investors deck
 ---
 * Upload in Progress

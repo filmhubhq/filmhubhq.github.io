@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Goals"
+subtitle: "Use of Funds"
+menu: Goals
+categories: investors deck
+---
+
+1. Software Development
+2. Biz Dev
+3. Marketing
+4. Sales
+
+* Automation 65% → 95%
+* Software & Sales for DaaS
+* Scale 10 → 100+ Global VoD Outlets
+* Scale 200 → 10,000 film titles
+* Build Reporting & Accounting Modules
+
+<!--more-->
+
+Software Development, Biz Dev, Marketing, Sales
+Automation 65% → 95%
+Build DaaS
+Sell DaaS to Distributors, 
+Reporting & Accounting
+Scale from 10 → 100+ Global VoD Outlets
+Scale from 200 → 10,000 titles

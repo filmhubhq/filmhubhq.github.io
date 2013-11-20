@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Financial Model"
+subtitle: "Highlights"
+menu: Model
+categories: investors deck
+---
+* Upload in Progress
+* Assets List
+* Film Record
+* Metadata
+* Player/multi-language
+* Outlet Avails
+* Transcode Jobs
+* Live on Outlets
+
+<!--more-->
+

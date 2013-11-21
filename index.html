@@ -17,9 +17,11 @@ title: Kinonation Investor Deck
       <ul class="nav navbar-nav">
 
         {% for post in site.posts %}
+          {% if post.menu %}
 
         <li><a href="#{{ post.menu }}">{{ post.menu }}</a></li>
           
+          {% endif %}
         {% endfor %}
 
       </ul>

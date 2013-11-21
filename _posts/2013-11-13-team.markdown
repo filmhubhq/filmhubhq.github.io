@@ -20,7 +20,7 @@ excerpt: ''
 <div class="col-lg-4">
   <h3>Klaus Badelt</h3>
   <p class="lead">
-    Equally entrepreneur and artist, Klaus started hacking on the first Apple II, was Germany's youngest CEO of an IBM VAR (with 18), pioneered software-based music production - and wrote film music history with <em>Pirates of the Caribbean</em>
+    Equally entrepreneur and artist, Klaus started hacking on the first Apple II, was Germany's youngest CEO of an IBM VAR (with 18), pioneered software-based music production, and wrote film music history with <em>Pirates of the Caribbean</em>
   </p>
   <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#klaus">
     More

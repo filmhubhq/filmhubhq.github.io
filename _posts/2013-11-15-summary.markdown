@@ -6,7 +6,7 @@ menu: Summary
 categories: investors deck
 ---
 * Video-on-Demand (VoD) explosive growth
-* 1000+ VoD outlets hungry for long-form content
+* 1000+ VoD outlets need long-form content
 * 250,000 feature films unexploited on VoD
 * Creatrs can't access most VoD outlets
 * Wildly different formats for film assets

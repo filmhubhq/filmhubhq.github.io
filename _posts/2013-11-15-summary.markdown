@@ -20,14 +20,8 @@ categories: investors deck
 
 Kinonation is a start-up solving a big problem in the content supply chain for video-on-demand (VoD) platforms such as Netflix, Hulu, Amazon, iTunes, Google Play and hundreds of non-US VoD outlets. It's cloud-based Distribution-as-a-Service. (DaaS)
 
-Every year 25,000 feature length films are completed globally, but less than 2,000 are distributed. The rest are under-exploited, unable to get theatrical or TV distribution. There’s a pool of 250,000+ under-exploited feature films, representing an investment of at least $50 billion. These films can now be monetized via VoD in multiple formats, countries & languages.
+Every year 25,000 feature films are completed globally, but less than 2,000 are distributed. The rest are unable to get theatrical or TV distribution. There’s a pool of 250,000+ under-exploited feature films, representing an investment of at least $50 billion. These films can now be monetized via VoD in multiple formats, countries & languages.
 
-BUT: Prepping & delivering feature film assets for VoD is highly complex, wholly unstandardized, inefficient and expensive. Kinonation solves that problem.
+BUT: Prepping & delivering feature film assets for VoD is highly complex, wholly unstandardized, inefficient and expensive. Kinonation solves that problem. Our enterprise software allows these massive digital assets to be uploaded, stored, transcoded, packaged and distributed at massive scale to VoD outlets & channels worldwide. Revenue is generated from VoD outlets and Distribution-as-a-Service (DaaS) fees from studios, distributors, and catalog owners.
 
-Kinonation is a supplier to Netflix, iTunes, Amazon, Hulu and the 1000+ digital and cable VoD outlets throughout the world. Our enterprise software allows these massive digital assets to be uploaded, stored, transcoded, packaged and distributed at scale to VoD outlets & channels worldwide.
-
-Revenue is generated from VoD outlets and Distribution-as-a-Service (DaaS) fees from studios, distributors, and catalog owners.
-
-The founding team had executive roles at iFilm, Lexis-Nexis, Reuters, and have created content for 100+ Hollywood and independent movies.
-
-KinoNation is live & operational, ingesting award-winning feature films (100+) and distributing to VoD platforms such as iTunes, Amazon, Hulu, Google Play, Netflix, Viewster. Generating revenue since Q2 2013. We’ve proved the business model, now need to scale 100x, to a catalog of 10,000 films and 1,000 VoD channels & outlets. Angel funding of $250k from founder. Raising A round of $1.5 - $2.0 million.
+Founding team had executive roles at iFilm, Lexis-Nexis, Reuters, and have created content for 100+ Hollywood and independent movies. KinoNation is live & operational, ingesting award-winning feature films (100+) and distributing to VoD platforms such as iTunes, Amazon, Hulu, Google Play, Netflix. Generating revenue since Q2 2013. We’ve proved the business model, now need to scale 100x, to a catalog of 10,000 films and 1,000 VoD channels & outlets. Angel funding of $250k from founder. Raising A round of $1.5 - $2.0 million.

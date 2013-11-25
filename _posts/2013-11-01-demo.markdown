@@ -2,7 +2,7 @@
 layout: post
 title:  "Demo Pages"
 subtitle: ""
-menu: Demo
+menu: 
 categories: investors deck
 ---
 * Upload in Progress

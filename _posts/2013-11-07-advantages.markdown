@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Disruptive Advantages"
-subtitle: "Why we're radically different"
+title:  "Unfair Advantages"
+subtitle: "Why we're disruptive & radically different"
 menu: Advantages
 categories: investors deck
 ---

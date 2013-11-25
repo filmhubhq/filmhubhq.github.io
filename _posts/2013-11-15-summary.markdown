@@ -6,7 +6,7 @@ menu: Summary
 categories: investors deck
 ---
 * Video-on-Demand (VoD) explosive growth
-* 1000+ VoD platforms hungry for long-form content
+* 1000+ VoD outlets hungry for long-form content
 * 250,000 feature films unexploited on VoD
 * Creatrs can't access most VoD outlets
 * Wildly different formats for film assets
@@ -18,7 +18,7 @@ categories: investors deck
 
 <!--more-->
 
-Kinonation is a start-up solving a big problem in the content supply chain for video-on-demand (VoD) platforms such as Netflix, Hulu, Amazon, iTunes, Google Play and hundreds of non-US VoD outlets. It's a cloud-based Distribution-as-a-Service (DaaS) for content creators.
+Kinonation is a start-up solving a big problem in the content supply chain for video-on-demand (VoD) platforms such as Netflix, Hulu, Amazon, iTunes, Google Play and hundreds of non-US VoD outlets. It's cloud-based Distribution-as-a-Service. (DaaS)
 
 Every year 25,000 feature length films are completed globally, but less than 2,000 are distributed. The rest are under-exploited, unable to get theatrical or TV distribution. There’s a pool of 250,000+ under-exploited feature films, representing an investment of at least $50 billion. These films can now be monetized via VoD in multiple formats, countries & languages.
 

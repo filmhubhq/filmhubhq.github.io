@@ -1,18 +1,19 @@
 ---
 layout: post
 title:  "Proxy: TuneCore"
-subtitle: "A similarly disruptive, successful parallel model of the music industry"
+subtitle: "A disruptive, successful parallel model in the music industry"
 menu: Proxy
 categories: investors deck
 ---
-* TuneCore: Super-Aggregator for Music Distribution
+* Super-Aggregator for Music Distribution
+* Business-to-Business model
 * Launched 2006
-* Distributes artists' music to iTunes, Spotify, Rdio, Google Play, eMusic, AmazonMP3, Deezer, Simfy, etc.
+* 2008 Raised $7m from Opus Capital
+* Distribute to iTunes, Spotify, Amazon, et al
 * Music industry model for KinoNation
-* Growth: $69m revenue 2011, $102m revenue 2012
+* $69m revenue 2011, $102m revenue 2012
 
 <!--more-->
 
-The Kinonation Team believes the film industry will follow the same – or similar – trajectory as the music industry has over the past decade. The collapse of an old media structure has created unbridled opportunity for disruptive change.
-The music industry has transitioned from an industry dominated by record labels and brand-name artists, to a wholly re-ordered ecosystem where individuals are not only content creators but also content owners, and where enterprises like CD Baby (b to c) and TuneCore (b to b) dominate independent music creation and distribution.  The high probability that the film industry will follow the same trajectory provides a view into the future and lowers the risk profile for investments in the digital distribution space. Meanwhile, the technology improvements at the core of the digital music revolution – bandwidth, storage, software – are at the point where massive feature film digital files can be uploaded by a filmmaker, automatically transcoded to multiple custom formats, delivered to digital distributors, and made available to a global audience.  This process – which is now measured in weeks, will be compressed to days or even hours.
+The film industry will follow the same – or similar – trajectory as the music industry has over the past decade. The music industry has transitioned from an industry dominated by record labels and brand-name artists, to a wholly re-ordered ecosystem where individuals are not only content creators but also content owners, and where enterprises like CD Baby (b2c) and TuneCore (b2b) dominate independent music creation and distribution. The high probability that the film industry will follow the same trajectory provides a view into the future and lowers the risk profile for investments in the digital distribution space. Meanwhile, the technology that enabled the digital music revolution – bandwidth, storage, software – are just now at the point where massive feature film files can be uploaded, automatically transcoded to multiple formats, delivered to VoD outlets and made available to a global audience.
 

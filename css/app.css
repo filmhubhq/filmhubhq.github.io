@@ -45,7 +45,7 @@ section:nth-child(even) {
   background-color: #eee;   
 }
 section:nth-child(3n) {
-  background-color: #563d7c;
+  background-color: #36426B;
   color: #fff;
 }
 section h1 {

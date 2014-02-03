@@ -1,5 +1,0 @@
-# Beta password
-# AuthType Basic
-# AuthName "Kinonation Investors"
-# AuthUserFile /srv/www/.htpasswd_kinonation
-# require valid-user

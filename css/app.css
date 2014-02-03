@@ -1,24 +1,22 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+/*  letter-spacing: -0.02em;*/  */
+/*  font-weight: 300;*/
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Titillium Web', sans-serif;
+/*  font-family: 'Titillium Web', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;*/
 }
 h4 {
-  font-weight: 600;
-}
-.nav {
-  font-size: 12px;
+/*  font-weight: 600;*/
 }
 .navbar > .container .navbar-brand {
   border: 0;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
-  background: url('../images/KN-Logo-v3-gray-35h.png') no-repeat;
+  background: url('../images/logo-v3-gray-35h.png') no-repeat;
   width: 125px;
   height: 35px;
   margin-left: 6px;
@@ -29,27 +27,68 @@ a.navbar-brand:hover {
   opacity: 0.7;
 }
 .jumbotron {
+  background: url('../images/header-bg.jpg') no-repeat scroll top left #011925;
+/*  background-color: #36426B;*/
   margin-bottom: 0;
+  color: #eee;
 }
 .jumbotron h1 {
-  letter-spacing: -0.03em;
+  font-size: 50px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.jumbotron h1 small {
+  vertical-align: super;
 }
 .jumbotron .btn {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
+.jumbotron p.lead {
+  font-size: 26px;
+}
+.vodlogos {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background: url('../images/vod-logos.png') no-repeat;
+  height: 40px;
+  width: 100px;
+  display: inline-block;
+  opacity: 0.7;
+}
+#itunes.vodlogos   { background-position: 0px 0px; width: 90px; }
+#hulu.vodlogos     { background-position: 0px -40px; width: 60px; }
+#amazon.vodlogos   { background-position: 0px -80px; width: 114px; }
+#netflix.vodlogos { background-position: 0px -120px; width: 70px; }
+#viewster.vodlogos { background-position: 0px -160px; width: 100px; }
+#huluplus.vodlogos { background-position: 0px -200px; width: 120px; }
+#google.vodlogos { background-position: 0px -240px; width: 130px; }
+#indiereign.vodlogos { background-position: 0px -280px; width: 80px; }
+#snagfilms.vodlogos { background-position: 0px -320px; width: 110px; }
+#fandor.vodlogos { background-position: 0px -360px; width: 130px; }
+#lovefilm.vodlogos { background-position: 0px -400px; width: 80px; }
+#redbox.vodlogos { background-position: 0px -440px; width: 90px; }
+#mgo.vodlogos { background-position: 0px -480px; width: 40px; }
+#roku.vodlogos { background-position: 0px -520px; width: 70px; }
+#kinopto.vodlogos { background-position: 0px -560px; width: 100px; }
+#vudu.vodlogos { background-position: 0px -600px; width: 60px; }
+#canalplay.vodlogos { background-position: 0px -640px; width: 100px; }
+#viaway.vodlogos { background-position: 0px -680px; width: 70px; }
+#indieflix.vodlogos { background-position: 0px -720px; width: 100px; }
+#cineclick.vodlogos { background-position: 0px -760px; width: 50px; }
+
 section {
   padding-top: 30px;
   padding-bottom: 40px;
 }
-section:nth-child(even) {
+section:nth-of-type(3n+1) {
   background-color: #eee;   
 }
-section:nth-child(3n) {
+section:nth-of-type(3n) {
   background-color: #36426B;
   color: #fff;
-}
-section h1 {
-  margin-bottom: 40px;
 }
 .btn ~ p {
   margin-top: 20px;
@@ -60,4 +99,8 @@ section h1 {
 section:last-of-type {
 /*section {*/
   min-height: 100vh;
+}
+
+#pricingchart {
+  margin: 40px;
 }

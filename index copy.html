@@ -1,0 +1,83 @@
+---
+layout: bootstrap
+title: Kinonation Investor Deck
+---
+<!-- Navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#top">Kinonation</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+
+        {% for post in site.posts %}
+          {% if post.menu %}
+
+        <li><a href="#{{ post.menu }}">{{ post.menu }}</a></li>
+          
+          {% endif %}
+        {% endfor %}
+
+      </ul>
+    </div><!--/.navbar-collapse -->
+  </div>
+</div>
+
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<section id="top" class="jumbotron">
+  <div class="container">
+      <!-- <h2 class="text-muted">Kinonation</h2> -->
+      <h1>Kinonation <small>Investor Deck & Financial Model</small></h1>
+      <p>Power worldwide VoD distribution of every movie, in every language, anytime, to anyone. Cloud based, infinitely scalable, automated, fast, low cost. </p>
+      <p><a href="#Summary" class="btn btn-primary btn-lg">Read our Deck »</a></p>
+  </div>
+</section>
+
+  
+{% for post in site.posts %}
+
+<section id="{{ post.menu }}">
+
+  <div class="container">
+  
+    <h1>{{ post.title }} &nbsp;<small>{{ post.subtitle }}</small></h1>
+  
+    <div class="row">
+       {% if post.excerpt != '' %}
+
+       <div class="col-lg-5 lead slide">
+         {{ post.excerpt }}
+       </div>
+      
+      <div class="col-lg-6 col-lg-offset-1 details">
+        {{ post.content | split:'<!--more-->' | last }}
+      </div>
+      
+      {% else %}
+      
+        {{ post.content }}
+      
+      {% endif %}
+      
+    </div>
+  </div>
+</section>
+
+{% endfor %}
+
+
+
+<hr>
+
+<footer class="container">
+  <div class="row">
+    <p>© Kinonation 2014</p>
+  </div>
+</footer>

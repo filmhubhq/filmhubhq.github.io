@@ -1,12 +1,12 @@
 ---
 layout: bootstrap
-title: Kinonation Investor Deck
+title: VOD distribution as a service
 ---
-<!-- Navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -15,69 +15,111 @@ title: Kinonation Investor Deck
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-
-        {% for post in site.posts %}
-          {% if post.menu %}
-
-        <li><a href="#{{ post.menu }}">{{ post.menu }}</a></li>
-          
-          {% endif %}
-        {% endfor %}
-
+        <li><a href="#logos">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="/blog">Blog</a></li>
       </ul>
-    </div><!--/.navbar-collapse -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sign up</a></li>
+        <li><a href="#">Log in</a></li>
+      </ul>
+    </div>
   </div>
 </div>
 
-
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<section id="top" class="jumbotron">
-  <div class="container">
-      <!-- <h2 class="text-muted">Kinonation</h2> -->
-      <h1>Kinonation <small>Investor Deck & Financial Model</small></h1>
-      <p>Power worldwide VoD distribution of every movie, in every language, anytime, to anyone. Cloud based, infinitely scalable, automated, fast, low cost. </p>
-      <p><a href="#Summary" class="btn btn-primary btn-lg">Read our Deck »</a></p>
+<div id="top" class="jumbotron">
+  <div class="container text-center">
+      <h1>Get your movie<small>*</small> on VOD. Worldwide.</h1>
+      <p class="lead">Simple upload. No upfront cost. Keep your rights. Get paid fast.</p>
+      <p><a href="#" class="btn btn-success btn-lg">Sign up free »</a></p>
   </div>
-</section>
+</div>
 
-  
-{% for post in site.posts %}
-
-<section id="{{ post.menu }}">
-
+<section id="logos">
   <div class="container">
-  
-    <h1>{{ post.title }} &nbsp;<small>{{ post.subtitle }}</small></h1>
-  
     <div class="row">
-       {% if post.excerpt != '' %}
-
-       <div class="col-lg-5 lead slide">
-         {{ post.excerpt }}
-       </div>
-      
-      <div class="col-lg-6 col-lg-offset-1 details">
-        {{ post.content | split:'<!--more-->' | last }}
+      <div class="col-lg-6 lead">
+        <h2>Changing the world of VOD distribution</h2>
+        <p>No gatekeepers. No entry fees. For everyone, whether indie filmmaker or catalog owner. We distribute film, TV, documentary, shorts and whatever format the future brings to VOD outlets in all territories and languages. You do marketing and promotion.<p/>
+          <p>Welcome to a new world.</p>
       </div>
-      
-      {% else %}
-      
-        {{ post.content }}
-      
-      {% endif %}
-      
+      <div class="col-lg-6">
+        <span class="vodlogos" id="itunes">iTunes</span>
+        <span class="vodlogos" id="hulu">Hulu</span>
+        <span class="vodlogos" id="amazon">Amazon Instant Video</span>
+        <span class="vodlogos" id="netflix">Netflix</span>
+        <span class="vodlogos" id="viewster">Viewster</span>
+        <span class="vodlogos" id="huluplus">Hulu Plus</span>
+        <span class="vodlogos" id="google">Google Play</span>
+        <span class="vodlogos" id="indiereign">Indiereign</span>
+        <span class="vodlogos" id="snagfilms">Snagfilms</span>
+        <span class="vodlogos" id="fandor">Fandor</span>
+        <span class="vodlogos" id="lovefilm">Lovefilm</span>
+        <span class="vodlogos" id="redbox">Redbox</span>
+        <span class="vodlogos" id="mgo">MGo</span>
+        <span class="vodlogos" id="roku">Roku</span>
+        <span class="vodlogos" id="kinopto">Kinopto</span>
+        <span class="vodlogos" id="vudu">Vudu</span>
+        <span class="vodlogos" id="canalplay">CanalPlay</span>
+        <span class="vodlogos" id="viaway">Viaway</span>
+        <span class="vodlogos" id="indieflix">Indieflix</span>
+        <span class="vodlogos" id="cineclick">Cineclick</span>
+      </div>
     </div>
+  </div>  
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 lead">
+        <h2>No upfront fee</h2>
+        <p>Risk-free. No authoring fee, no signup costs, no hidden charges. Simple, modest revenue sharing only on success.</p>
+      </div>
+
+      <div class="col-lg-4 lead">
+        <h2>Upload once</h2>
+        <p>No shipping hard drives. Easy web-based upload of even the larges movie files. Resume after interruptions. We then author all the different VOD outlet formats.</p>
+      </div>
+
+      <div class="col-lg-4 lead">
+        <h2>Distribution-as-a-Service</h2>
+        <p>We distribute to VOD. You do the promotion. Social media levels the field. We help with lots of resources.</p>
+      </div>
+
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-4 lead">
+        <h2>No distribution contract</h2>
+        <p>Keep all your rights. Select territories or outlets to exclude. Non-exclusive. Cancel anytime.</p>
+      </div>
+
+      <div class="col-lg-4 lead">
+        <h2>Fanatical quality</h2>
+        <p>We do crisp hi-end transcoding and follow a 100+ step quality control checklist. The audience enjoys excellent production values.</p>
+      </div>
+
+      <div class="col-lg-4 lead">
+        <h2>Get paid</h2>
+        <p>Transparent online reporting. Withdraw your revenue anytime.</p>
+      </div>
+    </div>
+
   </div>
 </section>
 
-{% endfor %}
-
-
-
-<hr>
-
-<footer class="container">
-  <div class="row">
-    <p>© Kinonation 2014</p>
+<section id="pricing">
+  <div class="container text-center">
+    <h1>Simple, Pay as you go Pricing</h1>
+    <div class="row">
+      <img id="pricingchart" src="images/pricing.png" width="340" height="354" alt="Pricing">
+    </div>
+    <p class="lead">We keep 20% of the revenue. You get the other 80%. No hidden fees.</p>
+    <p class="lead"><small>Inquire about our <a href="mailto:info@kinonation.com?subject=Enterprise pricing">enterprise pricing</a>.</small></p>
   </div>
-</footer>
+</section>
+
+

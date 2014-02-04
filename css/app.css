@@ -49,6 +49,7 @@ small.super {
 .jumbotron .btn {
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 20px;
 }
 .jumbotron p.lead {
   font-size: 26px;

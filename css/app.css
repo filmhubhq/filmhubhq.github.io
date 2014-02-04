@@ -116,3 +116,25 @@ section:last-of-type {
 .meta small {
   color: #999;
 }
+  
+.circle {
+  display: block;
+  font-size: 19px;
+  line-height: 35px;
+  width: 35px;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -khtml-border-radius: 35px;
+  border-radius: 35px;
+  text-align: center;
+  margin: 15px 15px 15px 0;
+  font-weight: 600;
+  background: #535e70;
+  color: #fff;
+  margin-top: 0px;
+  float: left;
+}
+
+#howitworks img {
+  margin-bottom: 20px;
+}

@@ -106,8 +106,8 @@ section:nth-of-type(3n) {
 section:last-of-type {
   min-height: 100vh;
 }
-#pricingchart {
-  margin: 40px;
+#pricing img {
+  margin: 40px auto;
 }
 .nav.nav-stacked.sidenav li>a {
   padding-top: 4px;

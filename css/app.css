@@ -43,7 +43,7 @@ a.navbar-brand:hover {
   line-height: 1.5;
   margin-bottom: 10px;
 }
-.jumbotron h1 small {
+small.super {
   vertical-align: super;
 }
 .jumbotron .btn {

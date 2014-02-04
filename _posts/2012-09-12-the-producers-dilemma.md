@@ -1,0 +1,23 @@
+---
+layout: post
+subtitle: Diary of a film startup part 3
+author: Roger Jackson
+tags: diary startup
+---
+You probably know the classic movie making conundrum that indie producers struggle with: talent (or rather their agents) won’t commit to a film project until you prove you have funding, and investors won’t write a check until you prove you have talent attached. The producer’s dilemma. And, of course, all successful producers find creative solutions to that thorny issue. KinoNation has a similar challenge: It’s tough to get filmmakers fully committed without video-on-demand distribution outlets in place, and it’s hard to sign VoD outlets without a slate of films.
+
+###Meeting with Hulu
+So in an industry (Hollywood) that’s notoriously suspicious — even hostile — towards outsiders and upstarts, our first meeting with a VoD distributor was a breath of fresh air. Hulu “got it” immediately. They were informed, candid and provided the type of objective but positive feedback that Klaus and I needed. Yes, you can be a content partner with Hulu, they said. Just show us you can aggregate great independent features and documentaries, and then prove you can deliver them to Hulu in the high quality format we require. Deal! We got to work immediately on the ideas and to-do list that sprang from the meeting — in a new venture like KinoNation, the positive momentum from this type of informal encouragement is huge.
+
+###Acronyms on Demand
+Since then we’ve been talking to video-on-demand platforms all over the world. So now is probably a good time to deal with the soup of video-on-demand acronyms we find ourselves swimming in. SVoD, TVoD, FVoD are among the most common, but the list goes on, it’s confusing, and from now on I’m just going to use the umbrella term VoD — “Video on Demand.” But, for the record, SVoD is “subscription“ video-on-demand, where the customer pays a flat monthly fee. Like Netflix, or Hulu Plus. TVoD is “transactional” video-on-demand, where customers pay each time they rent or buy a movie. Like iTunes, or Amazon Instant. And FVoD is “free” video-on-demand. Like Vimeo, or YouTube. OK, with that out of the way, suffice it to say we’re busy knocking on the doors of dozens of VoD companies, worldwide.
+
+###Now We Need Movies
+Now the flip side of our producer’s dilemma: we need an initial slate of films — fifty or so would be ideal. So last week we fired up an Invitation Only page on KinoNation, seeking full-length films (and filmmakers) for what techies call Beta Testing. As we wrote on that page “These films will form the initial slate of films to be run through our automated Upload-Transcode-Distribute process…filmmakers involved will help shape the creation of KinoNation.” The response already has been great — indie features from the USA, UK and Australia, documentaries from France and South Africa, and amazing enthusiasm from filmmakers who know they can drive an audience to their films, but want help getting them out there!
+
+###First Mover Advantage
+So who are these bold filmmakers, and what are they submitting to KinoNation? And why are they motivated to be “first movers?” Here’s a sampling. Husband and wife filmmakers Lindy and Kris Boustedt are sending us their beautiful existential drama This is Ours. Lindy notes that “We’re confident we can market/find an audience for our film, we just want a simple route to getting our film into paid video on demand.” South African filmmaker James Walsh has submitted his stunning mountain bike documentary An Epic Tale, and writes “Love the simplicity of Kinonation! More than happy to be a guinea pig for this process.” From Australia we heard from director Sky Crompton, who has submitted his Austral-Asian drama Citizen Jia Li. Veteran LA filmmaker Rich Martini (what a great name!) already has his incredible after-life doc Flipside out on DVD, and writes that “VOD is definitely the smartest way to go with my own particular niche of story telling…once it’s available on demand I can sell the heck out of it…thank you KinoNation for showing up at exactly the right time to enable a new vision of distribution!”
+
+###Private Beta
+So I invite you to submit your film to our Private Beta. The form takes 2 minutes to complete, the rules are super-simple, there’s no obligation to participate, no cost, no strings attached. And there’s absolutely no danger that your baby will be stolen, or end up on DVD at the night market in Shanghai. Although as filmmaker Lindy Boustedt wrote, “”We’d be oddly thrilled if This is Ours was pirated. Cause that would mean it was popular enough to steal.”
+

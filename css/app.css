@@ -26,6 +26,12 @@ h4 {
 a.navbar-brand:hover {
   opacity: 0.7;
 }
+.container.content {
+  margin-top: 40px;
+}
+.content article:first-of-type h2 {
+  margin-top: 0px;
+}
 .jumbotron {
   background: url('../images/header-bg.jpg') no-repeat scroll top left #011925;
 /*  background-color: #36426B;*/
@@ -97,10 +103,15 @@ section:nth-of-type(3n) {
   margin-top: 0;
 }
 section:last-of-type {
-/*section {*/
   min-height: 100vh;
 }
-
 #pricingchart {
   margin: 40px;
+}
+.nav.nav-stacked.sidenav li>a {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.meta small {
+  color: #999;
 }

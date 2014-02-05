@@ -138,3 +138,7 @@ section:last-of-type {
 #howitworks img {
   margin-bottom: 20px;
 }
+
+section h1 {
+  margin-bottom: 40px;
+}

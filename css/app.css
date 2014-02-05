@@ -94,7 +94,7 @@ section:nth-of-type(3n+1) {
   background-color: #eee;   
 }
 section:nth-of-type(3n) {
-  background-color: #36426B;
+  background-color: #4C5679; /* #4C5679; #36426B */
   color: #fff;
 }
 .btn ~ p {
@@ -129,7 +129,7 @@ section:last-of-type {
   text-align: center;
   margin: 15px 15px 15px 0;
   font-weight: 600;
-  background: #535e70;
+  background: #011925;
   color: #fff;
   margin-top: 0px;
   float: left;

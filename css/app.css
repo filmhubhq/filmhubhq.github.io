@@ -173,6 +173,6 @@ a.anchor {
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .navbar > .container .navbar-brand {
     background-image: url('../images/logo-v3-gray-35h@2x.png') no-repeat;
-    background-size: 250px 70px;
+    background-size: 125px 35px;
   }
 }

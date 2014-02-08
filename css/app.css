@@ -57,7 +57,7 @@ a.navbar-brand:hover {
   padding: 20px;
   font-size: 24px;
 }
-.jumbotron p.lead {
+.jumbotron p.lead, .enterprise p.lead {
   font-size: 26px;
 }
 small.super {
@@ -147,7 +147,7 @@ section:last-of-type {
   float: left;
 }
 
-.howitworks img {
+.howitworks img, .enterprise img {
   margin-bottom: 20px;
 }
 

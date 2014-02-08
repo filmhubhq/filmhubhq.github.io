@@ -51,16 +51,17 @@ a.navbar-brand:hover {
   color: #ddd;
   display: block;
 }
-small.super {
-  vertical-align: super;
-}
 .jumbotron .btn {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
+  font-size: 24px;
 }
 .jumbotron p.lead {
   font-size: 26px;
+}
+small.super {
+  vertical-align: super;
 }
 .vodlogos {
   border: 0;
@@ -167,5 +168,12 @@ a.anchor {
   }
   .lead {
     font-size: 18px;
+  }
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .navbar > .container .navbar-brand {
+    background-image: url('../images/logo-v3-gray-35h@2x.png') no-repeat;
+    background-image: url('/images/my_image@2x.png');
+    background-size: 250px 70px;
   }
 }

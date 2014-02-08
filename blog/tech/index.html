@@ -3,12 +3,13 @@ layout: bootstrap
 title: Kinonation | Blog
 ---
 <div class="container content">
+  <h1>Tech Blog</h1>
   <div class="row">
     <div class="col-md-9"> <!-- left column -->
 
 {% assign counter = '' %}
 {% for post in site.posts %}
-  {% if post.categories[0] != 'tech' %}
+  {% if post.categories[0] == 'tech' %}
     {% capture temp %}{{ counter }}*{% endcapture %}
     {% assign counter = temp %}
     <article id="article-{{ counter.size }}">
@@ -33,16 +34,14 @@ title: Kinonation | Blog
         <ul class="nav nav-stacked sidenav">
           {% assign counter = '' %}
           {% for post in site.posts %}
-            {% if post.categories[0] != 'tech' %}
+            {% if post.categories[0] == 'tech' %}
               {% capture temp %}{{ counter }}*{% endcapture %}
               {% assign counter = temp %}
               <li><a href="#article-{{ counter.size }}" class="animate">{{ post.title }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>
-        {% if site.categories.tech | size != 0 %}
-        <h4><a href="/blog/tech/">Tech Blog</a></h4>
-        {% endif %}
+        <h4><a href="/blog/">Kinonation Blog</a></h4>
       </div>
     </div>
 

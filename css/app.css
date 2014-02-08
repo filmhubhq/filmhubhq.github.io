@@ -182,6 +182,25 @@ a.anchor {
 }
 
 section.enterprise {
-  background-color: #012B31;
-  color: #fff;
+  background-color: #4c858c; /* #012B31 */
+  color: #000;
+}
+
+section.enterprise h1 small {
+  color: #333;
+}
+section.enterprise a {
+  color: #ccc;
+}
+footer {
+    color: #888;
+    background: #222;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+}
+footer a {
+  color: #bbb;
+}
+footer a:hover {
+  color: #bbb;
 }

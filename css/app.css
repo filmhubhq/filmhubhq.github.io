@@ -3,7 +3,8 @@ body {
   padding-bottom: 20px;
 /*  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;*/
 /*  letter-spacing: -0.02em;*/ 
-/*  font-weight: 400;*/
+  font-weight: 300;
+  font-size: 16px;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 /*  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
@@ -40,9 +41,15 @@ a.navbar-brand:hover {
   color: #eee;
 }
 .jumbotron h1 {
-  font-size: 50px;
-  line-height: 1.5;
+  font-weight: bold;
+  line-height: 1;
   margin-bottom: 10px;
+}
+.jumbotron h1 small {
+  font-size: inherit;
+  font-weight: 200;
+  color: #ddd;
+  display: block;
 }
 small.super {
   vertical-align: super;
@@ -154,6 +161,10 @@ a.anchor {
   visibility: hidden;
 }
 @media (min-width: 768px) {
+  .jumbotron h1 {
+    font-size: 75px;
+    letter-spacing: -3px;
+  }
   .lead {
     font-size: 18px;
   }

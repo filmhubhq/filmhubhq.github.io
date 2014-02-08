@@ -40,12 +40,12 @@ a.navbar-brand:hover {
   margin-bottom: 0;
   color: #eee;
 }
-.jumbotron h1 {
+.jumbotron h1, section h1 {
   font-weight: bold;
   line-height: 1;
   margin-bottom: 10px;
 }
-.jumbotron h1 small {
+.jumbotron h1 small, section h1 small {
   font-size: inherit;
   font-weight: 200;
   color: #ddd;
@@ -166,6 +166,10 @@ a.anchor {
     font-size: 75px;
     letter-spacing: -3px;
   }
+  section h1 {
+    font-size: 64px;
+    letter-spacing: -3px;
+  }
   .lead {
     font-size: 18px;
   }
@@ -175,4 +179,13 @@ a.anchor {
     background-image: url('../images/logo-v3-gray-35h@2x.png') no-repeat;
     background-size: 125px 35px;
   }
+}
+
+section.enterprise {
+  background-color: #012B31;
+  color: #fff;
+}
+
+section.enterprise a {
+  color: #333;
 }

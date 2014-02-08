@@ -1,13 +1,14 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
-/*  letter-spacing: -0.02em;*/  */
-/*  font-weight: 300;*/
+/*  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;*/
+/*  letter-spacing: -0.02em;*/ 
+/*  font-weight: 400;*/
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-/*  font-family: 'Titillium Web', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;*/
-}
+/*  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 700;
+*/}
 h4 {
 /*  font-weight: 600;*/
 }
@@ -86,6 +87,9 @@ small.super {
 #indieflix.vodlogos { background-position: 0px -720px; width: 100px; }
 #cineclick.vodlogos { background-position: 0px -760px; width: 50px; }
 
+h2 img {
+  margin-right: 10px;
+}
 section {
   padding-top: 30px;
   padding-bottom: 40px;
@@ -106,7 +110,7 @@ section:nth-of-type(3n) {
 section:last-of-type {
   min-height: 100vh;
 }
-#pricing img {
+.pricing img {
   margin: 40px auto;
 }
 .nav.nav-stacked.sidenav li>a {
@@ -127,7 +131,7 @@ section:last-of-type {
   -khtml-border-radius: 35px;
   border-radius: 35px;
   text-align: center;
-  margin: 15px 15px 15px 0;
+  margin: 15px 10px 15px 0;
   font-weight: 600;
   background: #011925;
   color: #fff;
@@ -135,10 +139,22 @@ section:last-of-type {
   float: left;
 }
 
-#howitworks img {
+.howitworks img {
   margin-bottom: 20px;
 }
 
 section h1 {
   margin-bottom: 40px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -51px;
+  visibility: hidden;
+}
+@media (min-width: 768px) {
+  .lead {
+    font-size: 18px;
+  }
 }

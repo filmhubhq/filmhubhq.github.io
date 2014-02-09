@@ -10,4 +10,5 @@ $(document).ready(function() {
       });
       e.preventDefault();
   });  
+  $('[data-toggle="popover"]').popover();
 });

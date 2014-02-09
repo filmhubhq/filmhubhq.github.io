@@ -208,3 +208,6 @@ footer a {
 footer a:hover {
   color: #bbb;
 }
+.well h3 {
+  margin-top: 0;
+}

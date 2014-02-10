@@ -320,4 +320,8 @@ footer ul>li a:hover i {
     background-size: 125px 35px;
   }
 }
-
+a[data-toggle="tooltip"] {
+  color: inherit;
+  border-bottom: 1px dashed #000;
+  text-decoration: none;
+}

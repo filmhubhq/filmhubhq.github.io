@@ -42,9 +42,9 @@ a.navbar-brand:hover {
 }
 .jumbotron {
   background: url('../images/header-bg.jpg') no-repeat scroll top left #011925;
-/*  background-color: #36426B;*/
+  background: #348eda url('../images/home-globe.png') no-repeat right center;
   margin-bottom: 0;
-  color: #eee;
+  color: #fff;
 }
 .jumbotron h1, section h1 {
   font-weight: bold;
@@ -60,12 +60,21 @@ section h1 {
   color: #ddd;
   display: block;
 }
-.jumbotron .btn {
+.jumbotron .btn-default {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
-  font-size: 24px;
+  font-size: 26px;
+  font-weight: 200;
+  background: inherit;
+  color: #fff;
 }
+.jumbotron .btn-default:hover {
+  color: #348eda;
+  background-color: #fff;
+  border-color: #348eda;
+}
+
 .jumbotron p.lead, .enterprise p.lead {
   font-size: 26px;
 }
@@ -120,21 +129,25 @@ section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-section:nth-of-type(3n+1) {
+section:nth-of-type(3n+2) {
   background-color: #eee;   
 }
 section:nth-of-type(3n) {
-  background-color: #4C5679; /* #4C5679; #36426B */
+  background-color: #406E74 ; /* #e67d25 #4C5679; #36426B */
   color: #fff;
+  letter-spacing: 0.02em;
+}
+section:nth-of-type(3n) a {
+  color: #acdbe4;
+}
+section:last-of-type {
+  min-height: 100vh;
 }
 .btn ~ p {
   margin-top: 20px;
 }
 .details > * {
   margin-top: 0;
-}
-section:last-of-type {
-  min-height: 100vh;
 }
 .pricing img {
   margin: 40px auto;
@@ -176,7 +189,7 @@ a.anchor {
   visibility: hidden;
 }
 section.enterprise {
-  background-color: #406E74; /* #4c858c #012B31 */
+  background-color: #1B2122; /* #406E74 #4c858c #012B31 */
   color: #fff;
   letter-spacing: 0.03em;
 }
@@ -194,8 +207,8 @@ section#features h1 {
 }
 section#features {
 /*  background: url('/images/blueglobe.jpg') #fff no-repeat top 10px;*/
-  background: #fff;
-  position: relative;
+/*  background: #fff;
+*/  position: relative;
   overflow: hidden;
 }
 #globe {
@@ -203,19 +216,19 @@ section#features {
   top: -10px;
 }
 footer {
-  color: #888;
-  background: #222;
-  padding-top: 24px;
-  padding-bottom: 20px;
+/*  color: #888;
+  background: #222; */  
+  padding-top: 60px;
+  padding-bottom: 60px;
   border-top: 1px solid #000;
   min-height: 60px;
   text-align: center;
 }
 footer a {
-  color: #bbb;
+/*  color: #bbb;*/
 }
 footer a:hover {
-  color: #bbb;
+/*  color: #bbb;*/
 }
 footer ul {
   list-style: none;

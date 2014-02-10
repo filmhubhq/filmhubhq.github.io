@@ -6,7 +6,6 @@ author: Roger Jackson
 tags: diary rejection
 ---
 ###Films Are Flowing
-
 The KinoNation tech team has now finished the automated delivery module for our three beta outlets — Hulu, Amazon and Viewster. Which means film packages are flowing — more rapidly every day — to those outlets. And it won’t be long before we add all the other video-on-demand outlets we’ve done distribution deals with. But with that success comes other problems — notably films that get rejected at the Quality Control (QC) stage, either at KinoNation QC, or at the outlet QC. So this post is about how to avoid having your film be a QC casualty. It’s like a theatrical distribution deal — there’s a list of deliverables, and they have to be exactly to the required spec, with zero wiggle room.
 
 ###Assets

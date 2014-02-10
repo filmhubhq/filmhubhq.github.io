@@ -6,7 +6,6 @@ author: Roger Jackson
 tags: diary vision
 ---
 ###Crystal Ball
-
 I thought I’d use this post to think about the future and some of the trends that will affect films & filmmakers, particularly in the video-on-demand space. I don’t want to sound like the pompous visionary. I’m not a visionary and I have no crystal ball —  merely informed opinion. This is not what WILL happen, but what I think may happen. And much of what follows may be stating the obvious.
 
 ###Languages & Territories

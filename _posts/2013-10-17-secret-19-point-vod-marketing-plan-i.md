@@ -1,7 +1,7 @@
 ---
 title: Secret 19-Point VoD Marketing Plan, Part I
 layout: post
-subtitle: Diary of a film startup part 43
+subtitle: Diary of a film startup part 34
 author: Roger Jackson
 tags: diary vod
 ---

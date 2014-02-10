@@ -6,7 +6,6 @@ author: Roger Jackson
 tags: diary festival
 ---
 ###Hot Springs Doc Fest
-
 I’ve spent the past 4 days at the Hot Springs Documentary Film Festival. I’m on the jury for Best Documentary Feature, so I’ve been watching and debating and selecting from a pool of outstanding films. Hung out most nights with the amazing Freda Kelly — secretary & confidente for The Beatles for ten years. Her film “Good ‘Ol Freda” opened the festival to a standing ovation. 
 
 ###Whatever It Takes

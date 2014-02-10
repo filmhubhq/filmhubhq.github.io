@@ -1,4 +1,9 @@
-###Post-Script
+---
+layout: post
+subtitle: Diary of a film startup part 43
+author: Roger Jackson
+tags: diary subtitles
+---
 In my last post I wrote about Closed Captions and recommended you get them made by ZenCaptions. Now Amazon Prime has announced that captions are mandatory from March 1st. It’s already mandatory for iTunes. And has long been a requirement for Cable TV video-on-demand. It makes sense, it’s a good thing for people with hearing difficulties, and it makes your film more viable to watch in a noisy cafe or bar. At $1/minute it should be a no-brainer…get it done.
 
 ###Hard Work, Innovation & Blind Alleys

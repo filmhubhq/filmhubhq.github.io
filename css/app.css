@@ -78,7 +78,8 @@ small.super {
   padding-top: 60px;
   padding-bottom: 100px;
 }
-*/#vodlogos span {
+*/
+#vodlogos span {
   border: 0;
   font: 0/0 a;
   text-shadow: none;
@@ -89,6 +90,7 @@ small.super {
   display: inline-block;
   opacity: 1;
   margin: 10px;
+  opacity: 0.7;
 }
 #vodlogos #itunes   { background-position: 0px 0px; width: 90px; }
 #vodlogos #hulu     { background-position: 0px -40px; width: 70px; }

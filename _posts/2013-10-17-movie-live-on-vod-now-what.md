@@ -6,8 +6,7 @@ author: Roger Jackson
 tags: diary followup
 ---
 ###Progress Bar
-
-If you’ve submitted a feature or documentary to <a href="http://kinonation.com/">KinoNation</a>, you were probably a little overwhelmed at first by all the metadata that’s required. We just made the process much easier by including a real-time Progress Bar, with a dynamic list of what required metadata is still missing.  We’ve also radically simplified the <a href="http://beta.kinonation.com/user/register>signup & login</a> process. Check it out, the sooner you submit (or complete) a film, the sooner we can get it distributed.
+If you’ve submitted a feature or documentary to <a href="http://kinonation.com/">KinoNation</a>, you were probably a little overwhelmed at first by all the metadata that’s required. We just made the process much easier by including a real-time Progress Bar, with a dynamic list of what required metadata is still missing.  We’ve also radically simplified the <a href="http://beta.kinonation.com/user/register">signup & login</a> process. Check it out, the sooner you submit (or complete) a film, the sooner we can get it distributed.
 
 ###Movie Live on VoD…Now What?
 

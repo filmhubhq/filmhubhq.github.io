@@ -1,5 +1,5 @@
 ---
-title: VoD: Frequently Asked Questions
+title: VoD-Frequently Asked Questions
 layout: post
 subtitle: Diary of a film startup part 33
 author: Roger Jackson

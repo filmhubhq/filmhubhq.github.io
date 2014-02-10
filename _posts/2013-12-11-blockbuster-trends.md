@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: Diary of a film startup part 43
+subtitle: Diary of a film startup part 41
 author: Roger Jackson
 tags: diary subtitles
 ---

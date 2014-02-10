@@ -52,7 +52,7 @@ No, just the 31 fields marked “mandatory.”
 
 Yes, you can define the VoD live date
 
-vI see my film is live on IMDb…I didn’t expect that?
+###I see my film is live on IMDb…I didn’t expect that?
 
 When films go live on either Amazon Instant or Hulu, they automatically get a link on the IMDb page for the film.
 

@@ -235,7 +235,8 @@ footer ul>li a:hover i {
 /* This gets Google to fall into place */
 .social {
 	font-size: 1px;
-  padding: 20px 0;
+  padding: 0;
+  line-height: 40px;
 }
 
 /* This gets Facebook to fall into place */

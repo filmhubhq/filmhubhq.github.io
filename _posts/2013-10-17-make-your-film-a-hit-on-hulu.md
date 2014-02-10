@@ -6,7 +6,8 @@ author: Roger Jackson
 tags: diary hulu
 ---
 
-<b>Hulu</b>
+
+###Hulu
 
 Hulu has been much in the news this past week. Owned jointly by Fox, Disney and Comcast, it was on the auction block and expected to fetch north of a billion dollars. But the owners changed their minds, and decided instead to invest $750m in a global expansion. Which makes sense — they have great TV content from the parent companies, supplied on a “day after air date.” They have a brand with a fair amount of global recognition. And they have an impressive technology platform.. Hulu have already expanded internationally into Japan, so it makes sense to invest in the rest of the world. Bottom line: they’ve built a highly scalable platform and user experience, and VoD is catching on fast in Europe and Asia, so now’s a great time to launch Hulu Global.
 

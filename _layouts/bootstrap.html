@@ -7,6 +7,7 @@
   <link rel="shortcut icon" href="/favicon.ico">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" media="screen" title="no title">
+  <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="/css/app.css">
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -16,8 +17,6 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="51">
-  
-  <div id="wrapper">
 
   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -40,6 +39,8 @@
           <li><a href="https://kinonation.zendesk.com" target="_blank">Help</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://twitter.com/kinonation1"><i class="fa fa-lg fa-twitter"></i></a></li>
+          <li><a href="http://facebook.com/kinonation"><i class="fa fa-lg fa-facebook"></i></a></li>
           <li><a href="https://beta.kinonation.com/user/register">Get started</a></li>
           <li><a href="https://beta.kinonation.com/user">Log in</a></li>
         </ul>
@@ -49,16 +50,21 @@
 
   {{ content }}
 
-    <footer>
-      <div class="container text-center">
-        Copyright &copy; 2014 Kinonation &middot; <a href="/terms.html">Terms &amp; Conditions</a> &middot; 
-        <a href="http://kinonation.zendesk.com/hc" target="_blank">Help Center</a> &middot;
-        <a href="http://kinonation.zendesk.com/hc/en-us/requests/new" target="_blank">Contact</a>
+  <footer>
+    <div class="container">
+        <ul class="footer-links">
+          <li>Copyright &copy; 2014 Kinonation</li>
+          <li><a href="/terms.html">Terms &amp; Conditions</a></li>
+          <li><a href="http://kinonation.zendesk.com/hc" target="_blank">Help Center</a></li>
+          <li><a href="http://twitter.com/kinonation1"><i class="fa fa-lg fa-twitter"></i></a></li>
+          <li><a href="http://facebook.com/kinonation"><i class="fa fa-lg fa-facebook"></i></a></li>
+        </ul>
+        </div>
       </div>
-    </footer>
-
-  </div>
-  
+      </div>
+    </div>
+  </footer>
+    
   <script src="/js/jquery-1.11.0.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/app.js"></script>

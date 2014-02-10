@@ -31,6 +31,9 @@ a.navbar-brand:hover {
 .container.content {
   margin-top: 40px;
 }
+.container.content h1.page-header {
+  margin-top: 0;
+}
 .container.content + footer {
   margin-top: 40px;
 }
@@ -195,18 +198,35 @@ section.enterprise h1 small {
 section.enterprise a {
   color: #ccc;
 }
+
 footer {
-    color: #888;
-    background: #222;
-    padding: 17px 0 18px 0;
-    border-top: 1px solid #000;
-    min-height: 60px;
+  color: #888;
+  background: #222;
+  padding: 17px 0 18px 0;
+  border-top: 1px solid #000;
+  min-height: 60px;
+  text-align: center;
 }
 footer a {
   color: #bbb;
 }
 footer a:hover {
   color: #bbb;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer ul>li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer ul>li:first {
+  padding-left: 0;
+}
+footer ul>li a:hover i {
+  opacity: 0.7;
 }
 .well h3 {
   margin-top: 0;

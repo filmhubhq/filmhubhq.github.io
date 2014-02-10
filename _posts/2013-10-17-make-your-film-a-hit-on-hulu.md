@@ -8,7 +8,6 @@ tags: diary hulu
 
 
 ###Hulu
-
 Hulu has been much in the news this past week. Owned jointly by Fox, Disney and Comcast, it was on the auction block and expected to fetch north of a billion dollars. But the owners changed their minds, and decided instead to invest $750m in a global expansion. Which makes sense — they have great TV content from the parent companies, supplied on a “day after air date.” They have a brand with a fair amount of global recognition. And they have an impressive technology platform.. Hulu have already expanded internationally into Japan, so it makes sense to invest in the rest of the world. Bottom line: they’ve built a highly scalable platform and user experience, and VoD is catching on fast in Europe and Asia, so now’s a great time to launch Hulu Global.
 
 I want to share some early experiences and numbers from the trenches of Hulu. Why Kinonation films are succeeding on that platform. Or not. Here are some examples. My only (tentative) conclusion so far — films with a specific niche — whether documentary or narrative feature — have a guaranteed VoD audience, and are way easier to “market.”  While more general movies — narrative features with lo or no talent — much tougher. Sad, but, I think, true. And not terribly profound insight.

@@ -3,7 +3,7 @@ title: VoD-Frequently Asked Questions
 layout: post
 subtitle: Diary of a film startup part 33
 author: Roger Jackson
-tags: diary vod faq
+tags: diary vod
 ---
 
 At Kinonation we get asked certain questions all the time — important issues that deserve thoughtful answers. Bottom line: the world of video-on-demand is new, developing fast, rather complex and full of nuance. Thus, there are no dumb questions. Here are the most frequently asked.

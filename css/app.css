@@ -161,7 +161,7 @@ section:nth-of-type(3n) a {
   color: #acdbe4;
 }
 section:last-of-type {
-  min-height: 100vh;
+/*  min-height: 100vh; */
 }
 .btn ~ p {
   margin-top: 20px;

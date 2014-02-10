@@ -1,4 +1,5 @@
 ---
+title: Music for Movies, Expert Tips, Part I of II
 layout: post
 subtitle: Diary of a film startup part 39
 author: Roger Jackson

@@ -217,9 +217,6 @@ section.enterprise {
 section.enterprise h1 small {
   color: #ccc;
 }
-section.enterprise a {
-  color: #bbf;
-}
 section#features h1 {
   font-size: 48px;
   letter-spacing: -2px;

@@ -236,19 +236,22 @@ section#features {
   top: -10px;
 }
 footer {
-/*  color: #888;
-  background: #222; */  
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-top: 1px solid #000;
+  color: #888;
+  background-color: #f8f8f8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #e7e7e7;
   min-height: 60px;
   text-align: center;
 }
 footer a {
-/*  color: #bbb;*/
+  color: #777;
 }
 footer a:hover {
-/*  color: #bbb;*/
+  color: #333;
+}
+footer ul>li a:hover i {
+/*  opacity: 0.7;*/
 }
 footer ul {
   list-style: none;
@@ -264,9 +267,6 @@ footer ul>li:first-child {
 }
 footer ul>li:last-child {
   padding-right: 0;
-}
-footer ul>li a:hover i {
-  opacity: 0.7;
 }
 /* This gets Google to fall into place */
 .social {

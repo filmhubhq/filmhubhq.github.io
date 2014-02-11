@@ -6,7 +6,6 @@ author: Roger Jackson
 tags: diary lessons
 ---
 ###Train to Stockholm
-
 We get amazing indie films submitted to KinoNation almost every day to our Private Beta launch. Here’s one that’s beautifully shot, with a theme of cross-border connectivity that will, I think, appeal to many video-on-demand platforms. Keep submitting movies!
 
 ###10 Lessons

@@ -6,9 +6,7 @@ author: Roger Jackson
 tags: diary progress
 ---
 Hello,
-
 A quick progress report for everyone involved in the KinoNation beta test:
-
 ###Upload Manager
 Most of you have already uploaded your films, so you’ll have used our Upload Manager software. We continue to develop this to make it faster and more efficient. The latest version allows the upload to happen from multiple locations simultaneously, which means must more bandwidth is available. So if you haven’t uploaded your film yet, now is an excellent time. Email me if you need the login details.
 

@@ -1,5 +1,5 @@
 ---
-title: Video-on-Demand market worth $45 billion by 2018
+title: VOD market worth $45 billion by 2018
 layout: post
 subtitle: VOD industry news
 author: Roger Jackson

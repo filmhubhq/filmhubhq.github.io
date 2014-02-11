@@ -1,5 +1,5 @@
 ---
-title: New Mantra: Do More, Faster
+title: New Mantra-Do More, Faster
 layout: post
 subtitle: Diary of a film startup part 7
 author: Roger Jackson

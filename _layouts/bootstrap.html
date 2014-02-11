@@ -32,15 +32,15 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="{% if page.url != '/index.html' %}/{% endif %}#howitworks" class="animate">How it works</a></li>
+          <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#howitworks" class="animate">How it works</a></li>
           <li><a href="{% if page.url != '/index.html' %}/{% endif %}#pricing" class="animate">Pricing</a></li>
           <li><a href="{% if page.url != '/index.html' %}/{% endif %}#enterprise" class="animate">Enterprise</a></li>
           <li {% if page.url == '/blog/index.html' %} class="active" {% endif %}><a href="/blog">Blog</a></li>
-          <li><a href="https://kinonation.zendesk.com" target="_blank">Help</a></li>
+          <li class="hidden-sm"><a href="https://kinonation.zendesk.com" target="_blank">Help</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="http://twitter.com/kinonation1"><i class="fa fa-lg fa-twitter"></i></a></li>
-          <li><a href="http://facebook.com/kinonation"><i class="fa fa-lg fa-facebook"></i></a></li>
+          <li class="hidden-sm"><a href="http://twitter.com/kinonation1"><i class="fa fa-lg fa-twitter"></i></a></li>
+          <li class="hidden-sm"><a href="http://facebook.com/kinonation"><i class="fa fa-lg fa-facebook"></i></a></li>
           <li><a href="https://beta.kinonation.com/user/register">Get started</a></li>
           <li><a href="https://beta.kinonation.com/user">Log in</a></li>
         </ul>
@@ -55,6 +55,7 @@
         <ul>
           <li>Copyright &copy; 2014 Kinonation</li>
           <li><a href="/terms.html">Terms &amp; Conditions</a></li>
+          <li><a href="/contact.html">Contact</a></li>
           <li><a href="http://kinonation.zendesk.com/hc" target="_blank">Help Center</a></li>
           <li><a href="http://twitter.com/kinonation1"><i class="fa fa-lg fa-twitter"></i></a></li>
           <li><a href="http://facebook.com/kinonation"><i class="fa fa-lg fa-facebook"></i></a></li>

@@ -13,7 +13,7 @@ layout: bootstrap
         <p class="meta"><small>Posted by {{ page.author }} on {{ page.date | date_to_string }}</small></p>
 
         {{ content }}
-        
+                
         <div id="disqus_thread"></div>
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -29,11 +29,15 @@ layout: bootstrap
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
+        <p><a href="/blog"><i class="fa fa-angle-double-left"></i> Back to blog</a></p>
         
       </article>
     </div>
     
     <div class="col-md-4">
+      <div>
+        <a href="/blog"><i class="fa fa-angle-double-left"></i> Back</a>
+      </div>
       {% include _blog-sidenav.html %}
     </div>
   </div>

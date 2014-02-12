@@ -2,3 +2,4 @@ name: Kinonation
 markdown: redcarpet
 pygments: true
 social: false
+offline: true

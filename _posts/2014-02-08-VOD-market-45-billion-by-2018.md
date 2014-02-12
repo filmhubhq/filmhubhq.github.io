@@ -1,5 +1,5 @@
 ---
-title: VOD market worth $45 billion by 2018
+title: VOD Market Worth $45 Billion by 2018
 layout: post
 subtitle: VOD industry news
 author: Roger Jackson

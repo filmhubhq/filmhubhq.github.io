@@ -12,7 +12,8 @@ id: tags
     <div class="col-md-8"> <!-- left column -->
       {% for item in (0..num_words) %}{% unless forloop.last %}
         {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-        <p class="singletag"><i class="fa fa-tag"></i> <span class="tag label label-default" id="{{ this_word | cgi_escape }}">{{ this_word }}</span></p>
+        <a class="anchor" id="{{ this_word | cgi_escape }}"></a>
+        <p class="singletag"><i class="fa fa-tag"></i> <a href="#tags-sidenav" class="tag label label-default">{{ this_word }}</a></p>
         <ul class="posts">
           {% for post in site.tags[this_word] %}
             {% if post.title != null %}

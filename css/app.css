@@ -176,6 +176,9 @@ section:last-of-type {
   padding-top: 6px;
   padding-bottom: 6px;
 }
+.meta {
+  margin-bottom: 30px;
+}
 .meta small {
   color: #999;
 }

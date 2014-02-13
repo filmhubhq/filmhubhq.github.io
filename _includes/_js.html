@@ -1,0 +1,40 @@
+{% if site.offline %}
+<script src="/js/jquery-1.11.0.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+{% else %}
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+{% endif %}
+<script src="/js/jquery.lazyload.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script>
+$(document).ready(function() {
+  var $root = $('html, body');
+  $('a.animate').click(function(e) {
+      var href = $.attr(this, 'href').replace(/^\//,'');
+      console.log(href);
+      $root.animate({
+          scrollTop: $(href).offset().top
+      }, 500, function () {
+          window.location.hash = href;
+      });
+      e.preventDefault();
+  }); 
+
+  // init bootstrap popover & tooltip
+  $('[data-toggle="popover"]').popover();
+  $('a[data-toggle="tooltip"]').tooltip().click(function(e) {
+    e.preventDefault();
+  });
+
+  // lazyload
+  var $imgs = $("img.lazy");
+  $imgs.lazyload({
+    failure_limit: Math.max($imgs.length - 1, 0)
+  });
+});
+</script>
+
+{% if site.social %}
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+{% endif %}

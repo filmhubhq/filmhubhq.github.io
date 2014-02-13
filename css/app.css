@@ -58,7 +58,6 @@ background-color: #469be2;
 }
 */
 .jumbotron {
-  background: url('../images/header-bg.jpg') no-repeat scroll top left #011925;
   background: #348eda url('../images/home-globe.png') no-repeat right center;
   margin-bottom: 0;
   color: #fff;

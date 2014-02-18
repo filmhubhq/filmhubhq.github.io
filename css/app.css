@@ -58,8 +58,9 @@ background-color: #469be2;
 }
 */
 .jumbotron {
-  background: #348eda url('../images/home-globe.png') no-repeat right center;
+  background: #348eda url('images/home-globe.png') no-repeat right center;
   margin-bottom: 0;
+  padding-bottom: 30px;
   color: #fff;
 }
 .jumbotron h1, section h1 {

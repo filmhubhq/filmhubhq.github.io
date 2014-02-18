@@ -359,7 +359,7 @@ ol ol {
 li ol {
 /*   margin-bottom: 0px; /* instead, I think that's what they meant */
 }
-.container {
+body.page-terms .container {
   padding-bottom: 20px;
 }
 .jumbotron .container, section .container {

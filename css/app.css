@@ -149,7 +149,7 @@ section:nth-of-type(3n+2) {
   background-color: #eee;   
 }
 section:nth-of-type(3n) {
-  background-color: #406E74; /* #e67d25 #4C5679; # 36426B */
+  background-color: #406E74; /* #e67d25 #4C5679; #36426B */
   color: #fff;
   letter-spacing: 0.02em;
 }
@@ -158,6 +158,9 @@ section:nth-of-type(3n) a {
 }
 section:last-of-type {
 /*  min-height: 100vh; */
+}
+div#terms-intro {
+  background-color: #eee;
 }
 .btn ~ p {
   margin-top: 20px;
@@ -345,4 +348,19 @@ body.page-tags ul.posts {
 }
 body.page-tags ul.posts time {
   color: #888;
+}
+.alert>ul {
+  margin-bottom: inherit;
+}
+ol ol {
+  margin-bottom: 10px; /* undo Bootstrap */
+}
+li ol {
+/*   margin-bottom: 0px; /* instead, I think that's what they meant */
+}
+.container {
+  padding-bottom: 20px;
+}
+.jumbotron .container, section .container {
+  padding-bottom: 0px;
 }

@@ -143,8 +143,8 @@ h2 img {
   margin-right: 10px;
 }
 section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 section:nth-of-type(3n+2) {
   background-color: #eee;   

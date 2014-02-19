@@ -58,7 +58,7 @@ background-color: #469be2;
 }
 */
 .jumbotron {
-  background: #348eda url('images/home-globe.png') no-repeat right center;
+  background: #348eda url('../images/home-globe.png') no-repeat right center;
   margin-bottom: 0;
   padding-bottom: 30px;
   color: #fff;
@@ -228,7 +228,7 @@ section#features h1 {
   margin-bottom: 20px;
 }
 section#features {
-/*  background: url('/images/blueglobe.jpg') #fff no-repeat top 10px;*/
+/*  background: url('../images/blueglobe.jpg') #fff no-repeat top 10px;*/
 /*  background: #fff;
 */  position: relative;
   overflow: hidden;

@@ -58,7 +58,7 @@ background-color: #469be2;
 }
 */
 .jumbotron {
-  background: #348eda url('../images/home-globe.png') no-repeat right center;
+  background: #348eda url('../images/home-globe.png') no-repeat right -400px center;
   margin-bottom: 0;
   padding-bottom: 30px;
   color: #fff;
@@ -66,7 +66,7 @@ background-color: #469be2;
 .jumbotron h1, section h1 {
   font-weight: bold;
   line-height: 1;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 section h1 {
   margin-bottom: 40px;
@@ -77,7 +77,7 @@ section h1 {
   color: #ddd;
   display: block;
 }
-.jumbotron .btn-default {
+.jumbotron a.btn-default {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
@@ -86,17 +86,27 @@ section h1 {
   background: inherit;
   color: #fff;
 }
-.jumbotron .btn-default:hover {
+.jumbotron a.btn-default:hover {
   color: #348eda;
   background-color: #fff;
   border-color: #348eda;
 }
-
 .jumbotron p.lead, .enterprise p.lead {
   font-size: 26px;
 }
 small.super {
   vertical-align: super;
+}
+.jumbotron a {
+  color: #fff;
+}
+.jumbotron a.textlink {
+  border-bottom: #fff 2px dotted;
+  padding-bottom: 4px;
+}
+.jumbotron a.textlink:hover {
+  text-decoration: none;
+  border-bottom: solid;
 }
 /*#vodlogos {
   background: #e67d25;

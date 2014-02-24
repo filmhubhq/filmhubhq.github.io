@@ -36,7 +36,7 @@ a.navbar-brand:hover {
 .container.content {
   margin-top: 40px;
 }
-.container.content h1.page-header {
+.container.content h1:first-of-type {
   margin-top: 0;
 }
 .container.content + footer {
@@ -380,4 +380,8 @@ body.page-terms .container.section {
 }
 .jumbotron .container, section .container {
   padding-bottom: 0px;
+}
+
+#teampics {
+  margin-top: 30px;
 }

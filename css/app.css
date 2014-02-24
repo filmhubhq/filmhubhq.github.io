@@ -110,6 +110,8 @@ small.super {
 }
 .jumbotron a.textlink {
   border-bottom: #fff 2px dotted;
+}
+.jumbotron p a.textlink {
   padding-bottom: 4px;
 }
 .jumbotron a.textlink:hover {
@@ -181,9 +183,10 @@ section:last-of-type {
 div#terms-intro {
   background-color: #eee;
 }
-.btn ~ p {
+/*.btn ~ p {
   margin-top: 20px;
 }
+*/
 .details > * {
   margin-top: 0;
 }
@@ -207,8 +210,8 @@ div#terms-intro {
   text-align: center;
   padding: 10px;
   width: 50px;
-  background: #E2E2E2;
-  color: #444;
+  background: #406E74;
+  color: #fff;
 /*
   margin: 0px 5px 0px 0;
   float: left;

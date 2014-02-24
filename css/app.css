@@ -16,19 +16,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   text-shadow: none;
   color: transparent;
   background: url('../images/logo-v3-gray-35h.png') no-repeat;
-  width: 125px;
-  height: 35px;
-  margin-left: 0;
-  margin-top: 6px;
-  margin-right: 15px;
+  background-image: url('../images/logo-v3-gray-35h.svg'), none;
+  background-size: contain;
+  width: 119px;
+  height: 20px;
+  margin: 14px 20px 0 15px;
+  padding: 0;
 }
 a.navbar-brand:hover {
   opacity: 0.7;
 }
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .navbar > .container .navbar-brand {
+    background: url('../images/logo-v3-gray-35h@2x.png') no-repeat;
+    background-image: url('../images/logo-v3-gray-35h.svg');
+    background-size: contain;
+  }
+}
 .container.content {
   margin-top: 40px;
 }
-.container.content h1.page-header {
+.container.content h1:first-of-type {
   margin-top: 0;
 }
 .container.content + footer {
@@ -314,6 +322,10 @@ footer ul>li:last-child {
   margin-top: 0;
 }
 @media (min-width: 768px) {
+  .navbar > .container .navbar-brand {
+    margin-left: 0;
+    margin-top: 13px;
+  }
   .jumbotron h1 {
     font-size: 75px;
     letter-spacing: -3px;
@@ -324,12 +336,6 @@ footer ul>li:last-child {
   }
   .lead {
     font-size: 18px;
-  }
-}
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .navbar > .container .navbar-brand {
-    background: url('../images/logo-v3-gray-35h@2x.png') no-repeat;
-    background-size: 125px 35px;
   }
 }
 a[data-toggle="tooltip"] {
@@ -374,4 +380,8 @@ body.page-terms .container.section {
 }
 .jumbotron .container, section .container {
   padding-bottom: 0px;
+}
+
+#teampics {
+  margin-top: 30px;
 }

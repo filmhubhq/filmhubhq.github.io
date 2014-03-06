@@ -2,7 +2,7 @@
 layout: post
 subtitle: Diary of a film startup part 1
 author: Roger Jackson
-tags: diary marketing
+tags: kinonation marketing
 ---
 ###Every movie ever made, in any language, anytime, day or night…
 I joined the short films website iFilm.com in 1999 and stayed until 2006, after we sold to MTV. By then we’d also sold out our original vision, captured perfectly in this [1999 commercial.](http://www.youtube.com/watch?v=UZ9qcp6Lcno) Since iFilm I’ve produced war-zone documentaries for the Annenberg Foundation, started a production company, and for the past year run humanitarian projects in Afghanistan and West Africa. But I often thought of that iFilm vision…and now, more than a decade later, I find myself the co-founder (with film composer Klaus Badelt) of a digital film startup with a similar mission. This is the first of a series of weekly guest posts as we bootstrap this new venture — ideally with a ton of critique and input from you.

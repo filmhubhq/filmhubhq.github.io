@@ -8,7 +8,6 @@
   <title>{{ page.title }}</title>
 
   {% include _vendorcss.html %}
-  {% include _analytics.html %}
 
   <link rel="stylesheet" href="/css/app.css">
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -16,6 +15,7 @@
     <script src="../../assets/js/html5shiv.js"></script>
     <script src="../../assets/js/respond.min.js"></script>
   <![endif]-->
+  {% include _analytics.html %}
 </head>
 
 <body class="page-{{ page.id }}" data-spy="scroll" data-target=".navbar-collapse" data-offset="51">

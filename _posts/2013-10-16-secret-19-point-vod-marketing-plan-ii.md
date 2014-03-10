@@ -3,7 +3,7 @@ title: Secret 19-Point VoD Marketing Plan, Part II
 layout: post
 subtitle: Diary of a film startup part 35
 author: Roger Jackson
-tags: diary vod marketing plan
+tags: Blu-Ray Comcast TimeWarner iTunes Amazon Vudu Hulu Netflix
 ---
 Here’s Part II of our 19 point plan…
 This post was going to be Part 2 of Two.  But I try to avoid overly lengthy posts. And feedback over the past couple of weeks has convinced me to focus this post on just a couple of points:  VoD Windowing, and Facebook Marketing. So…here are points 11 & 12 of the 19 point plan, with the final 7 to follow in a fortnight. It’s not bait & switch, just that, as the Dude said, “new shit has come to light.”

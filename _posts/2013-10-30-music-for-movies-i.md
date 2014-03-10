@@ -3,7 +3,7 @@ title: Music for Movies, Expert Tips, Part I of II
 layout: post
 subtitle: Diary of a film startup part 39
 author: Roger Jackson
-tags: diary music
+tags: Klaus Gladiator Pirates Caribbean Catwoman Poseidon Rescue Dawn K-19 music composition
 ---
 
 

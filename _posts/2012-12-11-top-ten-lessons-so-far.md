@@ -3,7 +3,7 @@ title: Top Ten Lessons, So Far
 layout: post
 subtitle: Diary of a film startup part 16
 author: Roger Jackson
-tags: diary lessons
+tags: Aspera ProRes self-built
 ---
 ###Train to Stockholm
 We get amazing indie films submitted to KinoNation almost every day to our Private Beta launch. Here’s one that’s beautifully shot, with a theme of cross-border connectivity that will, I think, appeal to many video-on-demand platforms. Keep submitting movies!

@@ -3,7 +3,7 @@ title: Secret 19-Point VoD Marketing Plan, Part III
 layout: post
 subtitle: Diary of a film startup part 36
 author: Roger Jackson
-tags: diary vod marketing plan
+tags: Kickstarter Google
 ---
 Before I dive into the final part of the Marketing Plan, a quick Kinonation update. We’re now delivering 3 or 4 films a day to video-on-demand exhibitors. That’s a thousand films a year. Not bad, and we’re just getting started. For me the best part is when people respond to films we distribute. One of the dozens of Kinonation films that went live on VoD in August was “Good People Go to Hell…” It’s an honest, objective and entertaining doc about hard-right Christianity. My favorite online review:  “Great movie. Great education about a world I didn’t know much about. Though I don’t share their views, I love listening to people that have passion for what they believe in.” Kinonation isn’t the director, obviously, but there’s enormous satisfaction from helping filmmakers get their films seen, worldwide. That’s what we do. That’s what we love.
 

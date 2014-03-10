@@ -3,7 +3,7 @@ title: Searching for Green Card
 layout: post
 subtitle: Diary of a film startup part 19
 author: Roger Jackson
-tags: diary vod
+tags: Hollywood Klaus Amazon Vudu Hulu YouTube
 ---
 Less of a diary post this time, more of a rumination on Hollywood, video-on-demand, and long-tail movies. Klaus and I decided to build KinoNation because we want to make it super-easy for indie filmmakers to distribute their films to the medium that is rapidly replacing DVD. Along the way we’ve come to realise there are also many well known films that remain almost impossible to watch “on demand” — fuelling consumer frustration that can often only be solved by breaking the law.
 

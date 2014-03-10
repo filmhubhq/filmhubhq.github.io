@@ -2,7 +2,7 @@
 layout: post
 subtitle: Diary of a film startup part 2
 author: Roger Jackson
-tags: diary startup
+tags: startup Indiegogo Remy Boudet
 ---
 ###Kinonation
 We were determined the site would be a dot com domain — not dot biz or dot US or dot-whatever. But available dot coms are rare and we weren’t going to pay thousands of dollars to some shady cyber-squatter. Klaus found KinoNation.com — it was available, it makes sense, we like it and seems easy to remember. “Kino” is German for cinema. And “Nation” can be defined as a community of persons bound by a shared interest or passion. That seems to work. We’re also excited about the potential for this venture in China, making thousands of Chinese indie films available to the rest of the world. So the name had to sound OK to the Chinese ear (we’re assured it does) and it more or less translates into Mandarin as “Film Kingdom.” But. There’s always a “but.” In this case there’s a site in Russia, kinonation.ru where you can watch Hollywood movies — in Russian — for free. Hard to say whether they’re legit or pirated. Either way, we have the dot-com, they have the dot-ru — there’s no reason we can’t co-exist, right?

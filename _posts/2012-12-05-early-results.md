@@ -3,7 +3,7 @@ title: Early Results
 layout: post
 subtitle: Diary of a film startup part 14
 author: Roger Jackson
-tags: diary vod
+tags: YouTube 
 ---
 ###Quarter Million Views
 I thought I’d share some results — as in numbers — for a feature that is having a nice run on YouTube Movies. The film is called Time Expired, and won a silver award for Comedy Feature at WorldFest Houston. It was submitted to KinoNation last week. And in fact the master ProRes file (71GB) is currently being uploaded by the filmmakers to our cloud storage servers. What immediately caught my attention is that Time Expired has almost a quarter million views on YouTube Movies since it was placed there by director Nick Lawrence 12 months ago. That’s the full length (93 mins) movie, not the trailer — an average of 20,000 per month, and accelerating. Nick has kindly agreed to share the extensive stats that YouTube provide. It’s interesting and quite instructive, I think, as YouTube Movies becomes an increasingly significant — and profitable — option for indie filmmakers.

@@ -3,7 +3,7 @@ title: Delivery Begins
 layout: post
 subtitle: Diary of a film startup part 21
 author: Roger Jackson
-tags: diary delivery
+tags: beta Amazon iTunes QC Viewster
 ---
 ###Distributing the Betas
 We’ve started delivering films to video-on-demand outlets. That may not sound like much — we could have done it 3 months ago by sending them a hard drive. But these are highly complex — and automated — deliveries, with literally hundreds of variables in the transcode presets, the type of poster image, the metadata fields, the trailer, the subtitles or closed captions…an error in any element will get the film rejected by the very rigorous Quality Control (QC) at the outlets. We’re impatient to get the films live so we can share some links with you — but we’re sanguine also. Even after a film gets to Amazon or iTunes or any other outlet it can take up to 90 days to go live — like it or not, that’s the reality we face.

@@ -1,0 +1,41 @@
+---
+layout: bootstrap
+title: Kinonation | Blog
+---
+<div class="container content">
+  <div class="row">
+    <div class="col-md-8"> <!-- left column -->
+
+{% assign counter = '' %}
+{% for post in site.posts %}
+  {% if post.categories[0] != 'tech' %}
+    {% capture temp %}{{ counter }}*{% endcapture %}
+    {% assign counter = temp %}
+    <article id="article-{{ counter.size }}">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a>
+        {% if post.subtitle != '' %}
+          <br/><small>{{ post.subtitle }}</small>
+        {% endif %}
+      </h2>
+      <p><small>Posted by {{ post.author }} on {{ post.date | date_to_long_string }}</small></p>
+      {{ post.excerpt }}
+      <p><a href="{{ post.url }}">Read more…</a></p>
+      <hr/>
+    </article>
+    {% endif %}
+{% endfor %}
+
+    </div> <!-- left column -->
+
+    
+    <div class="col-md-4">
+      
+      {% include _tags-count.html %}
+      {% include _tags-sidenav.html %}
+
+      {% include _blog-sidenav.html %}
+  
+    </div>
+
+  </div>  <!-- row -->
+</div>   <!-- container -->

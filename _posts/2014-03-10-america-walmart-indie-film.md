@@ -1,5 +1,6 @@
 ---
-title: America's Next Wal-Mart The Indie Film Industry
+title: America's Next Wal-Mart
+subtitle: The Indie Film Industry
 layout: post
 author: Roger Jackson
 tags: link post 

@@ -3,7 +3,7 @@ title: Doubling the Upload Speed
 layout: post
 subtitle: Diary of a film startup part 12
 author: Roger Jackson
-tags: diary upload
+tags: upload ProRes
 ---
 
 ###Twice as Fast

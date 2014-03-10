@@ -2,7 +2,7 @@
 layout: post
 subtitle: Diary of a film startup part 3
 author: Roger Jackson
-tags: diary startup
+tags: Hulu Klaus YouTube Vimeo 
 ---
 You probably know the classic movie making conundrum that indie producers struggle with: talent (or rather their agents) won’t commit to a film project until you prove you have funding, and investors won’t write a check until you prove you have talent attached. The producer’s dilemma. And, of course, all successful producers find creative solutions to that thorny issue. KinoNation has a similar challenge: It’s tough to get filmmakers fully committed without video-on-demand distribution outlets in place, and it’s hard to sign VoD outlets without a slate of films.
 

@@ -3,7 +3,7 @@ title: Film Marketing Tools
 layout: post
 subtitle: Diary of a film startup part 15
 author: Roger Jackson
-tags: diary marketing
+tags: KickStarter Metadata
 ---
 ###50 Ways to Sell Your Movie
 KinoNation now has a library of almost 100 feature films and documentaries in our Private Beta. As I spend time showing some of these films to various US and international video-on-demand outlets, I am more and more convinced of the need for a step-by-step template that helps filmmakers with the the business of selling & marketing their films. So last week I spent some time creating a “back of an envelope” plan for a section of KinoNation where filmmakers can be guided through a series of fifty steps to give their film a better chance at finding an audience. The idea is to have one page on KinoNation.com for each of these fifty steps, along with an overall Progress Bar — so a filmmaker can review what percentage of this marketing checklist has been completed. This is deliberately rough — I just want to get the discussion started.

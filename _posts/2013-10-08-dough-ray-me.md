@@ -3,7 +3,7 @@ title: Dough Ray Me (Getting Paid)
 layout: post
 subtitle: Diary of a film startup part 28
 author: Roger Jackson
-tags: diary payment
+tags: festival Hulu 
 ---
 ###Who Pays What?
 At the recent Artist to Entrepreneur (A2E) summit at the SF Film festival, a frequently asked questions from filmmakers was “How much can I expect to make from VoD?” The question was greeted with stony silence, mostly because the data just isn’t out there in a meaningful, predictive way. That is, there aren’t enough proxies. A proxy for your film would be a film in the same genre, similar level of name talent, similar marketing budget — and perhaps comparable subject matter for documentaries. In short, a film with much the same chances in the market. That’s a proxy, and they just don’t exist. Or rather, the data isn’t being made public. Why? It’s not a nefarious conspiracy, it’s simply because no one has an incentive to release this data — and anyway there’s no much of it to begin with. So I thought it would be useful to shed what light I can on how much you might expect to make from various types of VoD outlets — ad supported, subscription, transactional, etc. The BIG caveat here is that KinoNation is just getting started, we’re only delivering films to a handful of “beta test” outlets, and so far films have only been live for a month or so — not nearly enough to make revenue predictions.

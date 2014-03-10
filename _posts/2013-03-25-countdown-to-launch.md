@@ -3,7 +3,7 @@ title: Countdown to Launch
 layout: post
 subtitle: Diary of a film startup part 23
 author: Roger Jackson
-tags: diary launch
+tags: launch Amazon Viewster iTunes Hulu SnagFilms M-GO MySkreen Vimeo
 ---
 ###Countdown to Launch
 We’re getting close to the launch of KinoNation, when we’ll remove the beta login requirement, open the service to all filmmakers, announce to the press, etc. Probably early April. Yesterday we released to our 100+ beta testers the latest version of the film uploader and metadata capture. It’s now much slicker and easier to upload, and we can capture a huge amount of essential metadata that’s required by the video-on-demand outlets. For example, we need four hi-resolution poster images in various sizes and aspect ratios, in order to meet the different delivery specs of iTunes, Amazon, Hulu, et al. And at the risk of sounding like a broken record: if you want people to discover and watch your film, you should be prepared to invest time (and maybe cash) on really great poster art. And it must be highly readable. That’s easy when it’s a full size poster on the side of a bus shelter. More difficult when it’s this size. Even tougher when it’s this size. Think big title, bold & arresting art — an image and title so compelling that consumers just HAVE to click.

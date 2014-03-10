@@ -3,7 +3,7 @@ title: Secret 19-Point VoD Marketing Plan, Part I
 layout: post
 subtitle: Diary of a film startup part 34
 author: Roger Jackson
-tags: diary vod
+tags: IMDb review-velocity
 ---
 We continue to ramp-up deliveries of Kinonation films — we’ll have 100+ movies live on beta partner VoD outlets by the end of August. So now I have 100 producers asking about VoD marketing. I’ve been working on a marketing plan — not a gimmick, but an actionable, effective system to really launch a film, every time it goes live on any VoD outlet. The “launch” metaphor is apt, I think, because a film needs a booster-rocket to get things rolling. VoD outlets are driven by algorithms — you need maximum thrust in the first days live to get a film onto their best-seller list. Today, writing this post,  I decided to nix the “secret plan” thing — it’s not like it’s rocket science anyway — and share pubicly.
 

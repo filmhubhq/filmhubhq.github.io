@@ -3,7 +3,7 @@ title: New Mantra-Do More, Faster
 layout: post
 subtitle: Diary of a film startup part 7
 author: Roger Jackson
-tags: diary vod
+tags: Hobbit Peter Jackson
 ---
 
 ###Latest & Greatest

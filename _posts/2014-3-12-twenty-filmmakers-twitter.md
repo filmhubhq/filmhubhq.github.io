@@ -8,4 +8,4 @@ As a filmmaker, Twitter is awesome and allows you to interact with filmmakers an
 
 While there are a lot of great people sharing filmmaking tips on Twitter, the problem is, there are a LOT of filmmakers Tweeting!
 
-To help you out, I have <href="http://www.filmmakingstuff.com/20-filmmaker-thought-leaders-to-follow-on-twitter/">listed 20 Filmmakers To Follow on Twitter.</href>
+To help you out, I have <a href="http://www.filmmakingstuff.com/20-filmmaker-thought-leaders-to-follow-on-twitter/">listed 20 Filmmakers To Follow on Twitter.</a>

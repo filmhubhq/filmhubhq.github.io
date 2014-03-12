@@ -27,7 +27,7 @@ title: Kinonation | Blog
 
     </div> <!-- left column -->
 
-    <div class="menu-nav">
+    
     
     
     <div class="col-md-4">
@@ -35,9 +35,16 @@ title: Kinonation | Blog
       
       
 
-            <p>{% include _tags-count.html %}
-            {% include _tags-sidenav.html %}</p>
-           
+            <div class="tag-nav">{% include _tags-count.html %}
+            {% include _tags-sidenav.html %}
+            </div>
+            
+           <style>
+             tag-nav 
+             {
+               overflow: scroll;
+             }
+           </style>
             
             
             {% include _blog-sidenav.html %}
@@ -46,7 +53,7 @@ title: Kinonation | Blog
             
          
      
-      </div>
+    
       
     
       

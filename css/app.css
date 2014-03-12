@@ -235,7 +235,7 @@ a.anchor {
   visibility: hidden;
 }
 section.enterprise {
-  background-color: #0c132e; /* #1B2122 #406E74 #4c858c #012B31 */
+  background-color: #212D5E; /* #0c132e #1B2122 #406E74 #4c858c #012B31 */
   color: #fff;
   letter-spacing: 0.03em;
 }
@@ -243,17 +243,21 @@ section.enterprise {
 section.enterprise h1 small {
   color: #ccc;
 }
-section#features h1 {
+section.features h1 {
   font-size: 48px;
   letter-spacing: -2px;
   margin-bottom: 20px;
 }
-section#features {
+section.features {
 /*  background: url('../images/blueglobe.jpg') #fff no-repeat top 10px;*/
 /*  background: #fff;
 */  position: relative;
   overflow: hidden;
 }
+section.different h1 {
+  letter-spacing: 0;
+}
+
 #globe {
   position: absolute;
   top: -10px;

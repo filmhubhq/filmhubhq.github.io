@@ -76,14 +76,17 @@ background-color: #469be2;
   line-height: 1;
   margin-bottom: 40px;
 }
-section h1 {
-  margin-bottom: 40px;
-}
 .jumbotron h1 small, section h1 small {
   font-size: inherit;
   font-weight: 200;
   color: #ddd;
   display: block;
+}
+section h1.subheader{
+  margin-bottom: 0;
+}
+section h2.subheader {
+  margin-bottom: 30px;
 }
 .jumbotron a.btn-default {
   margin-top: 20px;

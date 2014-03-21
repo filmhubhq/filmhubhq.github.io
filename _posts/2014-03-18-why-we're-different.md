@@ -6,6 +6,7 @@ tags: fee rights discovery
 ---
 We’re often asked what makes Kinonation different from other VOD distribution companies. While we are both a content and a distribution venture, we tend to regard ourselves as – above all – a technology company. And it’s technology innovation that allows us to do things a little differently. Here’s what we’re building for filmmakers – 9 points that define our business philosophy and operational goals.
 
+
 ###No upfront fee
 No transcode or metadata authoring fee, no signup costs, no hidden charges. Cloud technology efficiencies allow us to waive the upfront fees that other aggregators charge. Our philosophy is that Kinonation only wins when content creators win. Simple, modest revenue sharing only on success, makes engaging with Kinonation a risk-free scenario.
 ###No gatekeeper

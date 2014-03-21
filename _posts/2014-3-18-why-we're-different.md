@@ -1,9 +1,8 @@
 ---
-title: Why We're Different
 layout: post
 subtitle: Diary of a film startup part 46
 author: Roger Jackson
-tags: 
+tags: fee rights discovery
 ---
 ###Why We're Different
 We’re often asked what makes Kinonation different from other VOD distribution companies. While we are both a content and a distribution venture, we tend to regard ourselves as – above all – a technology company. And it’s technology innovation that allows us to do things a little differently. Here’s what we’re building for filmmakers – 9 points that define our business philosophy and operational goals.

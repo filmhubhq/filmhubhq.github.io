@@ -3,7 +3,7 @@ title: Crash Course in Film Distribution
 layout: post
 subtitle: Diary of a film startup part 5
 author: Roger Jackson
-tags: Lawrence Arabia Maurice Jarre Spiegel Weinstein Margin Call Melancholia distribution
+tags: Lawrence Arabia Weinstein Margin Call Melancholia distribution
 ---
 ###More Amazing Films
 We now have more than 40 films in the Kinonation Private Beta, with more submissions arriving every day. Among them, a couple of documentary trailers immediately had me wanting more. And that’s exactly what KinoNation seeks to do — make it super easy for independent films and docs to get video-on-demand distribution, so anyone “wanting more” can instantly rent or buy the movie from among dozens of global VoD outlets. Black Sun, a 2005 documentary by Brit filmmaker Gary Tarn, tells the tragic and inspiring story of Hugues de Montalembert, a New York City artist who was blinded for life during a vicious street mugging. On a lighter note, French filmmaker Pascal Cuenot submitted In The Tracks Of, her intimate look at the life and work of the late, great film composer Maurice Jarre. I watched this preview clip, frustrated that just as Jarre starts telling the story of his involvement with Lawrence of Arabia and his first meeting with the legendary producer Sam Spiegel…the clip ends! I desperately wanted to watch the full documentary, right away. That’s why we’re so passionate about KinoNation — the promise of instant access for consumers to rent or buy movie gems like these. Keep submitting your films, please.

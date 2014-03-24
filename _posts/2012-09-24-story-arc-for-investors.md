@@ -3,7 +3,7 @@ title: Story Arc for Investors
 layout: post
 subtitle: Diary of a film startup part 4
 author: Roger Jackson
-tags: investors story
+tags: investors
 ---
 ###Last Week
 Before I write about seeking money and investors, here’s what’s been happening in the past week. We’ve had — as of writing — 18 films submitted for our private beta launch. Films come in every day and we will never tire of clicking on the trailer link and getting a glimpse into a new world. I mean that. We know what it takes to make a feature film or documentary, and the reason we’re building KinoNation is to serve the creators of films like these. Keep them coming, the Private Beta is still open, we’re looking for lots more great films. It’s really fun to watch a group of compelling and disparate trailers, then delve into the IMDb pages for each movie, and in some case have discussions with the filmmakers. A couple of examples this week. Greek director Stathis Athanasiou submitted his stunning fantasy-romance DOS. Our reaction was pretty much “wow!” Then Roseanne Liang submitted her delightful 2005 documentary Banana in a Nutshell. (which spawned her theatrical release My Wedding and Other Secrets.) Films like this that performed (or are performing) well on the festival circuit, but struggling to find video-on-demand distribution, are exactly what Klaus and I had in mind when we conceived KinoNation.

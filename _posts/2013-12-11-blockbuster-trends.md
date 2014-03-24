@@ -2,7 +2,7 @@
 layout: post
 subtitle: Diary of a film startup part 41
 author: Roger Jackson
-tags: blockbuster reviews dubs subtitles
+tags: blockbuster dubs subtitles
 ---
 ###Blockbuster Trends
 At its peak in 2004, Blockbuster had 9000 stores worldwide. All but 50 of the remaining 350 stores will close by next year. 2004 was a peak year for DVD revenues — close to $30 billion globally. In 2014 it’ll be less than $16 billion and falling fast — certainly VoD has yet to make up the difference. Our investor projections — culled from disparate sources — predict worldwide VoD sales hitting $40 billion by 2024, with DVD (Blu-ray, Ultra HD, etc.) still alive but shrunk to maybe $2-3 billion. Who knows…ten years is a long time, but for sure VoD will have long eclipsed DVD. This is good news for indie filmmakers for the simple reason that those 9,000 Blockbuster stores had limited shelf space, with very little reserved for independent titles. Whereas VoD platforms have, essentially, unlimited shelf space. Meaning more — even most — indie films will get distribution. Now we just have to figure out how to match each film with its natural affinity group, wherever on the planet that audience may be.

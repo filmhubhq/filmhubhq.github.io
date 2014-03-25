@@ -3,7 +3,7 @@ title: Ranking System for Indie Films
 layout: post
 subtitle: Diary of a film startup part 11
 author: Roger Jackson
-tags: RottenTomatoes AFM IndieFlix Tribeca Time Warner AT&T  ranking
+tags: IndieFlix Tribeca Time Warner
 ---
 
 ###Ranking System

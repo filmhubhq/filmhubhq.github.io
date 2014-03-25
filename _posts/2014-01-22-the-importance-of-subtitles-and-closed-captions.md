@@ -2,7 +2,7 @@
 layout: post
 subtitle: Diary of a film startup part 42
 author: Roger Jackson
-tags: subtitles captions CC FCC zencaptions atmospherics
+tags: subtitles captions CC FCC zencaptions
 ---
 
 ###Previously: Blockbuster Trends

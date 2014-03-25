@@ -3,7 +3,7 @@ title: New Year Update
 layout: post
 subtitle: Diary of a film startup part 18
 author: Roger Jackson
-tags: NGO programming coding cloud
+tags: NGO coding cloud
 ---
 What a difference a year makes. This time in 2012 I was working for an humanitarian assistance NGO, just back from a village solar power project in Tajikistan, and about to fly to West Africa to set up a veterinary aid project in Mauritania. That contract ended in July, and by August I was fully committed to online film distribution and KinoNation. Quite a contrast.
 

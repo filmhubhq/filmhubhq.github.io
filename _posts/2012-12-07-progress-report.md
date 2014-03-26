@@ -3,7 +3,7 @@ title: Progress Report
 layout: post
 subtitle: 
 author: Roger Jackson
-tags: Upload Manager
+tags:
 ---
 Hello,
 A quick progress report for everyone involved in the KinoNation beta test:

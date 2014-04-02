@@ -3,7 +3,7 @@ title: Comparison Shopping
 layout: post
 subtitle: Diary of a film startup part 24
 author: Roger Jackson
-tags: CanIStreamIt Vudu iTunes Amazon LOVEFilLM Blinkbox Virgin
+tags: Vudu iTunes Amazon LOVEFilLM Virgin
 ---
 ###Comparison Shopping
 Last week I had a discussion with a Netflix executive that convinced me of the importance of online VoD guides. Sites like Can I Stream It in the US, and Find Any Film in the UK. Netflix see them as a huge threat, since these sites make it super easy to discover which video-on-demand platforms have the film you want to watch. And which ones don’t. The reality is that Netflix don’t have most films. Here’s an example: “Bella” is one of my favorite films. Click here, scroll to the third film, and click Availability. All the major VoD outlets have it — except Netflix. But Netflix do have the physical DVD. So why can’t you stream it from them also? Maybe they haven’t got around to it. Or maybe the distributor (Roadside Attractions) think that if it’s streaming on Netflix or Amazon Prime (subscription services) it’ll cannibalize their VoD sales on Vudu, iTunes, Amazon, etc. And maybe they’re right, but there’s little data to support that. On all these platforms, note the divergent prices. Now let’s look at “Bella” in the UK via Find Any Film. It’s only available on iTunes. None of the UK video-on-demand outlets have it — LOVEFiLM, Blinkbox, Virgin, Sky, HMV. Why not? Probably because it’s so bloody difficult, expensive and slow to get films on to VoD platforms. So perhaps Roadside Attractions just hasn’t bothered.

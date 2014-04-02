@@ -3,7 +3,7 @@ title: How Kinonation Works
 layout: post
 subtitle: Diary of a film startup part 17
 author: Roger Jackson
-tags: work-flow
+tags: rights
 ---
 We’re far enough along with development to have a clear work-flow for content owners. I’ve had lots of requests for this. So now’s a good time to explain the step-by-step flow for a film submitted to KinoNation. Right now we’re still in “beta-testing” mode, but expect to launch this more complete service in January 2013.
 

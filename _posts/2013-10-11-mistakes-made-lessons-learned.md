@@ -3,7 +3,7 @@ title: Kinonation-Mistakes Made, Lessons Learned...
 layout: post
 subtitle: Diary of a film startup part 31
 author: Roger Jackson
-tags: Open-Source Drupal Hulu
+tags: Open-Source Hulu
 ---
 Ted Hope recently asked me to write about what we might have done differently at <a href="http://kinonation.com/">Kinonation</a> with the benefit of a year’s hindsight. Mistakes made, lessons learned, what worked, what didn’t…
 

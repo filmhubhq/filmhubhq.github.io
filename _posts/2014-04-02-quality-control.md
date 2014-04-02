@@ -6,7 +6,6 @@ author: Roger Jackson
 tags: QC
 ---
 ###Quality Control
-
 At Kinonation we’ve automated much of what has traditionally been manual. Films are uploaded to us instead of shipped on hard drives. Digital movie assets are stored in the cloud instead of locally at our office. Transcoding and metadata authoring is triggered automatically and happens in the cloud, replacing the existing process of “guy in a room for a day” — which is expensive and error-prone — with cloud computers that rarely make mistakes. But one very much human element we retain is QC — quality control.
 
 ###Dead Bodies

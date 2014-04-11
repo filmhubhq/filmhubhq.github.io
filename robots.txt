@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /upload-specs.html
+Disallow: /upload-specs
+Disallow: /thank-you.html

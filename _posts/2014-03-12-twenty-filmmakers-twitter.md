@@ -2,7 +2,7 @@
 layout: post
 title: 20 Filmmaker Thought Leaders To Follow on Twitter
 author: Roger Jackson
-tags: twitter filmmaker
+tags: Social filmmaker
 ---
 As a filmmaker, Twitter is awesome and allows you to interact with filmmakers and Hollywood types who would otherwise be inaccessible. This is a good thing!
 

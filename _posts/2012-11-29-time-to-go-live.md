@@ -3,7 +3,7 @@ title: Time to Go Live!
 layout: post
 subtitle: Diary of a film startup part 8
 author: Roger Jackson
-tags: Hollywood Ebert
+tags: Hollywood
 ---
 ###Digital Hollywood
 I spent today (10/15) at the Digital Hollywood conference, an event that happens in LA a couple times a year. Attended several panel discussions. One panelist argued that the film industry today will not only follow the same trajectory as the music business — but that film now is only where the music business was at the time of the phonograph! Hmm, maybe. I certainly agree that in terms of massive disruption we have a ways to go. Had a bunch of meetings. The head of a group of angel investors suggested we pitch KinoNation “as soon as we have our MVP done.” MVP meaning “minimum viable product.” He said it doesn’t need to be pretty, it can be full of bugs and missing features, but, in his words, we need to “remove the technology risk” for people who might write a check. That is, prove we can actually build what we claim we’re building. Good timing, since we’ve just today launched the Movie Uploader and will roll it out to most of our Private Beta group over the coming days. The Beta is still open for movie submissions, by the way. Keep them coming! Meanwhile, another potential investor emphasized the importance of providing tools to filmmakers to help them market their films — he suggested a “freemium” model — meaning the basic service is free, with a monthly fee of 10 or 20 bucks for premium services. Comments…?

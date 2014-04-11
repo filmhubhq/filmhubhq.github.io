@@ -3,7 +3,7 @@ title: Three Months of Work
 layout: post
 subtitle: Diary of a film startup part 10
 author: Roger Jackson
-tags: iTunes Hulu Netflix Vudu Amazon cable snagfilms fandor googleplay
+tags: iTunes Hulu Netflix Vudu Amazon snagfilms fandor googleplay
 ---
 ###3 Months In
 We’ve been at it for three months now. Building a platform like KinoNation from scratch is an enormous amount of work, and like most start-ups we have limited resources. But we’re having fun, meeting a ton of really great people in the indie film world, and making rapid progress. Most important, we’re increasingly certain that KinoNation is a viable business, and we’ve been able to validate (prove) most of our early assumptions.

@@ -3,7 +3,7 @@ title: Video-on-Demand Sales Tips
 layout: post
 subtitle: Diary of a film startup part 20
 author: Roger Jackson
-tags: IMDb Variety Hollywood
+tags: IMDb Hollywood
 ---
 It’s now exactly 6 months since we started building KinoNation. We’re very close — a month or so — from opening the platform to the world. We now have deals with all the major US video-on-demand outlets, plus several non-US outlets. And doing more deals every week. There are never less than 2 films being uploaded to us at any time, and we have well over 100 movies in the Private Beta. We’ll have a representative at Berlinale and the European Film Market next week, and I’ll be in London in the spring to cement a series of deals with VoD outlets and content owners there. We have big — but also realistic — plans for 2013.
 

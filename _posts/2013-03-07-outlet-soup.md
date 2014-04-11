@@ -3,7 +3,7 @@ title: Outlet Soup
 layout: post
 subtitle: Diary of a film startup part 22
 author: Roger Jackson
-tags: Netflix M-GO LOVEFiLM Wal-Mart Vudu Microsoft Xbox
+tags: Netflix LOVEFiLM Wal-Mart Xbox
 ---
 ###Outlet Soup
 It seems like every few days there’s an announcement of another video-on-demand platform. We’ve been tracking them since we started 6 months ago. I have a spreadsheet listing them all — where they are, what type of films they want, deal terms, ownership, traffic ranking, etc. As of today there are 163 on my list, and I’m sure I’m missing a few. What does this mean? How is it possible for even a fraction of these platforms to thrive and prosper in a VoD ecosystem dominated by large incumbents with established brands, pre-existing audiences and deep pockets? Netflix has 27m subscribers in the USA and is rapidly expanding in Europe and Latin America, with 6m+ non-US subscribers already. Amazon has a multi-billion dollar VoD war-chest and has gobbled up LOVEFiLM in the UK and Germany. Hulu is closing in on a billion dollars in annual revenue, and already has 3m subscribers for Hulu Plus. And Vudu is owned by Walmart. Oh, and Dreamworks and Technicolor just launched their impressive VoD platform, M-GO. Even Microsoft is getting into the VoD game with Xbox Live Movies. Of course, from KinoNation’s point of view, this expanding system just makes our service more valuable, since most filmmakers want their movie available on as many of these services as possible. So I’m busy signing deals with as many of these 163 outlets as possible.

@@ -3,7 +3,7 @@ title: Filmmakers Festival Feedback
 layout: post
 subtitle: Diary of a film startup part 9
 author: Roger Jackson
-tags: Plimpton
+tags: upload
 ---
 ###Card-Counting Christians
 Just back in Los Angeles after 4 days in Arkansas at the excellent Hot Springs Documentary Film Festival. So great to have a deep immersion in indie film, watch back to back movies and hang out with passionate filmmakers. I loved Holy Rollers, the true story of a tight-knit group of Christians running a very successful operation dedicated to beating casinos at Blackjack. Motivated not just by their multi-million dollar winnings, but by a deep hatred of the rapacious casino industry, this is a superbly executed movie by filmmaker Bryan Storkel.

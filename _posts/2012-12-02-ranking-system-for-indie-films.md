@@ -3,7 +3,7 @@ title: Ranking System for Indie Films
 layout: post
 subtitle: Diary of a film startup part 11
 author: Roger Jackson
-tags: IndieFlix Tribeca Time Warner
+tags: IndieFlix Tribeca TimeWarner
 ---
 
 ###Ranking System

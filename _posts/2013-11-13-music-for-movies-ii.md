@@ -3,7 +3,7 @@ title: Music for Movies, Expert Tips, Part II of II
 layout: post
 subtitle: Diary of a film startup part 40
 author: Roger Jackson
-tags: Klaus Gladiator Poseidon Pirates Caribbean
+tags: Klaus Pirates Caribbean
 ---
 This is Part II of Expert Tips from composer (and Kinonation co-founder) Klaus Badelt. Klaus has scored over 80 films. His work spans Hollywood blockbusters such as Gladiator, Pirates of the Caribbean, Catwoman, Poseidon, Rescue Dawn, 16 Blocks, The Recruit, K-19. And a ton of US and European indies, including documentaries, shorts and even video games.
 

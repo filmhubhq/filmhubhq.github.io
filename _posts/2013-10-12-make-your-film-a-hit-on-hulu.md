@@ -3,7 +3,7 @@ title: Make Your Film A HIT on Hulu
 layout: post
 subtitle: Diary of a film startup part 32
 author: Roger Jackson
-tags: Hulu Fox Disney Comcast 
+tags: Hulu Disney Comcast 
 ---
 
 

@@ -3,7 +3,7 @@ title: Late Nights and Early Breakthroughs
 layout: post
 subtitle: Diary of a film startup part 6
 author: Roger Jackson
-tags: Kickstarter ProRes breakthroughs
+tags: Kickstarter ProRes
 ---
 ###Lining up Deals
 Lots of late nights for the team, figuring out the “flow” of the KinoNation platform, writing code and reaching out to global video-on-demand outlets. My spreadsheet list of these outlets just keeps growing. There’s more than 100 now, and I’ve barely scratched the surface. That’s a lot of phone calls and pitches! This is a rapidly expanding market — it seems almost every day there’s a new VoD initiative. Last week Canadian cable giant Shaw Communications announced “Shaw Go” to compete with Netflix in Canada. And you’ve doubtless heard that Redbox are rolling out “Redbox Instant by Verizon” in December. It’s exciting and fast-changing and provides huge opportunity for filmmakers to reach new audiences. And it’s keeping me very busy, in each case tracking down the right person to talk to — and then convincing them that upstart KinoNation will be a source of great movie content.

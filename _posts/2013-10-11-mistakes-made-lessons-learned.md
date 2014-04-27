@@ -3,21 +3,21 @@ title: Kinonation-Mistakes Made, Lessons Learned...
 layout: post
 subtitle: Diary of a film startup part 31
 author: Roger Jackson
-tags: Open-Source Hulu
+tags: Technology Hulu Outlets Marketing
 ---
 Ted Hope recently asked me to write about what we might have done differently at <a href="http://kinonation.com/">Kinonation</a> with the benefit of a year’s hindsight. Mistakes made, lessons learned, what worked, what didn’t…
 
 ###1. Big, Fat Assumptions
 
-Most startups ventures are premised on one or more big, fat assumptions…which may or may not be accurate, even if you’re convinced they are. Kinonation is based on the assumptions that it’s really hard to get indie films widespread VoD distribution…and that there’s a huge backlog of films whose producers want help with this problem…and that the VoD outlets are actually interested in running indie films…and they have the audience to watch them. Most start-up assumptions can be tested fast & cheaply, before a single line of code is written, before anyone is hired, before a company is formed. You MUST test them, because you may well be wrong. We did this pretty effectively, in large part thanks to Ted’s blog, which allowed us to write about what we were doing, invite filmmakers to comment and submit films…and discover if there was an embarrassing silence! Since we got a ton of filmmaker interest right away, we tested the next assumption: did the major VoD outlets even care? I simply called them up and asked if they’d consider cherry-picking films from our growing catalog. The response was an enthusiastic yes…they loved the idea of automated upload, storage, transcode & delivery…as long as we could actually pull it off!
+Most startups ventures are premised on one or more big, fat assumptions…which may or may not be accurate, even if you’re convinced they are. Kinonation is based on the assumptions that it’s really hard to get indie films widespread VOD distribution…and that there’s a huge backlog of films whose producers want help with this problem…and that the VOD outlets are actually interested in running indie films…and they have the audience to watch them. Most start-up assumptions can be tested fast & cheaply, before a single line of code is written, before anyone is hired, before a company is formed. You MUST test them, because you may well be wrong. We did this pretty effectively, in large part thanks to Ted’s blog, which allowed us to write about what we were doing, invite filmmakers to comment and submit films…and discover if there was an embarrassing silence! Since we got a ton of filmmaker interest right away, we tested the next assumption: did the major VOD outlets even care? I simply called them up and asked if they’d consider cherry-picking films from our growing catalog. The response was an enthusiastic yes…they loved the idea of automated upload, storage, transcode & delivery…as long as we could actually pull it off!
 
 ###2. Open Source
 
-We’ve built much of Kinonation using open source computer code called Drupal. Open source code has many advantages — it’s free to use, it’s been extensively tested and de-bugged by thousands of global users, and it’s robust. The downside is that often we’ve had to compromise — some feature doesn’t work quite how we’d like, or isn’t entirely intuitive for users. Hence, #3…
+We’ve built much of the first Kinonation version using the open source framework Drupal. Open source code has many advantages — it’s free to use, it’s been extensively tested and de-bugged by thousands of global users, and it’s robust. The downside is that often we’ve had to custom code — some feature doesn’t work quite how we’d like, or isn’t entirely intuitive for users. Hence, #3…
 
 ###3. The Perfect is the Enemy of the Good
 
-We definitely wasted some time writing custom Drupal code for Kinonation, when we could have achieved 75% of the same objectives using “off the shelf” code. It was a classic example of the notion that “the perfect is the enemy of the good.”  That is, your pursuit of a truly excellent product means you keep refining and tweaking it…and you never get it out there, or at best it’s late. No one said it better than Urs Holzle, the head of engineering at Google who led the team that built Google Search. His mantra:  “good enough is good enough.” Amazing, but so true with any startup, which even Google was in those days.
+We definitely wasted some time writing custom Drupal code for Kinonation, when we could have achieved 75% of the same objectives using “off the shelf” code (as in existing Drupal modules). It was a classic example of the notion that “the perfect is the enemy of the good.”  That is, your pursuit of a truly excellent product means you keep refining and tweaking it…and you never get it out there, or at best it’s late. No one said it better than Urs Holzle, the head of engineering at Google who led the team that built Google Search. His mantra:  “good enough is good enough.” Amazing, but so true with any startup, which even Google was in those days.
 
 ###4. Social Media
 
@@ -37,7 +37,7 @@ Time-wasting distractions are an unexpected challenges for a start-up that has (
 
 ###8. Love the Competition
 
-Competitors are good — they validate what you’re doing. If there’s no competition it may be because there’s no need for what you’re doing. We learned quite quickly that “competition” is far from a black & white notion. There are hundreds of players in the video-on-demand space, but everyone has a different angle and often a different business model. Some VoD outlets that are our clients — we supply films to them — also aggregate and deliver movies to other outlets. Thus for start-ups like us, there’s actually huge opportunity at the nexus of competition and cooperation. Co-opertition, if you like.
+Competitors are good — they validate what you’re doing. If there’s no competition it may be because there’s no need for what you’re doing. We learned quite quickly that “competition” is far from a black & white notion. There are hundreds of players in the video-on-demand space, but everyone has a different angle and often a different business model. Some VOD outlets that are our clients — we supply films to them — also aggregate and deliver movies to other outlets. Thus for start-ups like us, there’s actually huge opportunity at the nexus of competition and cooperation. Co-opertition, if you like.
 
 ###9. Track Everything
 

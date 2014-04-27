@@ -3,7 +3,7 @@ title: What You Must Know About Amazon CreateSpace
 layout: post
 subtitle: Diary of a film startup part 48
 author: Roger Jackson
-tags: Amazon
+tags: Amazon Outlets Marketing Captions Subtitles
 ---
 Filmmakers frequently upload their movies to Kinonation after they’ve submitted to Amazon’s CreateSpace service. This is a truly excellent service for book authors, musicians and filmmakers to self-publish their creative work and make it available on Amazon.com. And in the context of films, a good way to make DVDs available without upfront expense.
 

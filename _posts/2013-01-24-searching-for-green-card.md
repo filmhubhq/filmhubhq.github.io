@@ -3,7 +3,7 @@ title: Searching for Green Card
 layout: post
 subtitle: Diary of a film startup part 19
 author: Roger Jackson
-tags: Hollywood Amazon Vudu Hulu YouTube
+tags: Amazon Vudu Hulu YouTube Outlets Industry
 ---
 Less of a diary post this time, more of a rumination on Hollywood, video-on-demand, and long-tail movies. Klaus and I decided to build KinoNation because we want to make it super-easy for indie filmmakers to distribute their films to the medium that is rapidly replacing DVD. Along the way we’ve come to realise there are also many well known films that remain almost impossible to watch “on demand” — fuelling consumer frustration that can often only be solved by breaking the law.
 
@@ -17,4 +17,4 @@ So after 90 minutes of searching — and failing — to find a legal way to pay 
 
 In this case at least, Hollywood has made it more convenient for consumers NOT to acquire movies legally. And this isn’t an isolated example. Most people don’t want the hassle and risk of illegal downloads. What they want is what has always been a big part of the KinoNation vision: Making it easy and convenient for consumers to watch any film, at any time…and to pay the content owners for the privilege.
 
-Meanwhile…back at the ranch. Signed a distribution deal last week with Viewster, who’ve already ordered a half-dozen of the films submitted to our Private Beta. Viewster is becoming a significant player on the global VoD scene. They’re based in Switzerland, very active in the USA, Europe, Asia. And they have a great model which allows consumers to either rent a movie, or watch it for free with ads. We also just started working with SnagFilms, who are currently reviewing a package of the private beta movies. Great films continue to be submitted to us. For example, The Orator is a drama set in Samoa that won awards at the Venice Film Festival in 2011. So keep them coming — what we’re building is now real, with more outlets every week, and getting very close to our upcoming “soft launch”.
+Meanwhile…back at the ranch. Signed a distribution deal last week with Viewster, who’ve already ordered a half-dozen of the films submitted to our Private Beta. Viewster is becoming a significant player on the global VOD scene. They’re based in Switzerland, very active in the USA, Europe, Asia. And they have a great model which allows consumers to either rent a movie, or watch it for free with ads. We also just started working with SnagFilms, who are currently reviewing a package of the private beta movies. Great films continue to be submitted to us. For example, The Orator is a drama set in Samoa that won awards at the Venice Film Festival in 2011. So keep them coming — what we’re building is now real, with more outlets every week, and getting very close to our upcoming “soft launch”.

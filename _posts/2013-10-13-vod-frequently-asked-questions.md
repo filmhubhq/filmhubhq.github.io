@@ -1,9 +1,9 @@
 ---
-title: VoD-Frequently Asked Questions
+title: VOD-Frequently Asked Questions
 layout: post
 subtitle: Diary of a film startup part 33
 author: Roger Jackson
-tags: ProRes Amazon IMDb
+tags: Specs Amazon IMDb
 ---
 
 At Kinonation we get asked certain questions all the time — important issues that deserve thoughtful answers. Bottom line: the world of video-on-demand is new, developing fast, rather complex and full of nuance. Thus, there are no dumb questions. Here are the most frequently asked.
@@ -18,7 +18,7 @@ As soon as we have all the assets, including the essential metadata, we distribu
 
 ###How long do exhibitors take to turn it live?
 
-Once a VoD exhibitor selects a film, Kinonation delivers all the assets, more or less immediately.  It can then take up to 60 days to go live, depending on the outlet.
+Once a VOD exhibitor selects a film, Kinonation delivers all the assets, more or less immediately.  It can then take up to 60 days to go live, depending on the outlet.
 
 ###Why do you need a ProRes file?
 
@@ -50,7 +50,7 @@ No, just the 31 fields marked “mandatory.”
 
 ###Do I control the release date?
 
-Yes, you can define the VoD live date
+Yes, you can define the VOD live date
 
 ###I see my film is live on IMDb…I didn’t expect that?
 
@@ -58,11 +58,11 @@ When films go live on either Amazon Instant or Hulu, they automatically get a li
 
 ###Do I need to get my film rated?
 
-Generally no, although some territories (UK, Australia, New Zealand) in theory require a local rating for a film before it goes live on VoD. In theory.
+Generally no, although some territories (UK, Australia, New Zealand) in theory require a local rating for a film before it goes live on VOD. In theory.
 
 ###What’s the story with music clearances?
 
-We like to collect them, because we believe composers should get royalties for VoD. In reality, few if any digital VoD outlets require cue sheets.
+We like to collect them, because we believe composers should get royalties for VOD. In reality, few if any digital VOD outlets require cue sheets.
 
 ###Do I need closed captions?
 
@@ -70,7 +70,7 @@ They’re required by most cable TV outlets, and by everyone for movies which ha
 
 ###What do you recommend for foreign language/translation?
 
-Wait until you’re confident your film has an audience in that country. Wait until it has proved itself on VoD in the US. Then you can consider relevant overseas markets.
+Wait until you’re confident your film has an audience in that country. Wait until it has proved itself on VOD in the US. Then you can consider relevant overseas markets.
 
 ###How do I create my own subtitles or closed captions?
 
@@ -80,13 +80,13 @@ Hire a translator who does subtitles. Not your pal who happens to write Spanish.
 
 Basically, you will. Your distributor — Kinonation or anyone else — will help. But it’s up to you to get creative with press releases, email blasts, social media, stunts — whatever you can come up with to make the film stand out.
 
-###What could a film recoup over a 12 month period on VoD?
+###What could a film recoup over a 12 month period on VOD?
 
 Hard to predict. It depends on the genre, name talent, quality, festival track record, existing fan base, # of trailer views, etc. If you can give me that data then I can give you a (very) ball-park estimate, using our Kinofactor algorithm which takes into account all these factors.  BUT — it’s still just an informed guess.
 
 ###Do I need Errors & Omissions (E&O) Insurance?
 
-The outlets we currently deliver to (Hulu, Amazon, iTunes, Viewster, SnagFilms, Google Play, etc.) do NOT require E&O to be carried by either the content producer or by Kinonation. The major cable VoD outlets do still require E&O, so once we start delivering to them we may have to carry it.
+The outlets we currently deliver to (Hulu, Amazon, iTunes, Viewster, SnagFilms, Google Play, etc.) do NOT require E&O to be carried by either the content producer or by Kinonation. The major cable VOD outlets do still require E&O, so once we start delivering to them we may have to carry it.
 
 ###Why can’t my film be letterboxed? It looks better that way.
 
@@ -98,7 +98,7 @@ Yes, go for it, no problem with the DVD and createspace.
 
 ###Do you have a list of what the various online distribution outlets take as their commission?
 
-Good question, iTunes takes 30:70. Meaning they keep 30%. Most other VoD outlets in N America take 50:50. In the UK, it’s more like the iTunes 70:30 model.
+Good question, iTunes takes 30:70. Meaning they keep 30%. Most other VOD outlets in N America take 50:50. In the UK, it’s more like the iTunes 70:30 model.
 
 ###Do you take shorts?
 
@@ -108,7 +108,7 @@ Yes, with reservations. Most outlets don’t take shorts. Those that do (e.g. iT
 
 Yes, no problem, you do that in the Outlets & Territories tab of the metadata pages.
 
-###Any magic words on VoD Marketing?
+###Any magic words on VOD Marketing?
 
 Figure out the real demographic niche for the film and focus on that. Advertise on Facebook, acquire mailing lists, contact the relevant blogs & magazines. Do something every day to connect your audience to your film.
 

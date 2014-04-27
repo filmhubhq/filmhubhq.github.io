@@ -3,14 +3,14 @@ title: Make Your Film A HIT on Hulu
 layout: post
 subtitle: Diary of a film startup part 32
 author: Roger Jackson
-tags: Hulu Disney Comcast 
+tags: Outlets
 ---
 
 
 ###Hulu
-Hulu has been much in the news this past week. Owned jointly by Fox, Disney and Comcast, it was on the auction block and expected to fetch north of a billion dollars. But the owners changed their minds, and decided instead to invest $750m in a global expansion. Which makes sense — they have great TV content from the parent companies, supplied on a “day after air date.” They have a brand with a fair amount of global recognition. And they have an impressive technology platform.. Hulu have already expanded internationally into Japan, so it makes sense to invest in the rest of the world. Bottom line: they’ve built a highly scalable platform and user experience, and VoD is catching on fast in Europe and Asia, so now’s a great time to launch Hulu Global.
+Hulu has been much in the news this past week. Owned jointly by Fox, Disney and Comcast, it was on the auction block and expected to fetch north of a billion dollars. But the owners changed their minds, and decided instead to invest $750m in a global expansion. Which makes sense — they have great TV content from the parent companies, supplied on a “day after air date.” They have a brand with a fair amount of global recognition. And they have an impressive technology platform.. Hulu have already expanded internationally into Japan, so it makes sense to invest in the rest of the world. Bottom line: they’ve built a highly scalable platform and user experience, and VOD is catching on fast in Europe and Asia, so now’s a great time to launch Hulu Global.
 
-I want to share some early experiences and numbers from the trenches of Hulu. Why Kinonation films are succeeding on that platform. Or not. Here are some examples. My only (tentative) conclusion so far — films with a specific niche — whether documentary or narrative feature — have a guaranteed VoD audience, and are way easier to “market.”  While more general movies — narrative features with lo or no talent — much tougher. Sad, but, I think, true. And not terribly profound insight.
+I want to share some early experiences and numbers from the trenches of Hulu. Why Kinonation films are succeeding on that platform. Or not. Here are some examples. My only (tentative) conclusion so far — films with a specific niche — whether documentary or narrative feature — have a guaranteed VOD audience, and are way easier to “market.”  While more general movies — narrative features with lo or no talent — much tougher. Sad, but, I think, true. And not terribly profound insight.
 
 <a href="http://www.hulu.com/watch/508668">Model Minority</a>
 
@@ -22,7 +22,7 @@ Has been live on Hulu for just 14 days. Tragically compelling <a href="http://ww
 
 <a href="http://www.hulu.com/watch/501254">3:19</a>
 
-Live since June 14th, this film had the usual first week bump (approx 500 views per day) before settling down to a consistent 100+view/day. I love this film — it has everything I adore in European cinema…massively flawed characters, erudite but improbable dialogue, and random, inexplicable tragedy. And inexplicable success. I have a feeling there’s a profound lack of Spanish language films on American VoD outlets. It’s been live almost 3 months and still getting 100+ views/day — think art house cinema on a rainy Tuesday.
+Live since June 14th, this film had the usual first week bump (approx 500 views per day) before settling down to a consistent 100+view/day. I love this film — it has everything I adore in European cinema…massively flawed characters, erudite but improbable dialogue, and random, inexplicable tragedy. And inexplicable success. I have a feeling there’s a profound lack of Spanish language films on American VOD outlets. It’s been live almost 3 months and still getting 100+ views/day — think art house cinema on a rainy Tuesday.
 
 <a href="http://www.hulu.com/watch/508148">Missing Pieces</a>
 
@@ -34,4 +34,4 @@ This is a documentary produced in 2007 and released in 2009. It appeared on Logo
 
 ###But Is It Sustainable?
 
-These films are currently succeeding on VoD. But will they be sustainable? In 6 months, what will be their numbers? How can filmmakers work to retain this audience passion? This is the holy grail of VoD marketing — how can I make an on-going living from VoD? Is it even possible, for God’s sake. To be continued…
+These films are currently succeeding on VOD. But will they be sustainable? In 6 months, what will be their numbers? How can filmmakers work to retain this audience passion? This is the holy grail of VOD marketing — how can I make an on-going living from VOD? Is it even possible, for God’s sake. To be continued…

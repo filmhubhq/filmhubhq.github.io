@@ -3,7 +3,7 @@ title: How to Avoid Rejection
 layout: post
 subtitle: Diary of a film startup part 26
 author: Roger Jackson
-tags: QC
+tags: Specs
 ---
 ###Films Are Flowing
 The KinoNation tech team has now finished the automated delivery module for our three beta outlets — Hulu, Amazon and Viewster. Which means film packages are flowing — more rapidly every day — to those outlets. And it won’t be long before we add all the other video-on-demand outlets we’ve done distribution deals with. But with that success comes other problems — notably films that get rejected at the Quality Control (QC) stage, either at KinoNation QC, or at the outlet QC. So this post is about how to avoid having your film be a QC casualty. It’s like a theatrical distribution deal — there’s a list of deliverables, and they have to be exactly to the required spec, with zero wiggle room.
@@ -16,7 +16,7 @@ Here are some common reasons for QC failure:
 
 ###Letterboxing
 
-This is the #1 QC issue that we face, despite it being prominently at the top of the NO column of ourupload specs. And that’s understandable. Most editors assume that a film looks better when letterboxed, so that’s how they export it. The problem is the VoD outlets have their own letterboxing issues — because they all have proprietary video players, and because films are played on a variety of devices — from PCs to tablets to phones to smart TVs. So they want the video “clean” — no letterboxing. No way around it — you’ll need to re-save that ProRes file without the black bars.
+This is the #1 QC issue that we face, despite it being prominently at the top of the NO column of ourupload specs. And that’s understandable. Most editors assume that a film looks better when letterboxed, so that’s how they export it. The problem is the VOD outlets have their own letterboxing issues — because they all have proprietary video players, and because films are played on a variety of devices — from PCs to tablets to phones to smart TVs. So they want the video “clean” — no letterboxing. No way around it — you’ll need to re-save that ProRes file without the black bars.
 
 ###Images
 
@@ -32,19 +32,19 @@ Audio is tricky. How loud should a film be? The answer is “loud enough” — 
 
 ###No URL’s in Credits
 
-This causes much knashing of teeth. Pretty much every VoD outlets says “no promotional url’s (website addresses) in end credits, or anywhere else in the film.” And pretty much every filmmaker thinks they have a God-given right to promote their site in their own film. All I can say is we don’t make the rules, but we do check and we will reject movies with urls.
+This causes much knashing of teeth. Pretty much every VOD outlets says “no promotional url’s (website addresses) in end credits, or anywhere else in the film.” And pretty much every filmmaker thinks they have a God-given right to promote their site in their own film. All I can say is we don’t make the rules, but we do check and we will reject movies with urls.
 
 ###Trailer
 
-Your trailer is, obviously, a critical sales tool. We need it because almost every VoD outlets requires it. Bottom line is that it has to be the same quality file (ProRes) as the main film, and has to adhere to the same criteria. Think of it as a mini version of the main film. For many viewers, it will be the deciding factor in their watch/not watch decision for your film.
+Your trailer is, obviously, a critical sales tool. We need it because almost every VOD outlets requires it. Bottom line is that it has to be the same quality file (ProRes) as the main film, and has to adhere to the same criteria. Think of it as a mini version of the main film. For many viewers, it will be the deciding factor in their watch/not watch decision for your film.
 
 ###Pre-Roll
 
-Most editors are used to delivering tapes with pre-roll stuff — color bars, audio tone, 10, 9, 8 …1 countdowns, etc. ALL will result in QC failure, because VoD outlets don’t want any of this. They want the ultimate cold open — the first second of the VoD video is the first second of the film.
+Most editors are used to delivering tapes with pre-roll stuff — color bars, audio tone, 10, 9, 8 …1 countdowns, etc. ALL will result in QC failure, because VOD outlets don’t want any of this. They want the ultimate cold open — the first second of the VOD video is the first second of the film.
 
 ###No Burn-In
 
-We get a lot of “foreign” films with audio in a language other than English. Which we love — Klaus and I conceived KinoNation to make it super-easy for non-English films to get US distribution — and vice-versa. But we need these films to be “clean” — no burned-in subtitles. Instead, sub-titles should be included as part of the metadata, so they can be served “on the fly” by VoD outlets according to the location or preference of the viewer.
+We get a lot of “foreign” films with audio in a language other than English. Which we love — Klaus and I conceived KinoNation to make it super-easy for non-English films to get US distribution — and vice-versa. But we need these films to be “clean” — no burned-in subtitles. Instead, sub-titles should be included as part of the metadata, so they can be served “on the fly” by VOD outlets according to the location or preference of the viewer.
 
 ###Finally…
 

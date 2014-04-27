@@ -26,11 +26,16 @@ title: Blog
 {% endfor %}
     </div> <!-- left column -->
     <div class="col-md-4">
-            <div class="tag-nav">
-             {% include _tags-sidenav.html %}
-             {% include _tags-count.html %}
-            </div>
-            {% include _blog-sidenav.html %}
+      
+      <div class="tag-nav">
+       {% include _tags-sidenav.html %}
+       {% include _tags-count.html %}
+      </div>
+
+      {% include _searchbox.html %}
+
+      {% include _blog-sidenav.html %}
+
     </div>
   </div>  <!-- row -->
 </div>   <!-- container -->

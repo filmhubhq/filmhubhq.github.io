@@ -36,15 +36,20 @@ a.navbar-brand:hover {
 .container.content {
   margin-top: 40px;
 }
-.container.content h1:first-of-type {
-  margin-top: 0;
-}
 .container.content + footer {
   margin-top: 40px;
 }
 .content article:first-of-type h2 {
   margin-top: 0px;
 }
+.container.content h1:first-of-type,
+.content article:first-of-type h2,
+.tag-nav:first-of-type h2 {
+  margin-top: 0;
+}
+
+
+
 /*.page-home .navbar > .container .navbar-brand {
   background: url('../images/logo-v3-white-35h.png') no-repeat;
 }

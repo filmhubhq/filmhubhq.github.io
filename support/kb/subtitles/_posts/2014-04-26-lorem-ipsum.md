@@ -1,10 +1,9 @@
 ---
-category: support
-layout: post
+layout: support
 tags: Subtitles Captions International
 author: Klaus Badelt
 ---
-We recommend the following do-it-yourself solutions for creating, editing and converting subtitles & closed captions:
+Here are some do-it-yourself solutions for creating, editing and converting subtitles & closed captions. 
 
 Online captioning:
 
@@ -22,4 +21,4 @@ Desktop apps:
 
 You can use these apps and web apps to convert to .SRT as well.
 
-More info in our [knowledgbase section about subtitles and captions](https://kinonation.zendesk.com/hc/en-us/sections/200343863-Subtitles-closed-captions).
+More info in our [knowledgebase section about subtitles and captions](/support/subtitles).

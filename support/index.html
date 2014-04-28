@@ -1,0 +1,81 @@
+---
+layout: bootstrap
+title: Kinonation | Support
+---
+<div class="jumbotron">
+  <div class="container">
+    <h1>Help &amp; Support <small>Staging - Not live yet</small></h1>
+     <p class="lead">Browse our knowledge base articles. Read our documentation. Watch video tutorials. Follow our How-to posts. Still can't find what you're looking for? <a href="/support/ticket.html" class="textlink">Submit a ticket</a>.</p>
+     <p class="lead">IMPORTANT: This section is not live yet. Please refer to our <a href="https://kinonation.zendesk.com" class="textlink">Zendesk Support Site</a> for now.</p>
+  </div>
+</div>
+
+<div class="container content">
+  <div class="row">
+    <div class="col-md-9"> <!-- left column -->
+      <h1 class="page-header"><a href="/support/kb">Knowledge Base</a> <small>Support articles</small></h1>
+      <p>
+        Our help articles are full of information and resources. Search our knowledge base or browse through the categories.
+      </p>
+      <div class="row">
+        <div class="col-md-6">
+          <h3><a href="/support/getting-started">Getting Started</a></h3>
+          <ul class="list-unstyled">
+          {% for post in site.categories["getting-started"] %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3><a href="/support/subtitles">Subtitles</a></h3>
+          <ul class="list-unstyled">
+          {% for post in site.categories["subtitles"] %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>          
+      </div> <!-- row -->
+
+      <h1 class="page-header"><a href="#">Tutorials</a> <small>Videos and How-to's</small></h1>
+      <p>
+        We guide you through specific topics from A to Z. Watch our screencasts, or if you prefer going at your own pace, read our How-To articles.
+      </p>
+      <div class="row">
+        <div class="col-md-6">
+          <h3><a href="#">Video tutorials</a></h3>
+          <ul class="list-unstyled">
+          {% for post in site.categories["screencasts"] %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3><a href="#">How-to's </a></h3>
+          <ul class="list-unstyled">
+          {% for post in site.categories["howto"] %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>          
+      </div> <!-- row -->
+
+      <h1 class="page-header"><a href="/support/forum">Forums</a> <small>Community help</small></h1>
+      <p>
+        Here you can share your thoughts, ask questions and help others.
+      </p>
+      <ul class="list-unstyled">
+        <li><a href="/support/forum">All forums (muut version)</a></li>
+        <li><a href="/support/forum/#!/support">Support forum</a></li>
+        <li><a href="/support/forum/#!/ideas">Submit &amp; discuss ideas</a></li>
+        <li><a href="/support/forum2">All forums (Nibble version)</a></li>
+      </ul>
+
+   
+    </div> <!-- left column -->
+
+    <div class="col-md-3">
+    {% include _support-sidenav.html %}
+    </div>
+
+  </div>  <!-- row -->
+</div>   <!-- container -->

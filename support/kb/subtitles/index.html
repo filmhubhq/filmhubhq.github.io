@@ -1,0 +1,32 @@
+---
+layout: bootstrap
+title: Kinonation | Support
+---
+<div class="container content">
+  <div class="row">
+    <div class="col-md-9"> <!-- left column -->
+      <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li><a href="/support">Support</a></li>
+        <li><a href="/support/kb">Knowledge Base</a></li>
+        <li class="active">Subtitles</li>
+      </ol>
+      <h1 class="page-header">Subtitles &amp; Closed Captions</h1>
+      <p class="lead">Subtitles, Closed Captions, and other resources related to internationalization. Can't find what you're looking for? <a href="/support/ticket.html">Submit a ticket</a>.</p>
+      
+      <h3>Articles</h3>
+      <ul class="list-unstyled">
+      {% for post in site.categories["subtitles"] %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      </ul>
+
+    </div> <!-- left column -->
+
+    <div class="col-md-3">
+    {% include _support-sidenav.html %}
+    </div>
+
+  </div>  <!-- row -->
+</div>   <!-- container -->
+

@@ -1,0 +1,21 @@
+<div id="sidenav" class="sidebar" role="complementary">
+  <ul class="nav nav-pills nav-stacked">
+
+    <li class="nav-header {% if page.url == "/support/index.html" %}active{% endif %}"><a href="/support"><i class="fa fa-home fa-lg"></i> Support Home</a></li>
+    <li class="nav-header {% if page.url == "/support/kb/index.html" %}active{% endif %}"><a href="/support/kb"><i class="fa fa-book"></i> Knowledge Base Home</a></li>
+
+    <li class="nav-header {% if page.url == "/support/kb/getting-started/index.html" %}active{% endif %}"><a href="/support/kb/getting-started"><i class="fa fa-glass"></i> Getting Started</a></li>
+    {% for post in site.categories["getting-started"] %}
+      <li {% if post.url == page.url %}class="active"{% endif %}><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+
+    <li class="nav-header {% if page.url == "/support/kb/subtitles/index.html" %}active{% endif %}"><a href="/support/kb/subtitles"><i class="fa fa-globe"></i> Subtitles</a></li>
+    {% for post in site.categories["subtitles"] %}
+      <li {% if post.url == page.url %}class="active"{% endif %}><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+
+    <li class="nav-header {% if page.url == "/support/ticket.html" %}active{% endif %}"><a href="/support/ticket.html"><i class="fa fa-ticket"></i> Submit a ticket</a></li>  </ul>
+
+</div> <!-- sidenav -->
+
+{% include _searchbox.html %}

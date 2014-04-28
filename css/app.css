@@ -72,49 +72,7 @@ background-color: #469be2;
 }
 */
 .jumbotron {
-  background: #348eda url('../images/home-globe.png') no-repeat right -400px center;
-  margin-bottom: 0;
-  padding-bottom: 30px;
-  color: #fff;
-}
-.jumbotron h1, section h1 {
-  font-weight: bold;
-  line-height: 1;
-  margin-bottom: 40px;
-}
-.jumbotron h1 small, section h1 small {
-  font-size: inherit;
-  font-weight: 200;
-  color: #ddd;
-  display: block;
-}
-section h1.subheader{
-  margin-bottom: 0;
-}
-section h2.subheader {
-  margin-bottom: 30px;
-}
-.jumbotron a.btn-default {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-  font-size: 26px;
-  font-weight: 200;
-  background: inherit;
-  color: #fff;
-}
-.jumbotron a.btn-default:hover {
-  color: #348eda;
-  background-color: #fff;
-  border-color: #348eda;
-}
-.jumbotron p.lead, .enterprise p.lead {
-  font-size: 26px;
-}
-small.super {
-  vertical-align: super;
-}
-.jumbotron a {
+  background-color: #348eda;
   color: #fff;
 }
 .jumbotron a.textlink {
@@ -126,6 +84,52 @@ small.super {
 .jumbotron a.textlink:hover {
   text-decoration: none;
   border-bottom: solid;
+}
+.page-home .jumbotron {
+  background: #348eda url('../images/home-globe.png') no-repeat right -400px center;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+.page-home .jumbotron h1, section h1 {
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+.page-home .jumbotron h1 small, section h1 small {
+  font-size: inherit;
+  font-weight: 200;
+  color: #ddd;
+  display: block;
+}
+.page-home .jumbotron a.btn-default {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: 200;
+  background: inherit;
+  color: #fff;
+}
+.page-home .jumbotron a.btn-default:hover {
+  color: #348eda;
+  background-color: #fff;
+  border-color: #348eda;
+}
+.page-home .jumbotron p.lead, .enterprise p.lead {
+  font-size: 26px;
+}
+.jumbotron a {
+  color: #fff;
+}
+
+section h1.subheader{
+  margin-bottom: 0;
+}
+section h2.subheader {
+  margin-bottom: 30px;
+}
+small.super {
+  vertical-align: super;
 }
 /*#vodlogos {
   background: #e67d25;
@@ -202,11 +206,20 @@ div#terms-intro {
 .pricing img {
   margin: 40px auto;
 }
-.nav.nav-stacked.sidenav li>a {
-  padding-top: 6px;
-  padding-bottom: 6px;
+.nav-stacked li>a {
+  font-size: 14px;
+  padding-left: 40px;
 }
-.meta {
+.nav-stacked li.nav-header>a {
+  font-size: inherit;
+  padding-left: 10px;
+}
+/*.nav-stacked li+li.nav-header {
+  margin-top: 10px;
+  margin-left: 6px;
+  margin-bottom: 6px;
+}
+*/.meta {
   margin-bottom: 30px;
 }
 .meta small {

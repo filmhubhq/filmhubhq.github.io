@@ -42,7 +42,7 @@
           <li><a href="{% if page.url != '/index.html' %}/{% endif %}#enterprise" class="animate">Enterprise</a></li>
           <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#about" class="animate">About</a></li>
           <li {% if page.url == '/blog/index.html' %} class="active" {% endif %}><a href="/blog">Blog</a></li>
-          <li class="hidden-sm"><a href="/support" target="_blank">Support</a></li>
+          <li class="hidden-sm"><a href="/support">Support</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li class="hidden-sm"><a href="http://twitter.com/kinonation1"><i class="fa fa-lg fa-twitter"></i></a></li>
@@ -65,8 +65,8 @@
         <li><a href="/terms">Terms</a></li>
         <li><a href="/privacy">Privacy</a></li>
         <li><a href="/contact">Contact</a></li>
-        <li><a href="/support/kb/getting-started/2014/04/22/video-upload-specs.html">Upload Specs</a></li>
-        <li><a href="/support" target="_blank">Help Center</a></li>
+        <li><a href="{{ post_url 2014-04-22-video-upload-specs }}">Upload Specs</a></li>
+        <li><a href="/support">Help Center</a></li>
         <li><a href="http://twitter.com/kinonation1"><i class="fa fa-lg fa-twitter"></i></a></li>
         <li><a href="http://facebook.com/kinonation"><i class="fa fa-lg fa-facebook"></i></a></li>
       </ul>
@@ -87,7 +87,7 @@
   </div>
 </footer>
   
-  {% include _js.html %}
+{% include _js.html %}
   
 </body>
 </html>

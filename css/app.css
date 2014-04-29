@@ -6,6 +6,7 @@ body {
   padding-top: 50px;
   padding-bottom: 0;
   color: #525254;
+  background-color: #f8f8f8;
 /*  -webkit-font-smoothing: antialiased;*/
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -33,6 +34,10 @@ a.navbar-brand:hover {
     background-image: url('../images/logo-v3-gray-35h.svg');
     background-size: contain;
   }
+}
+.body {
+  background-color: #fff;
+  min-height: 800px;
 }
 .container.content {
   margin-top: 40px;

@@ -21,7 +21,8 @@
 </head>
 
 <body class="page-{{ page.id }}" data-spy="scroll" data-target=".navbar-collapse" data-offset="51">
-    
+
+<div class="body">
   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
@@ -55,34 +56,36 @@
 
   {{ content }}
 
-  <footer>
-    <div class="container">
-        <ul>
-          <li>Copyright &copy; 2014 Kinonation</li>
-          <li><a href="/terms">Terms</a></li>
-          <li><a href="/privacy">Privacy</a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="/support/kb/getting-started/2014/04/22/video-upload-specs.html">Upload Specs</a></li>
-          <li><a href="/support" target="_blank">Help Center</a></li>
-          <li><a href="http://twitter.com/kinonation1"><i class="fa fa-lg fa-twitter"></i></a></li>
-          <li><a href="http://facebook.com/kinonation"><i class="fa fa-lg fa-facebook"></i></a></li>
-        </ul>
-        
-        
-        
-        {% if site.social %}
-        <div class="social">
-        	<span class="twitter">
-        		<a href="http://twitter.com/share" data-text="Check this out:" data-hashtags="vod" class="twitter-share-button" data-url="http://kinonation.com/">Tweet</a>
-        	</span>
-          <span class="twitter-follow"><a href="https://twitter.com/Kinonation1" class="twitter-follow-button" data-show-count="false">Follow @Kinonation1</a></span>
-        	<span class="Facebook">
-        		<iframe src="https://www.facebook.com/plugins/like.php?href=http://kinonation.com&show_faces=false&layout=button_count" scrolling="no" frameborder="0" style="height: 21px; width: 100px" allowTransparency="true"></iframe>
-        	</span>
-        </div>
-        {% endif %}
-    </div>
-  </footer>
+</div>
+
+<footer>
+  <div class="container">
+      <ul>
+        <li>Copyright &copy; 2014 Kinonation</li>
+        <li><a href="/terms">Terms</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/support/kb/getting-started/2014/04/22/video-upload-specs.html">Upload Specs</a></li>
+        <li><a href="/support" target="_blank">Help Center</a></li>
+        <li><a href="http://twitter.com/kinonation1"><i class="fa fa-lg fa-twitter"></i></a></li>
+        <li><a href="http://facebook.com/kinonation"><i class="fa fa-lg fa-facebook"></i></a></li>
+      </ul>
+      
+      
+      
+      {% if site.social %}
+      <div class="social">
+      	<span class="twitter">
+      		<a href="http://twitter.com/share" data-text="Check this out:" data-hashtags="vod" class="twitter-share-button" data-url="http://kinonation.com/">Tweet</a>
+      	</span>
+        <span class="twitter-follow"><a href="https://twitter.com/Kinonation1" class="twitter-follow-button" data-show-count="false">Follow @Kinonation1</a></span>
+      	<span class="Facebook">
+      		<iframe src="https://www.facebook.com/plugins/like.php?href=http://kinonation.com&show_faces=false&layout=button_count" scrolling="no" frameborder="0" style="height: 21px; width: 100px" allowTransparency="true"></iframe>
+      	</span>
+      </div>
+      {% endif %}
+  </div>
+</footer>
   
   {% include _js.html %}
   

@@ -7,19 +7,18 @@ layout: bootstrap
       <ol class="breadcrumb">
         <li><a href="/">Home</a></li>
         <li><a href="/support">Support</a></li>
-        <li><a href="/support/kb">Knowledge Base</a></li>
-        <li><a href="{{ page.url }}/..">{{page.categories | last | capitalize }}</a></li>
-        <li class="active">{{ page.title }}</li>
+        <li><a href="/support/faq">FAQ</a></li>
+        <li class="active">{{ page.title }}?</li>
       </ol>
-      <h2>{{ page.title }}
-      {% if page.subtitle != '' %}
-        <br/><small>{{ page.subtitle }}</small>
+      <h2>{{ page.title }}? 
+        {% if page.tags.size > 0 %}
+        <small><i class="fa fa-tags"></i>&nbsp;
+        {% for tag in page.tags %}
+          <a href="/tags.html#{{ tag | cgi_escape }}" class="tag label label-default">{{ tag }}</a>&nbsp;
+        {% endfor %}
+        </small>
       {% endif %}
       </h2>
-      <i class="fa fa-tags"></i>&nbsp;
-      {% for tag in page.tags %}
-        <a href="/tags.html#{{ tag | cgi_escape }}" class="tag label label-default">{{ tag }}</a>&nbsp;
-      {% endfor %}
       </p>
       <hr />
 

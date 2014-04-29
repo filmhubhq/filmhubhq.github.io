@@ -1,0 +1,39 @@
+---
+layout: bootstrap
+title: Kinonation | Support
+---
+<div class="container content">
+  <div class="row">
+    <div class="col-md-9"> <!-- left column -->
+      <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li><a href="/support">Support</a></li>
+        <li class="active">FAQ</li>
+      </ol>
+      <h1 class="page-header">FAQ</h1>
+      <p class="lead">Answers to the most common questions at Kinonation. Can't find what you're looking for? <a href="/support/ticket.html">Submit a support ticket</a>.</p>
+      
+
+        <h3><i class="fa fa-info-circle text-primary"></i> <span class="text-primary">General information</span></h3>
+        <ul class="list-unstyled">
+          {% for post in site.categories["general"] %}
+          <li><i class="fa fa-info-circle text-primary"></i> <a href="{{ post.url }}">{{ post.title }}?</a></li>
+          {% endfor %}
+        </ul>
+
+        <h3><i class="fa fa-dollar text-success"></i> <span class="text-success">Money</span></h3>
+        <ul class="list-unstyled">
+          {% for post in site.categories["money"] %}
+          <li><i class="fa fa-dollar text-success"></i> <a class="text-success" href="{{ post.url }}">{{ post.title }}?</a></li>
+          {% endfor %}
+        </ul>
+
+    </div> <!-- left column -->
+
+    <div class="col-md-3">
+    {% include _support-sidenav.html %}
+    </div>
+
+  </div>  <!-- row -->
+</div>   <!-- container -->
+

@@ -414,3 +414,18 @@ body.page-terms .container.section {
 #teampics {
   margin-top: 30px;
 }
+
+/*.page-faq-index ol li i, .page-faq-index p i {
+  padding: 4px 5px;
+  margin-right: 6px;
+}
+
+.page-faq-index ol {
+  list-style-type: lower-roman;
+  list-style-position: outside;
+  list-style-image: none;
+}
+*/
+.page-faq-index li > p:first-child {
+  font-weight: bold;
+}

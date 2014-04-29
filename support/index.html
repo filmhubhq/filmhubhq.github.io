@@ -1,70 +1,81 @@
 ---
 layout: bootstrap
 title: Kinonation | Support
+id: support-index
 ---
 <div class="jumbotron">
   <div class="container">
     <h1>Help &amp; Support <small>Staging - Not live yet</small></h1>
-     <p class="lead">Browse our knowledge base articles. Read our documentation. Watch video tutorials. Follow our How-to posts. Still can't find what you're looking for? <a href="/support/ticket.html" class="textlink">Submit a ticket</a>.</p>
+     <p class="lead">Browse our knowledge base articles. Read our documentation. Watch video tutorials. Follow our How-To guides. Still can't find what you're looking for? <a href="/support/ticket.html" class="textlink">Submit a ticket</a>.</p>
      <p class="lead">IMPORTANT: This section is not live yet. Please refer to our <a href="https://kinonation.zendesk.com" class="textlink">Zendesk Support Site</a> for now.</p>
   </div>
 </div>
 
 <div class="container content">
-  <h1 class="page-header">Support <small>Help center</small></h1>
-  <p class="lead">
-    Our help center is full of information and resources. Search, ask, watch, or contact us.
-  </p>
-
-
+  <!-- <h1 class="page-header">Support <small>Help center</small></h1> -->
   <div class="row">
-    <div class="col-md-3">
-      <h3><a href="/support/kb">Knowledge Base</a></h3>
-      <ul class="list-unstyled">
-        <li><a href="/support/kb/getting-started">Getting started &raquo;</a></li>
-        <li><a href="/support/kb/subtitles">Subtitles &raquo;</a></li>
-      </ul>
-    </div>
+    <div class="col-md-7"> <!-- Directory -->
+      <!-- <p class="lead">
+        Our help center is full of information and resources. Search, ask, watch, or contact us.
+      </p> -->
+      <div class="row firstrow">        
+        <div class="col-md-6">
+          <h3><a href="/support/kb">Knowledge Base</a></h3>
+          <p>Search our help articles or browse the categories.</p>
+          <ul class="list-unstyled">
+            <li><a href="/support/kb/getting-started">Getting started &raquo;</a></li>
+            <li><a href="/support/kb/subtitles">Subtitles &raquo;</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3><a href="/support/faq">FAQ</a></h3>
+          <p>
+            Answers to most frequently asked questions.
+          </p>
+          <ul class="list-unstyled">
+            <li><a href="/support/faq">General information &raquo;</a></li>
+            <li><a href="/support/faq#money">Money &raquo;</a></li>
+          </ul>
+        </div>
+      </div> <!-- first directory row -->
+      <div class="row"> <!-- 2nd directory row -->    
+        <div class="col-md-6">
+          <h3><a href="#">Tutorials</a></h3>
+          <p>Our video tutorials or How-To guides help you through specific topics.</p>
+          <ul class="list-unstyled">
+            <li><a href="#">Video tutorials &raquo;</a></li>
+            <li><a href="#">How-To guides &raquo;</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3><a href="/support/forum">Forums</a></h3>
+          <p>
+            Share your ideas, ask the community and help others.
+          </p>
+          <ul class="list-unstyled">
+            <li><a href="/support/forum">Support &raquo;</a></li>
+            <li><a href="/support/forum">Ideas &raquo;</a></li>
+            <li><a href="/support/forum">Marketing &raquo;</a></li>
+            <li><a href="/support/forum2">Forums (Nibble version) &raquo;</a></li>
+          </ul>
+        </div>
+      </div> <!-- 2nd directory row -->    
+    </div> <!-- Directory -->
 
-
-    <div class="col-md-3">
-      <h3><a href="/support/faq">FAQ &raquo;</a></h3>
-      <p>
-        Answers to most frequently asked questions.
-      </p>
-    </div>
-
-    <div class="col-md-3">
-      <h3><a href="#">Tutorials</a></h3>
-      <ul class="list-unstyled">
-        <li><a href="#">Video tutorials &raquo;</a></li>
-        <li><a href="#">How-to manuals &raquo;</a></li>
-      </ul>
-    </div>
-
-    <div class="col-md-3">
-      <h3><a href="/support/forum">Forums &raquo;</a></h3>
-      <p>
-        Here you can share your thoughts, ask questions and help others.
-      </p>
-      <ul class="list-unstyled">
-        <li><a href="/support/forum2">Forums (Nibble version) &raquo;</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-5"> <!-- Search -->
       <h3>Ask a question</h3>
       {% include _searchbox.html %}
+      <h4>Most read posts</h4>
+      <ul class="list-unstyled">
+        <li><a href="/support/kb/getting-started/video-upload-specs.html">Video upload specs &raquo;</a> <small class="text-muted">Knowledge base</small></li>
+        <li><a href="/support/kb/getting-started/resolution.html">Resolutions &amp; aspect ratios &raquo;</a> <small class="text-muted">Knowledge base</small></li>
+        <li><a href="/support/kb/subtitles/diy-subtitles.html">Do-it-yourself subtitles &raquo;</a> <small class="text-muted">Forums</small></li>
+        <li><a href="/support/kb/subtitles/lorem-ipsum.html">How do i ... &raquo;</a> <small class="text-muted">FAQ</small></li>
+      </ul>
+      <p>
+        Can't find your answer anywhere? <a href="/support/ticket.html" class="textlink">Submit a ticket</a>.
+      </p>
     </div>
   </div>
-
-
-  </div> <!-- row -->
-  <p>
-  Can't find your answer anywhere? <a href="/support/ticket.html" class="textlink">Submit a ticket</a>.
-</p>
-
-  
   
 </div>   <!-- container -->

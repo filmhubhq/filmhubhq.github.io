@@ -2,6 +2,7 @@
 layout: support
 tags: Subtitles Captions International
 author: Klaus Badelt
+title: Do-it-yourself Subtitles
 ---
 Here are some do-it-yourself solutions for creating, editing and converting subtitles & closed captions. 
 

@@ -7,23 +7,24 @@ layout: bootstrap
       <ol class="breadcrumb">
         <li><a href="/">Home</a></li>
         <li><a href="/support">Support</a></li>
-        <li><a href="/support/kb">Knowledge Base</a></li>
-        <li><a href="{{ page.url }}/..">{{page.categories | last | capitalize }}</a></li>
+        <li><a href="{{ page.url }}/..">{{ page.categories | last | capitalize }}</a></li>
         <li class="active">{{ page.title }}</li>
       </ol>
-      <h2>{{ page.title }}
-      {% if page.subtitle != '' %}
-        <br/><small>{{ page.subtitle }}</small>
-      {% endif %}
-      </h2>
-      <i class="fa fa-tags"></i>&nbsp;
-      {% for tag in page.tags %}
-        <a href="/tags.html#{{ tag | cgi_escape }}" class="tag label label-default">{{ tag }}</a>&nbsp;
-      {% endfor %}
-      </p>
-      <hr />
 
       <article>
+        <h1 class="page-header">{{ page.title }}
+        {% if page.subtitle != '' %}
+          <br/><small>{{ page.subtitle }}</small>
+        {% endif %}
+        </h1>
+        <p class="meta"><small>Last update: {{ page.date | date_to_string }}</small>&nbsp;
+        {% if page.tags.size > 0 %}
+          <i class="fa fa-tags"></i>&nbsp;
+          {% for tag in page.tags %}
+            <a href="/tags.html#{{ tag | cgi_escape }}" class="tag label label-default">{{ tag }}</a>&nbsp;
+          {% endfor %}
+        {% endif %}
+        </p>
            
         {{ content }}
                 
@@ -39,6 +40,7 @@ layout: bootstrap
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         
       </article>
+
     </div>
     
     <div class="col-md-3">

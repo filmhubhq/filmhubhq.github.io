@@ -214,9 +214,9 @@ div#terms-intro {
 .pricing img {
   margin: 40px auto;
 }
-.nav-stacked li>a {
+.nav-stacked li.nav-article>a {
   font-size: 14px;
-  padding-left: 40px;
+  padding: 2px 10px 2px 30px;
 }
 .nav-stacked li.nav-header>a {
   font-size: inherit;
@@ -357,7 +357,7 @@ footer ul>li:last-child {
     font-size: 64px;
     letter-spacing: -3px;
   }
-  .lead {
+  .page-home .lead {
     font-size: 18px;
   }
 }
@@ -420,6 +420,6 @@ body.page-terms .container.section {
 .page-faq-index li > p:first-child {
   font-weight: bold;
 }
-.page-support-index .col-md-5>h3:first-child {
+.first-row {
   margin-top: 0;
 }

@@ -3,79 +3,68 @@ layout: bootstrap
 title: Kinonation | Support
 id: support-index
 ---
-<div class="jumbotron">
+<!-- <div class="jumbotron">
   <div class="container">
     <h1>Help &amp; Support <small>Staging - Not live yet</small></h1>
      <p class="lead">Browse our knowledge base articles. Read our documentation. Watch video tutorials. Follow our How-To guides. Still can't find what you're looking for? <a href="/support/ticket.html" class="textlink">Submit a ticket</a>.</p>
      <p class="lead">IMPORTANT: This section is not live yet. Please refer to our <a href="https://kinonation.zendesk.com" class="textlink">Zendesk Support Site</a> for now.</p>
   </div>
-</div>
+</div> -->
 
 <div class="container content">
-  <!-- <h1 class="page-header">Support <small>Help center</small></h1> -->
+  <ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    <li class="active">Support</li>
+  </ol>
+  <h1 class="page-header">Support <small>Help center &amp; forums</small></h1>
   <div class="row">
-    <div class="col-md-7"> <!-- Directory -->
-      <!-- <p class="lead">
-        Our help center is full of information and resources. Search, ask, watch, or contact us.
-      </p> -->
-      <div class="row firstrow">        
-        <div class="col-md-6">
-          <h3><a href="/support/kb">Knowledge Base</a></h3>
-          <p>Search our help articles or browse the categories.</p>
-          <ul class="list-unstyled">
-            <li><a href="/support/kb/getting-started">Getting started &raquo;</a></li>
-            <li><a href="/support/kb/subtitles">Subtitles &raquo;</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <h3><a href="/support/faq">FAQ</a></h3>
-          <p>
-            Answers to most frequently asked questions.
-          </p>
-          <ul class="list-unstyled">
-            <li><a href="/support/faq">General information &raquo;</a></li>
-            <li><a href="/support/faq#money">Money &raquo;</a></li>
-          </ul>
-        </div>
-      </div> <!-- first directory row -->
-      <div class="row"> <!-- 2nd directory row -->    
-        <div class="col-md-6">
-          <h3><a href="#">Tutorials</a></h3>
-          <p>Our video tutorials or How-To guides help you through specific topics.</p>
-          <ul class="list-unstyled">
-            <li><a href="#">Video tutorials &raquo;</a></li>
-            <li><a href="#">How-To guides &raquo;</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <h3><a href="/support/forum">Forums</a></h3>
-          <p>
-            Share your ideas, ask the community and help others.
-          </p>
-          <ul class="list-unstyled">
-            <li><a href="/support/forum">Support &raquo;</a></li>
-            <li><a href="/support/forum">Ideas &raquo;</a></li>
-            <li><a href="/support/forum">Marketing &raquo;</a></li>
-            <li><a href="/support/forum2">Forums (Nibble version) &raquo;</a></li>
-          </ul>
-        </div>
-      </div> <!-- 2nd directory row -->    
-    </div> <!-- Directory -->
-
-    <div class="col-md-5"> <!-- Search -->
-      <h3>Ask a question</h3>
+    <div class="col-md-7"> <!-- Answerbase -->
       {% include _searchbox.html %}
-      <h4>Most read posts</h4>
+
+      <h3><i class="fa fa-glass"></i> Getting started <a href="/support/getting-started/index.html"><small class="">{{ site.categories['getting-started'] | last | size}} posts &raquo;</small></a></h3>
       <ul class="list-unstyled">
-        <li><a href="/support/kb/getting-started/video-upload-specs.html">Video upload specs &raquo;</a> <small class="text-muted">Knowledge base</small></li>
-        <li><a href="/support/kb/getting-started/resolution.html">Resolutions &amp; aspect ratios &raquo;</a> <small class="text-muted">Knowledge base</small></li>
-        <li><a href="/support/kb/subtitles/diy-subtitles.html">Do-it-yourself subtitles &raquo;</a> <small class="text-muted">Forums</small></li>
-        <li><a href="/support/kb/subtitles/lorem-ipsum.html">How do i ... &raquo;</a> <small class="text-muted">FAQ</small></li>
+      {% for post in site.categories["getting-started"] limit:5 %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
       </ul>
+
+      {% for cat in site.categories %}
+        {% if cat[0] != 'blog' and cat[0] != 'support' and cat[0] != 'getting-started' %}
+          <h3><i class="fa fa-folder-o"></i> {{ cat | first | capitalize | replace: '-', ' '}} <a href="/support/{{ cat[0]}}/index.html"><small class="">{{ cat | last | size}} posts &raquo;</small></a></h3>
+          <ul class="list-unstyled">
+          {% for post in cat[1] limit:5 %}
+              <li>{{ post.tag[0] }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+
+    </div> <!-- Answerbase -->
+
+    <div class="col-md-5"> <!-- Right column -->
+      <h2 class="first-row"><i class="fa fa-users"></i> Forums</h2>
       <p>
-        Can't find your answer anywhere? <a href="/support/ticket.html" class="textlink">Submit a ticket</a>.
+        Share your ideas, ask the community and help others.
       </p>
-    </div>
+      <ul class="list-unstyled">
+        <li><a href="/support/forum">Support  &raquo;</a></li>
+        <li><a href="/support/forum">Ideas  &raquo;</a></li>
+        <li><a href="/support/forum">Marketing  &raquo;</a></li>
+        <li><a href="/support/forum2">Forums (Nibble version) &raquo;</a></li>
+      </ul>
+
+      <h2><i class="fa fa-star-o"></i> Most read posts</h2>
+      <ul class="list-unstyled">
+        <li><a href="/support/getting-started/video-upload-specs.html">Video upload specs &raquo;</a> <small class="text-muted">Specs</small></li>
+        <li><a href="/support/getting-started/resolution.html">Resolutions &amp; aspect ratios &raquo;</a> <small class="text-muted">Specs</small></li>
+        <li><a href="/support/subtitles/diy-subtitles.html">Do-it-yourself subtitles &raquo;</a> <small class="text-muted">Subtitles</small></li>
+        <li><a href="/support/getting-started/lorem.html">How do i ... &raquo;</a> <small class="text-muted">Forums</small></li>
+      </ul>
+      <h2><i class="fa fa-ticket"></i> Submit a ticket</h2>
+        Can't find your answer anywhere? <a href="/support/ticket.html" class="textlink">Submit a ticket</a> to get help directly from us.
+      </p>
+    </div> <!-- Right column -->    
+
   </div>
   
 </div>   <!-- container -->

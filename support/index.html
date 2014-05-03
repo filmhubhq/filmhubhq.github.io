@@ -3,22 +3,24 @@ layout: bootstrap
 title: Kinonation | Support
 id: support-index
 ---
-<!-- <div class="jumbotron">
+<div class="jumbotron alert">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
   <div class="container">
-    <h1>Help &amp; Support <small>Staging - Not live yet</small></h1>
-     <p class="lead">Browse our knowledge base articles. Read our documentation. Watch video tutorials. Follow our How-To guides. Still can't find what you're looking for? <a href="/support/ticket.html" class="textlink">Submit a ticket</a>.</p>
-     <p class="lead">IMPORTANT: This section is not live yet. Please refer to our <a href="https://kinonation.zendesk.com" class="textlink">Zendesk Support Site</a> for now.</p>
+    <h1>Help Center <!-- <small>Staging - Not live yet</small> --></h1>
+     <p class="lead">Browse our help articles. Join the community <a href="/support/forum" class="textlink"><i class="fa fa-users"></i> forums</a>. Watch <a href="/tags.html#video" class="textlink" ><i class="fa fa-desktop"></i> video</a> tutorials. Follow our How-To guides. Still can't find what you're looking for? Submit a <a href="/support/ticket.html" class="textlink"><i class="fa fa-ticket"></i> ticket</a>.</p>
+     <!-- <p class="lead">IMPORTANT: This section is not live yet. Please refer to our <a href="https://kinonation.zendesk.com" class="textlink">Zendesk Support Site</a> for now.</p> -->
   </div>
-</div> -->
+</div>
 
 <div class="container content">
-  <ol class="breadcrumb">
+  <!-- <ol class="breadcrumb">
     <li><a href="/">Home</a></li>
     <li class="active">Support</li>
   </ol>
-  <h1 class="page-header">Support <small>Help center &amp; forums</small></h1>
+  <h1 class="page-header">Support <small>Help center &amp; forums</small></h1> -->
   <div class="row">
     <div class="col-md-7"> <!-- Answerbase -->
+      <h2 class="first-row"><i class="fa fa-question-circle"></i> Ask a question</h2>
       {% include _searchbox.html %}
 
       <h3><i class="fa fa-glass"></i> Getting started <a href="/support/getting-started/index.html"><small class="">{{ site.categories['getting-started'] | last | size}} posts &raquo;</small></a></h3>
@@ -33,7 +35,7 @@ id: support-index
           <h3><i class="fa fa-folder-o"></i> {{ cat | first | capitalize | replace: '-', ' '}} <a href="/support/{{ cat[0]}}/index.html"><small class="">{{ cat | last | size}} posts &raquo;</small></a></h3>
           <ul class="list-unstyled">
           {% for post in cat[1] limit:5 %}
-              <li>{{ post.tag[0] }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+              <li><a href="{{ post.url }}">{{ post.title }}</a> {% if post.tags contains 'video' %}<small><span class="label label-default">VIDEO</span>{% endif %}</small></li>
           {% endfor %}
           </ul>
         {% endif %}

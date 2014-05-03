@@ -83,6 +83,10 @@ background-color: #469be2;
   background-color: #348eda;
   color: #fff;
 }
+.page-support-index .jumbotron {
+  background-color: #789951;
+}
+
 .jumbotron a.textlink {
   border-bottom: #fff 2px dotted;
 }

@@ -1,6 +1,6 @@
 ---
 layout: support
-tags: Subtitles Captions International
+tags: Subtitles Captions Specs
 author: Roger Jackson
 ---
 ###Overview
@@ -97,7 +97,7 @@ No letterbox/interlaced/preroll/postroll/URLs
         Captions
       </td>
       <td>
-        Separate SRT file. No burn-in. See our <a href="/support/subtitles">closed captions &amp; subtitles section</a>.
+        Separate SRT file. No burn-in. See our <a href="/help/subtitles">closed captions &amp; subtitles section</a>.
       </td>
     </tr>
   </tbody>

@@ -1,6 +1,6 @@
 ---
 layout: faq-index
-title: Support | FAQ
+title: Help | FAQ
 id: faq-index
 ---
 ###General Information
@@ -99,5 +99,5 @@ id: faq-index
 
 1. What if my question isn’t answered here?
 
-    Search the rest of our [support site](/support). If you still can't find your answers [file a support ticket](/support/ticket.html).
+    Search the rest of our [support site](/help). If you still can't find your answers [file a support ticket](/help/ticket.html).
     

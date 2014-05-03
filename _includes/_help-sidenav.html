@@ -1,0 +1,23 @@
+<div id="sidenav" class="sidebar" role="complementary">
+  <ul class="nav nav-pills nav-stacked">
+
+    <li class="nav-header {% if page.url == "/help/index.html" %}active{% endif %}"><a href="/help"><i class="fa fa-home fa-lg"></i> Help Center Home</a></li>
+    <li class="nav-header {% if page.category == 'getting-started' %}active{% endif %}"><a href="/help/getting-started"><i class="fa fa-glass"></i> Getting Started</a></li>
+    {% for post in site.categories['getting-started'] %}
+      <li class="nav-article {% if post.url == page.url %}active{% endif %}"><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+
+      {% for cat in site.categories %}
+        {% if cat[0] != 'blog' and cat[0] != 'help' and cat[0] != 'getting-started' %}
+          <li class="nav-header {% if page.category == cat[0] %}active{% endif %}"><a href="/help/{{ cat[0] }}"><i class="fa fa-folder-open-o"></i> {{ cat[0] | capitalize }}</a></li>
+          {% for post in cat[1] %}
+            <li class="nav-article {% if post.url == page.url %}active{% endif %}"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+
+    <li class="nav-header {% if page.url == "/help/ticket.html" %}active{% endif %}"><a href="/help/ticket.html"><i class="fa fa-ticket"></i> Submit a ticket</a></li>  </ul>
+
+</div> <!-- sidenav -->
+
+{% include _searchbox.html %}

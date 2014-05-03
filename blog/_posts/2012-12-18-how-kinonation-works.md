@@ -41,7 +41,7 @@ Content Owner (filmmaker) can withdraw the film entirely from consideration by K
 
 <b>12. Program:</b> Now the VOD platform will program the film, meaning they’ll assign it to a genre section, hopefully give it a promotional push, and turn it live.
 
-<b>13. Rent or Buy or Ad-Supported:</b> Depending on the platform, the film will be available to buy (meaning download to own) or rent (usually 48 hrs) or free but ad-supported. Either way you make money.
+<b>13. Rent or Buy or Ad-Helped:</b> Depending on the platform, the film will be available to buy (meaning download to own) or rent (usually 48 hrs) or free but ad-supported. Either way you make money.
 
 <b>14. Revenue Reported:</b> The platforms will report revenue to KinoNation, usually a few weeks in arrears, sometimes longer, and will subsequently make payment.
 

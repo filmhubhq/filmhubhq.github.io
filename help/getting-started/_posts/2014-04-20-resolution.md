@@ -3,6 +3,7 @@ layout: support
 tags:
 - Resolution
 - Aspect Ratio
+- Specs
 author: Klaus Badelt
 ---
 ###Resolution, Aspect Ratio, Square Pixels – huh?

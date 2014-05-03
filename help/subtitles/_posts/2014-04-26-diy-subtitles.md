@@ -22,4 +22,4 @@ Desktop apps:
 
 You can use these apps and web apps to convert to .SRT as well.
 
-More info in our [knowledgebase section about subtitles and captions](/support/subtitles).
+More info in our [knowledgebase section about subtitles and captions](/help/subtitles).

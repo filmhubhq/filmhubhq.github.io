@@ -14,7 +14,7 @@ This post was going to be Part 2 of 2.  But I try to avoid overly lengthy posts.
     1. Cable TV VOD (Comcast, Time Warner, etc.)
     2. Online Transactional VOD (iTunes, Amazon Instant, Vudu, etc.)
     3. Subscription VOD (Hulu Plus, Amazon Prime, Netflix.)
-    4. Advertising Supported VOD (Hulu Classic, SnagFilms, Viewster, etc.)
+    4. Advertising Helped VOD (Hulu Classic, SnagFilms, Viewster, etc.)
     
     Having said all that, the huge caveat is, frankly, how good the film really is? Most films will NOT get selected by cable TV outlets, and often it makes sense to jump immediately to ii and iii, even iv. This is a complex and nuanced discussion that you need to have with your distributor or sales agent — and if they don’t get it, it may be time to move on.
 

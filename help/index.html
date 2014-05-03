@@ -35,7 +35,7 @@ id: support-index
           <h3>{{ cat | first | capitalize | replace: '-', ' '}} <a href="/help/{{ cat[0]}}/index.html"><span class="badge">{{ cat | last | size}}</span></a></h3>
           <ul class="list-unstyled">
           {% for post in cat[1] limit:5 %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a> {% if post.tags contains 'video' %}<span class="label label-info">Video</span>{% endif %}</li>
+              <li><a href="{{ post.url }}">{{ post.title }}</a> {% if post.tags contains 'video' %}<a href="/tags.html#video" class="tag label label-info">Video</a>{% endif %}</li>
           {% endfor %}
           </ul>
         {% endif %}

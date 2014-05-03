@@ -8,7 +8,7 @@ excerpt: Browse our help articles. Join the community  forums. Watch  video tuto
     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
   <div class="container">
     <h1>Help Center <!-- <small>Staging - Not live yet</small> --></h1>
-     <p class="lead">Browse our help articles. Join the community <a href="/help/forum" class="textlink"><i class="fa fa-users"></i> forums</a>. Watch <a href="/tags.html#video" class="textlink" ><i class="fa fa-desktop"></i> video</a> tutorials. Follow our How-To guides. Still can't find what you're looking for? Submit a <a href="/help/ticket.html" class="textlink"><i class="fa fa-ticket"></i> ticket</a>.</p>
+     <p class="lead">Browse our help articles. Join the community <a href="/help/forum" class="textlink"><i class="fa fa-users"></i> forums</a>. Watch <a href="/tags.html#video" class="textlink" ><i class="fa fa-video-camera"></i> video</a> tutorials. Follow our How-To guides. Still can't find what you're looking for? Submit a <a href="/help/ticket.html" class="textlink"><i class="fa fa-ticket"></i> ticket</a>.</p>
      <!-- <p class="lead">IMPORTANT: This section is not live yet. Please refer to our <a href="https://kinonation.zendesk.com" class="textlink">Zendesk Help Site</a> for now.</p> -->
   </div>
 </div>
@@ -27,7 +27,7 @@ excerpt: Browse our help articles. Join the community  forums. Watch  video tuto
       <h3>Getting started <a href="/help/getting-started/index.html"><span class="badge">{{ site.categories['getting-started'] | size}}</span></a></h3>
       <ul class="list-unstyled">
       {% for post in site.categories["getting-started"] limit:5 %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          <li><a href="{{ post.url }}">{{ post.title }}{% if post.tags contains 'video' %} <a href="/tags.html#video" class="tag label label-info"><i class="fa fa-play"></i></a>{% endif %}</li>
       {% endfor %}
       </ul>
 
@@ -36,7 +36,7 @@ excerpt: Browse our help articles. Join the community  forums. Watch  video tuto
           <h3>{{ cat | first | capitalize | replace: '-', ' '}} <a href="/help/{{ cat[0]}}/index.html"><span class="badge">{{ cat | last | size}}</span></a></h3>
           <ul class="list-unstyled">
           {% for post in cat[1] limit:5 %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a> {% if post.tags contains 'video' %}<a href="/tags.html#video" class="tag label label-info">Video</a>{% endif %}</li>
+              <li>{% if post.tags contains 'video' %} <a href="/tags.html#video" dnu-class="tag label label-info"><i class="fa fa-video-camera"></i></a>{% endif %} <a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
           </ul>
         {% endif %}

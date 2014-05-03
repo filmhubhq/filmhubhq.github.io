@@ -8,10 +8,22 @@ layout: none
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
 		<link>{{ site.url }}</link>
 		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+		{% for page in site.pages limit:10 %}
+    {% if page.url != '/feed.xml' and page.sitemap.ignore != true%}
+			<item>
+				<title>{% if page.title %}{{ page.title | xml_escape }} | {% endif %}Kinonation</title>
+        {% capture description %}{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ page.content }}{% endif %}{% endcapture %}
+				<description>{{ description | strip_html | strip_newlines | truncatewords: 20  | xml_escape }}</description>
+				<pubDate>{% if page.date %}{{ page.date | date: "%a, %d %b %Y %H:%M:%S %z" }}{% else %}{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}{% endif %}</pubDate>
+				<link>{{ site.url }}{{ page.url }}</link>
+				<guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
+			</item>
+    {% endif %}
+		{% endfor %}
 		{% for post in site.posts limit:10 %}
 			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				<description>{{ post.content | xml_escape }}</description>
+				<title>{{ post.title | strip_html | xml_escape }} | Kinonation</title>
+				<description>{{ post.excerpt | strip_html | truncatewords: 20 | xml_escape }}</description>
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>

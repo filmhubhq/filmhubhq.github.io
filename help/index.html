@@ -23,7 +23,7 @@ id: support-index
       <h2 class="first-row"><i class="fa fa-question-circle"></i> Ask a question</h2>
       {% include _searchbox.html %}
 
-      <h3><i class="fa fa-glass"></i> Getting started <a href="/help/getting-started/index.html"><small class="">{{ site.categories['getting-started'] | last | size}} posts &raquo;</small></a></h3>
+      <h3>Getting started <a href="/help/getting-started/index.html"><small class="">{{ site.categories['getting-started'] | last | size}} posts &raquo;</small></a></h3>
       <ul class="list-unstyled">
       {% for post in site.categories["getting-started"] limit:5 %}
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -31,8 +31,8 @@ id: support-index
       </ul>
 
       {% for cat in site.categories %}
-        {% if cat[0] != 'blog' and cat[0] != 'support' and cat[0] != 'getting-started' %}
-          <h3><i class="fa fa-folder-o"></i> {{ cat | first | capitalize | replace: '-', ' '}} <a href="/help/{{ cat[0]}}/index.html"><small class="">{{ cat | last | size}} posts &raquo;</small></a></h3>
+        {% if cat[0] != 'blog' and cat[0] != 'help' and cat[0] != 'getting-started' %}
+          <h3>{{ cat | first | capitalize | replace: '-', ' '}} <a href="/help/{{ cat[0]}}/index.html"><span class="badge">{{ cat | last | size}}</span></a></h3>
           <ul class="list-unstyled">
           {% for post in cat[1] limit:5 %}
               <li><a href="{{ post.url }}">{{ post.title }}</a> {% if post.tags contains 'video' %}<small><span class="label label-default">VIDEO</span>{% endif %}</small></li>
@@ -60,7 +60,7 @@ id: support-index
         <li><a href="/help/getting-started/video-upload-specs.html">Video upload specs &raquo;</a> <small class="text-muted">Specs</small></li>
         <li><a href="/help/getting-started/resolution.html">Resolutions &amp; aspect ratios &raquo;</a> <small class="text-muted">Specs</small></li>
         <li><a href="/help/subtitles/diy-subtitles.html">Do-it-yourself subtitles &raquo;</a> <small class="text-muted">Subtitles</small></li>
-        <li><a href="/help/getting-started/lorem.html">How do i ... &raquo;</a> <small class="text-muted">Forums</small></li>
+        <li><a href="/help/forum/#!/ideas:how-do-i">How do i ... &raquo;</a> <small class="text-muted">Forums</small></li>
       </ul>
       <h2><i class="fa fa-ticket"></i> Submit a ticket</h2>
         Can't find your answer anywhere? <a href="/help/ticket.html" class="textlink">Submit a ticket</a> to get help directly from us.

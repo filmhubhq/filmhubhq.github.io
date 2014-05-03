@@ -23,7 +23,7 @@ id: support-index
       <h2 class="first-row"><i class="fa fa-question-circle"></i> Ask a question</h2>
       {% include _searchbox.html %}
 
-      <h3>Getting started <a href="/help/getting-started/index.html"><small class="">{{ site.categories['getting-started'] | last | size}} posts &raquo;</small></a></h3>
+      <h3>Getting started <a href="/help/getting-started/index.html"><span class="badge">{{ site.categories['getting-started'] | size}}</span></a></h3>
       <ul class="list-unstyled">
       {% for post in site.categories["getting-started"] limit:5 %}
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -35,7 +35,7 @@ id: support-index
           <h3>{{ cat | first | capitalize | replace: '-', ' '}} <a href="/help/{{ cat[0]}}/index.html"><span class="badge">{{ cat | last | size}}</span></a></h3>
           <ul class="list-unstyled">
           {% for post in cat[1] limit:5 %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a> {% if post.tags contains 'video' %}<small><span class="label label-default">VIDEO</span>{% endif %}</small></li>
+              <li><a href="{{ post.url }}">{{ post.title }}</a> {% if post.tags contains 'video' %}<span class="label label-info">Video</span>{% endif %}</li>
           {% endfor %}
           </ul>
         {% endif %}

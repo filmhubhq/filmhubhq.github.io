@@ -1,6 +1,6 @@
 ---
 layout: support
-tags: Subtitles Captions International
+tags: Subtitles Captions video
 author: Klaus Badelt
 title: Do-it-yourself Subtitles
 ---

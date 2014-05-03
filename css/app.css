@@ -371,7 +371,7 @@ a[data-toggle="tooltip"] {
   text-decoration: none;
 }
 .tag {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 400;
   padding: .4em .6em .3em;
 }

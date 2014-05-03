@@ -427,3 +427,14 @@ body.page-terms .container.section {
 .first-row {
   margin-top: 0;
 }
+.poster {
+  float: left;
+  width: 10%;
+}
+.row.posters {
+   margin-top: 0px; 
+   margin-bottom: 40px; 
+}
+#fromeverywhere {
+  margin-top: 40px;
+}

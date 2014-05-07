@@ -7,7 +7,6 @@ tags: Money Hulu
 ---
 
 ###Ransom Notes
-
 “I have always believed that writing advertisements is the second most profitable form of writing. The first, of course, is ransom notes.” So said legendary Madison Avenue ad executive Phil Dusenberry. I think of that quip when I’m asked “What  movie subject will make the most money on VOD?” What type of film can you write & shoot quite cheaply – and which can pay out thousands of dollars a month, every month, way into the future? The answer: documentary films that are directly and intensively reflective of the American populace — addressing topics that touch almost everyone.
 
 ###7 Sins

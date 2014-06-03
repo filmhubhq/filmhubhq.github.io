@@ -18,7 +18,7 @@ layout: bootstrap
       
       <ul class="list-unstyled">
       {% for post in site.categories[page.category] %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a> {% if post.tags contains 'video' %}<a href="/tags.html#video" class="tag label label-info">Video</a>{% endif %}</li>
+          <li><a href="{{ post.url }}">{{ post.title }}</a> {% if post.tags contains 'video' %}<a href="/tags#video" class="tag label label-info">Video</a>{% endif %}</li>
       {% endfor %}
       </ul>
 

@@ -13,7 +13,7 @@ layout: bootstrap
         <p class="meta"><small>Posted by {{ page.author }} on {{ page.date | date_to_string }}</small>&nbsp;
         <i class="fa fa-tags"></i>&nbsp;
         {% for tag in page.tags %}
-          <a href="/tags.html#{{ tag | cgi_escape }}" class="tag label label-default">{{ tag }}</a>&nbsp;
+          <a href="/tags#{{ tag | cgi_escape }}" class="tag label label-default">{{ tag }}</a>&nbsp;
         {% endfor %}
         </p>
            

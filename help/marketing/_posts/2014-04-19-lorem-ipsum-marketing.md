@@ -3,4 +3,4 @@ layout: support
 tags: marketing video
 author: Klaus Badelt
 ---
-Marketing resource Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Kinonation has partnered with Assemble to help filmmakers who need to rapidly build a custom website for their film. Assemble is the only web CMS (Content Management System) and CRM (Customer Relationship Manager) made specifically for running the marketing and distribution of a slate of films. The Assemble framework powers three core marketing tools, the website, branded trailer and Facebook page apps. These are hosted by Assemble and are easily customized and fully editable from the Assemble admin system.

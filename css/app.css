@@ -87,6 +87,10 @@ background-color: #469be2;
   background-color: #789951;
 }
 
+.page-amazon .jumbotron {
+  background-color: #ff9900;
+}
+
 .jumbotron a.textlink {
   border-bottom: #fff 2px dotted;
 }
@@ -107,13 +111,13 @@ background-color: #469be2;
   line-height: 1;
   margin-bottom: 40px;
 }
-.page-home .jumbotron h1 small, section h1 small {
+.page-home .jumbotron h1 small, section h1 small, .page-amazon .jumbotron h1 small {
   font-size: inherit;
   font-weight: 200;
   color: #ddd;
   display: block;
 }
-.page-home .jumbotron a.btn-default {
+.page-home .jumbotron a.btn-default, .page-amazon .jumbotron a.btn-default {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
@@ -122,12 +126,12 @@ background-color: #469be2;
   background: inherit;
   color: #fff;
 }
-.page-home .jumbotron a.btn-default:hover {
+.page-home .jumbotron a.btn-default:hover, .page-amazon .jumbotron a.btn-default:hover {
   color: #348eda;
   background-color: #fff;
   border-color: #348eda;
 }
-.page-home .jumbotron p.lead, .enterprise p.lead {
+.page-home .jumbotron p.lead, .enterprise p.lead, .page-amazon .jumbotron p.lead,  {
   font-size: 26px;
 }
 .jumbotron a {

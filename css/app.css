@@ -88,7 +88,7 @@ background-color: #469be2;
 }
 
 .page-amazon .jumbotron {
-  background-color: #ff9900;
+  background-color: #000000; /* #596451; */
 }
 
 .jumbotron a.textlink {
@@ -110,6 +110,11 @@ background-color: #469be2;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 40px;
+}
+.page-amazon .jumbotron h1 {
+  color: #ff9900;
+  font-weight: bold;
+  line-height: 1;
 }
 .page-home .jumbotron h1 small, section h1 small, .page-amazon .jumbotron h1 small {
   font-size: inherit;

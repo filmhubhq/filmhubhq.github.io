@@ -57,28 +57,6 @@ a.navbar-brand:hover {
   margin-top: 0;
 }
 
-
-
-/*.page-home .navbar > .container .navbar-brand {
-  background: url('../images/logo-v3-white-35h.png') no-repeat;
-}
-.page-home .navbar-default {
-  background-color: #348eda;
-  color: #fff;
-  border-color: #469be2;
-}
-.page-home .navbar-default li>a {
-  color: #eee;
-}
-.page-home .navbar-default .navbar-nav>.active>a, .page-home .navbar-default .navbar-nav>.active>a:hover, .page-home .navbar-default .navbar-nav>.active>a:focus {
-color: #eee;
-background-color: #469be2;
-}
-.page-home .navbar-default .navbar-nav>li>a:hover, .page-home .navbar-default .navbar-nav>li>a:focus, .page-home .navbar-default .navbar-nav>.active>a:hover {
-  color: #fff;
-  background-color: #469be2;
-}
-*/
 .jumbotron {
   background-color: #348eda;
   color: #fff;
@@ -88,7 +66,7 @@ background-color: #469be2;
 }
 
 .page-amazon .jumbotron {
-  background-color: #000000; /* #596451; */
+  background-color: #000000; /*   #406E74 #596451; */
 }
 
 .jumbotron a.textlink {
@@ -142,7 +120,6 @@ background-color: #469be2;
 .jumbotron a {
   color: #fff;
 }
-
 section h1.subheader{
   margin-bottom: 0;
 }
@@ -152,13 +129,6 @@ section h2.subheader {
 small.super {
   vertical-align: super;
 }
-/*#vodlogos {
-  background: #e67d25;
-  color: #fff;
-  padding-top: 60px;
-  padding-bottom: 100px;
-}
-*/
 #vodlogos span {
   border: 0;
   font: 0/0 a;
@@ -217,10 +187,6 @@ section:last-of-type {
 div#terms-intro {
   background-color: #eee;
 }
-/*.btn ~ p {
-  margin-top: 20px;
-}
-*/
 .details > * {
   margin-top: 0;
 }

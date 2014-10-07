@@ -65,10 +65,6 @@ a.navbar-brand:hover {
   background-color: #789951;
 }
 
-.page-amazon .jumbotron {
-  background-color: #000000; /*   #406E74 #596451; */
-}
-
 .jumbotron a.textlink {
   border-bottom: #fff 2px dotted;
 }
@@ -88,11 +84,6 @@ a.navbar-brand:hover {
   font-weight: bold;
   line-height: 1;
   margin-bottom: 40px;
-}
-.page-amazon .jumbotron h1 {
-  color: #ff9900;
-  font-weight: bold;
-  line-height: 1;
 }
 .page-home .jumbotron h1 small, section h1 small, .page-amazon .jumbotron h1 small {
   font-size: inherit;
@@ -412,4 +403,26 @@ body.page-terms .container.section {
 }
 #fromeverywhere {
   margin-top: 40px;
+}
+
+/* Amazon page */
+
+.page-amazon .jumbotron h1 {
+  color: #ff9900;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.page-amazon .jumbotron {
+  background-color: #000000; /*   #406E74 #596451; */
+}
+
+.page-amazon #aivlogo {
+  margin-top: 24px;
+}
+
+.page-amazon .jumbotron a.btn-default:hover {
+  color: #000000;
+  background-color: #ff9900;
+  border-color: #000000;
 }

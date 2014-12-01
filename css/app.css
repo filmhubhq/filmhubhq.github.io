@@ -415,6 +415,7 @@ body.page-terms .container.section {
 
 .page-amazon .jumbotron {
   background-color: #000000; /*   #406E74 #596451; */
+  background: url('/images/bkg.gif');
 }
 
 .page-amazon #aivlogo {

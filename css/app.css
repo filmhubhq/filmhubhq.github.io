@@ -45,40 +45,40 @@ a.navbar-brand:hover {
 
 /* navbar scroll animation */
 @media(min-width:767px) {
-  .body {
+  body.page-home .body {
     padding-top: 0px;
   }
-  .page-home .jumbotron {
+  body.page-home .jumbotron {
     padding-top: 160px;
   }
-  .navbar {
+  body.page-home .navbar {
     padding: 20px 0;
     background-color: rgba(248, 248, 248, 0.85);
     -webkit-transition: padding .5s ease-in-out, background-color .5s ease-in-out;
     -moz-transition: padding .5s ease-in-out, background-color .5s ease-in-out;
     transition: padding .5s ease-in-out, background-color .5s ease-in-out;
   }
-  .top-nav-collapse {
-    padding: 0;
-    background-color: rgb(248, 248, 248);
-  }
-  .navbar-nav>li>a {
+  body.page-home .navbar-nav>li>a {
     padding-top: 22px;
     -webkit-transition: padding .5s ease-in-out;
     -moz-transition: padding .5s ease-in-out;
     transition: padding .5s ease-in-out;
   }
-  .top-nav-collapse .navbar-nav>li>a {
+  body.page-home .top-nav-collapse {
+    padding: 0;
+    background-color: rgb(248, 248, 248);
+  }
+  .page-home .top-nav-collapse .navbar-nav>li>a {
     padding-top: 13px;
   }
-  .navbar > .container .navbar-brand {
+  body.page-home .navbar > .container .navbar-brand {
     width: 180px;
     height: 56px;
     -webkit-transition: width .5s ease-in-out, height .5s ease-in-out;
     -moz-transition: width .5s ease-in-out, height .5s ease-in-out;
     transition: width .5s ease-in-out, height .5s ease-in-out;
   }
-  .top-nav-collapse.navbar > .container .navbar-brand {
+  body.page-home .top-nav-collapse.navbar > .container .navbar-brand {
     width: 119px;
     height: 20px;
   }

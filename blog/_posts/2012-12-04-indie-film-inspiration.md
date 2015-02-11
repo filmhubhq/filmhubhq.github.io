@@ -3,7 +3,7 @@ title: Indie Film Inspiration
 layout: post
 subtitle: Diary of a film startup part 13
 author: Roger Jackson
-tags: Kinopto IndieRights 
+tags: Outlets Indie 
 ---
 
 ###First Looks

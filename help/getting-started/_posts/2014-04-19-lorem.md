@@ -1,5 +1,5 @@
 ---
-layout: support
+layout: help-article
 tags:
 - Resolution
 - Aspect Ratio

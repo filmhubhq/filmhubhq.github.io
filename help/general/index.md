@@ -1,5 +1,5 @@
 ---
-layout: support-index
+layout: help-section
 title: General Information
 category: general
 ---

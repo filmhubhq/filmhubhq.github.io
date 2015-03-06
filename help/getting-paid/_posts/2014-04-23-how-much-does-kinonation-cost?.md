@@ -1,5 +1,5 @@
 ---
-layout: support
+layout: help-article
 author: Klaus Badelt
 ---
 The basic service has no upfront, delivery, ingest, storage or any other regular fees.

@@ -4,7 +4,7 @@ markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
 social: false
-offline: true
+offline: false
 url: http://kinonation.com
 permalink: none
 gems:

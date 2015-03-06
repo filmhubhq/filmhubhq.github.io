@@ -1,5 +1,5 @@
 1. <b>Film</b><br>
-We require a <a href="https://kinonation.zendesk.com/hc/en-us/articles/201443896-Video-specs">high quality</a> video file of your title, which you can easily and securely upload via the KinoNation Upload Manager.
+We require a [high quality](https://kinonation.zendesk.com/hc/en-us/articles/201443896-Video-specs) video file of your title, which you can easily and securely upload via the KinoNation Upload Manager.
 2. <b>Trailer</b><br>
 Same specs as 1).
 3. <b>Metadata</b><br>

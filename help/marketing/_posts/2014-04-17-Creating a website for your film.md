@@ -1,5 +1,5 @@
 ---
-layout: support
+layout: help-article
 tags: marketing video
 author: Klaus Badelt
 ---

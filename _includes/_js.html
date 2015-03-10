@@ -1,11 +1,14 @@
 {% if site.offline %}
-<script src="/js/jquery-1.11.0.min.js"></script>
+<script src="/js/jquery-1.11.2.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 {% else %}
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 {% endif %}
 <script src="/js/jquery.lazyload.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/tipuesearch_content.js"></script>
+<script src="/js/tipuesearch_set.js"></script>
+<script src="/js/tipuesearch.js"></script>
 
 <script>
 $(document).ready(function() {
@@ -32,8 +35,13 @@ $(document).ready(function() {
   $imgs.lazyload({
     failure_limit: Math.max($imgs.length - 1, 0)
   });
-
+  
+  // full text search
+  $('#tipue_search_input').tipuesearch({
+          'showURL': false
+     });
 });
+
 </script>
 
 {% if site.social %}

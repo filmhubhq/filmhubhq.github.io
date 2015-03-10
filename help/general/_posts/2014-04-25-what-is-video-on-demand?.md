@@ -1,5 +1,5 @@
 ---
-layout: support
+layout: help-article
 author: Klaus Badelt
 tags: general explain
 ---

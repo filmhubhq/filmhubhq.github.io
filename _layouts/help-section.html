@@ -1,0 +1,41 @@
+---
+layout: bootstrap
+---
+<div class="container content">
+  <div class="row">
+    <div class="col-md-9"> <!-- left column -->
+
+      <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li><a href="/help">Help</a></li>
+        <li class="active">{{ page.title }}</li>
+      </ol>
+      
+      <h1 class="page-header">{{ page.title }}</h1>
+      <div class="lead">
+        {{ content }}
+      </div>
+      
+      <ul>
+      {% for post in site.categories[page.category] %}
+          <li>
+            <h4>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              {% if post.tags contains 'video' %}
+                <a href="/tags#video"> <i class="fa fa-video-camera text-muted"></i></a>
+              {% endif %}
+            </h4>
+            {{ post.excerpt | strip_html |  truncatewords:20}}
+          </li>
+      {% endfor %}
+      </ul>
+
+    </div> <!-- left column -->
+
+    <div class="col-md-3">
+    {% include _help-sidenav.html %}
+    </div>
+
+  </div>  <!-- row -->
+</div>   <!-- container -->
+

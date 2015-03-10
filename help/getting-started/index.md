@@ -1,5 +1,5 @@
 ---
-layout: support-index
+layout: help-section
 title: Getting started
 category: getting-started
 ---

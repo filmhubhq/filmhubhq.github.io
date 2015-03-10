@@ -1,5 +1,5 @@
 ---
-layout: support
+layout: help-article
 tags: Subtitles Captions Specs
 author: Roger Jackson
 ---

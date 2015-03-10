@@ -1,72 +1,109 @@
 ---
 layout: bootstrap
 title: Help
-id: support-index
-excerpt: Browse our help articles. Join the community  forums. Watch  video tutorials. Follow our How-To guides. Still can't find what you're looking for? Submit a  ticket.
+id: help-index
+excerpt: Browse our help articles. Join the community  forums. Watch  video tutorials. Follow our How-To guides. Still can't find what you're looking for? Submit a ticket.
 ---
-<div class="jumbotron alert">
-    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+<!-- <div class="jumbotron alert">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
   <div class="container">
-    <h1>Help Center <!-- <small>Staging - Not live yet</small> --></h1>
-     <p class="lead">Browse our help articles. Join the community <a href="/help/forum" class="textlink"><i class="fa fa-users"></i> forums</a>. Watch <a href="/tags/#video" class="textlink" ><i class="fa fa-video-camera"></i> video</a> tutorials. Follow our How-To guides. Still can't find what you're looking for? Submit a <a href="/help/ticket.html" class="textlink"><i class="fa fa-ticket"></i> ticket</a>.</p>
-     <p class="lead">IMPORTANT: This section is not live yet. Please refer to our <a href="https://kinonation.zendesk.com" class="textlink">Zendesk Help Site</a> for now.</p>
+    <h1>Help Center <small>Beta - Not live yet</small></h1>
+    <p class="lead">Browse our help articles. Join the community <a href="/help/forum" class="textlink"><i class="fa fa-users"></i> forums</a>. Watch <a href="/tags/#video" class="textlink" ><i class="fa fa-video-camera"></i> video</a> tutorials. Follow our How-To guides. Still can't find what you're looking for? Submit a <a href="/help/ticket.html" class="textlink"><i class="fa fa-ticket"></i> ticket</a>.</p>
+    <p class="lead">IMPORTANT: This section is not live yet. Please refer to our <a href="https://kinonation.zendesk.com" class="textlink">Zendesk Help Site</a> for now.</p>
   </div>
 </div>
-
+ -->
 <div class="container content">
-  <!-- <ol class="breadcrumb">
-    <li><a href="/">Home</a></li>
-    <li class="active">Help</li>
-  </ol>
-  <h1 class="page-header">Help <small>Help center &amp; forums</small></h1> -->
   <div class="row">
-    <div class="col-md-7"> <!-- Answerbase -->
-      <h2 class="first-row"><i class="fa fa-question-circle"></i> Ask a question</h2>
-      {% include _searchbox.html %}
+    <div class="col-md-9"> <!-- Answerbase -->
+      <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li class="active">Help</li>
+      </ol>
 
-      <h3>Getting started <a href="/help/getting-started"><span class="badge">{{ site.categories['getting-started'] | size}}</span></a></h3>
-      <ul class="list-unstyled">
-      {% for post in site.categories["getting-started"] limit:5 %}
-              <li>{% if post.tags contains 'video' %} <a href="/tags/#video"><i class="fa fa-video-camera"></i></a>{% endif %} <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-      </ul>
+      <h1 class="page-header">Help Center <small> Articles, How-To's, Community Help</small></h1>
+      <p class="lead">
+        Browse our help articles.
+        Join the community <a href="/help/forum" class="textlink"><i class="fa fa-users"></i> forums</a>.
+        Watch <a href="/tags/#video" class="textlink" ><i class="fa fa-video-camera"></i> video</a> tutorials.
+        Follow our How-To guides.
+        Still can't find what you're looking for?
+        Submit a <a href="/help/ticket.html" class="textlink"><i class="fa fa-ticket"></i> ticket</a>.
+      </p>
+      <div class="well">
+        <h3>Getting started with Kinonation</h3>
+        <p class="le ad">
+          Learn the workflow, set up fast, and start uploading &amp; submitting for distribution.
+        </p>
+        <p><a class="btn btn-primary" href="/help/getting-started" role="button">Check out our guide &raquo;</a></p>
+        <!-- <ul class="list-unstyled">
+        {% for post in site.categories["getting-started"] limit:5 %}
+                <li>{% if post.tags contains 'video' %} <a href="/tags/#video"><i class="fa fa-video-camera"></i></a>{% endif %} <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul> -->
+      </div>
 
+      <!-- <p>{{ site.categories | size | divided_by: 2 }}</p> -->
 
-      {% for cat in site.categories %}
-        {% if cat[0] != 'blog' and cat[0] != 'help' and cat[0] != 'getting-started' %}
-          <h3>{{ cat | first | capitalize | replace: '-', ' '}} <a href="/help/{{ cat[0]}}/index.html"><span class="badge">{{ cat | last | size}}</span></a></h3>
-          <ul class="list-unstyled">
-          {% for post in cat[1] limit:5 %}
-              <li>{% if post.tags contains 'video' %} <a href="/tags/#video"><i class="fa fa-video-camera"></i></a>{% endif %} <a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
+      <div class="row">
+        <div class="col-md-6">
+          <h3><a href="/help/forum"><i class="fa fa-users"></i> Forums</a></h3>
+          <p>
+            Share your ideas, ask the community and help others.
+          </p>
+          <ul>
+            <li><a href="/help/forum">Latest posts</a></li>
+            <li><a href="/help/forum/#!/support">Help</a></li>
+            <li><a href="/help/forum/#!/ideas">Ideas</a></li>
+            <li><a href="/help/forum">Marketing resources</a></li>
           </ul>
-        {% endif %}
-      {% endfor %}
+        </div>
+
+        <div class="col-md-6">
+          <h3><i class="fa fa-star-o"></i> Most read posts</h3>
+          <p>
+            What the community mostly wants to know.
+          </p>
+          <ul>
+            <li><a href="/help/getting-started/video-upload-specs.html">Video upload specs</a> <small class="text-muted">Specs</small></li>
+            <li><a href="/help/getting-started/resolution.html">Resolutions &amp; aspect ratios</a> <small class="text-muted">Specs</small></li>
+            <li><a href="/help/subtitles/diy-subtitles.html">Do-it-yourself subtitles</a> <small class="text-muted">Subtitles</small></li>
+            <li><a href="/help/forum/#!/ideas:how-do-i">How do i ...</a> <small class="text-muted">Forums</small></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+
+        {% for cat in site.categories %}
+          {% if cat[0] != 'blog' and cat[0] != 'help' and cat[0] != 'getting-started' %}
+            <div class="col-md-6">
+              <h3><a href="/help/{{ cat[0]}}/index.html">{{ cat | first | capitalize | replace: '-', ' '}}</a></h3>
+              <ul>
+              {% for post in cat[1] limit:5 %}
+                <li>
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                  {% if post.tags contains 'video' %} <i class="fa fa-video-camera text-muted"></i>{% endif %}
+                </li>
+              {% endfor %}
+              </ul>
+            </div>
+            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+              {% if thecycle == 'even' %}
+                </div>
+                <div class="row">
+              {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      
 
     </div> <!-- Answerbase -->
 
-    <div class="col-md-5"> <!-- Right column -->
-      <h2 class="first-row"><i class="fa fa-users"></i> Forums</h2>
-      <p>
-        Share your ideas, ask the community and help others.
-      </p>
-      <ul class="list-unstyled">
-        <li><a href="/help/forum">Latest posts  &raquo;</a></li>
-        <li><a href="/help/forum/#!/support">Help  &raquo;</a></li>
-        <li><a href="/help/forum/#!/ideas">Ideas  &raquo;</a></li>
-        <li><a href="/help/forum">Marketing  &raquo;</a></li>
-      </ul>
+    <div class="col-md-3">
+    {% include _help-sidenav.html %}
+    </div>
 
-      <h2><i class="fa fa-star-o"></i> Most read posts</h2>
-      <ul class="list-unstyled">
-        <li><a href="/help/getting-started/video-upload-specs.html">Video upload specs &raquo;</a> <small class="text-muted">Specs</small></li>
-        <li><a href="/help/getting-started/resolution.html">Resolutions &amp; aspect ratios &raquo;</a> <small class="text-muted">Specs</small></li>
-        <li><a href="/help/subtitles/diy-subtitles.html">Do-it-yourself subtitles &raquo;</a> <small class="text-muted">Subtitles</small></li>
-        <li><a href="/help/forum/#!/ideas:how-do-i">How do i ... &raquo;</a> <small class="text-muted">Forums</small></li>
-      </ul>
-      <h2><i class="fa fa-ticket"></i> Submit a ticket</h2>
-        Can't find your answer anywhere? <a href="/help/ticket.html" class="textlink">Submit a ticket</a> to get help directly from us.
-      </p>
+    <div class="col-md-3"> <!-- Right column -->
     </div> <!-- Right column -->
 
   </div>

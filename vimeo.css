@@ -1,0 +1,500 @@
+---
+---
+@import "bootstrap";
+@import "help";
+
+body {
+/*  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;*/
+/*  letter-spacing: 0.02em;*/
+/*  font-weight: 300;*/
+  font-size: 16px;
+  padding-bottom: 0;
+  color: #525254;
+  background-color: #f8f8f8;
+/*  -webkit-font-smoothing: antialiased;*/
+}
+.body {
+  background-color: #fff;
+  min-height: 800px;
+  padding-top: 50px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.navbar > .container .navbar-brand {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background: url('../images/logo-v3-gray-35h.png') no-repeat;
+  background-image: url('../images/logo-v3-gray-35h.svg'), none;
+  background-size: contain;
+  width: 119px;
+  height: 20px;
+  margin: 14px 20px 0 15px;
+  padding: 0;
+}
+a.navbar-brand:hover {
+  opacity: 0.7;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .navbar > .container .navbar-brand {
+    background: url('../images/logo-v3-gray-35h@2x.png') no-repeat;
+    background-image: url('../images/logo-v3-gray-35h.svg');
+    background-size: contain;
+  }
+}
+
+/* navbar scroll animation */
+@media(min-width:767px) {
+  body.page-home .body {
+    padding-top: 0px;
+  }
+  body.page-home .jumbotron {
+    padding-top: 160px;
+  }
+  body.page-home .navbar {
+    padding: 20px 0;
+    background-color: rgba(248, 248, 248, 0.85);
+    -webkit-transition: padding .5s ease-in-out, background-color .5s ease-in-out;
+    -moz-transition: padding .5s ease-in-out, background-color .5s ease-in-out;
+    transition: padding .5s ease-in-out, background-color .5s ease-in-out;
+  }
+  body.page-home .navbar-nav>li>a {
+    padding-top: 22px;
+    -webkit-transition: padding .5s ease-in-out;
+    -moz-transition: padding .5s ease-in-out;
+    transition: padding .5s ease-in-out;
+  }
+  body.page-home .top-nav-collapse {
+    padding: 0;
+    background-color: rgb(248, 248, 248);
+  }
+  .page-home .top-nav-collapse .navbar-nav>li>a {
+    padding-top: 13px;
+  }
+  body.page-home .navbar > .container .navbar-brand {
+    width: 180px;
+    height: 56px;
+    -webkit-transition: width .5s ease-in-out, height .5s ease-in-out;
+    -moz-transition: width .5s ease-in-out, height .5s ease-in-out;
+    transition: width .5s ease-in-out, height .5s ease-in-out;
+  }
+  body.page-home .top-nav-collapse.navbar > .container .navbar-brand {
+    width: 119px;
+    height: 20px;
+  }
+}
+
+.container.content {
+  margin-top: 40px;
+}
+.container.content + footer {
+  margin-top: 40px;
+}
+.content article:first-of-type h2, .firstrow h3:first-of-type {
+  margin-top: 0px;
+}
+.container.content h1:first-of-type,
+.content article:first-of-type h2,
+.tag-nav:first-of-type h2 {
+  margin-top: 0;
+}
+
+.jumbotron {
+  background-color: #348eda;
+  color: #fff;
+}
+.jumbotron a.textlink {
+  border-bottom: #fff 2px dotted;
+}
+.jumbotron p a.textlink {
+  padding-bottom: 4px;
+}
+.jumbotron a.textlink:hover {
+  text-decoration: none;
+  border-bottom: solid;
+}
+.page-home .jumbotron {
+  background: #348eda url('../images/home-globe.png') no-repeat right -320px center;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+.page-home .jumbotron h1, section h1 {
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+.page-home .jumbotron h1 small, section h1 small, .page-amazon .jumbotron h1 small {
+  font-size: inherit;
+  font-weight: 200;
+  color: #ddd;
+  display: block;
+}
+.page-home .jumbotron a.btn-default, .page-amazon .jumbotron a.btn-default {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: 200;
+  background: inherit;
+  color: #fff;
+}
+.page-home .jumbotron a.btn-default:hover, .page-amazon .jumbotron a.btn-default:hover {
+  color: #348eda;
+  background-color: #fff;
+  border-color: #348eda;
+}
+.page-home .jumbotron p.lead, .enterprise p.lead, .page-amazon .jumbotron p.lead,  {
+  font-size: 26px;
+}
+.jumbotron a {
+  color: #fff;
+}
+section h1.subheader{
+  margin-bottom: 0;
+}
+section h2.subheader {
+  margin-bottom: 30px;
+}
+small.super {
+  vertical-align: super;
+}
+#vodlogos span {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background: url('../images/vod-logos-knhomepage.png') no-repeat;
+  height: 40px;
+  width: 100px;
+  display: inline-block;
+  opacity: 1;
+  margin: 10px;
+  opacity: 0.7;
+}
+#vodlogos #itunes   { background-position: 0px 0px; width: 90px; }
+#vodlogos #hulu     { background-position: 0px -40px; width: 70px; }
+#vodlogos #amazon   { background-position: 0px -80px; width: 114px; }
+#vodlogos #netflix { background-position: 0px -120px; width: 70px; }
+#vodlogos #viewster { background-position: 0px -160px; width: 100px; }
+#vodlogos #huluplus { background-position: 0px -200px; width: 120px; }
+#vodlogos #google { background-position: 0px -240px; width: 130px; }
+#vodlogos #indiereign { background-position: 0px -280px; width: 100px; }
+#vodlogos #snagfilms { background-position: 0px -320px; width: 110px; }
+#vodlogos #fandor { background-position: 0px -360px; width: 130px; }
+#vodlogos #cinecliq { background-position: 0px -840px; width: 64px; }
+#vodlogos #lovefilm { background-position: 0px -400px; width: 80px; }
+#vodlogos #redbox { background-position: 0px -440px; width: 90px; }
+#vodlogos #mgo { background-position: 0px -480px; width: 28px; }
+#vodlogos #roku { background-position: 0px -520px; width: 70px; }
+#vodlogos #kinopto { background-position: 0px -560px; width: 100px; }
+#vodlogos #vudu { background-position: 0px -600px; width: 60px; }
+#vodlogos #canalplay { background-position: 0px -640px; width: 100px; }
+#vodlogos #viaway { background-position: 0px -680px; width: 70px; }
+#vodlogos #indieflix { background-position: 0px -720px; width: 100px; }
+#vodlogos #cineclick { background-position: 0px -760px; width: 50px; }
+#vodlogos #docurama { background-position: 0px -800px; width: 94px; }
+#vodlogos #vimeo { background-position: 0px -880px; width: 120px; }
+#vodlogos #reelfeed { background-position: 0px -920px; width: 120px; }
+#vodlogos #streampix { background-position: 0px -960px; width: 120px; }
+
+h2 img {
+  margin-right: 10px;
+}
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+section:nth-of-type(3n+2) {
+  background-color: #eee;
+}
+section:nth-of-type(3n) {
+  background-color: #406E74; /* #e67d25 #4C5679; #36426B */
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+section:nth-of-type(3n) a {
+  color: #acdbe4;
+}
+section:last-of-type {
+/*  min-height: 100vh; */
+}
+div#terms-intro {
+  background-color: #eee;
+}
+.details > * {
+  margin-top: 0;
+}
+.pricing img {
+  margin: 40px auto;
+}
+.nav-stacked li.nav-article>a {
+  font-size: 14px;
+  padding: 2px 10px 2px 30px;
+}
+.nav-stacked li.nav-header>a {
+  font-size: inherit;
+  padding-left: 10px;
+}
+/*.nav-stacked li+li.nav-header {
+  margin-top: 10px;
+  margin-left: 6px;
+  margin-bottom: 6px;
+}
+*/
+.meta {
+  margin-bottom: 30px;
+}
+.meta small {
+  color: #999;
+}
+.steps {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  width: 50px;
+  background: #406E74;
+  color: #fff;
+}
+.howitworks img, .enterprise img {
+  margin-bottom: 20px;
+}
+a.anchor {
+  display: block;
+  position: relative;
+  top: -51px;
+  visibility: hidden;
+}
+section.enterprise {
+  background-color: #212D5E; /* #0c132e #1B2122 #406E74 #4c858c #012B31 */
+  color: #fff;
+  letter-spacing: 0.03em;
+}
+section.enterprise h1 small {
+  color: #ccc;
+}
+section.features h1 {
+  font-size: 48px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+section.features {
+/*  background: url('../images/blueglobe.jpg') #fff no-repeat top 10px;*/
+/*  background: #fff;
+*/  position: relative;
+  overflow: hidden;
+}
+section.different h1 {
+  letter-spacing: 0;
+}
+#globe {
+  position: absolute;
+  top: -10px;
+}
+footer {
+  color: #888;
+  background-color: #f8f8f8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #e7e7e7;
+  min-height: 60px;
+  text-align: center;
+}
+footer a {
+  color: #777;
+}
+footer a:hover {
+  color: #333;
+}
+footer ul>li a:hover i {
+/*  opacity: 0.7;*/
+}
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer ul>li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer ul>li:first-child {
+  padding-left: 0;
+}
+footer ul>li:last-child {
+  padding-right: 0;
+}
+/* This gets Google to fall into place */
+.social {
+	font-size: 1px;
+  padding: 0;
+  line-height: 40px;
+}
+
+/* This gets Facebook to fall into place */
+.social iframe {
+	vertical-align: middle;
+}
+
+/* Set an optional width for your button wrappers */
+.social span {
+	display: inline-block;
+	width: 180px;
+}
+.social .twitter {
+  width: 110px;
+}
+.social .twitter-follow {
+  width: 150px;
+}
+.social .facebook {
+  width: 90px;
+}
+/* Adjust the widths individually if you like */
+.social .google {
+	width: 75px;
+}
+.well h3 {
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand {
+    margin-left: 0;
+    margin-top: 13px;
+  }
+  .jumbotron h1 {
+    font-size: 75px;
+    letter-spacing: -3px;
+  }
+  section h1 {
+    font-size: 64px;
+    letter-spacing: -3px;
+  }
+  .page-home .lead {
+    font-size: 18px;
+  }
+}
+a[data-toggle="tooltip"] {
+  color: inherit;
+  border-bottom: 1px dashed #000;
+  text-decoration: none;
+}
+.tag {
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: .4em .6em .3em;
+}
+.tag span {
+  vertical-align: super;
+  font-size: 1rem;
+}
+#tag-box {
+  line-height: 2;
+}
+body.page-tags p.singletag {
+  margin: 20px 0 10px;
+}
+body.page-tags ul.posts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.alert>ul {
+  margin-bottom: inherit;
+}
+ol ol {
+  margin-bottom: 10px; /* undo Bootstrap */
+}
+li ol {
+/*   margin-bottom: 0px; /* instead, I think that's what they meant */
+}
+body.page-terms .container.section {
+  padding-bottom: 20px;
+}
+.jumbotron .container, section .container {
+  padding-bottom: 0px;
+}
+
+#teampics {
+  margin-top: 30px;
+}
+
+/*.page-faq-index ol li i, .page-faq-index p i {
+  padding: 4px 5px;
+  margin-right: 6px;
+}
+
+.page-faq-index ol {
+  list-style-type: lower-roman;
+  list-style-position: outside;
+  list-style-image: none;
+}
+*/
+.page-faq-index li > p:first-child {
+  font-weight: bold;
+}
+.first-row {
+  margin-top: 0;
+}
+.poster {
+  float: left;
+  width: 10%;
+}
+.row.posters {
+   margin-top: 0px;
+   margin-bottom: 40px;
+}
+#fromeverywhere {
+  margin-top: 40px;
+}
+
+/* Amazon page */
+
+.page-amazon .jumbotron h1 {
+  color: #ff9900;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.page-amazon .jumbotron {
+  background-color: #000000; /*   #406E74 #596451; */
+  background: url('/images/bkg.gif');
+}
+
+.page-amazon #aivlogo {
+  margin-top: 24px;
+}
+
+.page-amazon .jumbotron a.btn-default:hover {
+  color: #000000;
+  background-color: #ff9900;
+  border-color: #000000;
+}
+
+/* Vimeo page */
+
+.page-vimeo .jumbotron h1 {
+  color: #333333;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.page-vimeo .jumbotron {
+  background-color: #000000; /*   #406E74 #596451; */
+  background: url('/images/bkg.gif');
+}
+
+.page-vimeo #vimeologo {
+  margin-top: 24px;
+}
+
+.page-vimeo .jumbotron a.btn-default:hover {
+  color: #000000;
+  background-color: #ff9900;
+  border-color: #000000;
+}

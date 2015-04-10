@@ -4,17 +4,18 @@ layout: bootstrap
 <div class="container content">
   <div class="row">
     <div class="col-md-9"> <!-- left column -->
-
       <ol class="breadcrumb">
         <li><a href="/">Home</a></li>
         <li><a href="/help">Help</a></li>
         <li class="active">{{ page.title }}</li>
       </ol>
-      
+
       <h1 class="page-header">{{ page.title }}</h1>
       <div class="lead">
         {{ content }}
       </div>
+
+      {% include _searchpanel.html %}
       
       <ul>
       {% for post in site.categories[page.category] %}

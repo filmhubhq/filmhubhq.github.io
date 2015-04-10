@@ -3,4 +3,4 @@ layout: help-section
 title: Getting started
 category: getting-started
 ---
-Everything to get you started at Kinonation.
+Learn the workflow, set up fast, and start uploading & submitting for distribution.

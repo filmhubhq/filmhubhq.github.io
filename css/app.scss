@@ -94,9 +94,8 @@ a.navbar-brand:hover {
 .container.content + footer {
   margin-top: 40px;
 }
-.content article:first-of-type h2, .firstrow h3:first-of-type {
-  margin-top: 0px;
-}
+.content article:first-of-type h2,
+.firstrow h3:first-of-type, 
 .container.content h1:first-of-type,
 .content article:first-of-type h2,
 .tag-nav:first-of-type h2 {

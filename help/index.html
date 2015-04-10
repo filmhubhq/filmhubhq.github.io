@@ -17,16 +17,14 @@ excerpt: Browse our help articles. Join the community forums. Watch video tutori
   <div class="row">
     <div class="col-md-9"> <!-- Answerbase -->
       
-      <ol class="breadcrumb">
+      <!-- <ol class="breadcrumb">
         <li><a href="/">Home</a></li>
         <li class="active">Help</li>
-      </ol>
+      </ol> -->
       
-      <h1 class="page-header">Help Center <small> Articles, How-To's, Community Help</small></h1>
+      <h1 class="page-header">Help Center <small> Articles, Guides, Forums</small></h1>
 
-      {% include _searchpanel.html %}
-
-      <p class="lead">
+      <!-- <p class="lead">
         Browse our <a href="#topics" class="textlink" ><i class="fa fa-book"></i> guides &amp; articles</a>.
         Ask in the community <a href="/help/forum" class="textlink"><i class="fa fa-users"></i> forums</a>.
         Watch <a href="/tags/#video" class="textlink" ><i class="fa fa-video-camera"></i> video</a> tutorials.
@@ -34,24 +32,63 @@ excerpt: Browse our help articles. Join the community forums. Watch video tutori
         Still can't find what you're looking for?
         Submit a <a href="/help/ticket.html" class="textlink"><i class="fa fa-ticket"></i> ticket</a>.
       </p>
-
-      <div class="well">
-        <h3>Getting started with Kinonation</h3>
-        <p class="le ad">
-          Learn the workflow, set up fast, and start uploading &amp; submitting for distribution.
-        </p>
-        <p><a class="btn btn-primary" href="/help/getting-started" role="button">Check out our onboarding guide &raquo;</a></p>
-        <!-- <ul class="list-unstyled">
-        {% for post in site.categories["getting-started"] limit:5 %}
-                <li>{% if post.tags contains 'video' %} <a href="/tags/#video"><i class="fa fa-video-camera"></i></a>{% endif %} <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-        </ul> -->
-      </div>
+ -->
+      {% include _searchpanel.html %}
 
       <!-- <p>{{ site.categories | size | divided_by: 2 }}</p> -->
 
-      <!-- <div class="row">
-        <div class="col-md-6">
+      <h2 class="page-header" id="topics">Browse by Topic</h2>
+
+      <div class="row">
+        <div class="col-md-6">          
+          <!-- <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2 class="panel-title">
+                <a href="/help/getting-started">Getting started with Kinonation</a>
+              </h2>
+            </div>
+            <div class="panel-body">
+              <p class="lead">
+                Learn the workflow, set up fast, and start uploading &amp; submitting for distribution.
+              </p>
+              <p>
+                <a class="btn btn-primary" href="/help/getting-started" role="button">Check out our Onboarding Guide &raquo;</a>
+              </p>
+            </div>
+          </div> -->
+          <div class="well">
+              <h3>
+                <a href="/help/getting-started">Getting started with Kinonation</a>
+              </h3>
+              <p class="lead">
+                Learn the workflow, set up fast, and start uploading &amp; submitting for distribution.
+              </p>
+              <p>
+                <a class="btn btn-primary" href="/help/getting-started" role="button">Check out our Onboarding Guide &raquo;</a>
+              </p>
+          </div>
+        </div>
+          
+        <!-- <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2 class="panel-title"><a href="/help/forum"><i class="fa fa-users"></i> Forums</a></h2>
+            </div>
+            <div class="panel-body">
+              <p>
+                Share your ideas, ask the community and help others.
+              </p>
+              <ul>
+                <li><a href="/help/forum">Latest posts</a></li>
+                <li><a href="/help/forum/#!/support">Help</a></li>
+                <li><a href="/help/forum/#!/ideas">Ideas</a></li>
+                <li><a href="/help/forum">Marketing resources</a></li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+          
+        <div class="col-md-6" >
           <h3><a href="/help/forum"><i class="fa fa-users"></i> Forums</a></h3>
           <p>
             Share your ideas, ask the community and help others.
@@ -64,20 +101,7 @@ excerpt: Browse our help articles. Join the community forums. Watch video tutori
           </ul>
         </div>
 
-        <div class="col-md-6">
-          <h3><i class="fa fa-star-o"></i> Most read posts</h3>
-          <p>
-            What the community mostly wants to know.
-          </p>
-          <ul>
-            <li><a href="/help/getting-started/video-upload-specs.html">Video upload specs</a> <small class="text-muted">Specs</small></li>
-            <li><a href="/help/getting-started/resolution.html">Resolutions &amp; aspect ratios</a> <small class="text-muted">Specs</small></li>
-            <li><a href="/help/subtitles/diy-subtitles.html">Do-it-yourself subtitles</a> <small class="text-muted">Subtitles</small></li>
-            <li><a href="/help/forum/#!/ideas:how-do-i">How do i ...</a> <small class="text-muted">Forums</small></li>
-          </ul>
-        </div>
-      </div> -->
-      <h2 class="page-header" id="topics">Browse by Topic</h2>
+      </div>
       <div class="row">
 
         {% for cat in site.categories %}

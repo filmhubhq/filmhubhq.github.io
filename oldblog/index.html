@@ -3,11 +3,21 @@ layout: bootstrap
 title: Blog
 ---
 <div class="container content">
+  <div class="well">
+    <h1 class="page-header">Our blog has moved</h1>
+    <p class="lead">
+      We're now on <a href="http://kinonation.tumblr.com">tumblr</a>. If you ended up here, you maybe followed an outdated link. Sorry for that. 
+    </p>
+    <p>
+      You can also get social with us on <a href="//facebook.com/kinonation">Facebook</a> or <a href="//twitter.com/kinonation1">Twitter</a>,
+      or browse through lots of information in our <a href="https://kinonation.zendesk.com/">Help Center</a>.
+    </p>
+  </div>
   <div class="row">
     <div class="col-md-8"> <!-- left column -->
 
 {% assign counter = '' %}
-{% for post in site.categories["blog"] %}
+{% for post in site.categories["oldblog"] %}
   {% capture temp %}{{ counter }}*{% endcapture %}
   {% assign counter = temp %}
   <article id="article-{{ counter.size }}">
@@ -25,15 +35,6 @@ title: Blog
     </div> <!-- left column -->
     <div class="col-md-4">
       
-      <div class="tag-nav">
-       {% include _tags-sidenav.html %}
-       {% include _tags-count.html %}
-      </div>
-
-      {% include _searchbox.html %}
-
-      {% include _blog-sidenav.html %}
-
     </div>
   </div>  <!-- row -->
 </div>   <!-- container -->

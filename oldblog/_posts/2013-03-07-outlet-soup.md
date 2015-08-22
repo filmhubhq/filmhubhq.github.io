@@ -11,16 +11,16 @@ It seems like every few days there’s an announcement of another video-on-deman
 ###Early Success
 Since we’re now actively “pitching” the first tranche of Kinonation films, I thought it might be useful to give a few examples of movies that have been Accepted by outlets in various countries — outlets such as Hulu, iTunes, SnagFilms, Viewster, IndieReign, Kinopto. This isn’t an exhaustive list by any means, but a sampling of ten films — 5 features and 5 docs — in various categories and from various countries — that have been green-lit for distribution by our VOD partners. I’m linking here to the trailers.
 
-Black Sun
-DOS
-Char*act*er
-This is Ours
-3:19
-Meanwhile in Mamelodi
-Kumpania Flamenco
-Thirst
-Banana in a Nutshell
-Citizen Jia Li
+1. Black Sun
+1. DOS
+1. Char*act*er
+1. This is Ours
+1. 3:19
+1. Meanwhile in Mamelodi
+1. Kumpania Flamenco
+1. Thirst
+1. Banana in a Nutshell
+1. Citizen Jia Li
 
 What do they have in common? I’m not sure, except they’re all compelling, unique, attention-grabbing. The trailers don’t waste precious time — they get right to it. Plus the simple but important first impression stuff that I never stop talking about — attractive, clear, readable poster art. Intriguing — or at least not boring — title. Some film festival laurels and a decent number of views for the trailer. Plus a level of depth, care and completeness for the metadata. e.g. IMDb page has poster art, festival info up to date, thumbnails for the main actors, etc. All requires work, but very achievable, and makes ALL the difference when VOD outlets are making their Yes or No decisions.
 

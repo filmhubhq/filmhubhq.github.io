@@ -177,17 +177,17 @@ function getCountryFromClick(response) {
   DisplayCountry();
 
 }
-
-function DisplayCountry() {
-  var CountriesQuery = countries.join(",");
-  // FT_Query = "SELECT 'kml_4326' FROM " + FT_TableID + " WHERE 'name_0' IN(" + CountriesQuery + ");";
-  // FT_Query = "SELECT 'geometry' FROM " + FT_TableID + " WHERE 'CountryName' IN(" + CountriesQuery + ");";
-  
-  gpolygons = [];
-  layer.setQuery(FT_Query);
-  if (!layer.getMap()) layer.setMap(map);
-  console.log(FT_Query);
-}
+//
+// function DisplayCountry() {
+//   var CountriesQuery = countries.join(",");
+//   // FT_Query = "SELECT 'kml_4326' FROM " + FT_TableID + " WHERE 'name_0' IN(" + CountriesQuery + ");";
+//   // FT_Query = "SELECT 'geometry' FROM " + FT_TableID + " WHERE 'CountryName' IN(" + CountriesQuery + ");";
+//
+//   gpolygons = [];
+//   layer.setQuery(FT_Query);
+//   if (!layer.getMap()) layer.setMap(map);
+//   console.log(FT_Query);
+// }
 
 function countriesInitialize() {
 
@@ -234,11 +234,12 @@ function countriesInitialize() {
   // geocoder = new google.maps.Geocoder();
 
   var map = new google.maps.Map(document.getElementById("map_canvas"), {
-    zoom: 3,
+    zoom: 2,
     center: {lat: 37.4658276, lng: -38.6539022},
   });
   
-  var iso2List = ["'DE'", "'US'", "'NZ'", "'AU'"]; // wrap in single quotes
+
+  var iso2List = ["'US'", "'CN'", "'IN'", "'UK'", "'DE'", "'JP'", "'AU'", "'NZ'", "'ES'", "'FR'", "'RU'", "'DN'", "'GR'", "'NO'"]; // wrap in single quotes
   var whereClause = "'Iso2CodeCountry' IN (" + iso2List.join(',') + ")";
   console.log(whereClause);
 

@@ -2,14 +2,15 @@
   <div class="container">
       <ul>
         <li>Copyright &copy; {{ site.time | date: '%Y' }} Kinonation</li>
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-        <li><a href="//kinonation.zendesk.com/hc/en-us/requests/new">Contact</a></li>
-        <li><a href="//kinonation.zendesk.com">Help</a></li>
+        <li><a href="/terms">Konditionen</a></li>
+        <li><a href="/privacy">Datenschutz</a></li>
+        <li><a href="//kinonation.zendesk.com/hc/en-us/requests/new">Kontakt</a></li>
+        <li><a href="//kinonation.zendesk.com">Hilfe</a></li>
+        {% include _footer_lang.html %}
         <li><a href="http://twitter.com/kinonation1"><i class="fa fa-lg fa-twitter"></i></a></li>
         <li><a href="http://facebook.com/kinonation"><i class="fa fa-lg fa-facebook"></i></a></li>
       </ul>
-      
+
       {% if site.social %}
       <div class="social">
       	<span class="twitter">

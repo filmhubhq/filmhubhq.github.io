@@ -29,12 +29,7 @@
 
 </div>
 
-{% if page.language == 'zh' %}
-{% include _footer_zh.html %}
-{% else %}
-{% include _footer.html %}
-{% endif %}
-
+{% include _footer_{{lang}}.html %}
 {% include _js.html %}
 
 </body>

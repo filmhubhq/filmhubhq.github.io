@@ -44,7 +44,7 @@ function countriesInitialize() {
     // infoWindow.setContent(infoWindowContent(event.row.name_0.value));
     // infoWindow.setPosition(event.latLng);
     // infoWindow.open(map);
-  });
+  // });
 
 }
 

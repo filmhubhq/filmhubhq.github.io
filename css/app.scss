@@ -105,17 +105,38 @@ a.navbar-brand:hover {
 .jumbotron {
   background-color: #348eda;
   color: #fff;
+  a {
+    color: #fff;
+  }
+  a.textlink {
+    border-bottom: #fff 2px dotted;
+    padding-bottom: 4px;
+    &:hover {
+      text-decoration: none;
+      border-bottom: solid;
+    }
+  }
+  ul {
+    @extend p;
+  }
 }
-.jumbotron a.textlink {
-  border-bottom: #fff 2px dotted;
-}
-.jumbotron p a.textlink {
-  padding-bottom: 4px;
-}
-.jumbotron a.textlink:hover {
-  text-decoration: none;
-  border-bottom: solid;
-}
+
+//
+//.jumbotron {
+//  background-color: #348eda;
+//  color: #fff;
+//}
+//.jumbotron a.textlink {
+//  border-bottom: #fff 2px dotted;
+//}
+//.jumbotron p a.textlink {
+//  padding-bottom: 4px;
+//}
+//.jumbotron a.textlink:hover {
+//  text-decoration: none;
+//  border-bottom: solid;
+//}
+
 .page-home .jumbotron {
   background: #348eda url('../images/home-globe.png') no-repeat right -320px center;
   margin-bottom: 0;
@@ -148,9 +169,6 @@ a.navbar-brand:hover {
 }
 .page-home .jumbotron p.lead, .enterprise p.lead, .page-amazon .jumbotron p.lead, .page-vimeo .jumbotron p.lead {
   font-size: 26px;
-}
-.jumbotron a {
-  color: #fff;
 }
 section h1.subheader{
   margin-bottom: 0;

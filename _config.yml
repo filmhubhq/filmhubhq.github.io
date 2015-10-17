@@ -1,5 +1,5 @@
 name: Kinonation
-description: VOD distribution as a cloud-based web service. Now every content owner can get their video content directly to all video-on-demand platforms.
+description: Cloud based global VOD distribution for everyone
 markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
@@ -9,6 +9,5 @@ url: http://kinonation.com
 permalink: none
 gems:
   - jekyll-sitemap
-# sass:
-#   style: compressed
-#
+sass:
+  style: compressed

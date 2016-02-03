@@ -12,7 +12,7 @@ We’re far enough along with development to have a clear work-flow for content 
 <b>You grant KinoNation the right:</b>
 to Distribute — to copy, distribute and transmit the film and associated metadata to various video-on-demand (VOD) platforms throughout the world
 to Collect payments from VOD platforms if/when the film is rented or purchased
-to Pass those payments to the content owner (you) less a commission of 15-20%
+to Pass those payments to the content owner (you) less a revenue share of 15-20%
 
 <b>With the understanding that:</b>
 Video-on-Demand Platforms: have the right to review and select or not select the film for VOD distribution via their platform or service
@@ -45,6 +45,6 @@ Content Owner (filmmaker) can withdraw the film entirely from consideration by K
 
 <b>14. Revenue Reported:</b> The platforms will report revenue to KinoNation, usually a few weeks in arrears, sometimes longer, and will subsequently make payment.
 
-<b>15. Cash in Hand:</b> KinoNation takes a 15-20% commission and then passes the remainder of each month’s revenue to the content owner. In an ideal world, your film is on dozens of platforms worldwide, each generating income for you, indefinitely.
+<b>15. Cash in Hand:</b> Kinonation takes a 15-20% commission and then passes the remainder of each month’s revenue to the content owner. In an ideal world, your film is on dozens of platforms worldwide, each generating income for you, indefinitely.
 
 So that’s what we’ve been busy building. if you’ve read this far, you’ll see why this is a big, complex software, work-flow and business challenge. KinoNation is a work in progress, it certainly won’t be comprehensive when we soft launch in January, but we’re getting there. Meanwhile, now’s a great time to submit your film to our Private Beta launch.

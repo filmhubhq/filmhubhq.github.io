@@ -147,13 +147,13 @@ a.navbar-brand:hover {
   line-height: 1;
   margin-bottom: 40px;
 }
-.page-home .jumbotron h1 small, section h1 small, .page-amazon .jumbotron h1 small, .page-vimeo .jumbotron h1 small {
+.page-home .jumbotron h1 small, section h1 small, .page-amazon .jumbotron h1 small, .page-vimeo .jumbotron h1 small, .page-hoopla .jumbotron h1 small {
   font-size: inherit;
   font-weight: 200;
   color: #ddd;
   display: block;
 }
-.page-home .jumbotron a.btn-default, .page-amazon .jumbotron a.btn-default, .page-vimeo .jumbotron a.btn-default{
+.page-home .jumbotron a.btn-default, .page-amazon .jumbotron a.btn-default, .page-vimeo .jumbotron a.btn-default, .page-hoopla .jumbotron a.btn-default{
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
@@ -162,12 +162,12 @@ a.navbar-brand:hover {
   background: inherit;
   color: #fff;
 }
-.page-home .jumbotron a.btn-default:hover, .page-amazon .jumbotron a.btn-default:hover, .page-vimeo .jumbotron a.btn-default:hover{
+.page-home .jumbotron a.btn-default:hover, .page-amazon .jumbotron a.btn-default:hover, .page-vimeo .jumbotron a.btn-default:hover, .page-hoopla .jumbotron a.btn-default:hover {
   color: #348eda;
   background-color: #fff;
   border-color: #348eda;
 }
-.page-home .jumbotron p.lead, .enterprise p.lead, .page-amazon .jumbotron p.lead, .page-vimeo .jumbotron p.lead {
+.page-home .jumbotron p.lead, .enterprise p.lead, .page-amazon .jumbotron p.lead, .page-vimeo .jumbotron p.lead, .page-hoopla .jumbotron p.lead {
   font-size: 26px;
 }
 section h1.subheader{
@@ -514,4 +514,26 @@ body.page-terms .container.section {
   color: #000000;
   background-color: #1ab7ea;
   border-color: #000000;
+}
+
+/* Hoopla page */
+
+.page-hoopla {
+  .jumbotron {
+  	background: #121212;
+  	background-color: rgba(18, 18, 18, 0.90);
+    a.btn-default:hover {
+     color: #121212;
+//     background-color: #1ab7ea;
+//     border-color: #000000;
+   }
+  }
+  .jumbotron h1 {
+   color: #1ab7ea;
+   font-weight: bold;
+   line-height: 1;
+ }
+ #logo {
+//   margin-top: 24px;
+ }
 }

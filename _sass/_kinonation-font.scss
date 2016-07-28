@@ -1,0 +1,163 @@
+// This contains Kinonation VOD Outlet Icons used on the kinonation.com landing page.
+
+// Created using Icomoon
+// icomoon.io
+
+@import "variables";
+
+@font-face {
+  font-family: 'KinonationFont';
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?7v9ivp');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?7v9ivp#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/KinonationFont.ttf?7v9ivp') format('truetype'),
+    url('#{$icomoon-font-path}/KinonationFont.woff?7v9ivp') format('woff'),
+    url('#{$icomoon-font-path}/KinonationFont.svg?7v9ivp#KinonationFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'KinonationFont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-AmazonPrime {
+  &:before {
+    content: $icon-AmazonPrime;
+  }
+}
+.icon-BesTV {
+  font-size: 1.7em !important;
+  &:before {
+    content: $icon-BesTV;
+  }
+}
+.icon-Cineclick {
+  font-size: 2.3em !important;
+  &:before {
+    content: $icon-Cineclick;
+  }
+}
+.icon-Cinecliq {
+  font-size: 2.3em !important;
+  &:before {
+    content: $icon-Cinecliq;
+  }
+}
+.icon-ConTV {
+  font-size: 2.3em !important;
+  &:before {
+    content: $icon-ConTV;
+  }
+}
+.icon-Docurama {
+  &:before {
+    content: $icon-Docurama;
+  }
+}
+.icon-DoveChannel {
+  font-size: 2.1em !important;
+  &:before {
+    content: $icon-DoveChannel;
+  }
+}
+.icon-FandangoNow {
+  &:before {
+    content: $icon-FandangoNow;
+  }
+}
+.icon-Fandor {
+  &:before {
+    content: $icon-Fandor;
+  }
+}
+.icon-Hoopla {
+  &:before {
+    content: $icon-Hoopla;
+  }
+}
+.icon-Hulu {
+  &:before {
+    content: $icon-Hulu;
+  }
+}
+.icon-IndieReign {
+  &:before {
+    content: $icon-IndieReign;
+  }
+}
+.icon-Itunes {
+  &:before {
+    content: $icon-Itunes;
+  }
+}
+.icon-Netflix {
+  &:before {
+    content: $icon-Netflix;
+  }
+}
+.icon-Overdrive {
+  font-size: 1.2em !important;
+  &:before {
+    content: $icon-Overdrive;
+  }
+}
+.icon-Popcornflix {
+  &:before {
+    content: $icon-Popcornflix;
+  }
+}
+.icon-ReelFeed {
+  font-size: 1em !important;
+  &:before {
+    content: $icon-ReelFeed;
+  }
+}
+.icon-Roku {
+  &:before {
+    content: $icon-Roku;
+  }
+}
+.icon-SnagFilms {
+  &:before {
+    content: $icon-SnagFilms;
+  }
+}
+.icon-StreamPix {
+  &:before {
+    content: $icon-StreamPix;
+  }
+}
+.icon-Tubitv {
+  font-size: 2em !important;
+  &:before {
+    content: $icon-Tubitv;
+  }
+}
+.icon-Viewster {
+  &:before {
+    content: $icon-Viewster;
+  }
+}
+.icon-Vimeo {
+  &:before {
+    content: $icon-Vimeo;
+  }
+}
+.icon-Vodd {
+  font-size: 1.2em !important;
+  &:before {
+    content: $icon-Vodd;
+  }
+}
+

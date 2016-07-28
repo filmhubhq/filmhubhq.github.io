@@ -1,7 +1,5 @@
 name: Kinonation
-description: Cloud based global VOD distribution for everyone
-redcarpet:
-  extensions: ["tables"]
+description: Cloud based global video streaming service distribution for everyone
 social: false
 offline: true
 url: http://kinonation.com

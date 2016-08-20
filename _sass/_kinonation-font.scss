@@ -31,6 +31,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-YahooView {
+  font-size: 2.0em !important;
+  &:before {
+    content: $icon-YahooView;
+  }
+}
+.icon-FlixPremiere {
+  font-size: 3.0em !important;
+  &:before {
+    content: $icon-FlixPremiere;
+  }
+}
+.icon-Iflix {
+  &:before {
+    content: $icon-Iflix;
+  }
+}
+.icon-ChinaMobile {
+  font-size: 2.5em !important;
+  &:before {
+    content: $icon-ChinaMobile;
+  }
+}
 .icon-Amazon {
   font-size: 1.7em !important;
   &:before {

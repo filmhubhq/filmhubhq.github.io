@@ -7,11 +7,11 @@
 
 @font-face {
   font-family: 'KinonationFont';
-  src:  url('#{$icomoon-font-path}/KinonationFont.eot?jlry27');
-  src:  url('#{$icomoon-font-path}/KinonationFont.eot?jlry27#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/KinonationFont.ttf?jlry27') format('truetype'),
-    url('#{$icomoon-font-path}/KinonationFont.woff?jlry27') format('woff'),
-    url('#{$icomoon-font-path}/KinonationFont.svg?jlry27#KinonationFont') format('svg');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?utzurb');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?utzurb#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/KinonationFont.ttf?utzurb') format('truetype'),
+    url('#{$icomoon-font-path}/KinonationFont.woff?utzurb') format('woff'),
+    url('#{$icomoon-font-path}/KinonationFont.svg?utzurb#KinonationFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -64,12 +64,6 @@
   font-size: 1.7em !important;
   &:before {
     content: $icon-BesTV;
-  }
-}
-.icon-AmazonPrime {
-  font-size: 1.7em !important;
-  &:before {
-    content: $icon-AmazonPrime;
   }
 }
 .icon-Cineclick {

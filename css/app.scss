@@ -186,12 +186,20 @@ small.super {
 }
 
 #vodlogos span {
+  transition: 1s;
   color: rgb(82, 82, 84); // #525254
   font: 0/0 a;
   font-size: 1.4em;
   line-height: 200%;
   margin: 15px;
   vertical-align: middle;
+}
+
+@media(max-width:767px) {
+  #vodlogos span {
+    transition: 1s;
+    line-height: 170%;
+  }
 }
 
 

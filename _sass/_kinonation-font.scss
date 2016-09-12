@@ -7,11 +7,11 @@
 
 @font-face {
   font-family: 'KinonationFont';
-  src:  url('#{$icomoon-font-path}/KinonationFont.eot?jlry27');
-  src:  url('#{$icomoon-font-path}/KinonationFont.eot?jlry27#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/KinonationFont.ttf?jlry27') format('truetype'),
-    url('#{$icomoon-font-path}/KinonationFont.woff?jlry27') format('woff'),
-    url('#{$icomoon-font-path}/KinonationFont.svg?jlry27#KinonationFont') format('svg');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?n27ws8');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?n27ws8#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/KinonationFont.ttf?n27ws8') format('truetype'),
+    url('#{$icomoon-font-path}/KinonationFont.woff?n27ws8') format('woff'),
+    url('#{$icomoon-font-path}/KinonationFont.svg?n27ws8#KinonationFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -31,6 +31,39 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-PPTV {
+  &:before {
+    content: $icon-PPTV;
+  }
+}
+.icon-VHX {
+  &:before {
+    content: $icon-VHX;
+  }
+}
+.icon-YahooView {
+  font-size: 2.0em !important;
+  &:before {
+    content: $icon-YahooView;
+  }
+}
+.icon-FlixPremiere {
+  font-size: 3.0em !important;
+  &:before {
+    content: $icon-FlixPremiere;
+  }
+}
+.icon-Iflix {
+  &:before {
+    content: $icon-Iflix;
+  }
+}
+.icon-ChinaMobile {
+  font-size: 2.5em !important;
+  &:before {
+    content: $icon-ChinaMobile;
+  }
+}
 .icon-Amazon {
   font-size: 1.7em !important;
   &:before {
@@ -41,12 +74,6 @@
   font-size: 1.7em !important;
   &:before {
     content: $icon-BesTV;
-  }
-}
-.icon-AmazonPrime {
-  font-size: 1.7em !important;
-  &:before {
-    content: $icon-AmazonPrime;
   }
 }
 .icon-Cineclick {

@@ -29,7 +29,7 @@ function countriesInitialize() {
   });
   // wrap in single quotes
   var iso2List = ["'US'", "'CN'", "'IN'", "'UK'", "'DE'", "'JP'", "'AU'", "'NZ'",
-                  "'ES'", "'FR'", "'RU'", "'DN'", "'GR'", "'NO'", "'MY'", "'PL'",
+                  "'ES'", "'FR'", "'RU'", "'DN'", "'GR'", "'NO'", "'MY'",
                   "'BR'", "'IT'"];
   var whereClause = "'Iso2CodeCountry' IN (" + iso2List.join(',') + ")";
   var layer = new google.maps.FusionTablesLayer({

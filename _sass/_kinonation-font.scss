@@ -7,11 +7,11 @@
 
 @font-face {
   font-family: 'KinonationFont';
-  src:  url('#{$icomoon-font-path}/KinonationFont.eot?n27ws8');
-  src:  url('#{$icomoon-font-path}/KinonationFont.eot?n27ws8#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/KinonationFont.ttf?n27ws8') format('truetype'),
-    url('#{$icomoon-font-path}/KinonationFont.woff?n27ws8') format('woff'),
-    url('#{$icomoon-font-path}/KinonationFont.svg?n27ws8#KinonationFont') format('svg');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?xc8x14');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?xc8x14#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/KinonationFont.ttf?xc8x14') format('truetype'),
+    url('#{$icomoon-font-path}/KinonationFont.woff?xc8x14') format('woff'),
+    url('#{$icomoon-font-path}/KinonationFont.svg?xc8x14#KinonationFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -31,6 +31,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-FilmOn {
+  &:before {
+    content: $icon-FilmOn;
+  }
+}
 .icon-PPTV {
   &:before {
     content: $icon-PPTV;

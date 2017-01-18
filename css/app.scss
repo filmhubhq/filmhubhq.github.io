@@ -1,6 +1,8 @@
 ---
 ---
-//@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Lato');
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+$font-family-sans-serif: "Lato", sans-serif;
 @import "bootstrap";
 @import "help";
 @import "kinonation-font";
@@ -150,7 +152,7 @@ a.navbar-brand:hover {
 }
 .page-home .jumbotron h1 small, section h1 small, .page-amazon .jumbotron h1 small, .page-vimeo .jumbotron h1 small, .page-hoopla .jumbotron h1 small {
   font-size: inherit;
-  font-weight: 200;
+  // font-weight: 200;
   color: #ddd;
   display: block;
 }
@@ -215,7 +217,7 @@ section:nth-of-type(3n+2) {
 section:nth-of-type(3n) {
   background-color: #406E74; /* #e67d25 #4C5679; #36426B */
   color: #fff;
-  letter-spacing: 0.02em;
+  // letter-spacing: 0.02em;
 }
 section:nth-of-type(3n) a {
   color: #acdbe4;
@@ -273,14 +275,14 @@ a.anchor {
 section.enterprise {
   background-color: #212D5E; /* #0c132e #1B2122 #406E74 #4c858c #012B31 */
   color: #fff;
-  letter-spacing: 0.03em;
+  // letter-spacing: 0.03em;
 }
 section.enterprise h1 small {
   color: #ccc;
 }
 section.features h1 {
   font-size: 48px;
-  letter-spacing: -2px;
+  // letter-spacing: -2px;
   margin-bottom: 20px;
 }
 section.features {
@@ -290,7 +292,7 @@ section.features {
   overflow: hidden;
 }
 section.different h1 {
-  letter-spacing: 0;
+  // letter-spacing: 0;
 }
 #globe {
   position: absolute;
@@ -369,11 +371,11 @@ footer ul>li:last-child {
   }
   .jumbotron h1 {
     font-size: 75px;
-    letter-spacing: -3px;
+    // letter-spacing: -3px;
   }
   section h1 {
     font-size: 64px;
-    letter-spacing: -2px;
+    // letter-spacing: -2px;
   }
   .page-home .lead {
     font-size: 18px;

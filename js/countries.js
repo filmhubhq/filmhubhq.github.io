@@ -36,8 +36,8 @@ function countriesInitialize() {
       query: {
         select: 'geometry',
         from: '1ov8ykzakf3WcwMCIBRsZjzRlOAGvJFsDjN_m9VQ',
-        where: whereClause
-      }
+        where: whereClause,
+      },
       // suppressInfoWindows: true
     });
   layer.setMap(map);

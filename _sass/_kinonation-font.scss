@@ -7,11 +7,11 @@
 
 @font-face {
   font-family: 'KinonationFont';
-  src:  url('#{$icomoon-font-path}/KinonationFont.eot?n27ws8');
-  src:  url('#{$icomoon-font-path}/KinonationFont.eot?n27ws8#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/KinonationFont.ttf?n27ws8') format('truetype'),
-    url('#{$icomoon-font-path}/KinonationFont.woff?n27ws8') format('woff'),
-    url('#{$icomoon-font-path}/KinonationFont.svg?n27ws8#KinonationFont') format('svg');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?6fkoul');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?6fkoul#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/KinonationFont.ttf?6fkoul') format('truetype'),
+    url('#{$icomoon-font-path}/KinonationFont.woff?6fkoul') format('woff'),
+    url('#{$icomoon-font-path}/KinonationFont.svg?6fkoul#KinonationFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -31,6 +31,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-GoneTV {
+  &:before {
+    content: $icon-GoneTV;
+  }
+}
+.icon-FilmOn {
+  &:before {
+    content: $icon-FilmOn;
+  }
+}
 .icon-PPTV {
   &:before {
     content: $icon-PPTV;

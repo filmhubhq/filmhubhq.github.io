@@ -93,7 +93,7 @@ a.navbar-brand:hover {
   }
 }
 
-.page-home .jumbo-home {
+.jumbo-home {
   background: #348eda url('../images/home-globe.png') no-repeat right -320px center;
   margin-bottom: 0;
   .navbar-default {
@@ -112,7 +112,7 @@ a.navbar-brand:hover {
   }
   .jumbotron {
     background-color: transparent;
-    a.btn-default {
+    a.btn.btn-default {
       background-color: #f99a3e;
       text-transform: uppercase;
       font-size: 16px;
@@ -227,12 +227,6 @@ div#terms-intro {
   font-size: inherit;
   padding-left: 10px;
 }
-/*.nav-stacked li+li.nav-header {
-  margin-top: 10px;
-  margin-left: 6px;
-  margin-bottom: 6px;
-}
-*/
 .meta {
   margin-bottom: 30px;
 }
@@ -364,7 +358,7 @@ footer ul>li:last-child {
   }
 }
 @media (min-width: $screen-md-min) {
-  .jumbotron p { padding-left: 100px; padding-right: 100px} 
+  .jumbotron .container-fluid.text-center p { padding-left: 100px; padding-right: 100px} 
 }
 
 a[data-toggle="tooltip"] {
@@ -412,17 +406,6 @@ body.page-terms .container.section {
   margin-top: 30px;
 }
 
-/*.page-faq-index ol li i, .page-faq-index p i {
-  padding: 4px 5px;
-  margin-right: 6px;
-}
-
-.page-faq-index ol {
-  list-style-type: lower-roman;
-  list-style-position: outside;
-  list-style-image: none;
-}
-*/
 .page-faq-index li > p:first-child {
   font-weight: bold;
 }
@@ -446,10 +429,10 @@ body.page-terms .container.section {
 .page-amazon .jumbotron h1 {
   color: #ff9900;
   font-weight: bold;
-  line-height: 1;
+  line-height: 1.2;
 }
 
-.page-amazon .jumbotron {
+.page-amazon .jumbo-home {
   background-color: #000000; /*   #406E74 #596451; */
   background: url('/images/bkg.gif');
 }
@@ -458,11 +441,11 @@ body.page-terms .container.section {
   margin-top: 24px;
 }
 
-.page-amazon .jumbotron a.btn-default:hover {
-  color: #000000;
-  background-color: #ff9900;
-  border-color: #000000;
-}
+// .page-amazon .jumbotron a.btn-default:hover {
+//   color: #000000;
+//   background-color: #ff9900;
+//   border-color: #000000;
+// }
 
 /* Vimeo page */
 

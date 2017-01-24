@@ -1,30 +1,25 @@
-<div class="body">
-  <div class="navbar navbar-default navbar-fixed-top" data-class="" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand animate"
-          {% if page.url == '/index.html' %} href="/" {% else %} href="#top" {% endif %}>Kinonation</a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#howitworks" class="animate">怎样运作</a></li>
-          <li><a href="{% if page.url != '/index.html' %}/{% endif %}#pricing" class="animate">价格</a></li>
-          <li><a href="{% if page.url != '/index.html' %}/{% endif %}#enterprise" class="animate">企业版</a></li>
-          <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#about" class="animate">关于我们</a></li>
-          <li><a href="http://kinonation.tumblr.com">博客</a></li>
-          <li class="hidden-sm {% if page.url == '/help/index.html' %}active{% endif %}"><a href="//kinonation.zendesk.com/">帮助</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="hidden-sm"><a href="http://weibo.com/kinonationchina"><i class="fa fa-lg fa-weibo"></i></a></li>
-          <li><a href="https://beta.kinonation.com/user/register">现在加入</a></li>
-          <li><a href="https://beta.kinonation.com">登录</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand animate"
+    {% if page.url == '/index.html' %} href="/" {% else %} href="#top" {% endif %}>Kinonation</a>
+</div>
+<div class="navbar-collapse collapse">
+  <ul class="nav navbar-nav">
+    <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#howitworks" class="animate">怎样运作</a></li>
+    <li><a href="{% if page.url != '/index.html' %}/{% endif %}#pricing" class="animate">价格</a></li>
+    <li><a href="{% if page.url != '/index.html' %}/{% endif %}#enterprise" class="animate">企业版</a></li>
+    <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#about" class="animate">关于我们</a></li>
+    <li><a href="http://kinonation.tumblr.com">博客</a></li>
+    <li class="hidden-sm {% if page.url == '/help/index.html' %}active{% endif %}"><a href="//kinonation.zendesk.com/">帮助</a></li>
+  </ul>
+  <ul class="nav navbar-nav navbar-right">
+    <li class="hidden-sm"><a href="http://weibo.com/kinonationchina"><i class="fa fa-lg fa-weibo"></i></a></li>
+    <li><a href="https://beta.kinonation.com/user/register">现在加入</a></li>
+    <li><a href="https://beta.kinonation.com">登录</a></li>
+  </ul>
+</div>

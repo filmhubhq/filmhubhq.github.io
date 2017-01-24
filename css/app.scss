@@ -1,32 +1,36 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css?family=Lato');
-// @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-$font-family-sans-serif: "Lato", sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
+$font-family-sans-serif: "Open Sans", sans-serif;
 @import "bootstrap";
+
 @import "help";
 @import "kinonation-font";
 
 body {
-//  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 16px;
   padding-bottom: 0;
   color: #525254;
   background-color: #f8f8f8;
-/*  -webkit-font-smoothing: antialiased;*/
 }
 .body {
   background-color: #fff;
   min-height: 800px;
-  padding-top: 50px;
+  // padding-top: 50px;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: bold;
 }
 .navbar {
   margin-bottom: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
 }
-.navbar > .container .navbar-brand {
+
+.navbar-brand {
   border: 0;
   font: 0/0 a;
   text-shadow: none;
@@ -39,55 +43,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin: 14px 20px 0 15px;
   padding: 0;
 }
+
+.navbar li { 
+  color: #000
+} 
+
 a.navbar-brand:hover {
   opacity: 0.7;
 }
+
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .navbar > .container .navbar-brand {
     background: url('../images/logo-v3-gray-35h@2x.png') no-repeat;
     background-image: url('../images/logo-v3-gray-35h.svg');
     background-size: contain;
-  }
-}
-
-/* navbar scroll animation */
-@media(min-width:767px) {
-  body.page-home .body {
-    padding-top: 0px;
-  }
-  body.page-home .jumbotron {
-    padding-top: 160px;
-  }
-  body.page-home .navbar {
-    padding: 20px 0;
-    background-color: rgba(248, 248, 248, 0.85);
-    -webkit-transition: padding .5s ease-in-out, background-color .5s ease-in-out;
-    -moz-transition: padding .5s ease-in-out, background-color .5s ease-in-out;
-    transition: padding .5s ease-in-out, background-color .5s ease-in-out;
-  }
-  body.page-home .navbar-nav>li>a {
-    padding-top: 22px;
-    -webkit-transition: padding .5s ease-in-out;
-    -moz-transition: padding .5s ease-in-out;
-    transition: padding .5s ease-in-out;
-  }
-  body.page-home .top-nav-collapse {
-    padding: 0;
-    background-color: rgb(248, 248, 248);
-  }
-  .page-home .top-nav-collapse .navbar-nav>li>a {
-    padding-top: 13px;
-  }
-  body.page-home .navbar > .container .navbar-brand {
-    width: 180px;
-    height: 56px;
-    -webkit-transition: width .5s ease-in-out, height .5s ease-in-out;
-    -moz-transition: width .5s ease-in-out, height .5s ease-in-out;
-    transition: width .5s ease-in-out, height .5s ease-in-out;
-  }
-  body.page-home .top-nav-collapse.navbar > .container .navbar-brand {
-    width: 119px;
-    height: 20px;
   }
 }
 
@@ -124,38 +93,53 @@ a.navbar-brand:hover {
   }
 }
 
-//
-//.jumbotron {
-//  background-color: #348eda;
-//  color: #fff;
-//}
-//.jumbotron a.textlink {
-//  border-bottom: #fff 2px dotted;
-//}
-//.jumbotron p a.textlink {
-//  padding-bottom: 4px;
-//}
-//.jumbotron a.textlink:hover {
-//  text-decoration: none;
-//  border-bottom: solid;
-//}
-
-.page-home .jumbotron {
+.page-home .jumbo-home {
   background: #348eda url('../images/home-globe.png') no-repeat right -320px center;
   margin-bottom: 0;
-  padding-bottom: 30px;
+  .navbar-default {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    .navbar-nav > li > a {
+      color: #fff; 
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  .navbar-brand {
+    background-image: url('../images/logo-v3-white-35h.svg'), none;
+  }
+  }
+  .jumbotron {
+    background-color: transparent;
+    a.btn-default {
+      background-color: #f99a3e;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 900;
+      border-color: #dc8939;
+      &:hover {
+        color: white;
+        background-color: #dc8939;
+        border-color: #348eda;    
+      }
+    }
+  }
 }
+
 .page-home .jumbotron h1, section h1 {
   font-weight: bold;
   line-height: 1;
   margin-bottom: 40px;
 }
+
 .page-home .jumbotron h1 small, section h1 small, .page-amazon .jumbotron h1 small, .page-vimeo .jumbotron h1 small, .page-hoopla .jumbotron h1 small {
   font-size: inherit;
   // font-weight: 200;
   color: #ddd;
   display: block;
 }
+
 .page-home .jumbotron a.btn-default, .page-amazon .jumbotron a.btn-default, .page-vimeo .jumbotron a.btn-default, .page-hoopla .jumbotron a.btn-default{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -163,12 +147,13 @@ a.navbar-brand:hover {
   font-size: 26px;
   font-weight: 200;
   background: inherit;
+  transition: background .5s, color .5s, border .5s;
   color: #fff;
-}
-.page-home .jumbotron a.btn-default:hover, .page-amazon .jumbotron a.btn-default:hover, .page-vimeo .jumbotron a.btn-default:hover, .page-hoopla .jumbotron a.btn-default:hover {
-  color: #348eda;
-  background-color: #fff;
-  border-color: #348eda;
+  &:hover {
+    color: #348eda;
+    background-color: #fff;
+    border-color: #348eda;    
+  }
 }
 .page-home .jumbotron p.lead, .enterprise p.lead, .page-amazon .jumbotron p.lead, .page-vimeo .jumbotron p.lead, .page-hoopla .jumbotron p.lead {
   font-size: 26px;
@@ -364,23 +349,25 @@ footer ul>li:last-child {
 .well h3 {
   margin-top: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: $screen-sm-min) {
   .navbar > .container .navbar-brand {
     margin-left: 0;
     margin-top: 13px;
   }
-  .jumbotron h1 {
-    font-size: 75px;
-    // letter-spacing: -3px;
+  .jumbotron {
+    h1 { font-size: 75px; }
   }
   section h1 {
     font-size: 64px;
-    // letter-spacing: -2px;
   }
   .page-home .lead {
     font-size: 18px;
   }
 }
+@media (min-width: $screen-md-min) {
+  .jumbotron p { padding-left: 100px; padding-right: 100px} 
+}
+
 a[data-toggle="tooltip"] {
   color: inherit;
   border-bottom: 1px dashed #000;

@@ -22,11 +22,16 @@
 </head>
 
 <body class="page-{{ page.id }}" data-spy="scroll" data-target=".navbar-collapse" data-offset="51">
+  <div class="body">
 
-{% include _navbar_{{lang}}.html %}
+    <div class="navbar navbar-default navbar-fixed-top" data-class="" role="navigation">
+      <div class="container">
+        {% include _navbar_{{lang}}.html %}
+      </div>
+    </div>
 
-  {{ content }}
-
+    {{ content }}
+  </div>
 </div>
 
 {% include _footer_{{lang}}.html %}

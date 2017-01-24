@@ -1,31 +1,26 @@
-<div class="body">
-  <div class="navbar navbar-default navbar-fixed-top" data-class="" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Navigation umschalten</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand animate"
-          {% if page.url == '/index.html' %} href="#top" {% else %} href="/de" {% endif %}>Kinonation</a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#howitworks" class="animate">So funktioniert's</a></li>
-          <li><a href="{% if page.url != '/index.html' %}/{% endif %}#pricing" class="animate">Preis</a></li>
-          <li><a href="{% if page.url != '/index.html' %}/{% endif %}#enterprise" class="animate">Firmenkunden</a></li>
-          <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#about" class="animate">Über</a></li>
-          <li><a href="http://kinonation.tumblr.com">Blog</a></li>
-          <li class="hidden-sm {% if page.url == '/help/index.html' %}active{% endif %}"><a href="//kinonation.zendesk.com/">Hilfe</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="hidden-sm hidden-md"><a href="http://twitter.com/kinonation1"><i class="fa fa-lg fa-twitter"></i></a></li>
-          <li class="hidden-sm hidden-md"><a href="http://facebook.com/kinonation"><i class="fa fa-lg fa-facebook"></i></a></li>
-          <li><a href="https://beta.kinonation.com/user/register">Registrieren</a></li>
-          <li><a href="https://beta.kinonation.com">Anmelden</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    <span class="sr-only">Navigation umschalten</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand animate"
+    {% if page.url == '/index.html' %} href="#top" {% else %} href="/de" {% endif %}>Kinonation</a>
+</div>
+<div class="navbar-collapse collapse">
+  <ul class="nav navbar-nav">
+    <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#howitworks" class="animate">So funktioniert's</a></li>
+    <li><a href="{% if page.url != '/index.html' %}/{% endif %}#pricing" class="animate">Preis</a></li>
+    <li><a href="{% if page.url != '/index.html' %}/{% endif %}#enterprise" class="animate">Firmenkunden</a></li>
+    <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#about" class="animate">Über</a></li>
+    <li><a href="http://kinonation.tumblr.com">Blog</a></li>
+    <li class="hidden-sm {% if page.url == '/help/index.html' %}active{% endif %}"><a href="//kinonation.zendesk.com/">Hilfe</a></li>
+  </ul>
+  <ul class="nav navbar-nav navbar-right">
+    <li class="hidden-sm hidden-md"><a href="http://twitter.com/kinonation1"><i class="fa fa-lg fa-twitter"></i></a></li>
+    <li class="hidden-sm hidden-md"><a href="http://facebook.com/kinonation"><i class="fa fa-lg fa-facebook"></i></a></li>
+    <li><a href="https://beta.kinonation.com/user/register">Registrieren</a></li>
+    <li><a href="https://beta.kinonation.com">Anmelden</a></li>
+  </ul>
+</div>

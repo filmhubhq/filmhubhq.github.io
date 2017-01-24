@@ -343,7 +343,7 @@ footer ul>li:last-child {
     margin-top: 13px;
   }
   .jumbotron {
-    h1 { font-size: 75px; }
+    h1 { font-size: 64px; }
   }
   section h1 {
     font-size: 64px;
@@ -352,7 +352,7 @@ footer ul>li:last-child {
     font-size: 18px;
   }
 }
-@media (min-width: $screen-md-min) {
+@media (min-width: $screen-sm-min) {
   .jumbotron .container-fluid.text-center p { padding-left: 100px; padding-right: 100px} 
 }
 
@@ -419,7 +419,7 @@ body.page-terms .container.section {
   margin-top: 40px;
 }
 
-/* Amazon page */
+/* Streaming service landing pages */
 
 .page-amazon {
   .jumbo-home {
@@ -436,10 +436,8 @@ body.page-terms .container.section {
   }
 }
 
-/* Vimeo page */
-
 .page-vimeo {
-  &.jumbo-home { 
+  .jumbo-home { 
     background: #000000 url('/images/bkg2.gif'); 
     h1 {
       color: #1ab7ea;
@@ -448,8 +446,6 @@ body.page-terms .container.section {
   }
   #vimeologo { margin-top: 24px; }
 }
-
-/* Hoopla page */
 
 .page-hoopla {
   .jumbo-home {

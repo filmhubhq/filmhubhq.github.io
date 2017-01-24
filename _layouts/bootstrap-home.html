@@ -23,16 +23,20 @@
 
 <body class="page-{{ page.id }}" data-spy="scroll" data-target=".navbar-collapse" data-offset="51">
   <div class="body">
-    <nav class="navbar navbar-default container-fluid" data-class="" role="navigation">
-      {% include _navbar_{{lang}}.html %}
-    </nav>
-
-    {{ content }}
+    <a class="anchor" id="top"></a>
+    <div class="jumbo-home">
+      <nav class="navbar navbar-default container-fluid" data-class="" role="navigation">
+        {% include _navbar_{{lang}}.html %}
+      </nav>
+<!-- content must close .jumbo-home div -->
+      {{ content }}
 
   </div>
+</div>
 
 {% include _footer_{{lang}}.html %}
 {% include _js.html %}
 
 </body>
 </html>
+

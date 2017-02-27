@@ -127,15 +127,15 @@ a.navbar-brand:hover {
 
 .page-home .jumbotron h1, section h1 {
   font-weight: bold;
-  line-height: 1;
   margin-bottom: 40px;
+  line-height: 1.2;
 }
 
 .page-home .jumbotron h1 small, section h1 small, .page-amazon .jumbotron h1 small, .page-vimeo .jumbotron h1 small, .page-hoopla .jumbotron h1 small {
   font-size: inherit;
-  // font-weight: 200;
   color: #ddd;
   display: block;
+  line-height: 1.2;
 }
 
 .page-home .jumbotron a.btn-default, .page-amazon .jumbotron a.btn-default, .page-vimeo .jumbotron a.btn-default, .page-hoopla .jumbotron a.btn-default{

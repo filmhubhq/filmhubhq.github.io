@@ -27,7 +27,7 @@ title: Blog
       {% endif %}
     </h2>
     <p><small>Posted by {{ post.author }} on {{ post.date | date_to_long_string }}</small></p>
-    {{ post.excerpt }}
+    {{ post.excerpt | markdownify }}
     <p><a href="{{ post.url }}">Read more…</a></p>
     <hr/>
   </article>

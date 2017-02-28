@@ -7,4 +7,8 @@ permalink: none
 gems:
   - jekyll-sitemap
 sass:
-  style: compressed
+  # style: compressed
+  sourcemap: inline
+  # debug_info: true
+  line_numbers: true
+  line_comments: true

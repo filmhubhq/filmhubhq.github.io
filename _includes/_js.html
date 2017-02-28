@@ -9,18 +9,17 @@
 
 <!-- Covered territories map-->
 <script src="//www.google.com/jsapi"></script> 
-<script src="//maps.google.com/maps/api/js?sensor=false"></script> 
+<script src="//maps.google.com/maps/api/js?key=AIzaSyDuDcZdA__AcahEKhVXTnZyb1tKtgDRgK0"></script> 
 
 <script>
 $(document).ready(function() {
   var $root = $('html, body');
   $('a.animate').click(function(e) {
       var href = $.attr(this, 'href').replace(/^\//,'');
-      console.log(href);
       $root.animate({
-          scrollTop: $(href).offset().top
+        scrollTop: $(href).offset().top
       }, 500, function () {
-          window.location.hash = href;
+        window.location.hash = href;
       });
       e.preventDefault();
   });

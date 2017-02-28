@@ -27,14 +27,17 @@ function countriesInitialize() {
     zoom: 2,
     center: {lat: 37.4658276, lng: -38.6539022},
   });
-  var iso2List = ["'US'", "'CN'", "'IN'", "'UK'", "'DE'", "'JP'", "'AU'", "'NZ'", "'ES'", "'FR'", "'RU'", "'DN'", "'GR'", "'NO'"]; // wrap in single quotes
+  // wrap in single quotes
+  var iso2List = ["'US'", "'CN'", "'IN'", "'UK'", "'DE'", "'JP'", "'AU'", "'NZ'",
+                  "'ES'", "'FR'", "'RU'", "'DN'", "'GR'", "'NO'", "'MY'",
+                  "'BR'", "'IT'"];
   var whereClause = "'Iso2CodeCountry' IN (" + iso2List.join(',') + ")";
   var layer = new google.maps.FusionTablesLayer({
       query: {
         select: 'geometry',
         from: '1ov8ykzakf3WcwMCIBRsZjzRlOAGvJFsDjN_m9VQ',
-        where: whereClause
-      }
+        where: whereClause,
+      },
       // suppressInfoWindows: true
     });
   layer.setMap(map);

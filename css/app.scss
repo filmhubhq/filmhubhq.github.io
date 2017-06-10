@@ -72,10 +72,17 @@ a.navbar-brand:hover {
   margin-top: 0;
 }
 
+a {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
 .jumbotron {
   background-color: #348eda;
   color: #fff;
   a {
+    -webkit-transition: all .3s;
+    transition: all .3s;
     color: #fff;
   }
   a.textlink {
@@ -102,6 +109,19 @@ a.navbar-brand:hover {
       color: #fff;
       &:hover {
         opacity: 0.7;
+      }
+      &.btn.btn-default.btn-s.hidden-xs {
+        background-color: transparent;
+        border-width: 0px;
+        font-weight: 900;
+        color: #FFC787;
+        margin: 6px 0;
+        padding: 9px;
+        &:hover {
+          opacity: inherit;
+          background: #F99A43;
+          color: white;
+        }
       }
     }
   .navbar-brand {
@@ -156,6 +176,22 @@ a.navbar-brand:hover {
 .page-home .jumbotron p.lead, .enterprise p.lead, .page-amazon .jumbotron p.lead, .page-vimeo .jumbotron p.lead, .page-hoopla .jumbotron p.lead {
   font-size: 26px;
 }
+
+// .jumbo-home .navbar-default .navbar-nav > li > a.btn.btn-default.btn-s {
+//     background-color: transparent;
+//     border-width: 0px;
+//     font-weight: 900;
+//     color: #ffd4aa;
+//     margin: 6px 0;
+//     padding: 9px;
+// }
+
+// .jumbo-home .navbar-default .navbar-nav > li > a.btn.btn-default.btn-s:hover {
+//     opacity: inherit;
+//     background: #F99A43;
+//     color: white;
+// }
+
 section h1.subheader{
   margin-bottom: 0;
 }

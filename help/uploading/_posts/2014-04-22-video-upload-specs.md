@@ -17,7 +17,7 @@ Recommended: Apple ProRes or Avid DNxHD .mov, stereo audio. No letterbox, interl
 | File format | Any common video file container. .mkv and QuickTime .mov preferred |
 | Fast start | Enabled (preferred but not required) |
 | Resolution | Minimum SD (480 height). Preferred HD (1280 width or more), 2k, 4k, 6k... |
-| Pixel aspect ratio | Square pixels only. More info in [this help article]({% post_url 2014-04-20-resolution %}). |
+| Pixel aspect ratio | Square pixels only. More info in [this help article]({% post_url /help/getting-started/2014-04-20-resolution %}). |
 | Letterbox | No black bars around the picture (preferred)|
 | Pre/post roll | None. No slate, slug, bars, tone, cards. Max 1 sec black before and after (preferred)|
 | Audio | Preferred: PCM Stereo, single stream. No surround yet, sorry.|

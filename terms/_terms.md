@@ -54,13 +54,13 @@ Please read the following terms and conditions carefully. These terms and condit
 
 8.  Digital Millennium Copyright Act Policy
 
-    8.1 Notice and Takedown Procedure
+    1. Notice and Takedown Procedure
     
     It is our policy to expeditiously respond to clear notices of alleged copyright infringement that comply with the United States Digital Millennium Copyright Act (DMCA). This page describes the information that should be present in these notices. It is designed to make submitting notices of alleged infringement to  Kinonation as straightforward as possible while reducing the number of notices that we receive that are fraudulent or difficult to understand or verify. The form of notice specified below is consistent with the form suggested by the DMCA (the text of which can be found at the U.S. Copyright Office Website, http://www.copyright.gov), but we will respond to notices of this form from other jurisdictions as well.
     It is expected that all users of any part of the KINONATION site will comply with applicable copyright laws. However, if KINONATION receives proper notification of claimed copyright infringement, our response to these notices will include removing or disabling access to material claimed to be the subject of infringing activity and/or terminating subscribers, regardless of whether we may be liable for such infringement under United States law or the laws of another jurisdiction.
     If we remove or disable access in response to such a notice, we will make a good-faith attempt to contact the owner or administrator of the affected site or content so that they may make a counter notification pursuant to Sections 512(g)(2) and (3) of the DMCA. We may also document notices of alleged infringement on which we act. 
 
-    8.2 Designated Agent
+    1. Designated Agent
     
     KINONATION's Designated Agent for notification of alleged infringement under the DMCA is:
 
@@ -75,7 +75,7 @@ Please read the following terms and conditions carefully. These terms and condit
 
     Upon receipt of proper notification of claimed infringement, KINONATION will follow the procedures outlined herein and in the DMCA.
 
-    8.3 Infringement Notification
+    1. Infringement Notification
 
     If you believe that your work has been copied in a way that constitutes copyright infringement, or your intellectual property rights have been otherwise violated, please provide KINONATION’s Registered Agent (listed above) the following information in a written communication (preferably via email):
 
@@ -88,7 +88,7 @@ Please read the following terms and conditions carefully. These terms and condit
 
     Please note that you may be liable for damages (including costs and attorneys' fees) if you materially misrepresent that material is infringing your copyrights. Accordingly, if you are not sure whether material available online infringes your copyright, we suggest that you first contact an attorney.
 
-    8.4 Counter Notification
+    1. Counter Notification
 
     A provider of content subject to a claim of infringement may make a counter notification pursuant to sections 512(g)(2) and (3) of the DMCA. To file a counter notification with us, please provide KINONATION’s Registered Agent (listed above) the following information in a written communication (preferably via email):
 
@@ -101,11 +101,11 @@ Please read the following terms and conditions carefully. These terms and condit
 
     Upon receipt of such counter notification, KINONATION will promptly provide the person who provided the original infringement notification with a copy of the counter notification, and inform that person that KINONATION will replace the removed material or cease disabling access to it in 10 business days. KINONATION will replace the removed material and cease disabling access to it not less than 10, nor more than 14, business days following receipt of the counter notice, unless our Designated Agent first receives notice from the person who submitted the original infringement notification that such person has filed an action seeking a court order to restrain the subscriber from engaging in infringing activity relating to the material on our system or network.
 
-    8.5 Repeat Infringers
+    1. Repeat Infringers
     
         In accordance with Section 512(i)(1)(a) of the DMCA, KINONATION will, in appropriate circumstances, disable and/or terminate the accounts of users who are repeat infringers. 
 
-    8.6 Accommodation of Standard Technical Measures
+    1. Accommodation of Standard Technical Measures
     
         It is KINONATION’s policy to accommodate and not interfere with standard technical measures used by copyright owners to identify or protect copyrighted works that KINONATION determines are reasonable under the circumstances.
 

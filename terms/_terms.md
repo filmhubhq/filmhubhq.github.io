@@ -53,52 +53,61 @@ Please read the following terms and conditions carefully. These terms and condit
     You acknowledge that in providing the Services and payments hereunder, Company will be required to enter into certain agreements with various Video-on-Demand Platform. The selection of these Video-on-Demand Platform shall be within the sole discretion of Company. You agree that the Terms of Service shall be subject to any applicable terms and conditions of such other agreements that Company enters into with respect to such Video-on-Demand Platform. You expressly acknowledge that certain Video-on-Demand Platform may, with respect to audiovisual Content, require that your audiovisual Content be made available on their websites at certain times and in certain formats relative to the availability of such materials elsewhere in the marketplace. To the extent that such requirements are not met, the individual Video-on-Demand Platform may have the right to discontinue the availability of said audiovisual Content in their store(s). Company will, upon your written request, provide you with the current specifics of such requirements.
 
 8.  Digital Millennium Copyright Act Policy
+
     8.1 Notice and Takedown Procedure
-    It is our policy to expeditiously respond to clear notices of alleged copyright infringement that comply with the United States Digital Millennium Copyright Act (DMCA). This page describes the information that should be present in these notices. It is designed to make submitting notices of alleged infringement to  Kinonation as straightforward as possible while reducing the number of notices that we receive that are fraudulent or difficult to understand or verify. The form of notice specified below is consistent with the form suggested by the DMCA (the text of which can be found at the U.S. Copyright Office Website, http://www.copyright.gov), but we will respond to notices of this form from other jurisdictions as well.
-    It is expected that all users of any part of the KINONATION site will comply with applicable copyright laws. However, if KINONATION receives proper notification of claimed copyright infringement, our response to these notices will include removing or disabling access to material claimed to be the subject of infringing activity and/or terminating subscribers, regardless of whether we may be liable for such infringement under United States law or the laws of another jurisdiction.
-    If we remove or disable access in response to such a notice, we will make a good-faith attempt to contact the owner or administrator of the affected site or content so that they may make a counter notification pursuant to Sections 512(g)(2) and (3) of the DMCA. We may also document notices of alleged infringement on which we act. 
+    
+        It is our policy to expeditiously respond to clear notices of alleged copyright infringement that comply with the United States Digital Millennium Copyright Act (DMCA). This page describes the information that should be present in these notices. It is designed to make submitting notices of alleged infringement to  Kinonation as straightforward as possible while reducing the number of notices that we receive that are fraudulent or difficult to understand or verify. The form of notice specified below is consistent with the form suggested by the DMCA (the text of which can be found at the U.S. Copyright Office Website, http://www.copyright.gov), but we will respond to notices of this form from other jurisdictions as well.
+        It is expected that all users of any part of the KINONATION site will comply with applicable copyright laws. However, if KINONATION receives proper notification of claimed copyright infringement, our response to these notices will include removing or disabling access to material claimed to be the subject of infringing activity and/or terminating subscribers, regardless of whether we may be liable for such infringement under United States law or the laws of another jurisdiction.
+        If we remove or disable access in response to such a notice, we will make a good-faith attempt to contact the owner or administrator of the affected site or content so that they may make a counter notification pursuant to Sections 512(g)(2) and (3) of the DMCA. We may also document notices of alleged infringement on which we act. 
 
     8.2 Designated Agent
-    KINONATION's Designated Agent for notification of alleged infringement under the DMCA is:
+    
+        KINONATION's Designated Agent for notification of alleged infringement under the DMCA is:
  
-    Adam Telanoff, Copyright Officer
-    Email: copyright@kinonation.com
+        Adam Telanoff, Copyright Officer
+        Email: copyright@kinonation.com
  
-    Physical Mail: 
-    Kinonation, Inc.
-    11845 W. Olympic Blvd., STE 1100W
-    Los Angeles, CA 90064
-    Attn: Adam Telanoff
+        Physical Mail: 
+        Kinonation, Inc.
+        11845 W. Olympic Blvd., STE 1100W
+        Los Angeles, CA 90064
+        Attn: Adam Telanoff
  
-    Upon receipt of proper notification of claimed infringement, KINONATION will follow the procedures outlined herein and in the DMCA.
+        Upon receipt of proper notification of claimed infringement, KINONATION will follow the procedures outlined herein and in the DMCA.
 
     8.3 Infringement Notification
-    If you believe that your work has been copied in a way that constitutes copyright infringement, or your intellectual property rights have been otherwise violated, please provide KINONATION’s Registered Agent (listed above) the following information in a written communication (preferably via email):
-        a. Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at that site;
-        b. Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit KINONATION to locate the material;
-        c. Information reasonably sufficient to permit KINONATION to contact the complaining party, such as an email address, or if no email address is available, then an address and telephone number at which the complaining party may be contacted;
-        d. The following statement: "I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law";
-        e. The following statement: "I swear, under penalty of perjury, that the information in the notification is accurate, and that I am the copyright owner or am authorized to act on behalf of the owner of an exclusive right that is allegedly infringed"; and
-        f. A physical or electronic signature of the owner or a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
+
+        If you believe that your work has been copied in a way that constitutes copyright infringement, or your intellectual property rights have been otherwise violated, please provide KINONATION’s Registered Agent (listed above) the following information in a written communication (preferably via email):
+            
+            a. Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at that site;
+            b. Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit KINONATION to locate the material;
+            c. Information reasonably sufficient to permit KINONATION to contact the complaining party, such as an email address, or if no email address is available, then an address and telephone number at which the complaining party may be contacted;
+            d. The following statement: "I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law";
+            e. The following statement: "I swear, under penalty of perjury, that the information in the notification is accurate, and that I am the copyright owner or am authorized to act on behalf of the owner of an exclusive right that is allegedly infringed"; and
+            f. A physical or electronic signature of the owner or a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
         
-    Please note that you may be liable for damages (including costs and attorneys' fees) if you materially misrepresent that material is infringing your copyrights. Accordingly, if you are not sure whether material available online infringes your copyright, we suggest that you first contact an attorney.
+        Please note that you may be liable for damages (including costs and attorneys' fees) if you materially misrepresent that material is infringing your copyrights. Accordingly, if you are not sure whether material available online infringes your copyright, we suggest that you first contact an attorney.
 
     8.4 Counter Notification
-    A provider of content subject to a claim of infringement may make a counter notification pursuant to sections 512(g)(2) and (3) of the DMCA. To file a counter notification with us, please provide KINONATION’s Registered Agent (listed above) the following information in a written communication (preferably via email):
-        a. Identification of the material that has been removed or to which access has been disabled and the location at which the material appeared before it was removed or access to it was disabled;
-        b. Your name, address, and telephone number;
-        c. The following statement: "I consent to the jurisdiction of Federal District Court for the [insert the federal judicial district in which your address is located]";
-        d. The following statement: "I will accept service of process from [insert the name of the person who submitted the infringement notification] or his/her agent";
-        e. The following statement: "I swear, under penalty of perjury, that I have a good faith belief that the affected material was removed or disabled as a result of a mistake or misidentification of the material to be removed or disabled"; and
-        g. Your signature, in physical or electronic form.
+
+        A provider of content subject to a claim of infringement may make a counter notification pursuant to sections 512(g)(2) and (3) of the DMCA. To file a counter notification with us, please provide KINONATION’s Registered Agent (listed above) the following information in a written communication (preferably via email):
+            
+            a. Identification of the material that has been removed or to which access has been disabled and the location at which the material appeared before it was removed or access to it was disabled;
+            b. Your name, address, and telephone number;
+            c. The following statement: "I consent to the jurisdiction of Federal District Court for the [insert the federal judicial district in which your address is located]";
+            d. The following statement: "I will accept service of process from [insert the name of the person who submitted the infringement notification] or his/her agent";
+            e. The following statement: "I swear, under penalty of perjury, that I have a good faith belief that the affected material was removed or disabled as a result of a mistake or misidentification of the material to be removed or disabled"; and
+            g. Your signature, in physical or electronic form.
         
-    Upon receipt of such counter notification, KINONATION will promptly provide the person who provided the original infringement notification with a copy of the counter notification, and inform that person that KINONATION will replace the removed material or cease disabling access to it in 10 business days. KINONATION will replace the removed material and cease disabling access to it not less than 10, nor more than 14, business days following receipt of the counter notice, unless our Designated Agent first receives notice from the person who submitted the original infringement notification that such person has filed an action seeking a court order to restrain the subscriber from engaging in infringing activity relating to the material on our system or network.
+        Upon receipt of such counter notification, KINONATION will promptly provide the person who provided the original infringement notification with a copy of the counter notification, and inform that person that KINONATION will replace the removed material or cease disabling access to it in 10 business days. KINONATION will replace the removed material and cease disabling access to it not less than 10, nor more than 14, business days following receipt of the counter notice, unless our Designated Agent first receives notice from the person who submitted the original infringement notification that such person has filed an action seeking a court order to restrain the subscriber from engaging in infringing activity relating to the material on our system or network.
 
     8.5 Repeat Infringers
-    In accordance with Section 512(i)(1)(a) of the DMCA, KINONATION will, in appropriate circumstances, disable and/or terminate the accounts of users who are repeat infringers. 
+    
+        In accordance with Section 512(i)(1)(a) of the DMCA, KINONATION will, in appropriate circumstances, disable and/or terminate the accounts of users who are repeat infringers. 
 
     8.6 Accommodation of Standard Technical Measures
-    It is KINONATION’s policy to accommodate and not interfere with standard technical measures used by copyright owners to identify or protect copyrighted works that KINONATION determines are reasonable under the circumstances.
+    
+        It is KINONATION’s policy to accommodate and not interfere with standard technical measures used by copyright owners to identify or protect copyrighted works that KINONATION determines are reasonable under the circumstances.
 
 9. MISCELLANEOUS.
 

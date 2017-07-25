@@ -8,7 +8,7 @@ Please read the following terms and conditions carefully. These terms and condit
 
 1. GRANT OF RIGHTS.
 
-    1. The rights granted hereunder shall include the sale of Content (as defined in Section 2 below) by, without limitation, permanent digital downloads, temporary digital downloads, interactive streaming, non-interactive streaming and cloud services, including Video On Demand (sometimes referred to as "VOD", "SVOD", "TVOD", or "AVOD") or liner Outlets. You agree to allow Company at its discretion to deliver your content to any and all streaming services ("Outlet") except for any Outlets specifically de-selected by you and except for Outlets in countries specifically de-selected by you.
+    1. The rights granted hereunder shall include the sale of Content (as defined in Section 2 below) by, without limitation, permanent digital downloads, temporary digital downloads, interactive streaming, non-interactive streaming and cloud services, including Video On Demand (sometimes referred to as "VOD", "SVOD", "TVOD", or "AVOD") and/or Linear Media. You agree to allow Company at its discretion to deliver your content to any and all streaming services ("Outlet") except for any Outlets specifically de-selected by you and except for Outlets in countries specifically de-selected by you.
 
     2. By clicking the "I Agree" button, you irrevocably grant to Company, throughout the Territory (defined as the entire world and universe, exluding those territories for which you opt-out on the Site) and during the Term (as defined in Section 5 below), the non-exclusive right:
 

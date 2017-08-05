@@ -158,7 +158,7 @@ under the U.S. Copyright Act and the Universal Copyright Convention.
 
         1. Your signature, in physical or electronic form.
 
-        Upon receipt of such counter notification, Company will promptly provide the person who provided the original infringement notification with a copy of the counter notification, and inform that person that Company will replace the removed material or cease disabling access to it in 10 business days. Company will replace the removed material and cease disabling access to it not less than 10, nor more than 14, business days following receipt of the counter notice, unless our Designated Agent first receives notice from the person who submitted the original infringement notification that such person has filed an action seeking a court order to restrain the subscriber from engaging in infringing activity relating to the material on our system or network.
+        Upon receipt of such counter notification, Company will promptly provide the person who provided the original infringement notification with a copy of the counter notification, and inform that person that Company will reinstate te original uploader as the cntent owner, unless our Designated Agent first receives notice from the person who submitted the original infringement notification that such person has filed an action seeking a court order to restrain the original content provider from engaging in infringing activity relating to the material on our system or network.
 
     1. Repeat Infringers
 

@@ -6,7 +6,7 @@ tags:
 - Specs
 author: Klaus Badelt
 ---
-###Resolution, Aspect Ratio, Square Pixels – huh?
+### Resolution, Aspect Ratio, Square Pixels – huh?
 
 Square Pixels means: your resolution must match the aspect ratio. For example, you shot in 4:3, but your output is 720 x 480 which is 3:2 "pixel aspect ratio" (720 divided by 480) - i.e. not a valid resolution for your aspect ratio (yet a common mistake by the way). Your image would appear squeezed. You need to scale your output to 848 x 480 (16:9) or 640 x 480 (4:3) in this case.
 

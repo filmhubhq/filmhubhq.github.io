@@ -216,4 +216,52 @@ under Section 365(n)(1)(B) of the Bankruptcy Code. You and Company agree that th
 
     9. Company reserves the right, in its sole discretion, to refuse to provide its services to you or any customer for any or no reason whatsoever.
 
+10. GENERAL DEFINITIONS
+
+    1. Content: a discrete audio-visual program.
+
+    2. Metadata: with respect to each Title, information that supplements the Content including but not limited to:
+
+        1. title;
+
+        2. Creators, including but not limited to, publisher, author, illustrator, narrator, actor, director, etc.;
+
+        3. producers and/or studio;
+
+        4. digital object identifiers; geographical rights restrictions,
+
+        5. short description of the work;
+
+        6. artwork, including but not limited to, cover art, graphics, poster art;
+
+        7. content ratings and classifications;
+
+        8. parental advisory or similar notices/advisories,
+
+        9. any other information reasonable used to identify the Title.
+
+    3. Digital Ownership: the purchase of a copy of a Title for electronic delivery and repeated viewing over an indefinite period of time.
+
+    4. VOD: the purchase of a copy of a Title for electronic delivery and viewing over a finite period of time.
+
+    5. AVOD: access to digital copies of a Title on an exclusively advertisement supported basis for electronic delivery and viewing over a finite period of time.
+
+    6. SVOD: access to digital copies of a Title on a subscription basis for electronic delivery and viewing over a finite period of time.
+
+    7. TVOD: access to digital copies of a Title for electronic delivery and viewing pursuant to payment of a fee, duration may be over a finite or indefinite period of time.
+
+    8. Title: a discrete audio-visual program.
+
+    9. Live Streaming: access to Content that is happening at the time that it is viewed.
+
+    10. Linear Streaming: access to digital copies of a Title at a set time determined by the Outlet.
+
+    11. OTT: "Over-the-top" (OTT) is the delivery of audio, video, and other media over the [Internet](https://en.wikipedia.org/wiki/Internet) without the involvement of a [multiple-system operator](https://en.wikipedia.org/wiki/Multiple-system_operator) in the control or distribution of the content
+
+    12. Outlet: is a provider of Content to the public.
+
+    13. Channel: A uniquely identified virtual location which allows for Live or Linear Streaming.
+
+    14. Subchannel: When an Outlet operates multiple Channels, each is referred to as a Subchannel.
+
 **-- ENDS --**

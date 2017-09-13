@@ -14,7 +14,7 @@ body {
   line-height: 1.5em;
 }
 .body {
-  background-color: #fff;
+  background-color: #ffffff;
   min-height: 800px;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -26,37 +26,29 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 14px;
+  background-color: #fff;
 }
 
-.navbar-brand {
-  border: 0;
-  font: 0/0 a;
-  text-shadow: none;
-  color: transparent;
-  background: url('../images/logo-v3-gray-35h.png') no-repeat;
-  background-image: url('../images/logo-v3-gray-35h.svg'), none;
-  background-size: contain;
-  width: 119px;
-  height: 20px;
-  margin: 14px 20px 0 15px;
-  padding: 0;
+.navbar-default .navbar-brand {
+  color: #1A237E;
 }
 
 .navbar li {
-  color: #000
+  color: #1A237E;
 }
 
 a.navbar-brand:hover {
+  color: #1A237E !important;
   opacity: 0.7;
 }
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .navbar > .container .navbar-brand {
-    background: url('../images/logo-v3-gray-35h@2x.png') no-repeat;
-    background-image: url('../images/logo-v3-gray-35h.svg');
-    background-size: contain;
-  }
-}
+//
+// @media all and (-webkit-min-device-pixel-ratio: 1.5) {
+//   .navbar > .container .navbar-brand {
+//     background: url('../images/logo-v3-gray-35h@2x.png') no-repeat;
+//     background-image: url('../images/logo-v3-gray-35h.svg');
+//     background-size: contain;
+//   }
+// }
 
 .container.content {
   margin-top: 40px;
@@ -79,16 +71,16 @@ a {
 
 .jumbotron {
   background-color: #348eda;
-  color: #fff;
+  color: #525254;
   a {
-    color: #fff;
+    color: #525254;
   }
   a.textlink {
-    border-bottom: #fff 2px dotted;
+    border-bottom: #525254 2px dotted;
     padding-bottom: 4px;
     &:hover {
+      border-bottom: #525254 2px solid;
       text-decoration: none;
-      border-bottom: solid;
     }
   }
   ul {
@@ -97,14 +89,14 @@ a {
 }
 
 .jumbo-home {
-  background: #348eda url('../images/home-globe.png') no-repeat right -320px center;
+  background: #fff url('../images/globe-redo_v2.png') no-repeat top center;
   margin-bottom: 0;
   .navbar-default {
     background-color: transparent;
     background: transparent;
     border-color: transparent;
     .navbar-nav > li > a {
-      color: #fff;
+      color: #525254;
       &:hover {
         opacity: 0.7;
       }
@@ -112,32 +104,31 @@ a {
         background-color: transparent;
         border-width: 0px;
         font-weight: 900;
-        color: #FFC787;
+        color: #1A237E;
         margin: 6px 0;
         padding: 9px;
         &:hover {
-          opacity: inherit;
-          background: #F99A43;
-          color: white;
+          background: #2230ab;
+          color: #ffffff;
+          opacity: 1.0;
         }
       }
     }
-  .navbar-brand {
-    background-image: url('../images/logo-v3-white-35h.svg'), none;
-  }
+  // .navbar-brand {
+  //   background-image: url('../images/logo-v3-white-35h.svg'), none;
+  // }
   }
   .jumbotron {
     background-color: transparent;
     a.btn.btn-default {
-      background-color: #f99a3e;
+      background-color: #1A237E; // #FF6F00
+      border-width: 0;
       text-transform: uppercase;
       font-size: 16px;
       font-weight: 900;
-      border-color: #dc8939;
       &:hover {
         color: white;
-        background-color: #dc8939;
-        border-color: #C27F3F;
+        background-color: #2230ab; // #FF8A3E
       }
     }
   }
@@ -232,7 +223,7 @@ section:nth-of-type(3n+2) {
   background-color: #eee;
 }
 section:nth-of-type(3n) {
-  background-color: #406E74; /* #e67d25 #4C5679; #36426B */
+  background-color: #00796B; /* #e67d25 #4C5679; #36426B */
   color: #fff;
   // letter-spacing: 0.02em;
 }
@@ -271,7 +262,7 @@ div#terms-intro {
   text-align: center;
   padding: 10px;
   width: 50px;
-  background: #406E74;
+  background: #1A237E;
   color: #fff;
 }
 .howitworks img, .enterprise img {
@@ -283,7 +274,7 @@ a.anchor {
   visibility: hidden;
 }
 section.enterprise {
-  background-color: #212D5E; /* #0c132e #1B2122 #406E74 #4c858c #012B31 */
+  background-color: #1A237E; /* #0c132e #1B2122 #406E74 #4c858c #012B31 */
   color: #fff;
 }
 section.enterprise h1 small {

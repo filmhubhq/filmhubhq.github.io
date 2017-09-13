@@ -7,11 +7,11 @@
 
 @font-face {
   font-family: 'KinonationFont';
-  src:  url('#{$icomoon-font-path}/KinonationFont.eot?7mqv7q');
-  src:  url('#{$icomoon-font-path}/KinonationFont.eot?7mqv7q#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/KinonationFont.ttf?7mqv7q') format('truetype'),
-    url('#{$icomoon-font-path}/KinonationFont.woff?7mqv7q') format('woff'),
-    url('#{$icomoon-font-path}/KinonationFont.svg?7mqv7q#KinonationFont') format('svg');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?z9zvat');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?z9zvat#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/KinonationFont.ttf?z9zvat') format('truetype'),
+    url('#{$icomoon-font-path}/KinonationFont.woff?z9zvat') format('woff'),
+    url('#{$icomoon-font-path}/KinonationFont.svg?z9zvat#KinonationFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -31,6 +31,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Filmhub {
+  &:before {
+    content: $icon-Filmhub;
+  }
+}
 .icon-UDUDigital {
   font-size: 2em !important;
   &:before {

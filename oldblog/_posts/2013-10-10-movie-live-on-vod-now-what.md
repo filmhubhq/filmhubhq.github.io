@@ -6,7 +6,7 @@ author: Roger Jackson
 tags: Hulu Amazon Viewster Outlets Marketing
 ---
 ###Progress Bar
-If you’ve submitted a feature or documentary to [Kinonation](http://kinonation.com/ "Kinonation website"), you were probably a little overwhelmed at first by all the metadata that’s required. We just made the process much easier by including a real-time Progress Bar, with a dynamic list of what required metadata is still missing.  We’ve also radically simplified the [signup & login](http://app.kinonation.com/owner/signup) process. Check it out, the sooner you submit (or complete) a film, the sooner we can get it distributed.
+If you’ve submitted a feature or documentary to [Kinonation](http://kinonation.com/ "Kinonation website"), you were probably a little overwhelmed at first by all the metadata that’s required. We just made the process much easier by including a real-time Progress Bar, with a dynamic list of what required metadata is still missing.  We’ve also radically simplified the [signup & login](http://app.filmhub.com/owner/signup) process. Check it out, the sooner you submit (or complete) a film, the sooner we can get it distributed.
 
 ###Movie Live on VOD…Now What?
 

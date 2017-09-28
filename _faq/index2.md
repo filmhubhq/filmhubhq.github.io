@@ -4,7 +4,7 @@ title: Help | FAQ
 id: faq-index
 ---
 ###General Information
-1. Is KinoNation fully launched and up & running?
+1. Is Filmhub fully launched and up & running?
 
     Yes. We’ve completed most of the very complex software engineering, and we’ve signed multiple deals with video-on-demand platforms in the U.S. and internationally. We have over 100 features and documentaries in our beta test and we’re delivering multiple films each day to our beta partners such as Hulu, Amazon, Viewster, etc.
 
@@ -30,15 +30,15 @@ id: faq-index
 
 1. Can’t I go to iTunes directly?
 
-    No directly, but you _could_ submit your title(s) to one of few iTunes approved encoders. They charge you, though - typically several hundred dollars for their services. They also might simply deny your title(s). Most Kinonation customers also prefer our consolidated accounting across all VOD outlets worldwide.
+    No directly, but you _could_ submit your title(s) to one of few iTunes approved encoders. They charge you, though - typically several hundred dollars for their services. They also might simply deny your title(s). Most Filmhub customers also prefer our consolidated accounting across all VOD outlets worldwide.
 
 1. Do I need Errors and Omissions (E&O) insurance for my film?
 
     Generally no if you’re only targeting internet VoD distribution outlets. Generally yes if you are seeking to get your film distributed via Cable VoD.
 
-1. Does the quality of my film stay the same after I upload to Kinonation?
+1. Does the quality of my film stay the same after I upload to Filmhub?
 
-    Yes, definitely. The ProRes file that you upload will be used by KinoNation to make the different “mezzanine” files for each VoD outlet.
+    Yes, definitely. The ProRes file that you upload will be used by Filmhub to make the different “mezzanine” files for each VoD outlet.
 
 1. Can I send you a hard drive?
 
@@ -59,7 +59,7 @@ id: faq-index
 ###Money
 1. What the payment percentage for the VoD services?
 
-    Kinonation charges 20% of the revenue your film generates on each digital distribution service.
+    Filmhub charges 20% of the revenue your film generates on each digital distribution service.
 
 1. When will I get paid?
 
@@ -71,7 +71,7 @@ id: faq-index
 
 1. What if I want to replace my film with a new version?
 
-    No problem. Simply log into your Kinonation account and upload your replacement film, which will become the film we deliver from that point on.
+    No problem. Simply log into your Filmhub account and upload your replacement film, which will become the film we deliver from that point on.
 
 1. How do I add sub-titles to my film?
 
@@ -79,7 +79,7 @@ id: faq-index
 
 1. What if I have multiple films to upload?
 
-    You can upload as many films to Kinonation as you wish.
+    You can upload as many films to Filmhub as you wish.
 
 1. Do you accept short films?
 
@@ -93,11 +93,6 @@ id: faq-index
 
     Yes, absolutely. You select the countries and outlets you want your film distributed to.
 
-1. Why are you called Kinonation?
-
-    We chose the name because: ki·no – a motion-picture theater; cinema. nat·ion – a community of persons bound by shared interest or passion
-
 1. What if my question isn’t answered here?
 
     Search the rest of our [support site](/help). If you still can't find your answers [file a support ticket](/help/ticket.html).
-    

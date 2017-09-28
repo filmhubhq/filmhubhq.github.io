@@ -1,8 +1,8 @@
-name: Kinonation
-description: Cloud based global video streaming service distribution for everyone
+name: Filmhub
+description: Filmhub is an online film distribution platform matching millions of video programs with thousands of streaming services.
 social: false
 offline: true
-url: http://kinonation.com
+url: http://filmhub.com
 permalink: none
 gems:
   - jekyll-sitemap

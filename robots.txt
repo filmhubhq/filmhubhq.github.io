@@ -3,4 +3,4 @@ Disallow: /upload-specs.html
 Disallow: /upload-specs
 Disallow: /oldblog
 Disallow: /thank-you.html
-Sitemap: http://kinonation.com/sitemap.xml
+Sitemap: http://filmhub.com/sitemap.xml

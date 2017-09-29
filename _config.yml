@@ -4,7 +4,7 @@ social: false
 offline: true
 url: http://filmhub.com
 permalink: none
-gems:
+plugins:
   - jekyll-sitemap
 sass:
   # style: compressed

@@ -21,15 +21,15 @@ title: Blog
   {% capture temp %}{{ counter }}*{% endcapture %}
   {% assign counter = temp %}
   <article id="article-{{ counter.size }}">
-    <h2><a href="{{ post.url }}">{{ post.title }}</a>
+    <p class="page-header"><small>{{ post.date | date_to_long_string }}</small></p>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a>
       {% if post.subtitle != '' %}
-        <br/><small>{{ post.subtitle }}</small>
+        <small>{{ post.subtitle }}</small>
       {% endif %}
-    </h2>
-    <p><small>Posted by {{ post.author }} on {{ post.date | date_to_long_string }}</small></p>
-    {{ post.excerpt | markdownify }}
+    </h3>
+    <p>{{ post.content | markdownify | strip_html | truncate: 180 }}</p>
     <p><a href="{{ post.url }}">Read more…</a></p>
-    <hr/>
+    <!-- <hr/> -->
   </article>
 {% endfor %}
     </div> <!-- left column -->

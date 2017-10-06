@@ -219,15 +219,31 @@ section:nth-of-type(3n+2) {
   background-color: #eee;
 }
 section:nth-of-type(3n) {
-  background-color: #00796B; /* #e67d25 #4C5679; #36426B */
+  background-color: #406E74; /* #e67d25 #4C5679; #36426B */
   color: #fff;
   // letter-spacing: 0.02em;
 }
-section:nth-of-type(3n) a {
-  color: #acdbe4;
-}
+// section:nth-of-type(3n) a {
+//   color: #acdbe4;
+// }
 section:last-of-type {
 /*  min-height: 100vh; */
+}
+section.enterprise {
+  background-color: #0c132e;
+  color: #fff;
+}
+section.enterprise h1 small {
+  color: #ccc;
+}
+section.features h1 {
+  font-size: 48px;
+  // letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+section.features {
+  position: relative;
+  overflow: hidden;
 }
 div#terms-intro {
   background-color: #eee;
@@ -268,22 +284,6 @@ a.anchor {
   display: block;
   position: relative;
   visibility: hidden;
-}
-section.enterprise {
-  background-color: #1A237E; /* #0c132e #1B2122 #406E74 #4c858c #012B31 */
-  color: #fff;
-}
-section.enterprise h1 small {
-  color: #ccc;
-}
-section.features h1 {
-  font-size: 48px;
-  // letter-spacing: -2px;
-  margin-bottom: 20px;
-}
-section.features {
-  position: relative;
-  overflow: hidden;
 }
 
 #globe {

@@ -480,3 +480,7 @@ body.page-terms .container.section {
 table {
   @extend .table;
 }
+
+.form-group + .radio-inline {
+  margin-left: 10px;
+}

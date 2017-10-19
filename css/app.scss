@@ -237,7 +237,7 @@ section:nth-of-type(3n) {
 }
 section:nth-of-type(3n+2) {
   background-color: $bg-navy; /* #e67d25 #4C5679; #36426B */
-  color: $gray;
+  color: $silver;
   a {
     color: $silver;
   }
@@ -409,8 +409,9 @@ footer ul>li:last-child {
     margin-top: 13px;
   }
   .jumbotron {
-    h1 {
-      // font-size: 64px;
+    h1, .h1 {
+      text-transform: uppercase;
+      font-size: 52px;
     }
     .container-fluid.text-center p {
       padding-left: 100px;

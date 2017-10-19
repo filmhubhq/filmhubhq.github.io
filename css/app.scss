@@ -1,43 +1,101 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css?family=Open Sans');
-$font-family-sans-serif: "Open Sans", sans-serif;
-@import "bootstrap";
-@import "help";
-@import "kinonation-font";
+// Backgrounds
+$bg-navy: #001f3f;
+$bg-blue: #0074d9;
+$bg-aqua: #7fdbff;
+$bg-teal: #39cccc;
+$bg-olive: #3d9970;
+$bg-green: #2ecc40;
+$bg-lime: #01ff70;
+$bg-yellow: #ffdc00;
+$bg-orange: #ff851b;
+$bg-red: #ff4136;
+$bg-fuchsia: #f012be;
+$bg-purple: #b10dc9;
+$bg-maroon: #85144b;
+$bg-white: #fff;
+$bg-gray: #aaa;
+$bg-silver: #ddd;
+$bg-black: #111;
+
+// colors
+$navy: #001f3f;
+$blue: #0074d9;
+$aqua: #7fdbff;
+$teal: #39cccc;
+$olive: #3d9970;
+$green: #2ecc40;
+$lime: #01ff70;
+$yellow: #ffdc00;
+$orange: #ff851b;
+$red: #ff4136;
+$fuchsia: #f012be;
+$purple: #b10dc9;
+$maroon: #85144b;
+$white: #fff;
+$silver: #ddd;
+$gray: #aaa;
+$black: #111;
+
+$filmhub-blue: #1a237e;
+$filmhub-grey: #525254;
+$filmhub-white: #f8f8f8;
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,800');
+$font-family-sans-serif: 'Nunito Sans', helvetica, arial, sans-serif;
+@import 'bootstrap';
+@import 'help';
+@import 'kinonation-font';
 
 body {
+  background-color: $filmhub-white;
+  color: $navy;
   font-size: 16px;
-  padding-bottom: 0;
-  color: #525254;
-  background-color: #f8f8f8;
   line-height: 1.5em;
+  padding-bottom: 0;
 }
+
 .body {
-  background-color: #ffffff;
+  background-color: $white;
   min-height: 800px;
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   font-weight: bold;
 }
+
 .navbar {
-  margin-bottom: 0;
+  background-color: $white;
+  font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
+  margin-bottom: 0;
   text-transform: uppercase;
-  font-size: 14px;
-  background-color: #fff;
+
   li {
-    color: #1A237E;
+    color: $filmhub-blue;
   }
 }
 
 .navbar-default {
-  background-color: transparent;
   background: transparent;
+  background-color: transparent;
   border-color: transparent;
+
   .navbar-nav > li > a {
-    color: #525254;
+    color: $filmhub-grey;
     &:hover {
       opacity: 0.7;
     }
@@ -57,6 +115,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   .navbar-brand {
     color: #1A237E;
+    height: 60px;
+    padding-top: 11px;
   }
 }
 
@@ -64,14 +124,6 @@ a.navbar-brand:hover {
   color: #1A237E !important;
   opacity: 0.7;
 }
-//
-// @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-//   .navbar > .container .navbar-brand {
-//     background: url('../images/logo-v3-gray-35h@2x.png') no-repeat;
-//     background-image: url('../images/logo-v3-gray-35h.svg');
-//     background-size: contain;
-//   }
-// }
 
 .container.content {
   margin-top: 40px;
@@ -93,16 +145,14 @@ a {
 }
 
 .jumbotron {
-  background-color: #348eda;
-  color: #525254;
-  a {
-    color: #525254;
-  }
+  // background-color: #348eda;
+  color: $filmhub-blue;
   a.textlink {
-    border-bottom: #525254 2px dotted;
+    color: $filmhub-blue;
+    border-bottom: $filmhub-blue 2px dotted;
     padding-bottom: 4px;
     &:hover {
-      border-bottom: #525254 2px solid;
+      border-bottom: $filmhub-blue 2px solid;
       text-decoration: none;
     }
   }
@@ -130,17 +180,20 @@ a {
   }
 }
 
-.page-home .jumbotron h1, section h1 {
-  font-weight: bold;
-  margin-bottom: 40px;
-  line-height: 1.2;
-}
+// .page-home .jumbotron h1 {
+//   font-weight: bold;
+//   margin-bottom: 40px;
+//   line-height: 1.2;
+// }
 
-.page-home .jumbotron h1 small, section h1 small, .page-amazon .jumbotron h1 small, .page-vimeo .jumbotron h1 small, .page-hoopla .jumbotron h1 small {
-  font-size: inherit;
-  color: #ddd;
+// .page-home .jumbotron h1 small, section h1 small, .page-amazon .jumbotron h1 small, .page-vimeo .jumbotron h1 small, .page-hoopla .jumbotron h1 small {
+//   font-size: inherit;
+//   color: #ddd;
+//   display: block;
+//   line-height: 1.2;
+// }
+h1 small {
   display: block;
-  line-height: 1.2;
 }
 
 .page-home .jumbotron a.btn-default, .page-amazon .jumbotron a.btn-default, .page-vimeo .jumbotron a.btn-default, .page-hoopla .jumbotron a.btn-default{
@@ -161,27 +214,55 @@ a {
 .page-home .jumbotron p.lead, .enterprise p.lead, .page-amazon .jumbotron p.lead, .page-vimeo .jumbotron p.lead, .page-hoopla .jumbotron p.lead {
   font-size: 26px;
 }
-
-// .jumbo-home .navbar-default .navbar-nav > li > a.btn.btn-default.btn-s {
-//     background-color: transparent;
-//     border-width: 0px;
-//     font-weight: 900;
-//     color: #ffd4aa;
-//     margin: 6px 0;
-//     padding: 9px;
-// }
-
-// .jumbo-home .navbar-default .navbar-nav > li > a.btn.btn-default.btn-s:hover {
-//     opacity: inherit;
-//     background: #F99A43;
-//     color: white;
-// }
-
-section h1.subheader{
-  margin-bottom: 0;
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    &.subheader {
+      margin-bottom: 0;
+    }
+  }
+  h2.subheader {
+    margin-bottom: 30px;
+  }
 }
-section h2.subheader {
-  margin-bottom: 30px;
+section:nth-of-type(3n) {
+  background-color: $bg-silver;
+  color: $black;
+  a {
+    color: $filmhub-blue;
+  }
+}
+section:nth-of-type(3n+2) {
+  background-color: $bg-navy; /* #e67d25 #4C5679; #36426B */
+  color: $gray;
+  a {
+    color: $silver;
+  }
+  h1.small {
+    color: $maroon;
+  }
+}
+section:last-of-type {
+/*  min-height: 100vh; */
+}
+// section.enterprise {
+//   background-color: #0c132e;
+//   color: #fff;
+// }
+// section.enterprise h1 small {
+//   color: #ccc;
+// }
+section.features h1 {
+  font-size: 48px;
+  // letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+section.features {
+  position: relative;
+  overflow: hidden;
 }
 small.super {
   vertical-align: super;
@@ -210,24 +291,6 @@ small.super {
 
 h2 img {
   margin-right: 10px;
-}
-section {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-section:nth-of-type(3n+2) {
-  background-color: #eee;
-}
-section:nth-of-type(3n) {
-  background-color: #00796B; /* #e67d25 #4C5679; #36426B */
-  color: #fff;
-  // letter-spacing: 0.02em;
-}
-section:nth-of-type(3n) a {
-  color: #acdbe4;
-}
-section:last-of-type {
-/*  min-height: 100vh; */
 }
 div#terms-intro {
   background-color: #eee;
@@ -268,22 +331,6 @@ a.anchor {
   display: block;
   position: relative;
   visibility: hidden;
-}
-section.enterprise {
-  background-color: #1A237E; /* #0c132e #1B2122 #406E74 #4c858c #012B31 */
-  color: #fff;
-}
-section.enterprise h1 small {
-  color: #ccc;
-}
-section.features h1 {
-  font-size: 48px;
-  // letter-spacing: -2px;
-  margin-bottom: 20px;
-}
-section.features {
-  position: relative;
-  overflow: hidden;
 }
 
 #globe {
@@ -362,17 +409,20 @@ footer ul>li:last-child {
     margin-top: 13px;
   }
   .jumbotron {
-    h1 { font-size: 64px; }
+    h1 {
+      // font-size: 64px;
+    }
+    .container-fluid.text-center p {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
   }
   section h1 {
-    font-size: 64px;
+    font-size: 3em;
   }
   .page-home .lead {
     font-size: 18px;
   }
-}
-@media (min-width: $screen-sm-min) {
-  .jumbotron .container-fluid.text-center p { padding-left: 100px; padding-right: 100px}
 }
 
 a[data-toggle="tooltip"] {
@@ -468,13 +518,13 @@ body.page-terms .container.section {
 
 .page-hoopla {
   .jumbo-home {
-  	background: #121212;
-  	background-color: rgba(18, 18, 18, 0.90);
+  	background: $filmhub-white;
+  	// background-color: rgba(18, 18, 18, 0.90);
    }
-   h1 {
-    color: #1ab7ea;
-    font-weight: bold;
-   }
+   // h1 {
+   //  color: #1ab7ea;
+   //  font-weight: bold;
+   // }
 }
 
 table {

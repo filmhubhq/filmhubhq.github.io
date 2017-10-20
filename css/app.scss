@@ -180,18 +180,6 @@ a {
   }
 }
 
-// .page-home .jumbotron h1 {
-//   font-weight: bold;
-//   margin-bottom: 40px;
-//   line-height: 1.2;
-// }
-
-// .page-home .jumbotron h1 small, section h1 small, .page-amazon .jumbotron h1 small, .page-vimeo .jumbotron h1 small, .page-hoopla .jumbotron h1 small {
-//   font-size: inherit;
-//   color: #ddd;
-//   display: block;
-//   line-height: 1.2;
-// }
 h1 small {
   display: block;
 }
@@ -246,18 +234,10 @@ section:nth-of-type(3n+2) {
   }
 }
 section:last-of-type {
-/*  min-height: 100vh; */
 }
-// section.enterprise {
-//   background-color: #0c132e;
-//   color: #fff;
-// }
-// section.enterprise h1 small {
-//   color: #ccc;
-// }
+
 section.features h1 {
   font-size: 48px;
-  // letter-spacing: -2px;
   margin-bottom: 20px;
 }
 section.features {
@@ -274,12 +254,16 @@ small.super {
 
 #vodlogos span {
   transition: 1s;
-  color: rgb(82, 82, 84); // #525254
+  color: rgb(82, 82, 84);
   font: 0/0 a;
   font-size: 1.4em;
   line-height: 200%;
   margin: 15px;
   vertical-align: middle;
+}
+
+section.different div.different {
+  margin-bottom: 60px;
 }
 
 @media(max-width:767px) {

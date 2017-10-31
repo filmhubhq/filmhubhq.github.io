@@ -17,7 +17,7 @@ title: Filmhub Campaign Tracking
 	if ((params.get("mailto") || {}).length == 0 || (params.get("mailto") || {}).length == null) {
 		window.location.replace("/")
 	} else {
-		var mailtoParsed = encodeURI(params.get("mailto")) + "&body=" + encodeURI(params.get("body"));
+		var mailtoParsed = encodeURI(params.get("mailto")) + "&body=" + encodeURI(params.get("amp;body"));
 		window.location.replace(mailtoParsed);
 		setInterval(function(){document.location.href="/";}, 3000);
 	}

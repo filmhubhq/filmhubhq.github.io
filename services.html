@@ -1,0 +1,93 @@
+<html>
+<head>
+  <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+
+  <script type='text/javascript'>
+    google.charts.load('current', {
+      'packages': ['geochart'],
+      'mapsApiKey': 'AIzaSyCvj1jXlEDxHk-YHhJwP28sv3v-7lYllFc'
+    });
+    google.charts.setOnLoadCallback(drawMap);
+
+    function drawMap() {
+      var data = google.visualization.arrayToDataTable([
+        ['Country', 'Services'],
+        ['Albania', 5],
+        ['Armenia', 5],
+        ['Austria', 30],
+        ['Bahrain', 1],
+        ['Belgium', 3],
+        ['Belgium', 44],
+        ['Bosnia-Herzegovina', 16],
+        ['Brazil', 1],
+        ['Bulgaria', 19],
+        ['Canada', 1],
+        ['China', 2],
+        ['Croatia', 19],
+        ['Cyprus', 13],
+        ['Czech Republic', 26],
+        ['Denmark', 33],
+        ['Estonia', 13],
+        ['Finland', 31],
+        ['France', 108],
+        ['Georgia, Europe', 4],
+        ['Germany', 61],
+        ['Greece', 13],
+        ['Hungary', 28],
+        ['Iceland', 13],
+        ['Indonesia', 1],
+        ['Ireland', 17],
+        ['Italy', 29],
+        ['Japan', 1],
+        ['Kazakhstan', 1],
+        ['Kyrgyzstan', 1],
+        ['Latvia', 13],
+        ['Liechtenstein', 1],
+        ['Lithuania', 17],
+        ['Luxembourg', 10],
+        ['Malta', 10],
+        ['Montenegro', 6],
+        ['Morocco', 3],
+        ['Netherlands', 46],
+        ['Norway', 29],
+        // ['On-demand service available globally for free', 1],
+        // ['On-demand service available globally for pay', 3],
+        ['Poland', 59],
+        ['Portugal', 22],
+        ['Romania', 19],
+        ['Russian Federation', 44],
+        ['Serbia', 7],
+        ['Seychelles', 1],
+        ['Slovakia', 18],
+        ['Slovenia', 16],
+        ['South Africa', 1],
+        ['Spain', 41],
+        ['Sweden', 36],
+        ['Switzerland', 41],
+        ['The Former Yugoslav Republic of Macedonia', 7],
+        ['Turkey', 20],
+        ['Ukraine', 2],
+        ['United Kingdom', 99],
+        ['United States', 34],
+      ]);
+
+      var options = {
+        // displayMode: 'markers',
+        // sizeAxis: { minValue: 0, maxValue: 108 },
+      };
+      // options['region'] = 'US';
+      // options['colors'] = [0xFF8747, 0xFFB581, 0xc06000]; //orange colors
+      // options['dataMode'] = 'markers';
+
+      var chart = new google.visualization.GeoChart(document.getElementById('map'));
+      chart.draw(data, options);
+    };
+
+  </script>
+</head>
+
+<body>
+    <div id="map" style="width: 100 %; height: auto;"></div>
+</body>
+
+</html>

@@ -7,11 +7,11 @@
 
 @font-face {
   font-family: 'KinonationFont';
-  src:  url('#{$icomoon-font-path}/KinonationFont.eot?z9zvat');
-  src:  url('#{$icomoon-font-path}/KinonationFont.eot?z9zvat#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/KinonationFont.ttf?z9zvat') format('truetype'),
-    url('#{$icomoon-font-path}/KinonationFont.woff?z9zvat') format('woff'),
-    url('#{$icomoon-font-path}/KinonationFont.svg?z9zvat#KinonationFont') format('svg');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?2qczuv');
+  src:  url('#{$icomoon-font-path}/KinonationFont.eot?2qczuv#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/KinonationFont.ttf?2qczuv') format('truetype'),
+    url('#{$icomoon-font-path}/KinonationFont.woff?2qczuv') format('woff'),
+    url('#{$icomoon-font-path}/KinonationFont.svg?2qczuv#KinonationFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -31,6 +31,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Guidedoc {
+  font-size: 2.5em !important;
+  &:before {
+    content: $icon-Guidedoc;
+  }
+}
+.icon-Qello {
+  font-size: 2em !important;
+  &:before {
+    content: $icon-Qello;
+  }
+}
+.icon-Telus {
+  &:before {
+    content: $icon-Telus;
+  }
+}
 .icon-Filmhub {
   &:before {
     content: $icon-Filmhub;
@@ -43,13 +60,13 @@
   }
 }
 .icon-AllWariorNetwork {
-  font-size: 2em !important;
+  font-size: 2.5em !important;
   &:before {
     content: $icon-AllWariorNetwork;
   }
 }
 .icon-BlackBeltTV {
-  font-size: 3em !important;
+  font-size: 3.2em !important;
   &:before {
     content: $icon-BlackBeltTV;
   }
@@ -104,6 +121,7 @@
   }
 }
 .icon-PantaFlix {
+  font-size: 1em !important;
   &:before {
     content: $icon-PantaFlix;
   }
@@ -240,6 +258,7 @@
   }
 }
 .icon-Overdrive {
+  font-size: 2.4em !important;
   &:before {
     content: $icon-Overdrive;
   }

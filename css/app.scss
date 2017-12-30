@@ -528,19 +528,10 @@ table {
   input.mce_inline_error {
     border-color: $brand-danger;
   }
-  label > input.mce_inline_error {
-    color: $brand-danger;
-  }
   div.mce_inline_error {
     @extend .label;
     @extend .label-danger;
-    // display: inherit;
     margin-left: 1em;
-    // padding: 5px 10px;
-    // background-color:#6B0505;
-    // font-weight: bold;
-    // z-index: 1;
-    // color:#fff;
   }
   background: transparent;
 }

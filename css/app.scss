@@ -35,11 +35,11 @@ $purple: #b10dc9;
 $maroon: #85144b;
 $white: #fff;
 $silver: #ddd;
-$gray: #aaa;
+// $gray: #aaa;
 $black: #111;
 
 $filmhub-blue: #1a237e;
-$filmhub-grey: #525254;
+$filmhub-gray: #525254;
 $filmhub-white: #f8f8f8;
 
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,800');
@@ -95,7 +95,7 @@ h6,
   border-color: transparent;
 
   .navbar-nav > li > a {
-    color: $filmhub-grey;
+    color: $filmhub-gray;
     &:hover {
       opacity: 0.7;
     }

@@ -516,6 +516,32 @@ table {
   @extend .table;
 }
 
+
+// MailChimp form style overrides
+// @import url('//cdn-images.mailchimp.com/embedcode/classic-10_7.css');
+
 #mc-embedded-subscribe-form {
   margin-bottom: 20px;
 }
+
+#mc_embed_signup {
+  input.mce_inline_error {
+    border-color: $brand-danger;
+  }
+  label > input.mce_inline_error {
+    color: $brand-danger;
+  }
+  div.mce_inline_error {
+    @extend .label;
+    @extend .label-danger;
+    // display: inherit;
+    margin-left: 1em;
+    // padding: 5px 10px;
+    // background-color:#6B0505;
+    // font-weight: bold;
+    // z-index: 1;
+    // color:#fff;
+  }
+  background: transparent;
+}
+

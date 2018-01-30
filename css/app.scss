@@ -168,6 +168,7 @@ a {
     background-color: transparent;
     a.btn.btn-default {
       background-color: #1A237E; // #FF6F00
+      color: white;
       border-width: 0;
       text-transform: uppercase;
       font-size: 16px;
@@ -184,7 +185,7 @@ h1 small {
   display: block;
 }
 
-.page-home .jumbotron a.btn-default, .page-amazon .jumbotron a.btn-default, .page-vimeo .jumbotron a.btn-default, .page-hoopla .jumbotron a.btn-default{
+.page-home .jumbotron a.btn-default, .page-amazon .jumbotron a.btn-default, .page-vimeo .jumbotron a.btn-default, .page-hoopla .jumbotron a.btn-default, .page-SnagFilms .jumbotron a.btn-default{
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;

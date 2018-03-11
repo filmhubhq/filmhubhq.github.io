@@ -76,6 +76,29 @@ h6,
   font-weight: bold;
 }
 
+.eyebrow {
+  background-color: $gray-dark; // #2d3943;
+  font-size: .85em;
+  color: $white;
+  position: relative;
+  z-index: 4;
+  margin-right: -$navbar-padding-horizontal;
+  margin-left:  -$navbar-padding-horizontal;
+  @media (min-width: $grid-float-breakpoint) {
+    margin-right: 0;
+    margin-left:  0;
+  }
+  a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+}
+
 .navbar {
   background-color: $white;
   font-size: 14px;

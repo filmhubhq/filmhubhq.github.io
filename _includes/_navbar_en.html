@@ -17,8 +17,10 @@
     <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#enterprise" class="animate">Enterprise</a></li>
     <li class="hidden-sm hidden-md"><a href="{% if page.url != '/index.html' %}/{% endif %}#about" class="animate">About</a></li>
     <li class="hidden-sm hidden-md"><a href="http://blog.filmhub.com">Blog</a></li>
-<!--     <li class="hidden-sm {% if page.url == '/help/index.html' %}active{% endif %}"><a href="//filmhub.zendesk.com/">Help</a></li>
- -->    <li><a class="btn btn-default btn-s hidden-xs" href="//filmhub.zendesk.com/hc/en-us/requests/new">Request a meeting</a></li>
+    <li class="hidden-xs">
+      <form action="//filmhub.zendesk.com/hc/en-us/requests/new">
+        <button class="btn btn-info btn-s navbar-btn">Get a demo</button></li>
+      </form>
   </ul>
   <ul class="nav navbar-nav navbar-right">
     <li class="hidden-sm hidden-md"><a href="/zh">中文</a></li>

@@ -88,7 +88,7 @@ function getData(response) {
     //    }
     fusiontabledata += "</tr><tr>";
   }
-  fusiontabledata += "</table>"
+  fusiontabledata += "</table>";
   //display the results on the page
   document.getElementById('sidebar').innerHTML = fusiontabledata;
 }

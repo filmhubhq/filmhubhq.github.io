@@ -22,7 +22,7 @@ function reqDemo() {
     'Country: ' + country + '\n' +
     'Catalog Size: ' + catalog;
   var message = {
-    "channel": "@klaus",
+    // "channel": "@klaus",
     "attachments": [{
       "fallback": fallback,
       "pretext": "Yay - another demo request, <@U055UT33L>",

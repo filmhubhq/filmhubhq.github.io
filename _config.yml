@@ -1,11 +1,12 @@
-name: Filmhub
-description: Filmhub is an online film distribution platform matching millions of video programs with thousands of streaming services.
+title: Filmhub
+description: Film distribution marketplace for indie filmmakers and video streaming services
 social: false
 offline: true
 url: http://filmhub.com
 permalink: none
 plugins:
   - jekyll-sitemap
+  - jekyll-github-metadata
 sass:
   # style: compressed
   sourcemap: inline

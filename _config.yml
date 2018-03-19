@@ -14,3 +14,21 @@ sass:
   # debug_info: true
   line_numbers: true
   line_comments: true
+
+# jekyll-seo-tag properties
+twitter:
+  username: filmhubhq
+facebook:
+  app_id: 159020761463817
+  publisher: https://www.facebook.com/filmhubhq
+  admins: 1034572123
+logo: /images/icon_v2_600.png
+social:
+  name: Filmhub
+  links:
+    - https://twitter.com/filmhubhq
+    - https://www.facebook.com/filmhubhq
+    - https://www.linkedin.com/company/filmhub/
+    - https://www.youtube.com/user/kinonationfilms
+author:
+  twitter: filmhubhq

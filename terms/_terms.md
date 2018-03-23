@@ -1,14 +1,14 @@
 {:.page-header}
 # Terms & Conditions
 
-Please read the following terms and conditions carefully. These terms and conditions govern your access to and use of the *.kinonation.com websites (the “Site”), including the use of any content, information, products and/or services (the “Services”) therein. This is a legal agreement between you and Kinonation (“Company”). Company reserves the sole right at any time to modify, discontinue or terminate the Site and Services, or modify the Terms of Service without notice. All modified terms and/or conditions will be in effect after they are posted on the Site (unless applicable law requires a longer notice period). By continuing to use or access the Site and/or Services after Company makes any such modification, you agree to be legally bound by the revised Terms of Service. You may not alter the terms and conditions of the Terms of Service without Company’s express written consent.
+Please read the following terms and conditions carefully. These terms and conditions govern your access to and use of the *.filmhub.com websites (the “Site”), including the use of any content, information, products and/or services (the “Services”) therein. This is a legal agreement between you and Kinonation, Inc. a Delaware corporation (“Company”). Company reserves the sole right at any time to modify, discontinue or terminate the Site and Services, or modify the Terms of Service without notice. All modified terms and/or conditions will be in effect after they are posted on the Site (unless applicable law requires a longer notice period). By continuing to use or access the Site and/or Services after Company makes any such modification, you agree to be legally bound by the revised Terms of Service. You may not alter the terms and conditions of the Terms of Service without Company’s express written consent.
 
 {:.alert .alert-danger}
 <span class="glyphicon glyphicon-exclamation-sign"></span> You understand that by using the services offered by Company through the Site or with respect to your account at Company, you agree to be bound by the terms of service. If you do not accept the terms of service in their entirety, you may not access or use the services offered by Company.
 
 1. GRANT OF RIGHTS.
 
-    1. The rights granted hereunder shall include the sale of Content (as defined in Section 2 below) by, without limitation, permanent digital downloads, temporary digital downloads, interactive streaming, non-interactive streaming and cloud services, including Video On Demand (sometimes referred to as "VOD", "SVOD", "TVOD", or "AVOD") and/or Linear Media. You agree to allow Company at its discretion to deliver your content to any and all streaming services ("Outlet") except for any Outlets specifically de-selected by you and except for Outlets in countries specifically de-selected by you.
+    1. The rights granted hereunder shall include the rights to rights to distribute, license, sell and/or broadcast Content (as defined below) by, without limitation,theatrical, over the air broadcast, over-the-top, cable, DBS, telco/IPTV, and FTTH and internet streaming including but notlimited to permanent digital downloads, temporary digital downloads, interactive streaming, non-interactive streaming and cloud services, including Video On Demand (sometimes referred to as "VOD", "SVOD", "TVOD", or "AVOD") and/or Linear Media. You agree to allow Company at its discretion to deliver your content to any and all streaming services ("Outlet") except for any Outlets specifically de-selected by you and except for Outlets in countries specifically de-selected by you.
 
     2. By clicking the "I Agree" button, you irrevocably grant to Company, throughout the Territory (defined as the entire world and universe, exluding those territories for which you opt-out on the Site) and during the Term (as defined in Section 5 below), the non-exclusive right:
 
@@ -73,8 +73,7 @@ biographical data in connection with the advertising, promotion, trade and other
    g. All necessary synchronization, public performance and other licenses for the use of any musical compositions throughout the Territory for the Content and the exploitation by Company of its other rights herein have been obtained from the copyright
 owners. All monies payable under such licenses or otherwise by reason of such uses have been or will be paid by you.
 
-   h. In the production of the Content, all laws, statutes, ordinances, rules and regulations of each country, state, city or other political entity having jurisdiction have been or shall be satisfied, as well as rules, regulations and requirements of any union or
-guild having jurisdiction.
+   h. In the production of the Content, all laws, statutes, ordinances, rules and regulations of each country, state, city or other political entity having jurisdiction have been or shall be satisfied, as well as rules, regulations and requirements of any union or guild having jurisdiction.
 
    i. The Content (including all elements thereof) is not in the public domain, and the Content has been validly registered for copyright. The Content as delivered will contain all proper copyright notices required or permitted for protection of the Content
 under the U.S. Copyright Act and the Universal Copyright Convention.

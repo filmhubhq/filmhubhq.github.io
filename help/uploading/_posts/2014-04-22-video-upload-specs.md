@@ -1,6 +1,6 @@
 ---
 layout: help-article
-tags: Subtitles Captions Specs
+tags: Subtitles Captions Specs Upload
 author: Roger Jackson
 ---
 ### Overview

@@ -1,5 +1,9 @@
 language: ruby
-cache: bundler
+cache:
+cache:
+  bundler: true
+  directories:
+    - /home/travis/.rvm/
 rvm:
 - 2.5.1
 script: "bundle exec jekyll build"

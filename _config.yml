@@ -1,7 +1,8 @@
 title: Filmhub
 description: Film distribution marketplace for indie filmmakers and video streaming services
-social: false
-offline: true
+# Boolean variables stopped working, so: set to false by commenting out
+# social: false
+# offline: false
 url: http://filmhub.com
 permalink: none
 plugins:

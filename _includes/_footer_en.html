@@ -2,6 +2,7 @@
   <div class="container">
       <ul>
         <li>Copyright &copy; {{ site.time | date: '%Y' }} Filmhub</li>
+        <li><a href="/updates">Product Updates</a></li>
         <li><a href="/terms">Terms</a></li>
         <li><a href="/privacy">Privacy</a></li>
         <li><a href="//filmhub.zendesk.com/hc/en-us/requests/new">Contact</a></li>
@@ -13,7 +14,7 @@
         <li><a href="https://www.youtube.com/user/kinonationfilms"><i class="fa fa-lg fa-youtube"></i></a></li>
       </ul>
 
-      {% if site.social %}
+      {% if site.social == 'true' %}
       <div class="social">
       	<span class="twitter">
       		<a href="http://twitter.com/share" data-text="Check this out:" data-hashtags="vod" class="twitter-share-button" data-url="http://filmhubhq.com/">Tweet</a>

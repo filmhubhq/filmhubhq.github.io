@@ -15,6 +15,9 @@ We constantly update our web app - often several times a day. Many changes are u
   - fixed the captions icon
 - Channel list now shows the edit icon again
 
+## 2018-09-10
+- Fix: Global Avails now correctly does not show titles with managed right set to start at future date
+
 ## 2018-07-19
 * Improved Insights tooltip formatting, and fixed its currency formatting
 

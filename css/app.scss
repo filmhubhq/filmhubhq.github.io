@@ -193,11 +193,11 @@ a {
   }
 }
 
-h1 small {
-  display: block;
-}
+// h1 small {
+//   display: block;
+// }
 
-.page-home .jumbotron a.btn-default, .page-amazon .jumbotron a.btn-default, .page-vimeo .jumbotron a.btn-default, .page-hoopla .jumbotron a.btn-default, .page-SnagFilms .jumbotron a.btn-default{
+.page-home .jumbotron a.btn-default, .page-vimeo .jumbotron a.btn-default, .page-hoopla .jumbotron a.btn-default, .page-SnagFilms .jumbotron a.btn-default{
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
@@ -488,21 +488,6 @@ body.page-terms .container.section {
 
 /* Streaming service landing pages */
 
-.page-amazon {
-  .jumbo-home {
-    background-color: #000000; /*   #406E74 #596451; */
-    background: url('/images/bkg.gif');
-  }
-  h1 {
-    color: #ff9900;
-    font-weight: bold;
-    line-height: 1.2;
-  }
-  #aivlogo {
-    margin-top: 24px;
-  }
-}
-
 .page-vimeo {
   .jumbo-home {
     background: #000000 url('/images/bkg2.gif');
@@ -529,6 +514,12 @@ table {
   @extend .table;
 }
 
+.page-product-updates {
+  article h2 {
+    @extend .label;
+    @extend .label-info;
+  }
+}
 
 // MailChimp form style overrides
 // @import url('//cdn-images.mailchimp.com/embedcode/classic-10_7.css');

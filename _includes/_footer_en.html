@@ -1,29 +1,52 @@
 <footer>
-  <div class="container">
-      <ul>
-        <li>Copyright &copy; {{ site.time | date: '%Y' }} Filmhub</li>
-        <li><a href="/updates">Product Updates</a></li>
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-        <li><a href="//filmhub.zendesk.com/hc/en-us/requests/new">Contact</a></li>
-        <li><a href="//filmhub.zendesk.com">Help</a></li>
-        <li><a href="/zh">中文</a></li>
-        <li><a href="https://twitter.com/filmhubhq"><i class="fa fa-lg fa-twitter"></i></a></li>
-        <li><a href="http://facebook.com/filmhubhq"><i class="fa fa-lg fa-facebook"></i></a></li>
-        <li><a href="https://www.linkedin.com/company/filmhub/"><i class="fa fa-lg fa-linkedin"></i></a></li>
-        <li><a href="https://www.youtube.com/user/kinonationfilms"><i class="fa fa-lg fa-youtube"></i></a></li>
-      </ul>
+  <section class="footer-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h4>Product</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://app.filmhub.com/owner/signup">Sign up</a></li>
+            <li><a href="https://app.filmhub.com/login">Log in</a></li>
+            <li><a href="/updates">Product Updates</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h4>Company</h4>
+          <ul class="list-unstyled">
+            <li><a href="{% if page.url != '/index.html' %}/{% endif %}#about" class="animate">About</a></li>
+            <li><a href="tel:+1-310-853-3123" title="Call us: +1-310-853-3123">Call us <i class="fa fa-phone"></i></a></li>
+            <li><a href="https://filmhub.zendesk.com/hc/en-us/requests/new">Contact us </a></li>
+            <!-- <li><a href="/jobs">Careers</a></li> -->
+            <li><a href="/terms">Terms</a></li>
+            <li><a href="/privacy">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h4>Support</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://filmhub.zendesk.com/hc/en-us">Help Center</a></li>
+            <li><a href="//feathub.com/filmhubhq/filmhub">Request a feature</a></li>
+            <li><a href="https://filmhub.zendesk.com/hc/en-us/categories/115000025212-Filmhub-User-Manual">User manual</a></li>
+            <li><a data-toggle="modal" data-target="#requestdemomodal">Get a demo</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h4>Community</h4>
+          <ul class="list-unstyled">
+            <li><a href="http://blog.filmhub.com">Blog</a></li>
+            <li><a href="https://twitter.com/filmhubhq"> Twitter <i class="fa fa-twitter"></i></a></li>
+            <li><a href="http://facebook.com/filmhubhq"> Facebook <i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/user/kinonationfilms"> YouTube <i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/filmhub/">LinkedIn <i class="fa fa-linkedin"></i></a></li>
+            <li><a href="/zh">中文</a></li>
+          </ul>
+    </div>
 
-      {% if site.social == 'true' %}
-      <div class="social">
-      	<span class="twitter">
-      		<a href="http://twitter.com/share" data-text="Check this out:" data-hashtags="vod" class="twitter-share-button" data-url="http://filmhubhq.com/">Tweet</a>
-      	</span>
-        <span class="twitter-follow"><a href="https://twitter.com/filmhubhq" class="twitter-follow-button" data-show-count="false">Follow @filmhubhq</a></span>
-      	<span class="Facebook">
-      		<iframe src="https://www.facebook.com/plugins/like.php?href=http://kinonation.com&show_faces=false&layout=button_count" scrolling="no" frameborder="0" style="height: 21px; width: 100px" allowTransparency="true"></iframe>
-      	</span>
-      </div>
-      {% endif %}
-  </div>
+  </section>
+  <section class="footer-legal">
+    <div class="container">
+      <small>Copyright &copy; {{ site.time | date: '%Y' }} Filmhub</small>
+    </div>
+  </section>
 </footer>
+

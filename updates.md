@@ -5,7 +5,7 @@ subtitle: What's new on the Filmhub platform
 date: 2018-09-12
 id: product-updates
 ---
-We constantly update our web app - often several times a day. Many changes are under the hood, like squishing bugs or udpating our asset cloud processing engine. This list here shows and explains new features, and changes most visible to our users.
+We constantly update our tech platform - often several times a day. Many changes are under the hood, like squishing bugs or updating our asset processing cloud. Here we list the major new features and changes.
 {: .lead}
 
 ## 2018-09-12

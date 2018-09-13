@@ -335,48 +335,34 @@ a.anchor {
   top: -10px;
 }
 footer {
-  color: $filmhub-gray;
-  background-color: $bg-gray; // #f8f8f8;
-  // padding-top: 30px;
-  // padding-bottom: 30px;
+  font-size: 14px;
+  color: $gray-lighter;
+  background-color: #333;
   border-top: 1px solid #e7e7e7;
-  // min-height: 60px;
-  // text-align: center;
-}
-footer a {
-  color: $silver;
-}
-footer a:hover {
-  color: $black;
+  a, a:focus {
+    color: darken($gray-lighter, 20%);
+    &:hover {
+      color: $filmhub-white;
+      text-decoration: none;
+    }
+  }
+  .footer-legal {
+    background-color: #222;
+  }
+  @media (max-width: $screen-xs-max) {
+    text-align: center;
+    section {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    h4 {
+      font-size: 16px;
+      margin-top: 24px;
+    }
+  }
 }
 footer ul>li a:hover i {
   opacity: 0.7;
-}
-// footer ul {
-  // list-style: none;
-  // padding-left: 0;
-// }
-// footer ul>li {
-//   display: inline;
-//   padding-left: 10px;
-//   padding-right: 10px;
-// }
-// footer ul>li:first-child {
-//   padding-left: 0;
-// }
-// footer ul>li:last-child {
-//   padding-right: 0;
-// }
-/* This gets Google to fall into place */
-.social {
-	font-size: 1px;
-  padding: 0;
-  line-height: 40px;
-}
-
-/* This gets Facebook to fall into place */
-.social iframe {
-	vertical-align: middle;
 }
 
 /* Set an optional width for your button wrappers */

@@ -2,8 +2,6 @@
 title: Indie film digital distribution platform
 layout: bootstrap-home
 id: home
-custom_js:
-  - demoreq.min
 ---
   <div class="jumbotron">
     <div class="container-fluid text-center">
@@ -321,73 +319,3 @@ custom_js:
     </div>
   </div>
 </div>
-
-<div class="modal fade" tabindex="-1" role="dialog" id="requestdemomodal">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Request a demo</h4>
-      </div>
-      <div class="modal-body">
-        <p class="lead2">
-          Please complete the form to speak with a Filmhub representative about our service and to get a demo.
-        </p>
-        <p class="lead2">
-          Want to speak with us right now? Call <a href="tel:+1-310-853-3123" title="Call Us Today: +1-310-853-3123">310-853-3123</a>, we're happy to help.
-        </p>
-        <form class="form-horizontal" id="requestdemoform">
-          <div class="form-group">
-            <label for="inputName" class="col-sm-3 control-label">Name <sup>*</sup></label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control" id="inputName" placeholder="Name" autocomplete="name" required>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="inputEmail" class="col-sm-3 control-label">Email <sup>*</sup></label>
-            <div class="col-sm-9">
-              <input type="email" class="form-control" id="inputEmail" placeholder="Email" autocomplete="email" required>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="inputPhone" class="col-sm-3  control-label">Phone <sup>*</sup></label>
-            <div class="col-sm-9">
-              <input type="tel" class="form-control" id="inputPhone" placeholder="Phone Number" autocomplete="tel-national" required>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="inputCompany" class="col-sm-3  control-label">Company Name</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control" id="inputCompany" placeholder="Company Name" autocomplete="organization">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-3  control-label">Catalog Size</label>
-            <div class="col-sm-9">
-              <label class="radio-inline">
-                <input type="radio" name="inputCatalog" id="inputCatalog1" value="1-9"> 1-9 titles
-              </label>
-              <label class="radio-inline">
-                <input type="radio" name="inputCatalog" id="inputCatalog10" value="10-499"> 10-499 titles
-              </label>
-              <label class="radio-inline">
-                <input type="radio" name="inputCatalog" id="inputCatalog500" value="500+"> over 500 titles
-              </label>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="inputCountry" class="col-sm-3  control-label">Country</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control" id="inputCountry" placeholder="Country" autocomplete="country">
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-offset-3 col-sm-9">
-              <button type="submit" class="btn btn-warning" id="inputSubmit">Contact me!</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->

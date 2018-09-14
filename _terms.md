@@ -15,9 +15,9 @@ Please read the following terms and conditions carefully. These terms and condit
         1. to distribute, exhibit, license, sell, copy, transfer, distribute and otherwise exploit the Content by all means and media (whether now known or existing in the future) (“Sale”) through any and all Channels now operational or hereafter available;
 
         2. to collect all income deriving therefrom;
-        
-        3. To make and/or use dubbed and/or subtitled versions of the Content and to make and/or use translations of the liner notes or other written material contained on packaging and/or artwork for the Content, and to exploit such versions in connection with the exploitation of the other rights herein granted to Filmhub. 
-        
+
+        3. To make and/or use dubbed and/or subtitled versions of the Content and to make and/or use translations of the liner notes or other written material contained on packaging and/or artwork for the Content, and to exploit such versions in connection with the exploitation of the other rights herein granted to Filmhub.
+
         4. To advertise, promote and publicize Filmhub's rights in the Content in any and all media now known or hereafter devised; including, without limitation, through the use of poster art created by, or under the authority of, you and/or Company, and to broadcast, transmit and otherwise use and perform portions or excerpts from the Content (including, without limitation, by means of trailers created by, or under the authority of, you and/or Filmhub) for the purpose of exploiting, advertising, promoting, and publicizing the rights herein granted to Filmhub
 
         4. To use and to authorize other persons to use your name and trademarks and the names (including any professional names or sobriquets), and any likenesses, whether or not current (including pictures, portraits, caricatures and stills from the Content), voices, autographs and biographical material (individually and collectively, "Name and Likeness") of or relating to any person or fictional character appearing in, granting rights and/or rendering services in connection with the Content, for purposes of advertising, promotion, trade and other exploitation in connection with the Content and our Rights. You warrant and represent that you own the exclusive rights to so use such Name and Likeness in connection with the Content and that the use of same will not infringe upon the rights of any Person. You shall provide Filmhub with documentation satisfactory to Filmhub substantiating the foregoing rights; it is expressly understood and agreed that the review by Filmhub of the said documents supplied by you shall in no way limit the representations and warranties set forth elsewhere in these Terms and Conditions;
@@ -26,8 +26,8 @@ Please read the following terms and conditions carefully. These terms and condit
 
         6. to allow Filmhub to claim a distributor credit on the relevant record at IMDb.com and elsewhere;
 
-        7. To use the title of the Content as Filmhub may designate, in connection with the exploitation of Filmhub's rights hereunder; 
-        
+        7. To use the title of the Content as Filmhub may designate, in connection with the exploitation of Filmhub's rights hereunder;
+
         8. To prepare excerpts and/or synopses of the Content or any elements thereof for advertising, promotional and publicity purposes.
 
     4. You agree that you will not use the Site or Services to transmit, route, provide connections to or store any material that infringes copyrighted works or otherwise violates or promotes the violation of the intellectual property rights of any third party. You acknowledge and agree that Fimlhub may disable access to and/or terminate your account and/or remove or disable access to any Content or any associated materials you provide to Filmhub in the event that Filmhub receives any claim that, if true, would constitute a violation of your representations and warranties hereunder. Please see the Copyright Policy for further information.
@@ -55,32 +55,32 @@ Please read the following terms and conditions carefully. These terms and condit
 4.  WARRANTIES; REPRESENTATIONS; INDEMNITIES.
 
     1.  You warrant and represent that:
-    
-        a. You have the full right, power, and authority to enter into this Agreement and grant the rights granted herein. If you are an individual, you are at least eighteen (18) years of age. If you are a business entity, you are duly formed udner the laws in the jurisdication in which you were formed and that any person utilizing the Site does so with the full power and authority to bind said business entity; 
 
-        b. Neither the Content nor any of its components, nor any other materials or any elements or parts thereof or other materials to be delivered to Filmhub hereunder, nor any use thereof by Filmhub, nor the exploitation by Filmhub of any of its rights hereunder, shall violate or infringe upon the copyright, literary, privacy, publicity, trademark, service mark or any other personal or property right of any Person, nor shall same constitute a libel or defamation of any Person whatsoever; 
+        1. You have the full right, power, and authority to enter into this Agreement and grant the rights granted herein. If you are an individual, you are at least eighteen (18) years of age. If you are a business entity, you are duly formed udner the laws in the jurisdication in which you were formed and that any person utilizing the Site does so with the full power and authority to bind said business entity;
 
-        c. There are not now and during the Term there shall be no liens, claims, encumbrances, legal proceedings, restrictions, agreements or understandings which might conflict or interfere with, limit, derogate from, or are inconsistent with or otherwise affect any of the provisions of this Agreement, any of your representations and warranties contained herein or the enjoyment by Filmhub of any rights granted to Filmhub hereunder, including, without limitation the right to distribute Content and exploit the other rights granted herein.
-        
-        d. You are the sole and exclusive owner of the Content and all rights granted hereunder in and to the Content and all literary, dramatic and musical material contained therein and you have obtained all licenses and permissions as may be required for the full and unlimited exercise and enjoyment by Filmhub of all of the rights granted to Filmhub. You will, on request, supply to Filmhub all chain-of-title documents regarding literary, dramatic and musical material, and any other material contained in the Content. It is expressly understood and agreed that the review by Company of the said documents supplied by you shall in no way limit the warranties contained in this clause.
-        
-        e. Unless you otherwise notify Filmhub in writing in advance, all persons and entities connected with the production of the Content, and all other persons and entities whose names, voices, photographs, likenesses, works, services and materials have been used in the Content or its exploitation, have authorized the use of their names, voices, photographs, likenesses, performances, and biographical data in connection with the advertising, promotion, trade and other exploitation of the Content and the rights herein granted to Filmhub in connection therewith. 
-        
-        f. All obligations with respect to the Content, and its production, distribution and exploitation, including but not limited to all salaries, royalties, license fees, service charges, laboratory charges and the like, shall have been or will be fully paid by you. Except for amounts payable to you hereunder, Filmhub shall have no obligation for past, current or future salaries, royalties, residuals,deferments, license fees, service charges, laboratory charges or similar payments. All fees, payments, costs and charges, including, without limitation, all fees, payments, costs, charges or payments to any producer, director, writer, actor, composer, musician or any other Person who performed services or furnished material in connection with the Content, and/or to any guild, union, performing rights society, publisher or owner of master recordings arising by reason of the exercise by Filmhub of any of the rights granted to it hereunder shall be your responsibility and shall, under no circumstances, be the responsibility of Filmhub. If Filmhub, in its sole discretion, pays any amounts pursuant to this paragraph, then without limiting Filmhub's other rights and remedies, such amounts shall be deemed advances, and may be deducted from all monies otherwise payable to you hereunder.
-        
-        g. All necessary synchronization, public performance and other licenses for the use of any musical compositions throughout the Territory for the Content and the exploitation by Filmhub of its other rights herein have been obtained from the copyright owners. All monies payable under such licenses or otherwise by reason of such uses have been or will be paid by you.
-        
-        h. In the production of the Content, all laws, statutes, ordinances, rules and regulations of each country, state, city or other political entity having jurisdiction have been or shall be satisfied, as well as rules, regulations and requirements of any union or guild having jurisdiction.
-        
-        i. The Content (including all elements thereof) is not in the public domain, and the Content has been validly registered for copyright. The Content as delivered will contain all proper copyright notices required or permitted for protection of the Content under the U.S. Copyright Act and the Universal Copyright Convention.
-        
-        j. The credit lists and other materials delivered to Filmhub under this Agreement will be complete and accurate. Further, Filmhub will incur no liabilities to any third parties arising out of its compliance with such lists and use of such materials as delivered, which use is consistent with the provisions of this Agreement and materials supplied by you;
-        
-        k. You have complied and will comply with 18 U.S.C. §§ 2257 and 2257A regarding minors and the depiction of sexually explicit conduct, if any, in the Content, including, without limitation, the collection and maintenance of individually identifiable information regarding all performers as required.
-    
-    2.  You shall defend and indemnify Filmhub and Channels and any of their affiliates (including any directors, members, officers, employees and other representatives) and hold them harmless against any third party claims or expenses and losses resulting from breach or a claim which, if true, would constitute a breach of the foregoing warranties and the Terms of Service, including reasonable attorneys' fees and expenses.
-    
-    3.  Filmhub shall give you prompt notice of any claim that is subject to the foregoing indemnification obligation and you shall defend Filmhub at your expense with counsel approved by Filmhub, which approval shall not be unreasonably withheld. In the event you fail to retain approved counsel, Filmhub may, if it so elects, defend itself at your cost and expense and you agree that Filmhub may require your participation in such defense as a third party or otherwise and you hereby waive any objection or claim to compensation in respect of same. If a claim is made Filmhub shall have the right, in its sole discretion, to remove or disable access to the Content and/or any associated materials that are the subject of such claim, and/or to withhold payment of any monies due hereunder in an amount reasonably related to the claim and potential expenses. Any settlement of any claim shall be subject to Filmhub's prior written approval.
+        1. Neither the Content nor any of its components, nor any other materials or any elements or parts thereof or other materials to be delivered to Filmhub hereunder, nor any use thereof by Filmhub, nor the exploitation by Filmhub of any of its rights hereunder, shall violate or infringe upon the copyright, literary, privacy, publicity, trademark, service mark or any other personal or property right of any Person, nor shall same constitute a libel or defamation of any Person whatsoever;
+
+        1. There are not now and during the Term there shall be no liens, claims, encumbrances, legal proceedings, restrictions, agreements or understandings which might conflict or interfere with, limit, derogate from, or are inconsistent with or otherwise affect any of the provisions of this Agreement, any of your representations and warranties contained herein or the enjoyment by Filmhub of any rights granted to Filmhub hereunder, including, without limitation the right to distribute Content and exploit the other rights granted herein.
+
+        1. You are the sole and exclusive owner of the Content and all rights granted hereunder in and to the Content and all literary, dramatic and musical material contained therein and you have obtained all licenses and permissions as may be required for the full and unlimited exercise and enjoyment by Filmhub of all of the rights granted to Filmhub. You will, on request, supply to Filmhub all chain-of-title documents regarding literary, dramatic and musical material, and any other material contained in the Content. It is expressly understood and agreed that the review by Company of the said documents supplied by you shall in no way limit the warranties contained in this clause.
+
+        1. Unless you otherwise notify Filmhub in writing in advance, all persons and entities connected with the production of the Content, and all other persons and entities whose names, voices, photographs, likenesses, works, services and materials have been used in the Content or its exploitation, have authorized the use of their names, voices, photographs, likenesses, performances, and biographical data in connection with the advertising, promotion, trade and other exploitation of the Content and the rights herein granted to Filmhub in connection therewith.
+
+        1. All obligations with respect to the Content, and its production, distribution and exploitation, including but not limited to all salaries, royalties, license fees, service charges, laboratory charges and the like, shall have been or will be fully paid by you. Except for amounts payable to you hereunder, Filmhub shall have no obligation for past, current or future salaries, royalties, residuals,deferments, license fees, service charges, laboratory charges or similar payments. All fees, payments, costs and charges, including, without limitation, all fees, payments, costs, charges or payments to any producer, director, writer, actor, composer, musician or any other Person who performed services or furnished material in connection with the Content, and/or to any guild, union, performing rights society, publisher or owner of master recordings arising by reason of the exercise by Filmhub of any of the rights granted to it hereunder shall be your responsibility and shall, under no circumstances, be the responsibility of Filmhub. If Filmhub, in its sole discretion, pays any amounts pursuant to this paragraph, then without limiting Filmhub's other rights and remedies, such amounts shall be deemed advances, and may be deducted from all monies otherwise payable to you hereunder.
+
+        1. All necessary synchronization, public performance and other licenses for the use of any musical compositions throughout the Territory for the Content and the exploitation by Filmhub of its other rights herein have been obtained from the copyright owners. All monies payable under such licenses or otherwise by reason of such uses have been or will be paid by you.
+
+        1. In the production of the Content, all laws, statutes, ordinances, rules and regulations of each country, state, city or other political entity having jurisdiction have been or shall be satisfied, as well as rules, regulations and requirements of any union or guild having jurisdiction.
+
+        1. The Content (including all elements thereof) is not in the public domain, and the Content has been validly registered for copyright. The Content as delivered will contain all proper copyright notices required or permitted for protection of the Content under the U.S. Copyright Act and the Universal Copyright Convention.
+
+        1. The credit lists and other materials delivered to Filmhub under this Agreement will be complete and accurate. Further, Filmhub will incur no liabilities to any third parties arising out of its compliance with such lists and use of such materials as delivered, which use is consistent with the provisions of this Agreement and materials supplied by you;
+
+        1. You have complied and will comply with 18 U.S.C. §§ 2257 and 2257A regarding minors and the depiction of sexually explicit conduct, if any, in the Content, including, without limitation, the collection and maintenance of individually identifiable information regarding all performers as required.
+
+    2. You shall defend and indemnify Filmhub and Channels and any of their affiliates (including any directors, members, officers, employees and other representatives) and hold them harmless against any third party claims or expenses and losses resulting from breach or a claim which, if true, would constitute a breach of the foregoing warranties and the Terms of Service, including reasonable attorneys' fees and expenses.
+
+    3. Filmhub shall give you prompt notice of any claim that is subject to the foregoing indemnification obligation and you shall defend Filmhub at your expense with counsel approved by Filmhub, which approval shall not be unreasonably withheld. In the event you fail to retain approved counsel, Filmhub may, if it so elects, defend itself at your cost and expense and you agree that Filmhub may require your participation in such defense as a third party or otherwise and you hereby waive any objection or claim to compensation in respect of same. If a claim is made Filmhub shall have the right, in its sole discretion, to remove or disable access to the Content and/or any associated materials that are the subject of such claim, and/or to withhold payment of any monies due hereunder in an amount reasonably related to the claim and potential expenses. Any settlement of any claim shall be subject to Filmhub's prior written approval.
 
 5.  TERM.
 
@@ -108,14 +108,14 @@ Please read the following terms and conditions carefully. These terms and condit
 
         Filmhub's Designated Agent for notification of alleged infringement under the DMCA is:
 
-        Adam Telanoff, Copyright Officer  
+        Adam Telanoff, Copyright Officer
         Email: copyright at filmhub dot com
 
-        Physical Mail:  
-        Kinonation, Inc.  
-        1626 Montana Avenue, Suite 616  
-        Santa Monica, CA 90403  
-        Attn: Adam Telanoff  
+        Physical Mail:
+        Kinonation, Inc.
+        1626 Montana Avenue, Suite 616
+        Santa Monica, CA 90403
+        Attn: Adam Telanoff
 
         Upon receipt of proper notification of claimed infringement, Filmhub will follow the procedures outlined herein and in the DMCA.
 
@@ -124,15 +124,15 @@ Please read the following terms and conditions carefully. These terms and condit
         If you believe that your work has been copied in a way that constitutes copyright infringement, or your intellectual property rights have been otherwise violated, please provide Filmhub’s Registered Agent (listed above) the following information in a written communication (preferably via email):
 
         1. Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at that site;
-        
+
         1. Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit Company to locate the material;
-        
+
         1. Information reasonably sufficient to permit Filmhub to contact the complaining party, such as an email address, or if no email address is available, then an address and telephone number at which the complaining party may be contacted;
-        
+
         1. The following statement: "I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law";
-        
+
         1. The following statement: "I swear, under penalty of perjury, that the information in the notification is accurate, and that I am the copyright owner or am authorized to act on behalf of the owner of an exclusive right that is allegedly infringed"; and
-        
+
         1. A physical or electronic signature of the owner or a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
 
     Please note that you may be liable for damages (including costs and attorneys' fees) if you materially misrepresent that material is infringing your copyrights. Accordingly, if you are not sure whether material available online infringes your copyright, we suggest that you first contact an attorney.

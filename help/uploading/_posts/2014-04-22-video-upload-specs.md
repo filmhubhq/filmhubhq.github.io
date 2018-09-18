@@ -35,5 +35,3 @@ Recommended: Apple ProRes or Avid DNxHD .mov, stereo audio. No letterbox, interl
 * No bars, slate, test-tone, pre-roll, post-roll (max. 1 sec of black before film starts or after credits end)
 * No titles or captions outside title-safe area
 
-[![Timeline Video](http://img.youtube.com/vi/NbQfAMYgpdM/0.jpg)](http://www.youtube.com/watch?v=NbQfAMYgpdM)
-

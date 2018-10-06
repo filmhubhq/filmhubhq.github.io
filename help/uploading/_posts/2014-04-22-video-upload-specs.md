@@ -1,7 +1,7 @@
 ---
 layout: help-article
 tags: Subtitles Captions Specs Upload
-author: Roger Jackson
+author: Klaus Badelt
 ---
 ### Overview
 

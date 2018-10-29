@@ -16,12 +16,12 @@ excerpt: Browse our help articles. Join the community forums. Watch video tutori
 <div class="container content">
   <div class="row">
     <div class="col-md-9"> <!-- Answerbase -->
-      
+
       <!-- <ol class="breadcrumb">
         <li><a href="/">Home</a></li>
         <li class="active">Help</li>
       </ol> -->
-      
+
       <h1 class="page-header">Help Center <small> Articles, Guides, Forums</small></h1>
 
       <!-- <p class="lead">
@@ -40,7 +40,7 @@ excerpt: Browse our help articles. Join the community forums. Watch video tutori
       <!-- <h2 class="page-header" id="topics">Browse by Topic</h2> -->
 
       <div class="row">
-        <div class="col-md-6">          
+        <div class="col-md-6">
           <h3>
             <a href="/help/getting-started"><i class="fa fa-glass"></i> Getting started</a>
           </h3>
@@ -51,7 +51,7 @@ excerpt: Browse our help articles. Join the community forums. Watch video tutori
             <a class="btn btn-primary" href="/help/getting-started" role="button">Check out our Onboarding Guide &raquo;</a>
           </p>
         </div>
-          
+
         <!-- <div class="col-md-6">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -70,7 +70,7 @@ excerpt: Browse our help articles. Join the community forums. Watch video tutori
             </div>
           </div>
         </div> -->
-          
+
         <div class="col-md-6" >
           <h3><a href="/help/forum"><i class="fa fa-users"></i> Forums</a></h3>
           <p>
@@ -88,7 +88,7 @@ excerpt: Browse our help articles. Join the community forums. Watch video tutori
       <div class="row">
 
         {% for cat in site.categories %}
-          {% if cat[0] != 'blog' and cat[0] != 'help' and cat[0] != 'getting-started' %}
+          {% if cat[0] != 'oldblog' and cat[0] != 'help' and cat[0] != 'getting-started' %}
             <div class="col-md-6">
               <h3><a href="/help/{{ cat[0]}}/index.html">{{ cat | first | capitalize | replace: '-', ' '}}</a></h3>
               <ul>
@@ -108,7 +108,7 @@ excerpt: Browse our help articles. Join the community forums. Watch video tutori
           {% endif %}
         {% endfor %}
       </div>
-      
+
 
     </div> <!-- Answerbase -->
 

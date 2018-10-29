@@ -1,0 +1,45 @@
+---
+layout: bootstrap-hero
+title: Careers
+subtitle: With technology, we’re changing the way an industry works. Help us build it.
+id: jobs
+---
+<section id="about-filmhub">
+  <p class="lead">
+    Filmhub is building sophisticated technology, disrupting the glamorous film industry. Free the film with us.
+  </p>
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Technology</h3>
+      <p>
+        We are taking the entire film distribution process online. For that, we're building web applications in the cloud, using latest cutting-edge technologies for cloud services, frontend, video processing, and machine learning.
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <h3>People</h3>
+      <p>
+        Filmhub is a fast growing tech startup in "Silicon Beach" Santa Monica. We offer the same great perks like the big guys, but without the corporate feel. We're well funded by Silicon Valley investors and others. Join our great team.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="jobs-intro">
+  <p class="lead">We're currently looking for these positions:</p>
+</section>
+
+<section class="jobs-listings">
+  <div class="row">
+  {% for post in site.categories["jobs"] %}
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><a href="{{ post.url }}">{{ post.subtitle }}</a></h3>
+        </div>
+        <div class="panel-body"> {{ post.excerpt }} </div>
+        <div class="panel-footer"><a href="{{ post.url }}">Read more..</a></div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</section>

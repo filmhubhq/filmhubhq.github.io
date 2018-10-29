@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-{% if page.language.short %}
-  {% assign lang = page.language.short %}
-{% else %}
-  {% assign lang = "en" %}
-{% endif %}
+{% assign lang = page.language.short | default: 'en' %}
 <html lang="{{ lang }}">
+<head>
+  {% include _head.html %}
+</head>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">

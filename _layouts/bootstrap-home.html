@@ -1,4 +1,9 @@
-{% include _head.html %}
+<!DOCTYPE html>
+{% assign lang = page.language.short | default: 'en' %}
+<html lang="{{ lang }}">
+<head>
+  {% include _head.html %}
+</head>
 
 <body class="page-{{ page.id }}" data-spy="scroll" data-target=".navbar-collapse" data-offset="51">
   <div class="body">

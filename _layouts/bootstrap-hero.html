@@ -1,4 +1,9 @@
-{% include _head.html %}
+<!DOCTYPE html>
+{% assign lang = page.language.short | default: 'en' %}
+<html lang="{{ lang }}">
+<head>
+  {% include _head.html %}
+</head>
 
 <body class="bootstrap-hero page-{{ page.id }}">
   <div class="jumbotron">

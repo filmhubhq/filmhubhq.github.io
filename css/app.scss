@@ -200,125 +200,129 @@ a {
 .page-home .jumbotron p.lead, .enterprise p.lead, .page-amazon .jumbotron p.lead, .page-vimeo .jumbotron p.lead, .page-hoopla .jumbotron p.lead {
   font-size: 26px;
 }
-section {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  h1 {
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    &.subheader {
-      margin-bottom: 0;
+
+.page-home {
+  section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h1 {
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      &.subheader {
+        margin-bottom: 0;
+      }
+    }
+    h2.subheader {
+      margin-bottom: 30px;
     }
   }
-  h2.subheader {
-    margin-bottom: 30px;
+  section:nth-of-type(3n) {
+    background-color: $bg-silver;
+    color: $black;
+    a {
+      color: $filmhub-blue;
+    }
   }
-}
-section:nth-of-type(3n) {
-  background-color: $bg-silver;
-  color: $black;
-  a {
-    color: $filmhub-blue;
-  }
-}
-section:nth-of-type(3n+2) {
-  background-color: $bg-navy; /* #e67d25 #4C5679; #36426B */
-  color: $silver;
-  a {
+  section:nth-of-type(3n+2) {
+    background-color: $bg-navy; /* #e67d25 #4C5679; #36426B */
     color: $silver;
+    a {
+      color: $silver;
+    }
+    h1.small {
+      color: $maroon;
+    }
   }
-  h1.small {
-    color: $maroon;
+  section:last-of-type {
   }
-}
-section:last-of-type {
-}
 
-section.features h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-section.features {
-  position: relative;
-  overflow: hidden;
-}
-small.super {
-  vertical-align: super;
-}
+  section.features h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  section.features {
+    position: relative;
+    overflow: hidden;
+  }
+  small.super {
+    vertical-align: super;
+  }
 
-#vodlogos {
-  display: inline-block;
-}
+  #vodlogos {
+    display: inline-block;
+  }
 
-#vodlogos span {
-  transition: 1s;
-  color: rgb(82, 82, 84);
-  font: 0/0 a;
-  font-size: 1.4em;
-  line-height: 200%;
-  margin: 15px;
-  vertical-align: middle;
-}
-
-section.different div.different {
-  margin-bottom: 60px;
-}
-
-@media(max-width:767px) {
   #vodlogos span {
     transition: 1s;
-    line-height: 170%;
+    color: rgb(82, 82, 84);
+    font: 0/0 a;
+    font-size: 1.4em;
+    line-height: 200%;
+    margin: 15px;
+    vertical-align: middle;
+  }
+
+  section.different div.different {
+    margin-bottom: 60px;
+  }
+
+  @media(max-width:767px) {
+    #vodlogos span {
+      transition: 1s;
+      line-height: 170%;
+    }
+  }
+
+  h2 img {
+    margin-right: 10px;
+  }
+  div#terms-intro {
+    background-color: #eee;
+  }
+  .details > * {
+    margin-top: 0;
+  }
+  .pricing img {
+    margin: 40px auto;
+  }
+  .nav-stacked li.nav-article>a {
+    font-size: 14px;
+    padding: 2px 10px 2px 30px;
+  }
+  .nav-stacked li.nav-header>a {
+    font-size: inherit;
+    padding-left: 10px;
+  }
+  .meta {
+    margin-bottom: 30px;
+  }
+  .meta small {
+    color: #999;
+  }
+  .steps {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    background: #1A237E;
+    color: #fff;
+  }
+  .howitworks img, .enterprise img {
+    margin-bottom: 20px;
+  }
+  a.anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+  }
+
+  #globe {
+    position: absolute;
+    top: -10px;
   }
 }
 
-h2 img {
-  margin-right: 10px;
-}
-div#terms-intro {
-  background-color: #eee;
-}
-.details > * {
-  margin-top: 0;
-}
-.pricing img {
-  margin: 40px auto;
-}
-.nav-stacked li.nav-article>a {
-  font-size: 14px;
-  padding: 2px 10px 2px 30px;
-}
-.nav-stacked li.nav-header>a {
-  font-size: inherit;
-  padding-left: 10px;
-}
-.meta {
-  margin-bottom: 30px;
-}
-.meta small {
-  color: #999;
-}
-.steps {
-  display: inline-block;
-  font-weight: bold;
-  text-align: center;
-  padding: 10px;
-  width: 50px;
-  background: #1A237E;
-  color: #fff;
-}
-.howitworks img, .enterprise img {
-  margin-bottom: 20px;
-}
-a.anchor {
-  display: block;
-  position: relative;
-  visibility: hidden;
-}
-
-#globe {
-  position: absolute;
-  top: -10px;
-}
 footer {
   font-size: 14px;
   color: $gray-lighter;
@@ -558,6 +562,9 @@ table {
         }
       }
     }
+  }
+  section {
+    padding-bottom: 40px;
   }
   footer {
     margin-top: 40px;

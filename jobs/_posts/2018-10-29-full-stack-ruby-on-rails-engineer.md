@@ -1,20 +1,12 @@
 ---
-layout: bootstrap-hero
-hero: Careers
-hero-link: "/jobs"
-excerpt: |
-  Build the premier marketplace web app for the film industry. You’ll be working on the web backend and frontend, the cloud infrastructure and video processing backends.
+layout: job-posting
 jsonld:
-  type: JobPosting
   baseSalary:
     minValue: 75000.00
-    maxValue: 110000.00
+    maxValue: 120000.00
   experienceRequirements: Minumum 1 year experience as a software engineer
   occupationalCategory: '15-1254 Web Developers'
 ---
-{: .page-header}
-# Full stack Ruby on Rails engineer [Apply](https://filmhub.zendesk.com/hc/en-us/requests/new){: .btn.btn-primary.pull-right.apply}
-
 Build the premier marketplace web app for the film industry. You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends. If you're familiar with Rails, React and have a passion for movies, this is for you.
 
 ### Responsibilities
@@ -22,9 +14,7 @@ Build the premier marketplace web app for the film industry. You'll be working o
 - Design, develop, test, deploy, maintain and improve our web app and cloud backend.
 - Manage individual project priorities, deadlines and deliverables.
 
-### Qualifications
-
-#### Minimum qualifications
+### Minimum qualifications
 
 - 1+ year of work experience in software development
 - Familiarity with our core stack technologies:
@@ -36,7 +26,7 @@ Build the premier marketplace web app for the film industry. You'll be working o
   + Testing frameworks like minitest, jasmine
 - Experience with Amazon Web Services
 
-#### Preferred qualifications
+### Preferred qualifications
 
 - AWS certification of any level, including
   + AWS Certified Developer
@@ -57,5 +47,3 @@ Build the premier marketplace web app for the film industry. You'll be working o
   + Node.js
   + Mixpanel
   + Google Analytics
-
-[Apply](https://filmhub.zendesk.com/hc/en-us/requests/new){: .btn.btn-primary}

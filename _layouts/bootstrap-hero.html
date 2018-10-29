@@ -5,6 +5,9 @@
   {% include _head.html %}
 </head>
 
+{% assign hero-link = page.hero-link | default: layout.hero-link %}
+{% assign hero = page.hero | default: layout.hero %}
+
 <body class="bootstrap-hero page-{{ page.id }}">
   <div class="jumbotron">
     <div class="container">
@@ -13,16 +16,16 @@
       </nav>
       <div class="row">
         <div class="col-md-7 col-md-offset-1">
-          {% if page.hero != '' %}
+          {% if hero %}
             <h1>
-              {% if page.hero-link %}
-                <a href="{{ page.hero-link }}">{{ page.hero }}</a>
+              {% if hero-link %}
+                <a href="{{ hero-link }}">{{ hero }}</a>
               {% else %}
-                {{ page.hero }}
+                {{ hero }}
               {% endif %}
             </h1>
           {% endif %}
-          {% if page.subtitle != '' %}<p>{{ page.subtitle }}</p>{% endif %}
+          {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
         </div>
       </div> <!-- row -->
     </div> <!-- container -->

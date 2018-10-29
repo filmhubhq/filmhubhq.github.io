@@ -11,5 +11,6 @@
 {% include _analytics.html %}
 {% if page.jsonld != "" %}
   {% include _jsonld.html %}
+{% else %}
+  {% seo %}
 {% endif %}
-{% seo %}

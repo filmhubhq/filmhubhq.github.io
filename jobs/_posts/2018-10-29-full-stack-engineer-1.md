@@ -21,7 +21,7 @@ Build the premier marketplace web app for the film industry. You'll be working o
 
 ### Qualifications
 
-#### Minimum qualitifcations
+#### Minimum qualifications
 
 - 1+ year of work experience in software development
 - Familiarity with our core stack technologies:

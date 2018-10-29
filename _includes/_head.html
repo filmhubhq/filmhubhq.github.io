@@ -9,4 +9,7 @@
 <title>Filmhub | {{ page.title }}</title>
 {% include _css.html %}
 {% include _analytics.html %}
+{% if page.jsonld != "" %}
+  {% include _jsonld.html %}
+{% endif %}
 {% seo %}

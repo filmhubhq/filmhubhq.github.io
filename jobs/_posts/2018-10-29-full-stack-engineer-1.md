@@ -1,20 +1,18 @@
 ---
 layout: bootstrap-hero
 title: Careers
-subtitle: With technology, we’re changing the way an industry works. Help us build it.
-id: jobs
-seo:
-  name: Software Engineer
+subtitle: Full Stack Ruby on Rails Engineer
+jsonld:
   type: JobPosting
+  baseSalary:
+    minValue: 75000.00
+    maxValue: 110000.00
+  experienceRequirements: Minumum 1 year experience as a software engineer
+  occupationalCategory: '15-1254 Web Developers'
 ---
-We're currently looking for these positions:
+Build the premier marketplace web app for the film industry. You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends. If you're familiar with Rails, React and have a passion for movies, this is for you.
 
-{:.page-header}
-## Full stack engineer [Apply](https://filmhub.zendesk.com/hc/en-us/requests/new){: .btn.btn-primary .pull-right}
-
-Help us build the premier marketplace web app for the film industry.
-
-You'll be working on the web backend, cloud infrastructure, web frontend and transcode/QC/packaging/delivery backend. You're familiar with Rails, React, ffmpeg, AWS - and love indie movies? [Join us](https://filmhub.zendesk.com/hc/en-us/requests/new).
+[Apply](https://filmhub.zendesk.com/hc/en-us/requests/new){: .btn.btn-primary.pull-right.apply}
 
 ### Responsibilities
 
@@ -44,18 +42,16 @@ You'll be working on the web backend, cloud infrastructure, web frontend and tra
 - Experience in the technical film & TV postproduction space
 - As many of the following tech stack components as possible:
   + Docker
-  + NoSQL databases
   + Amazon web services:
     + Compute: EC2, ECS, Lambda
     + Database: RDS, Elasticache
-    + Storage: Amazon S3, Glacier, EBS
-    + AWS Batch
-    + Networking: Amazon Cloudfront, Amazon VPC, Elastic Load Balancing
-    + AWS Step Functions
-    + AWS Cloudwatch, CloudFormation
+    + Storage: S3, Glacier, EBS
     + Developer Tools: CodePipeline, Codebuild, Cloud9
+    + Networking: Cloudfront, VPC, Elastic Load Balancing
+    + Batch, Step Functions
+    + Cloudwatch, CloudFormation
+  + NoSQL databases or principles
   + Node.js
-  +
   + Mixpanel
   + Google analytics
 

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% if page.language.short %}
+  {% assign lang = page.language.short %}
+{% else %}
+  {% assign lang = "en" %}
+{% endif %}
+<html lang="{{ lang }}">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Filmhub Blog" href="https://blog.filmhub.com/feed">
+  <link rel="alternate" hreflang="en" href="/" />
+  <link rel="alternate" hreflang="zh" href="/zh" />
+  <title>Filmhub | {{ page.title }}</title>
+  {% include _css.html %}
+  {% include _analytics.html %}
+  {% seo %}
+</head>

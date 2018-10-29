@@ -2,5 +2,8 @@ User-agent: *
 Disallow: /upload-specs.html
 Disallow: /upload-specs
 Disallow: /oldblog
+Disallow: /modals
+Disallow: /help
 Disallow: /thank-you.html
+Disallow: /track.html
 Sitemap: http://filmhub.com/sitemap.xml

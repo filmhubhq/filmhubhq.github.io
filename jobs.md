@@ -3,6 +3,9 @@ layout: bootstrap-hero
 title: Careers
 subtitle: With technology, we’re changing the way an industry works. Help us build it.
 id: jobs
+seo:
+  name: Software Engineer
+  type: JobPosting
 ---
 We're currently looking for these positions:
 

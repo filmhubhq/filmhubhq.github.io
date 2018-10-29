@@ -2,6 +2,7 @@
 layout: bootstrap
 title: Blog tags
 id: tags
+sitemap: false
 ---
 {% include _tags-count.html %}
 
@@ -27,19 +28,19 @@ id: tags
               </small>
               <a href="{{ post.url }}">{{ post.title }}</a>
             </li>
-            
+
             {% endif %}
           {% endfor %}
         </ul>
       {% endunless %}{% endfor %}
     </div>
-    
+
     <div class="col-md-4">
-      
+
       {% include _tags-sidenav.html %}
       {% include _blog-sidenav.html %}
-  
+
     </div>
-    
+
   </div>
 </div>

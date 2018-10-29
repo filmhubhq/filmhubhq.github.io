@@ -3,6 +3,7 @@ layout: post
 subtitle: Diary of a film startup part 1
 author: Roger Jackson
 tags: Marketing Technology
+sitemap: false
 ---
 
 ### Every movie ever made, in any language, anytime, day or night…

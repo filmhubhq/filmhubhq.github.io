@@ -33,3 +33,20 @@ social:
     - https://www.youtube.com/user/kinonationfilms
 author:
   twitter: filmhubhq
+
+defaults:
+  -
+    scope:
+      path: oldblog
+    values:
+      sitemap: false
+  -
+    scope:
+      path: modals
+    values:
+      sitemap: false
+  -
+    scope:
+      path: help
+    values:
+      sitemap: false

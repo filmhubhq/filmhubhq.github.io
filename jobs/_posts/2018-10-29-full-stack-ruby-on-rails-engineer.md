@@ -1,7 +1,9 @@
 ---
 layout: bootstrap-hero
-title: Careers
-subtitle: Full Stack Ruby on Rails Engineer
+hero: Careers
+hero-link: "/jobs"
+excerpt: |
+  Build the premier marketplace web app for the film industry. You’ll be working on the web backend and frontend, the cloud infrastructure and video processing backends.
 jsonld:
   type: JobPosting
   baseSalary:
@@ -10,9 +12,10 @@ jsonld:
   experienceRequirements: Minumum 1 year experience as a software engineer
   occupationalCategory: '15-1254 Web Developers'
 ---
-Build the premier marketplace web app for the film industry. You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends. If you're familiar with Rails, React and have a passion for movies, this is for you.
+{: .page-header}
+# Full stack Ruby on Rails engineer [Apply](https://filmhub.zendesk.com/hc/en-us/requests/new){: .btn.btn-primary.pull-right.apply}
 
-[Apply](https://filmhub.zendesk.com/hc/en-us/requests/new){: .btn.btn-primary.pull-right.apply}
+Build the premier marketplace web app for the film industry. You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends. If you're familiar with Rails, React and have a passion for movies, this is for you.
 
 ### Responsibilities
 
@@ -53,6 +56,6 @@ Build the premier marketplace web app for the film industry. You'll be working o
   + NoSQL databases or principles
   + Node.js
   + Mixpanel
-  + Google analytics
+  + Google Analytics
 
 [Apply](https://filmhub.zendesk.com/hc/en-us/requests/new){: .btn.btn-primary}

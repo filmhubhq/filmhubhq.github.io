@@ -1,12 +1,9 @@
 ---
 layout: bootstrap-hero
 title: Careers
-subtitle: Filmhub is hiring
+subtitle: With technology, we’re changing the way an industry works. Help us build it.
 id: jobs
 ---
-{: .lead}
-We're building the first open and free online marketplace for filmmakers and streaming services. This is both a revolution and big business. Help us.
-
 We're currently looking for these positions:
 
 {:.page-header}

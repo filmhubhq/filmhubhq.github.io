@@ -16,7 +16,9 @@
     <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#enterprise" class="animate">Enterprise</a></li>
     <li class="hidden-sm hidden-md"><a href="{% if page.url != '/index.html' %}/{% endif %}#about" class="animate">About</a></li>
     <li class="hidden-sm"><a href="http://blog.filmhub.com">Blog</a></li>
-    <li class="hidden-sm"><a href="/jobs">Jobs</a></li>
+    <li class="hidden-sm {% if page.id == 'jobs' %}active{% endif %}">
+      <a href="{% if page.id == 'jobs' %}#{% else %}/jobs{% endif %}">Jobs</a>
+    </li>
     <li id="requestdemobtn"><button class="btn btn-warning btn-s navbar-btn" data-toggle="modal" data-target="#requestdemomodal">Get a demo</button></li>
   </ul>
   <ul class="nav navbar-nav navbar-right">

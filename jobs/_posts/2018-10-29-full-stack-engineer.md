@@ -22,7 +22,7 @@ Build the premier marketplace web app for the film industry. You'll be working o
   + HTML5
   + Javascript
   + At least one front end framework like React, Vue.js or Ember
-  + PostgresSQL or other SQL databases
+  + PostgreSQL or other SQL databases
   + Testing frameworks like minitest, jasmine
 - Experience with Amazon Web Services
 

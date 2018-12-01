@@ -159,21 +159,50 @@ a {
 
 
 .jumbo-home {
-  background: #fff url('../images/globe-redo_v2.png') no-repeat top center;
+  background-color: $bg-navy;
   margin-bottom: 0;
   .jumbotron {
-    background-color: transparent;
+    color: $silver;
+    background-color: $bg-navy;
+    margin-bottom: 0;
+    p.lead {
+      text-transform: uppercase;
+      margin-top: 20px;
+    }
+    h1 b, p b {
+      color: $yellow;
+    }
+    img {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    a.textlink {
+      color: $silver;
+      border-bottom: $silver 2px dotted;
+      padding-bottom: 2px;
+      &:hover {
+        border-bottom: $silver 2px solid;
+        text-decoration: none;
+      }
+      &:focus {
+        text-decoration: none;
+      }
+    }
     a.btn.btn-default {
-      background-color: #1A237E; // #FF6F00
-      color: white;
+      background-color: $yellow;
+      color: $text-color;
       border-width: 0;
       text-transform: uppercase;
       font-size: 16px;
       font-weight: 900;
       &:hover {
-        color: white;
-        background-color: #2230ab; // #FF8A3E
+        color: $white;
+        background-color: $bg-gray;
       }
+      margin-right: 20px;
+    }
+    ul {
+      @extend p;
     }
   }
 }

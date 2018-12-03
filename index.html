@@ -12,24 +12,25 @@ hero: |
     <a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-warning">Get started</a>
   </p>
 eyebrow: true
+custom_js:
+- metrics
 ---
-{% include _cloud-logos.html %}
 
 <section>
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
         <div class="col-md-3">
-          <h1 class="metrics">17,000</h1>
+          <h1 class="metrics" id="titles_metrics"><i class="fa fa-refresh fa-spin"></i></h1>
           <p>Titles</p>
+        </div>
+        <div class="col-md-3">
+          <h1 class="metrics" id="channels_metrics"><i class="fa fa-refresh fa-spin"></i></h1>
+          <p>Streaming partners</p>
         </div>
         <div class="col-md-3">
           <h1 class="metrics">128</h1>
           <p>Countries</p>
-        </div>
-        <div class="col-md-3">
-          <h1 class="metrics">72</h1>
-          <p>Streaming partners</p>
         </div>
         <div class="col-md-3">
           <h1 class="metrics">$3.3M</h1>
@@ -40,6 +41,7 @@ eyebrow: true
   </div>
 </section>
 
+{% include _cloud-logos.html %}
 
 <section>
   <div class="container">
@@ -172,7 +174,7 @@ eyebrow: true
     <img class="lazy img-responsive" src="/images/pricing_chart.svg" width="340" height="354" alt="Pricing">
     <!-- <img class="lazy img-responsive" src="/images/pricing.png" width="340" height="354" alt="Pricing"> -->
     <p class="lead">Pay $0. We make money via simple revenue share: 20%.</p>
-    <p><a href="https://app.filmhub.com/owner/signup" class="btn btn-default btn-lg">Get started</a></p>
+    <p><a href="https://app.filmhub.com/owner/signup" class="btn btn-success btn-lg">Get started</a></p>
     <p class="lead"><small>More info about our <a href="#enterprise" class="animate">enterprise edition</a>.</small></p>
   </div>
 </section>

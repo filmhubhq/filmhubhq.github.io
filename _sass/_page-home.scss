@@ -113,7 +113,7 @@
     transition: 1s;
     color: rgb(82, 82, 84);
     font: 0/0 a;
-    font-size: 1.4em;
+    font-size: 1.8em;
     line-height: 200%;
     margin: 15px;
     vertical-align: middle;
@@ -177,5 +177,17 @@
   #globe {
     position: absolute;
     top: -10px;
+  }
+
+  #channel-logos {
+    [class^="icon-"], [class*=" icon-"] {
+      line-height: 30px;
+    }
+    .btn-group {
+      margin-bottom: 20px;
+    }
+    .btn:focus {
+      outline: none;
+    }
   }
 }

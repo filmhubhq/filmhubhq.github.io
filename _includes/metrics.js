@@ -8,7 +8,6 @@ function updateChannels ( data ) {
 }
 
 function updateTitles ( data ) {
-  console.log(data);
   $("#titles_metrics").html( data.titles_self_serve.value + data.titles_sales.value );
 }
 

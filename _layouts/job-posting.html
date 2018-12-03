@@ -1,13 +1,22 @@
 ---
 layout: bootstrap-hero
-hero: Careers
-hero-link: /jobs
 ---
-<h1 class="page-header">
-  {{ page.title }}
-  <a href="https://filmhub.zendesk.com/hc/en-us/requests/new" class="btn btn-primary pull-right">Apply</a>
-</h1>
+<div class="container content">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
 
-{{ content }}
+      <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li><a href="/jobs">Jobs</a></li>
+        <li class="active">{{ page.title }}</li>
+      </ol>
 
-<a href="https://filmhub.zendesk.com/hc/en-us/requests/new" class="btn btn-primary">Apply</a>
+      {{ content }}
+
+      <p>
+        <a href="https://filmhub.zendesk.com/hc/en-us/requests/new" class="btn btn-primary">Apply</a>
+     </p>
+    </div>
+  </div>
+</div>
+

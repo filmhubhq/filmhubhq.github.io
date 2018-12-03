@@ -1,0 +1,53 @@
+.hero {
+  .jumbotron {
+    padding-top: 0;
+    padding-bottom: calc(2%);
+    color: #fff;
+    background: rgb(0,31,63);
+    background: linear-gradient(152deg, rgba(0,31,63,1) 0%, rgba(0,31,63,1) 40%, rgba(10,84,122,1) 72%, rgba(21,141,187,1) 100%);
+    line-height: 1.8em;
+    a {
+      color: #fff;
+    }
+    .btn-warning {
+      color: $black;
+      background-color: $brand-warning;
+      font-weight: bold;
+      &:hover {
+        color: $brand-warning;
+        background-color: inherit;
+      }
+      &.navbar-btn {
+        color: $brand-warning;
+        background-color: inherit;
+        &:hover {
+          color: $black;
+          background-color: $brand-warning;
+        }
+      }
+    }
+    .navbar-default {
+      .navbar-nav > li > a, a.navbar-brand {
+        color: #ccc;
+        &:hover {
+          opacity: 1;
+          color: $brand-warning;
+        }
+      }
+      a.navbar-brand {
+        color: $white;
+      }
+      .navbar-nav > .active > a {
+        &,
+        &:hover,
+        &:focus {
+          color: $brand-warning; // #f0ad4e;
+          background-color: inherit;
+        }
+      }
+    }
+  }
+  section {
+    padding-bottom: 40px;
+  }
+}

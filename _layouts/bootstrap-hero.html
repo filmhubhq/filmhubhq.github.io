@@ -1,42 +1,30 @@
-<!DOCTYPE html>
-{% assign lang = page.language.short | default: 'en' %}
-<html lang="{{ lang }}">
-<head>
-  {% include _head.html %}
-</head>
+{% include _head.html %}
 
-{% assign hero-link = page.hero-link | default: layout.hero-link %}
-{% assign hero = page.hero | default: layout.hero %}
+<body class="hero page-{{ page.id }}">
 
-<body class="bootstrap-hero page-{{ page.id }}">
+{% if page.eyebrow %}
+  {% include _eyebrow.html %}
+{% endif %}
+
   <div class="jumbotron">
     <div class="container">
+
       <nav class="navbar navbar-default container-fluid" data-class="" role="navigation">
         {% include _navbar_{{lang}}.html %}
       </nav>
-      <div class="row">
-        <div class="col-md-7 col-md-offset-1">
-          {% if hero %}
-            <h1>
-              {% if hero-link %}
-                <a href="{{ hero-link }}">{{ hero }}</a>
-              {% else %}
-                {{ hero }}
-              {% endif %}
-            </h1>
-          {% endif %}
-          {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+
+      {% if page.hero %}
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            {{ page.hero }}
+          </div>
         </div>
-      </div> <!-- row -->
-    </div> <!-- container -->
-  </div>
-  <div class="container content">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        {{ content }}
-      </div>
+      {% endif %}
+
     </div>
   </div>
+
+  {{ content }}
 
 {% include _demoreq.html %}
 {% include _footer_{{lang}}.html %}

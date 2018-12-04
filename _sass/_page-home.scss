@@ -105,29 +105,36 @@
     vertical-align: super;
   }
 
-  #vodlogos {
-    display: inline-block;
-  }
+  // #vodlogos {
+  //   display: inline-block;
+  // }
 
-  #vodlogos span {
-    transition: 1s;
-    color: rgb(82, 82, 84);
-    font: 0/0 a;
-    font-size: 1.8em;
-    line-height: 200%;
-    margin: 15px;
-    vertical-align: middle;
-  }
+  // #vodlogos span {
+  //   transition: 1s;
+  //   color: rgb(82, 82, 84);
+  //   font: 0/0 a;
+  //   font-size: 1.8em;
+  //   line-height: 200%;
+  //   margin: 15px;
+  //   vertical-align: middle;
+  // }
 
+  #channel-logos {
+    [class^="icon-"], [class*=" icon-"] {
+      line-height: 30px;
+      font-size: 16px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .btn-group {
+      margin-bottom: 20px;
+    }
+    .btn:focus {
+      outline: none;
+    }
+  }
   section.different div.different {
     margin-bottom: 60px;
-  }
-
-  @media(max-width:767px) {
-    #vodlogos span {
-      transition: 1s;
-      line-height: 170%;
-    }
   }
 
   h2 img {
@@ -179,15 +186,10 @@
     top: -10px;
   }
 
-  #channel-logos {
-    [class^="icon-"], [class*=" icon-"] {
-      line-height: 30px;
-    }
-    .btn-group {
-      margin-bottom: 20px;
-    }
-    .btn:focus {
-      outline: none;
+  @media (min-width: $screen-md-min) {
+    #channel-logos [class^="icon-"], [class*=" icon-"] {
+      font-size: 20px;
     }
   }
+
 }

@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/filmhubhq/filmhub.github.io.svg?branch=master)](https://travis-ci.org/filmhubhq/filmhub.github.io)
+[![Build Status](https://travis-ci.org/filmhubhq/filmhubhq.github.io.svg?branch=master)](https://travis-ci.org/filmhubhq/filmhub.github.io)
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/klausbadelt/filmhub)
 
 # Feature requests

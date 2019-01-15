@@ -1,28 +1,10 @@
-<!-- Google Analytics -->
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-48786806-1', 'auto', {allowLinker: true});
-ga('require', 'linker');
-ga('require', 'cleanUrlTracker', {
-  stripQuery: true,
-  queryDimensionIndex: 1,
-  indexFilename: 'index.html',
-  trailingSlash: 'remove'
-});
-ga('require', 'eventTracker');
-ga('require', 'impressionTracker', {
-  elements: ['different', 'pricing', 'enterprise', 'email', 'about']
-});
-ga('require', 'maxScrollTracker');
-ga('require', 'outboundFormTracker');
-ga('require', 'pageVisibilityTracker');
-
-ga('linker:autoLink', ['filmhub.com', 'app.filmhub.com']);
-ga('send', 'pageview', { 'page': location.pathname + location.search  + location.hash });
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-<script async src="/js/autotrack.js"></script>
-<!-- End Google Analytics -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-564T8LP');</script>
+<!-- End Google Tag Manager -->
 
 <!-- start Mixpanel -->
 <script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,

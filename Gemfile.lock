@@ -8,7 +8,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    bigdecimal (1.4.3)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -192,7 +191,6 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (~> 3.0)
-    json (2.1.0)
     kramdown (1.17.0)
     liquid (4.0.0)
     listen (3.1.5)
@@ -244,10 +242,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bigdecimal
   github-pages (= 193)
   jekyll-seo-tag (= 2.5.0)
-  json
 
 BUNDLED WITH
    2.0.1

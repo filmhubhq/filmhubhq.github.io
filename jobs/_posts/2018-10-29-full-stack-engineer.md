@@ -1,7 +1,7 @@
 ---
 layout: job-posting
 hero: |
-  <h1>Full Stack Engineer <a href="https://filmhub.zendesk.com/hc/en-us/requests/new" class="btn btn-warning">Apply</a>
+  <h1>Full Stack Engineer <a href="mailto:support@filmhub.com" class="btn btn-warning">Apply</a>
   </h1>
 jsonld:
   baseSalary:
@@ -9,6 +9,7 @@ jsonld:
     maxValue: 120000.00
   experienceRequirements: Minumum 1 year experience as a software engineer
   occupationalCategory: '15-1254 Web Developers'
+  jobLocationType: TELECOMMUTE
 ---
 Build the premier marketplace web app for the film industry. You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends. If you're familiar with Rails, React and have a passion for movies, this is for you.
 

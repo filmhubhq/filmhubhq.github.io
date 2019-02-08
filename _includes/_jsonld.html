@@ -10,8 +10,8 @@
   "hiringOrganization": {
     "@type": "Organization",
     "name": "Filmhub",
-    "sameAs": "http://filmhub.com",
-    "logo": "http://filmhub.com/images/icon_v2_600.png"
+    "sameAs": "https://filmhub.com",
+    "logo": "https://filmhub.com/images/icon_v2_600.png"
   },
   "baseSalary": {
     "@type": "MonetaryAmount",
@@ -36,6 +36,9 @@
       "addressCountry": "US"
     }
   },
+{%- if page.jsonld.jobLocationType %}
+  "jobLocationType": "{{ page.jsonld.jobLocationType }}",
+{%- endif %}
   "identifier": {
     "@type": "PropertyValue",
     "name": "Filmhub",

@@ -1,7 +1,8 @@
 ---
 layout: one-sheets
+title: Producers One-Sheet
 hero: |
-  # Producers
+  # Filmhub for Producers
   Distribute your film smarter, wider, and recoup faster.
 container: true
 ---

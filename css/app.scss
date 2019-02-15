@@ -231,6 +231,11 @@ ol ol {
 li ol {
 /*   margin-bottom: 0px; /* instead, I think that's what they meant */
 }
+
+.jumbotron {
+  padding: 30px 0;
+}
+
 .jumbotron .container, section .container {
   padding-bottom: 0px;
 }

@@ -15,6 +15,8 @@ sass:
   # debug_info: true
   line_numbers: true
   line_comments: true
+kramdown:
+  auto_ids: true
 
 # jekyll-seo-tag properties
 twitter:

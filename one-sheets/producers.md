@@ -37,10 +37,10 @@ Filmhub is a film distribution platform that helps independent films get worldwi
 
 * **Multi-channel distribution strategy** gets more exposure and independence
 * **No gatekeepers** - no more "little audience for this" or "doesn't travel well". Instead, open access to all international streaming video markets.
-* **Full control** over promotion plans, spending, release, windowing, etc.
+* **Full control** over promotion plans, spending, release, windowing. Get the same marketing as the studios, without the big spend and a la carte.
 * **In profit faster** - no fees, no deductions, no murky accounting and waterfalls, get paid from the first view
 * **Save time and money** with higher rates, no distribution expenses, no buyer screenings or markets to travel to
-* **Be truly independent** in both business and creative. New a la carte distribution and promotion "2.0".
+* **Be truly independent** in both business and creative.
 
 {: .page-header }
 # Use cases

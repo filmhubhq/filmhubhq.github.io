@@ -57,10 +57,10 @@ Filmhub is a film distribution platform that helps independent films get worldwi
 
 ### Let tech do the work
 
-* **The whole distribution process online**. While rights marketplaces just mimic dated industry habits, Filmhub leverages technology with no applications to join, no transaction cost, no fees, no lawyers, no conversion cost.
+* **The whole distribution process online**: while rights marketplaces just mimic dated industry habits, Filmhub leverages technology with no applications to join, no transaction cost, no fees, no lawyers, no conversion cost
 * **Auto-Pitch to top buyers** with our data-driven, content matching marketplace and built-in automated promotion channels
-* **No lawyers** - save time and legal expenses with Filmhubs pre-negotiated distribution agreements
-* **Asset processing and delivery** - Filmhub includes all conversion and packaging for free. Delivery within hours of licensing.
+* **No lawyers**: save time and legal expenses with Filmhubs pre-negotiated distribution agreements
+* **Asset processing and delivery**: Filmhub includes all conversion and packaging for free. Delivery within hours of licensing.
 
 </div>
 </div>
@@ -73,9 +73,9 @@ Filmhub is a film distribution platform that helps independent films get worldwi
 
 * **Be in control**: manage your content, releases, territories, pricing tiers, windowing, promotion spending
 *  **Earn royalties** based on performance, globally consolidated, from the first stream/rental/purchase
-* **No gatekeepers** - no more "little audience for this" or "doesn't travel well". Instead, open access to all international streaming video markets.
-* **In profit faster** - no fees, higher rates, no deductions and fees, transparent accounting, get paid from the first view
-* **Be truly independent** in both business and creative.
+* **No gatekeepers**: no more "little audience for this" or "doesn't travel well". Instead, open access to all international streaming video markets
+* **In profit faster**: no fees, higher rates, no deductions and fees, transparent accounting, get paid from the first view
+* **Be truly independent** in both business and creative
 
 </div>
 <div class="col-md-6">
@@ -86,7 +86,7 @@ Filmhub is a film distribution platform that helps independent films get worldwi
 * **Independent film producers** of small to medium budget films ($1m to $25m), when post is finished buyer screenings about to be scheduled, or you're still in production
 * **Production companies** in all territories, previously dependent on international sales agents and exclusive distribution
 * **Episodic shows**, all genres and countries, use Filmhub as their "virtual distributor"
-* **Many more**. Filmmakers and rights holder of all kinds succeed with Filmhub.
+* **Many more**: Filmmakers and rights holder of all kinds succeed with Filmhub
 
 </div>
 </div>

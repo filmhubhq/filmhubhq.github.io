@@ -1,86 +1,74 @@
 ---
-layout: bootstrap-hero
+layout: bootstrap
 id: jobs
 hero: |
-  <h1>Careers</h1>
-  <p>
-    With technology, we’re changing the way a whole industry works. Help us build it.
+  <h1 class="display-2">Careers</h1>
+  <p class="lead">
+  We're building sophisticated technology to change the way a whole industry works. Free the film with us.
   </p>
+container: true
+offset: 1
 ---
-<div class="container content">
+<section id="about-filmhub">
   <div class="row">
-    <div class="col-md-10 col-md-offset-1">
-
-      <section id="about-filmhub">
-        <p class="lead">
-          Filmhub is building sophisticated technology, disrupting the glamorous film industry. Free the film with us.
-        </p>
-        <div class="row">
-          <div class="col-sm-6">
-            <h3>Technology</h3>
-            <p>
-              We are taking the entire film distribution process online. For that, we're building web applications in the cloud, using latest cutting-edge technologies for cloud services, frontend, video processing, and machine learning.
-            </p>
-          </div>
-          <div class="col-sm-6">
-            <h3>People</h3>
-            <p>
-              Filmhub is a fast growing tech startup in Santa Monica's <i>Silicon Beach</i>, well funded by Silicon Valley investors, and co-founded by a Hollywood veteran (<i>Pirates of the Caribbean</i>). We offer the perks of the big guys without the corporate feel. Join our great team.
-            </p>
-          </div>
-        </div>
-          <h3>Perks</h3>
-        <div class="row">
-          <div class="col-sm-4">
-            <ul>
-              <li>Competitive Pay</li>
-              <li>Flexible hours</li>
-              <li>Unlimited vacation</li>
-              <li>Visa sponsor</li>
-              <li>Relocation</li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <ul>
-              <li>Remote possible</li>
-              <li>Free Mac or Linux laptop</li>
-              <li>Unlimited book budget</li>
-              <li>Unlimited training classes</li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <ul>
-              <li>Disrupt the glamorous Hollywood industry</li>
-              <li>Silicon Beach location</li>
-              <li>Free weekly team lunch</li>
-              <li>Opportunity to grow</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="jobs-intro">
-        <p class="lead">We're currently looking for these positions:</p>
-      </section>
-
-      <section class="jobs-listings">
-        <div class="row">
-        {% for post in site.categories["jobs"] %}
-          <div class="col-sm-4">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-              </div>
-              <div class="panel-body">
-                {{ post.excerpt }}
-                <p><small><a href="{{ post.url }}">Read more</a></small></p>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-        </div>
-      </section>
-
+    <div class="col-sm-6">
+      <h3>Technology</h3>
+      <p>
+        We are taking the entire film distribution process online. For that, we're building web applications in the cloud, using latest cutting-edge technologies for cloud services, frontend, video processing, and machine learning.
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <h3>People</h3>
+      <p>
+        Filmhub is a fast growing tech startup in Santa Monica's <i>Silicon Beach</i>, well funded by Silicon Valley investors, and co-founded by a Hollywood veteran (<i>Pirates of the Caribbean</i>). We offer the perks of the big guys without the corporate feel. Join our great team.
+      </p>
     </div>
   </div>
-</div>
+    <h3>Perks</h3>
+  <div class="row">
+    <div class="col-sm-4">
+      <ul>
+        <li>Competitive Pay</li>
+        <li>Flexible hours</li>
+        <li>Unlimited vacation</li>
+        <li>Visa sponsor</li>
+        <li>Relocation</li>
+      </ul>
+    </div>
+    <div class="col-sm-4">
+      <ul>
+        <li>Remote possible</li>
+        <li>Free Mac or Linux laptop</li>
+        <li>Unlimited book budget</li>
+        <li>Unlimited training classes</li>
+      </ul>
+    </div>
+    <div class="col-sm-4">
+      <ul>
+        <li>Disrupt the glamorous Hollywood industry</li>
+        <li>Silicon Beach location</li>
+        <li>Free weekly team lunch</li>
+        <li>Opportunity to grow</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="jobs-intro">
+  <p class="lead">We're currently hiring in these positions:</p>
+</section>
+
+<section class="jobs-listings">
+  <div class="card-deck">
+  {% for post in site.categories["jobs"] %}
+    <div class="card shadow" style="max-width: 20rem;">
+      <div class="card-body">
+        <h3 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="card-text">{{ post.excerpt }}</p>
+        <a href="{{ post.url }}" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</section>
+

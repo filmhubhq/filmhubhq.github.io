@@ -1,0 +1,30 @@
+footer {
+  font-size: 14px;
+  color: $gray-500;
+  background-color: #333;
+  border-top: 1px solid #e7e7e7;
+  section {
+    @extend .py-5;
+  }
+  a, a:focus {
+    color: $gray-400;
+    &:hover {
+      color: $gray-100;
+      text-decoration: none;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    text-align: center;
+    section {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    h4 {
+      font-size: 16px;
+      margin-top: 24px;
+    }
+  }
+  .footer-legal {
+    background-color: #222;
+  }
+}

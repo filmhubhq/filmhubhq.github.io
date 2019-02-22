@@ -1,4 +1,8 @@
-body.page-terms {
+.page-terms {
+  section:first-of-type {
+    background-color: #eee;
+  }
+
   .container.section {
     padding-bottom: 20px;
   }

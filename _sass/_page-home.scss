@@ -1,161 +1,29 @@
 .page-home {
   .jumbotron {
-    color: $silver;
-    background-color: $bg-navy;
-    margin-bottom: 0;
-    @media (min-width: $screen-sm-min) {
-      h1, .h1 {
-        font-size: 46px;
-        text-transform: uppercase;
-        letter-spacing: .1em;
-      }
+    .lead: {
+      font-size: 1.75rem;
     }
-    p.lead {
-      text-transform: uppercase;
-      margin-top: 20px;
-      letter-spacing: 0.08em;
-    }
-    b {
-      color: $brand-warning;
-    }
-    img {
-      margin-top: 40px;
-      margin-bottom: 40px;
-    }
-    a.linkhint {
-      color: $silver;
-      border-bottom: $silver 2px dotted;
-      padding-bottom: 2px;
-      &:hover {
-        border-bottom: $silver 2px solid;
-        text-decoration: none;
-      }
-      &:focus {
-        text-decoration: none;
-      }
-    }
-  }
-  section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    h1 {
-      text-transform: uppercase;
-      letter-spacing: .1em;
-      &.subheader {
-        margin-bottom: 0;
-      }
-      &.metrics {
-        letter-spacing: 0;
-      }
-    }
-    h2.subheader {
-      margin-bottom: 30px;
-    }
-  }
-  .content {
-    section:nth-of-type(3n+1) {
-      background-color: $bg-silver;
-      color: $black;
-      a {
-        color: $filmhub-blue;
-      }
-    }
-    section:nth-of-type(3n) {
-      background-color: $bg-navy; /* #e67d25 #4C5679; #36426B */
-      color: $silver;
-      a {
-        color: $silver;
-        text-decoration: underline;
-      }
-      h1.small {
-        color: $maroon;
-      }
-      .btn-warning {
-        color: $black;
-        background-color: $brand-warning;
-        font-weight: bold;
-        text-decoration: none;
-        &:hover {
-          color: $brand-warning;
-          background-color: inherit;
-        }
-        &.navbar-btn {
-          color: $brand-warning;
-          background-color: inherit;
-          &:hover {
-            color: $black;
-            background-color: $brand-warning;
-          }
-        }
-      }
-    }
-    section:last-of-type {
+    &.min-vh-100 .navbar {
+      height: 56px;
     }
   }
 
-  section.features h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-  }
-  section.features {
-    position: relative;
-    overflow: hidden;
-  }
-  small.super {
-    vertical-align: super;
-  }
-
-  // #vodlogos {
-  //   display: inline-block;
-  // }
-
-  // #vodlogos span {
-  //   transition: 1s;
-  //   color: rgb(82, 82, 84);
-  //   font: 0/0 a;
-  //   font-size: 1.8em;
-  //   line-height: 200%;
-  //   margin: 15px;
-  //   vertical-align: middle;
-  // }
-
-  #channel-logos {
-    [class^="icon-"], [class*=" icon-"] {
-      line-height: 30px;
-      font-size: 16px;
-      overflow: hidden;
-      white-space: nowrap;
-    }
-    .btn-group {
-      margin-bottom: 20px;
-    }
-    .btn:focus {
-      outline: none;
+  .content section {
+    @extend .py-5;
+    &.channels {
+      @extend .py-0;
     }
   }
-  section.different div.different {
-    margin-bottom: 60px;
-  }
 
-  h2 img {
-    margin-right: 10px;
-  }
-  div#terms-intro {
-    background-color: #eee;
-  }
-  .details > * {
-    margin-top: 0;
-  }
-  .pricing img {
-    margin: 40px auto;
-  }
-  .nav-stacked li.nav-article>a {
-    font-size: 14px;
-    padding: 2px 10px 2px 30px;
-  }
-  .nav-stacked li.nav-header>a {
-    font-size: inherit;
-    padding-left: 10px;
+  .nav-stacked {
+    li.nav-article>a {
+      font-size: 14px;
+      padding: 2px 10px 2px 30px;
+    }
+    li.nav-header>a {
+      font-size: inherit;
+      padding-left: 10px;
+    }
   }
   .meta {
     margin-bottom: 30px;
@@ -172,24 +40,88 @@
     background: #1A237E;
     color: #fff;
   }
-  .howitworks img, .enterprise img {
+  .teampics {
+    margin-top: 30px;
+  }
+  #fromeverywhere {
+    margin-top: 40px;
+  }
+
+  .metrics h1 i {
+    color: #7a51e9;
+  }
+
+  section {
+    &.channels {
+      // background: #9327f5;
+      // background: -webkit-linear-gradient(top left, #9327f5 0%, #00d4c3 100%);
+      // background: -o-linear-gradient(top left, #9327f5 0%, #00d4c3 100%);
+      // background: linear-gradient(to bottom right, #9327f5 0%, #00d4c3 100%);
+      // // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='$purple', endColorstr='$teal', GradientType=1 );
+      // color: #fff;
+      @extend .py-0;
+    }
+  }
+
+  .logos-container {
+    height: 440px;
+    overflow: hidden;
+    .logos-scrolling {
+      // position: relative;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      transform: translate3d(0, -80%, 0);
+      animation: vertical-scroll 30s linear infinite;
+      -moz-transform: translate3d(0, -100%, 0);
+      -webkit-transform-style: translate3d(0, -100%, 0);
+      -moz-animation: vertical-scroll 12s linear infinite;
+      -webkit-animation-trigger: vertical-scroll 12s linear infinite;
+      .logo {
+        margin: 0 20px 10px;
+        svg {
+          // filter: grayscale(100%);
+          filter: brightness(0%);
+          // filter: gray;
+          width: 80px;
+          height: 80px;
+        }
+      }
+    }
+  }
+
+  @keyframes vertical-scroll {
+    100% {
+      transform: translateY(0%);
+      -moz-transform: translateY(0%);
+      -webkit-transform: translateY(0%)
+    }
+  }
+
+  // MailChimp form style overrides
+  // @import url('//cdn-images.mailchimp.com/embedcode/classic-10_7.css');
+  #mc-embedded-subscribe-form {
     margin-bottom: 20px;
   }
-  a.anchor {
-    display: block;
-    position: relative;
-    visibility: hidden;
+  #mc_embed_signup {
+    input.mce_inline_error {
+      border-color: $danger;
+    }
+    div.mce_inline_error {
+      @extend .badge;
+      @extend .badge-danger;
+      margin-left: 1em;
+    }
+    background: transparent;
   }
-
-  #globe {
-    position: absolute;
-    top: -10px;
-  }
-
-  @media (min-width: $screen-md-min) {
+  @include media-breakpoint-up(md) {
     #channel-logos [class^="icon-"], [class*=" icon-"] {
       font-size: 20px;
     }
   }
-
 }
+
+
+

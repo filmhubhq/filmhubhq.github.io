@@ -1,5 +1,5 @@
 ---
-layout: one-sheets
+layout: bootstrap
 title: Producers One-Sheet
 hero: |
   # Filmhub for Producers

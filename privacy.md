@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: bootstrap
 title: Privacy Policy
 subtitle: updated September 13, 2018
 id: privacy

@@ -1,29 +1,31 @@
-<div class="navbar-header">
-  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-    <span class="sr-only">Toggle navigation</span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-  </button>
-  <a class="navbar-brand animate"
-    {% if page.url == '/index.html' %} href="#top" {% else %} href="/" {% endif %}>
-    <span class="icon-Filmhub"></span>
-  </a>
-</div>
-<div class="navbar-collapse collapse">
-  <ul class="nav navbar-nav">
-    <li><a href="{% if page.url != '/index.html' %}/{% endif %}#pricing" class="animate">Pricing</a></li>
-    <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#enterprise" class="animate">Enterprise</a></li>
-    <li class="hidden-sm hidden-md"><a href="{% if page.url != '/index.html' %}/{% endif %}#about" class="animate">About</a></li>
-    <li class="hidden-sm"><a href="http://blog.filmhub.com">Blog</a></li>
-    <li class="hidden-sm {% if page.id == 'jobs' %}active{% endif %}">
-      <a href="{% if page.id == 'jobs' %}#{% else %}/jobs{% endif %}">Jobs</a>
-    </li>
-    <li id="requestdemobtn"><button class="btn btn-warning btn-s navbar-btn" data-toggle="modal" data-target="#requestdemomodal">Get a demo</button></li>
-  </ul>
-  <ul class="nav navbar-nav navbar-right">
-    <li class="hidden-sm hidden-md"><a href="/zh">中文</a></li>
-    <li><a href="https://app.filmhub.com/owner/signup">Get started</a></li>
-    <li><a href="https://app.filmhub.com/login">Log in</a></li>
-  </ul>
-</div>
+{% capture home %}{% if page.url != '/index.html' %}/{% endif %}{% endcapture %}
+
+  <nav class="navbar navbar-{{ include.theme | default: "dark" }} navbar-expand-md w-100 bg-{{ include.theme | default: "transparent" }} ">
+    <a class="navbar-brand" {% if page.url == '/index.html' %} href="#top" {% else %} href="/" {% endif %}>
+      <img src="/images/filmhub.svg" width="150" alt="Filmhub">
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarCollapse"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ml-auto d-none d-flex">
+        <a class="nav-item nav-link animate" href="{{ home }}#pricing" >Pricing</a>
+        <a class="nav-item nav-link animate" href="{{ home }}#enterprise">Enterprise</a>
+        <a class="nav-item nav-link animate d-none d-lg-inline" href="{{ home }}#about">About</a>
+        <a class="nav-item nav-link" href="https://blog.filmhub.com">Blog</a>
+        <a class="nav-item nav-link d-none d-lg-inline" href="/jobs">Jobs</a>
+        <a class="nav-item nav-link text-warning" href="#" id="requestdemobtn" data-toggle="modal" data-target="#requestdemomodal">Get a demo</a>
+        <a class="nav-item nav-link" href="/zh">中文</a>
+        <a class="nav-item nav-link" href="https://app.filmhub.com/login">Sign in</a>
+        <a class="nav-item btn btn-outline-warning my-2 my-sm-0" href="https://app.filmhub.com/owner/signup">Sign up</a>
+      </div>
+    </div>
+  </nav>

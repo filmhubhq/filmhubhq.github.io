@@ -1,6 +1,6 @@
 ---
-layout: bootstrap
 title: Terms &amp; Conditions
+layout: bootstrap
 id: terms
 container: true
 ---

@@ -1,9 +1,16 @@
 ---
-layout: bootstrap
 title: Privacy Policy
-subtitle: updated September 13, 2018
+layout: bootstrap
+id: terms
 id: privacy
+container: true
+offset: 2
 ---
+# Privacy policy
+
+_updated September 13, 2018_
+{: .text-muted }
+
 When you use Filmhub you are trusting us with your information. We understand that this is a big responsibility and work hard to protect your information. This privacy policy sets out how Filmhub uses and protects any information that you give us when you use this website.
 Filmhub is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement.
 Filmhub may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes.
@@ -58,4 +65,4 @@ You may request details of personal information which we hold about you under th
 If you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible, at the above address. We will promptly correct any information found to be incorrect.
 
 ### About Us
-Filmhub is the name used by Kinonation, Inc. a Delaware corporation.
+Filmhub is the name used by Kinonation, Inc., a Delaware corporation.

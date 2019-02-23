@@ -28,7 +28,7 @@
 {% comment %} *** HERO *** {% endcomment %}
 {% if page.hero %}
   <div class="jumbotron jumbotron-fluid text-light pt-0 mb-0 d-flex flex-wrap {{ page.hero_class }}">
-    {% include _navbar_{{lang}}.html %}
+    {% include _navbar_{{ page.lang | default: 'en' }}.html %}
 
     <div class="container pt-5 hero">
       {{ page.hero | markdownify }}
@@ -36,7 +36,7 @@
   </div>
 {% else %}
   <div class="px-3">
-    {% include _navbar_{{lang}}.html theme="light" %}
+    {% include _navbar_{{ page.lang | default: 'en' }}.html theme="light" %}
   </div>
 {% endif %}
 
@@ -55,7 +55,7 @@
 
 {% comment %} *** INCLUDES *** {% endcomment %}
 {% include _demoreq.html %}
-{% include _footer_{{lang}}.html %}
+{% include _footer_{{ page.lang | default: 'en' }}.html %}
 {% include _js.html %}
 
 </body>

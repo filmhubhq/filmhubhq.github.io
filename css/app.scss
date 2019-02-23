@@ -74,18 +74,18 @@ table {
 }
 
 .navbar {
-  // logo with name
-  .navbar-brand {
+  .navbar-brand:hover {
+    opacity: 0.7;
+  }
+
+  &.navbar-dark .navbar-brand {
     filter: brightness(1000);
+    transition: none;
     &:hover {
-      opacity: 0.7;
+      transition: none;
     }
   }
-  .navbar-dark {
-    svg path {
-      fill: white;
-    }
-  }
+
   // navbar menu a bit smaller
   .navbar-nav {
     font-size: 0.90rem;

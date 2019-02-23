@@ -174,11 +174,15 @@ hero: |
 <section class="pricing text-dark" id="pricing">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 offset-1 vertical-center">
+      <div class="col-md-6 vertical-center">
         <div>
 
-        <h1 class="display-4 pb-2">Creator-first pricing</h1>
-        <p class="lead pb-3">Pay $0. We make money via simple revenue share: 20%. No deductions or recurring fees.</p>
+<<<<<<< Updated upstream
+        <h1 class="display-4">Creator-first pricing</h1>
+=======
+        <h1 class="display-3">Creator-first Pricing</h1>
+>>>>>>> Stashed changes
+        <p class="lead">Pay $0. We make money via simple revenue share: 20%. No deductions or recurring fees.</p>
         <p>
           <a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-outline-primary">Get started</a>
         </p>
@@ -187,8 +191,8 @@ hero: |
         </p>
         </div>
       </div>
-      <div class="col-md-5">
-        <img class="lazyload img-fluid s-75 my-3 pl-3" data-src="/images/pricing_chart.svg" alt="Pricing">
+      <div class="col-md-5 offset-md-1">
+        <img class="lazyload img-fluid s-75 my-5" data-src="/images/pricing_chart.svg" alt="Pricing">
       </div>
     </div>
   </div>
@@ -221,20 +225,18 @@ hero: |
 
       <div class="col-md-7">
         <div>
-          <h1 class="display-4">Filmhub Enterprise</h1>
-          <p class="lead pb-3">Sales agents, distributors, indie studios: use our cloud service to release your content in streaming services worldwide.</p>
+          <h1 class="display-3">Filmhub Enterprise</h1>
+          <p class="lead">Sales agents, distributors, indie studios: use our cloud service to release your content in streaming services worldwide.</p>
           <p>
-            Monetize all dormant assets. Fill your distribution gaps. Carve out territories already sold. Deliver to your own channels and ours.
+            Fill your distribution gaps. Carve out territories already sold. Deselect streaming services you're already in or simply don't want.
           </p>
           <p>
-            Our cloud technology does all the complicated technical work.
+            Deliver to your own platforms and ours. Monetize all your dormant assets.
+            Our cloud technology does all the complicated technical work. Choose from no conversion cost, or a low one-time fee.
             Consolidated tracking, collection, accounting, short lead times all included. We are scalable to infinite catalog sizes.
           </p>
           <p>
-            Choose from no conversion cost, or a low one-time fee.
-          </p>
-          <p class="pt-4">
-            <a href="https://intercom.help/filmhub" class="btn btn-outline-warning contact-us mr-3">Contact sales</a> or <a href="tel:+1-424-209-8578" title="Call us: +1-424-209-8578" class="linkhint">call us</a></li>
+            <a href="https://intercom.help/filmhub" class="linkhint contact-us">Contact us</a> for details or <a href="https://app.filmhub.com/owner/signup" class="linkhint">get started</a> to try risk-free.
           </p>
         </div>
       </div>

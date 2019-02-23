@@ -4,25 +4,26 @@ title: Terms &amp; Conditions
 id: terms
 container: true
 ---
-
 # Terms & Conditions
 
 _updated September 13, 2018_
+{: .text-muted }
 
-<div class="row"><div class="col-lg-8 offset-lg-2">
+<div class="row py-5"><div class="col-lg-8 offset-lg-2">
 
 ### Human-Readable Summary
 
 This is non-legally-binding introductory summary of (and not a substitute for) the full [terms & conditions](#filmhub-terms--conditions). Read the [disclaimer](#){: data-toggle="popover" data-placement="bottom" data-title="Disclaimer" data-content="This summary highlights only some of the key features of the actual terms &amp; conditions. It is not an agreement and has no legal value. You should carefully review the actual terms &amp; conditions." }.
 
 <div class="card-deck mb-4">
+<div class="card shadow">
 
-<div class="card border-success">
-
-##### <i class="fas fa-thumbs-up"></i> You grant Filmhub the right to:
-{: .card-header  }
+<i class="fas fa-handshake fa-3x text-info py-2"></i>
+{: .card-header .text-center .mb-0 bg-light }
 
 <div class="card-body">
+
+##### You grant Filmhub the right to:
 
 * **Distribute** your titles and associated metadata to Channels
 * **Collect** all revenue from Channels in connection with your titles, which we then pass on to you less our [revenue share](/#pricing)
@@ -31,12 +32,14 @@ This is non-legally-binding introductory summary of (and not a substitute for) t
 </div>
 </div>
 
-<div class="card border-info">
+<div class="card shadow">
 
-##### <i class="fas fa-check"></i> With the understanding that:
-{: .card-header }
+<i class="fas fa-lightbulb fa-3x text-info py-2"></i>
+{: .card-header .text-center .mb-0 bg-light }
 
 <div class="card-body">
+
+##### With the understanding that:
 
 * You control the necessary rights
 * You can withdraw your title(s) from Filmhub at any time, but remain bound to the rules of Channels already delivered to
@@ -57,11 +60,11 @@ Some most-asked questions:
 1. **Can I upload "unsold" titles only?**No. We operate **non-exclusively**. We can augment other distribution deals you might have with territories and streaming channels they don't cover. We just ask not to deliver to the same streaming channels. You can exclude specific streaming channels and territories per title.
 1. **Am I tied into a long term contract?** No. You can withdraw your title(s) from Filmhub at any time, but remain bound to the rules of Channels already delivered to.
 
-Now on to the binding legal text.
+Now on to the binding [legal text](#filmhub-terms--conditions).
 
 </div></div>
-
 ---
+{: .my-5}
 
 # Filmhub Terms & Conditions
 {:.page-header}

@@ -1,8 +1,8 @@
 footer {
-  font-size: 14px;
+  // font-size: 14px;
   color: $gray-500;
   background-color: #333;
-  border-top: 1px solid #e7e7e7;
+  border-top: 1px solid #272727;
   section {
     @extend .py-5;
   }
@@ -28,3 +28,4 @@ footer {
     background-color: #222;
   }
 }
+

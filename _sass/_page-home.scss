@@ -63,6 +63,19 @@
     }
   }
 
+  /* Featurettes
+  ------------------------- */
+
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+  /* Channel logos
+  ------------------------- */
+
   .logos-container {
     height: 440px;
     overflow: hidden;
@@ -116,9 +129,14 @@
     }
     background: transparent;
   }
+
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+
   @include media-breakpoint-up(md) {
-    #channel-logos [class^="icon-"], [class*=" icon-"] {
-      font-size: 20px;
+    .featurette-heading {
+      font-size: 50px;
+      margin-top: 7rem;
     }
   }
 }

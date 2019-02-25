@@ -1,30 +1,31 @@
-<div class="navbar-header">
-  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-    <span class="sr-only">Toggle navigation</span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-  </button>
-  <a class="navbar-brand animate"
-    {% if page.url == '/index.html' %} href="#top" {% else %} href="/" {% endif %}>
-    <span class="icon-Filmhub"></span>
-  </a>
-</div>
-<div class="navbar-collapse collapse">
-  <ul class="nav navbar-nav">
-    <li><a href="{% if page.url != '/index.html' %}/{% endif %}#pricing" class="animate">价格</a></li>
-    <li><a href="{% if page.url != '/index.html' %}/{% endif %}#enterprise" class="animate">企业版</a></li>
-    <li class="hidden-sm"><a href="{% if page.url != '/index.html' %}/{% endif %}#about" class="animate">关于我们</a></li>
-    <li><a href="http://blog.filmhub.com">博客</a></li>
-    <li class="hidden-sm {% if page.id == 'jobs' %}active{% endif %}">
-      <a href="{% if page.id == 'jobs' %}#{% else %}/jobs{% endif %}">工作</a>
-    </li>
-    <li class="hidden-sm {% if page.url == '/help/index.html' %}active{% endif %}"><a href="https://intercom.help/filmhub" class="intercom-launcher">帮助</a></li>
-  </ul>
-  <ul class="nav navbar-nav navbar-right">
-    <li class="hidden-sm"><a href="/">En</a></li>
-    <li class="hidden-sm"><a href="http://weibo.com/kinonationchina"><i class="fa fa-lg fa-weibo"></i></a></li>
-    <li><a href="https://app.filmhub.com/owner/signup">现在加入</a></li>
-    <li><a href="https://app.filmhub.com/login">登录</a></li>
-  </ul>
-</div>
+{% capture home %}{% if page.url != '/index.html' %}/{% endif %}{% endcapture %}
+
+  <nav class="navbar navbar-{{ include.theme | default: "dark" }} navbar-expand-md w-100 bg-{{ include.theme | default: "transparent" }} ">
+    <a class="navbar-brand" {% if page.url == '/index.html' %} href="#top" {% else %} href="/" {% endif %}>
+      <img src="/images/filmhub.svg" width="150" alt="Filmhub">
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarCollapse"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ml-auto d-none d-flex">
+        <a class="nav-item nav-link animate" href="{{ home }}#pricing" >价格</a>
+        <a class="nav-item nav-link animate" href="{{ home }}#enterprise">企业版</a>
+        <a class="nav-item nav-link animate d-none d-lg-inline" href="{{ home }}#about">关于我们</a>
+        <a class="nav-item nav-link" href="https://blog.filmhub.com">博客</a>
+        <a class="nav-item nav-link d-none d-lg-inline" href="/jobs">工作</a>
+        <a class="nav-item nav-link text-warning" href="#" id="requestdemobtn" data-toggle="modal" data-target="#requestdemomodal">Get a demo</a>
+        <a class="nav-item nav-link" href="/">en</a>
+        <a class="nav-item nav-link" href="https://app.filmhub.com/login">登录</a>
+        <a class="nav-item btn btn-outline-warning my-2 my-sm-0" href="https://app.filmhub.com/owner/signup">现在加入</a>
+      </div>
+    </div>
+  </nav>

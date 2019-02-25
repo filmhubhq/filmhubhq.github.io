@@ -1,208 +1,108 @@
 ---
 ---
-// Backgrounds
-$bg-navy: #001f3f;
-$bg-blue: #0074d9;
-$bg-aqua: #7fdbff;
-$bg-teal: #39cccc;
-$bg-olive: #3d9970;
-$bg-green: #2ecc40;
-$bg-lime: #01ff70;
-$bg-yellow: #ffdc00;
-$bg-orange: #ff851b;
-$bg-red: #ff4136;
-$bg-fuchsia: #f012be;
-$bg-purple: #b10dc9;
-$bg-maroon: #85144b;
-$bg-white: #fff;
-$bg-gray: #aaa;
-$bg-silver: #ddd;
-$bg-black: #111;
+@import "variables";
 
-// colors
-$navy: #001f3f;
-$blue: #0074d9;
-$aqua: #7fdbff;
-$teal: #39cccc;
-$olive: #3d9970;
-$green: #2ecc40;
-$lime: #01ff70;
-$yellow: #ffdc00;
-$orange: #ff851b;
-$red: #ff4136;
-$fuchsia: #f012be;
-$purple: #b10dc9;
-$maroon: #85144b;
-$white: #fff;
-$silver: #ddd;
-// $gray: #aaa;
-$black: #111;
+// vendors
+$enable-responsive-font-sizes: true;
+$enable-gradients: true;
+@import "bootstrap/bootstrap";
 
-$filmhub-blue: #1a237e;
-$filmhub-gray: #525254;
-$filmhub-white: #f8f8f8;
+// global page elements
+@import "footer";
 
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,800');
+// specific page styles
+@import "page-home";
 
-// vendor
-$font-family-sans-serif: 'Nunito Sans', helvetica, arial, sans-serif;
-@import 'bootstrap';
+// globals
 
-// app
-@import 'hero';
-@import 'kinonation-font/kinonation-font';
-@import 'page-help-index';
-@import 'page-home';
-@import 'page-hoopla';
-@import 'page-tags';
-@import 'page-terms';
-@import 'page-vimeo';
-
-body {
-  background-color: $filmhub-white;
-  color: $navy;
-  font-size: 16px;
-  line-height: 1.5em;
-  padding-bottom: 0;
-  background-color: $white;
-  min-height: 800px;
+// style tables in markdown
+table {
+  @extend .table;
 }
 
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-  font-weight: bold;
+.transparent-50 {
+  opacity: 0.5;
 }
 
-.eyebrow {
-  background-color: $gray-dark; // #2d3943;
-  font-size: .85em;
-  color: $white;
-  position: relative;
-  z-index: 4;
-  margin-right: -$navbar-padding-horizontal;
-  margin-left:  -$navbar-padding-horizontal;
-  @media (min-width: $grid-float-breakpoint) {
-    margin-right: 0;
-    margin-left:  0;
-  }
-  a {
-    display: inline-block;
-    color: #fff;
+.linkhint {
+  border-bottom: $gray-500 2px dotted;
+  color: inherit;
+  padding-bottom: 2px;
+
+  &:hover {
+    border-bottom: solid;
     text-decoration: none;
-    padding-top: .3em;
-    padding-bottom: .3em;
-    padding-left: 13px;
-    padding-right: 13px;
+    color: inherit;
+  }
+
+  &:focus {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.bg-gradient-filmhub {
+  background: rgb(0,31,63);
+  background: linear-gradient(152deg,
+    rgba(0,31,63,1) 0%,
+    rgba(0,31,63,1) 40%,
+    rgba(10,84,122,1) 72%,
+    rgba(21,141,187,1) 100%);
+}
+
+.bg-gradient-filmhub-reverse {
+  background: rgb(0,31,63);
+  background: linear-gradient(152deg,
+    rgba(21,141,187,1) 0%,
+    rgba(10,84,122,1) 40%,
+    rgba(0,31,63,1) 72%,
+    rgba(0,31,63,1) 100%);
+}
+
+.bg-silver {
+  background-color: $silver;
+  color: $black;
+}
+
+.bg-navy {
+  background-color: $navy; /* #e67d25 #4C5679; #36426B */
+  color: $silver;
+  a {
+    color: $silver;
+    text-decoration: underline;
   }
 }
 
 .navbar {
-  background-color: $white;
-  font-size: 14px;
-  margin-bottom: 0;
-  li {
-    color: $filmhub-blue;
+  .navbar-brand:hover {
+    opacity: 0.7;
   }
-  &, button {
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
-}
 
-.navbar-default {
-  background: transparent;
-  background-color: transparent;
-  border-color: transparent;
-
-  .navbar-nav > li > a {
-    color: $filmhub-gray;
+  &.navbar-dark .navbar-brand {
+    filter: brightness(1000);
+    transition: none;
     &:hover {
-      opacity: 0.7;
+      transition: none;
     }
   }
-  a.navbar-brand {
-    color: #1A237E;
-    padding: 15px 15px 15px 0;
-    &:hover {
-      // color: #1A237E;
-      opacity: 0.7;
+
+  // navbar menu a bit smaller
+  .navbar-nav {
+    font-size: 0.90rem;
+    .nav-link {
+      padding-left: 1rem;
+      padding-right: 0.5rem;
     }
   }
 }
 
-.container.content {
-  margin-top: 40px;
-}
-.container.content + footer {
-  margin-top: 40px;
-}
-.content article:first-of-type h2,
-.firstrow h3:first-of-type,
-.container.content h1:first-of-type,
-.content article:first-of-type h2,
-.tag-nav:first-of-type h2 {
-  margin-top: 0;
+.jumbotron {
+  @extend .bg-gradient-filmhub;
+  // link hint styling
 }
 
 a, button {
   transition: all .2s;
-}
-
-footer {
-  font-size: 14px;
-  color: $gray-lighter;
-  background-color: #333;
-  border-top: 1px solid #e7e7e7;
-  margin-top: 40px;
-  section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  a, a:focus {
-    color: darken($gray-lighter, 20%);
-    &:hover {
-      color: $filmhub-white;
-      text-decoration: none;
-    }
-  }
-  @media (max-width: $screen-xs-max) {
-    text-align: center;
-    section {
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    h4 {
-      font-size: 16px;
-      margin-top: 24px;
-    }
-  }
-  .footer-legal {
-    background-color: #222;
-  }
-}
-.social span {
-	display: inline-block;
-	width: 180px;
-}
-.social .twitter {
-  width: 110px;
-}
-.social .twitter-follow {
-  width: 150px;
-}
-.social .facebook {
-  width: 90px;
-}
-.social .google {
-	width: 75px;
-}
-.well h3 {
-  margin-top: 0;
 }
 
 a[data-toggle="tooltip"] {
@@ -210,90 +110,10 @@ a[data-toggle="tooltip"] {
   border-bottom: 1px dashed #000;
   text-decoration: none;
 }
-.tag {
-  text-transform: capitalize;
-  font-weight: 400;
-  padding: .4em .6em .3em;
-}
-.tag span {
-  vertical-align: super;
-  font-size: 1rem;
-}
-#tag-box {
-  line-height: 2;
-}
-.alert>ul {
-  margin-bottom: inherit;
-}
-ol ol {
-  margin-bottom: 10px; /* undo Bootstrap */
-}
-li ol {
-/*   margin-bottom: 0px; /* instead, I think that's what they meant */
-}
 
-.jumbotron {
-  padding: 30px 0;
-}
-
-.jumbotron .container, section .container {
-  padding-bottom: 0px;
-}
-
-#teampics {
-  margin-top: 30px;
-}
-
-.page-faq-index li > p:first-child {
-  font-weight: bold;
-}
-.first-row {
-  margin-top: 0;
-}
-.poster {
-  float: left;
-  width: 10%;
-}
-.row.posters {
-   margin-top: 0px;
-   margin-bottom: 40px;
-}
-#fromeverywhere {
-  margin-top: 40px;
-}
-
-table {
-  @extend .table;
-}
-
-.page-product-updates {
-  article h2 {
-    @extend .label;
-    @extend .label-info;
-  }
-}
-
-// MailChimp form style overrides
-// @import url('//cdn-images.mailchimp.com/embedcode/classic-10_7.css');
-
-#mc-embedded-subscribe-form {
-  margin-bottom: 20px;
-}
-
-#mc_embed_signup {
-  input.mce_inline_error {
-    border-color: $brand-danger;
-  }
-  div.mce_inline_error {
-    @extend .label;
-    @extend .label-danger;
-    margin-left: 1em;
-  }
-  background: transparent;
-}
-
-@media (min-width: $screen-sm-min) {
-  section h1 {
-    font-size: 3em;
-  }
+.vertical-center {
+  // min-height: 100%;
+  // min-height: 100vh;
+  display: flex;
+  align-items: center;
 }

@@ -1,23 +1,63 @@
+{% comment %} *** HEAD {% endcomment %}
 {% include _head.html %}
 
-<body class="page-{{ page.id }}" data-spy="scroll" data-target=".navbar-collapse" data-offset="51">
-
+{% comment %} *** BODY *** {% endcomment %}
+<body class="{% if page.hero %} {% endif %}page-{{ page.id }}">
+  
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWBCVSP"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-  <div class="body">
-    <nav class="navbar navbar-default container-fluid" data-class="" role="navigation">
-      {% include _navbar_{{lang}}.html %}
-    </nav>
+{% comment %} *** EYEBROW *** {% endcomment %}
+{% if page.eyebrow %}
+  <div class="navbar navbar-dark bg-dark py-0 eyebrow">
+    <div class="navbar-nav flex-row">
+      <a class="nav-item nav-link pl-0" href="tel:+1-424-209-8578" title="Call Us Today: +1-424-209-8578">
+        <i class="fas fa-phone"></i> +1 (424) 209&nbsp;8578
+      </a>
+    </div>
+    <div class="navbar-nav flex-row d-none d-sm-flex">
+      <a class="nav-item nav-link" href="https://twitter.com/filmhubhq"><i class="fab fa-twitter"></i></a>
+      <a class="nav-item nav-link" href="https://www.facebook.com/filmhubhq"><i class="fab fa-facebook"></i></a>
+      <a class="nav-item nav-link" href="https://www.linkedin.com/company/filmhub/"><i class="fab fa-linkedin"></i></a>
+      <a class="nav-item nav-link" href="https://www.youtube.com/user/kinonationfilms"><i class="fab fa-youtube"></i></a>
+      <a class="nav-item nav-link intercom-launcher" href="https://intercom.help/filmhub">Help</a>
+    </div>
+  </div>
+{% endif %}
 
+{% comment %} *** HERO *** {% endcomment %}
+{% if page.hero %}
+  <div class="jumbotron jumbotron-fluid text-light pt-0 mb-0 d-flex flex-wrap {{ page.hero_class }}">
+    {% include _navbar_{{ page.lang | default: 'en' }}.html %}
+
+    <div class="container pt-5 hero">
+      {{ page.hero | markdownify }}
+    </div>
+  </div>
+{% else %}
+  <div class="px-3">
+    {% include _navbar_{{ page.lang | default: 'en' }}.html theme="light" %}
+  </div>
+{% endif %}
+
+{% comment %} *** CONTENT *** {% endcomment %}
+  <div class="content body">
+    {% if page.container %}<div class="container py-5">{% endif %}
+    {% if page.offset %}<div class="row"><div class="col-md-{{ page.offset | times: -2 | plus: 12 }} offset-md-{{ page.offset }}">{% endif %}
+
+    <div class="content">
     {{ content }}
+    </div>
 
+    {% if page.offset %}</div></div>{% endif %}
+    {% if page.container %}</div>{% endif %}
   </div>
 
+{% comment %} *** END-OF-BODY *** {% endcomment %}
 {% include _demoreq.html %}
-{% include _footer_{{lang}}.html %}
+{% include _footer_{{ page.lang | default: 'en' }}.html %}
 {% include _js.html %}
 
 </body>

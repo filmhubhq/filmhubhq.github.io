@@ -1,53 +1,17 @@
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<script
-  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-  crossorigin="anonymous"></script>
-<script src="/js/jquery.lazyload.min.js"></script>
-<script>
-  {% include demoreq.min.js %}
-</script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="/js/lazyload.min.js"></script>
 
-{% if page.custom_js %}
-<script type="text/javascript">
+<script>{% include js/demoreq.min.js %}</script>
+
 {% for js_file in page.custom_js %}
-  {% include  {{js_file}}.js %}
+<script type="text/javascript">
+  {% include js/{{js_file}}.js %}
+</script>
 {% endfor %}
-  </script>
-{% endif %}
 
 <script>
-$(document).ready(function() {
-  // animate scroll links
-  var $root = $('html, body');
-  $('a.animate').click(function(e) {
-      var href = $.attr(this, 'href').replace(/^\//,'');
-      $root.animate({
-        scrollTop: $(href).offset().top
-      }, 500, function () {
-        window.location.hash = href;
-      });
-      e.preventDefault();
-  });
-
-  // init bootstrap popover & tooltip
-  $('[data-toggle="popover"]').popover();
-  $('a[data-toggle="tooltip"]').tooltip().click(function(e) {
-    e.preventDefault();
-  });
-
-  // lazyload
-  var $imgs = $("img.lazy");
-  $imgs.lazyload({
-    failure_limit: Math.max($imgs.length - 1, 0)
-  });
-
-});
+  {% include js/app.js %}
 </script>
 
-
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=329555447817818&ev=PageView&noscript=1"/></noscript>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-564T8LP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

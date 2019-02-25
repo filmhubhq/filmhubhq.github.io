@@ -1,240 +1,285 @@
 ---
-layout: bootstrap-hero
+lang: zh
+layout: bootstrap
 title: Indie film digital distribution platform
 id: home
-language:
-  short: zh
-  long: 中文
-hero: |
-  <h1><small>电影全球分销 </small>云端解决方案</h1>
-  <div class="row">
-    <p>在线管理您的影视作品，全球范围数字发行/分销</p>
-    <p>让内容拥有者自己做主</p>
-    <p><a href="https://app.filmhub.com/owner/signup" class="btn btn-default">现在加入-免费注册 &raquo;</a></p>
-  </div>
 eyebrow: true
+hero_class: min-vh-100
+hero: |
+  <h1 class="display-3 text-center">不到<span class="text-warning">1％</span> 的人获得分配</h1>
+  <p class="text-center"><img src="/images/less_than_1_percent.svg" class="img-fluid my-3 w-75" alt="less than 1% get distribution"></p>
+  <h2 class="display-4 text-center">
+  <span class="text-warning">改变故事</span></h2>
+  <p class="lead text-center mt-">流动你的电影，到处展示。 拥有一切。 什么都不付钱。
+  </p>
+  <p class="text-center my-5">
+  <a class="btn btn-lg btn-warning mt-sm-4 mr-4" href="https://app.filmhub.com/owner/signup">开始吧</a>
+  <a class="btn btn-lg btn-outline-warning mt-sm-4 animate" href="#metrics">学到更多 ↓</a>
 ---
-{% include _cloud-logos.html %}
-
-<section>
+<section class="metrics bg-silver" id="metrics">
   <div class="container">
-    <!-- <h1 class="text-center subheader">Get your titles on VOD, worldwide</h1> -->
-    <h1 class="text-center">助推视频点播产业革命</h1>
+    <h3 class="text-center">Taking the entire film distribution process online</h3>
+    <p class="lead text-center pb-4">
+      Our data-driven platform helps independent films get worldwide streaming release. We take no rights, charge no fees, provide transparent analytics and much better rates than the traditional industry.
+    </p>
     <div class="row">
-      <div class="col-md-4">
-        <h2>电影人和制作公司</h2>
-        <p class="lead">Filmhub将您的作品投放到Hulu，iTunes，Amazon以及全球更多数字视频销售商/VOD（视频点播）服务商</p>
-        <p>无论是大制片公司还是独立电影人，都能通过Filmhub将作品投放到众多平台，持续获得收益。</p>
+      <div class="col text-center">
+        <h1><i class="fas fa-hand-holding-usd"></i></h1>
+        <h1>$3M<small>+</small></h1>
+        <p>generated for filmmakers and producers</p>
       </div>
-      <div class="col-md-4">
-        <h2>销售商和代理商</h2>
-        <p class="lead">通过Filmhub在云端管理和分销您的内容库</p>
-        <p>无需投资做平台、不用再担心技术问题，您可以专注于推广您客户的作品、建立内容拥有者和数字视频服务商之间的良好关系。</p>
-      </div>
-      <div class="col-md-4">
-        <h2>数字视频服务商</h2>
-        <p class="lead">Filmhub提供基于云技术的海量内容的授权和投放</p>
-        <p>同Amazon、Hulu等众多平台的成功合作经验，证明了出我们自动化投放流程的高效和可靠。通过Filmhub接收内容，您和内容拥有者的合作将事半功倍。</p>
-      </div>
-    </div>
 
-    <div class="row" id="fromeverywhere">
-      <div class="col-md-3 lead">
-        <h3><i class="fa fa-globe fa-lg"></i> 从任何地方</h3>
-        <p>我们接收来自任何国家任何语言的内容</p>
+      <div class="col text-center">
+        <h1><i class="fas fa-tv"></i></h1>
+        <h1>70<small>+</small></h1>
+        <p>streaming channel partners</p>
       </div>
-      <div class="col-md-3 lead">
-        <h3><i class="fa fa-video-camera fa-lg"></i> 从任何人</h3>
-        <p>无论是独立电影人还是大制片公司</p>
-      </div>
-      <div class="col-md-3 lead">
-        <h3><i class="fa fa-users fa-lg"></i> 到任何地方</h3>
-        <p>投放到各大VOD服务商，面向全球观众</p>
-      </div>
-      <div class="col-md-3 lead">
-        <h3><i class="fa fa-film fa-lg"></i> 以<strong><a id="formats" href="#" data-toggle="tooltip" title="不接收成人节目和家庭录像">任何</a>格式</strong></h3>
-        <p>电影、电视、纪录片、短片，支持标清、高清、2K、4K以及任何未来的格式</p>
+
+      <div class="col text-center">
+        <h1><i class="fas fa-globe"></i></h1>
+        <h1>100<small>+</small></h1>
+        <p>countries worldwide</p>
       </div>
     </div>
   </div>
 </section>
 
-<a class="anchor" id="different"></a>
-<section class="different">
+<section class="channels py-0 bg-gradient-primary text-white" id="channels">
+  <div class="container" style="z-index: 0 !important;">
+    <div class="row">
+      <div class="col-md-4 pt-5">
+        <h1>Go where audiences are</h1>
+        <hr>
+        <p>Release worldwide on many streaming platforms. Reach engaged buyers. Get new audiences. Reduce dependency risks on few majors.</p>
+        <!-- <a class="btn btn-outline-warning" href="/channels" role="button">Learn more</a> -->
+      </div>
+
+      <div class="col-md-8">
+        <div class="logos-container">
+          <div class="logos-scrolling">
+            {% assign channels = site.data.channels | where: "logo", "ok" %}
+            {% for channel in channels reversed %}
+              <div class="logo">
+                {% include svg/{{ channel.name | slugify }}.svg %}
+              </div>
+            {% endfor %}
+          </div>
+        </divs>
+      </div>
+    </div>
+</section>
+
+<section class="segments bg-light text-dark" id="segments">
   <div class="container">
-    <h1 class="">我们为何与众不同</h1>
     <div class="row">
       <div class="col-md-4">
-        <h3><i class="fa fa-usd fa-lg"></i> 没有预付费用</h3>
-        <p>没有授权费、注册费，没有任何隐性收费。Filmhub只从您的作品上线之后获得的总收益中<a href="#pricing" class="animate">合理提成</a>。我们的理念是始终和内容拥有者共赢，您无需承担风险。</p>
-      </div>
-
-      <div class="col-md-4">
-        <h3><i class="fa fa-ban fa-lg"></i> 没有内容把关</h3>
-        <p>一切由观众决定，而非我们。Filmhub接收任何内容——电影，电视，纪录片，短片，文化，儿童节目……任何形式，任何风格，任何语言（只需符合<a href="https://intercom.help/filmhub" class="intercom-launcher" title="最低要求：不接收成人节目和家庭录像">最低要求</a>）。有些VOD服务商可能会拒绝您的内容，但是我们不会。</p>
-      </div>
-
-      <div class="col-md-4">
-        <h3><i class="fa fa-chain-broken fa-lg"></i> 保护您的权益</h3>
-         <p>没有排他性、限制性协议。您可以同时和其它任何分销商合作，也可以随时取消我们的服务。</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <h3><i class="fa fa-cloud fa-lg"></i> 全自动化</h3>
-        <p>Filmhub通过简单易用的网页app实现了全自动化流程。无需邮寄硬盘，无需转制DVD，无需人工转码。上传片源文件（支持断点续传），我们负责转码并投放到不同的VOD服务商。</p>
+        <h2>For filmmakers</h2>
+        <p class="lead">The first marketplace for all filmmakers and streaming services worldwide</p>
+        <p>
+          No application needed - all creators and producers now have access to the worldwide distribution market. Streaming service buyers from all over the world discover your great content on the largest online platform for film, TV &amp; other professional content. Securely store all your assets in the cloud. Promote and create digital revenue around the world.
+        </p>
       </div>
       <div class="col-md-4">
-        <h3><i class="fa fa-star-half-o fa-lg"></i> 排名系统</h3>
-        <p>由哈佛大学统计学博士搭建的排名系统基于四十多项数据分析为每部作品评分排序，帮助各大数字视频服务商筛选出最具潜力的内容，同时帮助内容创造者了解如何让自己的作品更具竞争力。</p>
+        <h2>For catalog owners</h2>
+        <p class="lead">Pay $0 to manage &amp; distribute your titles in the cloud - whether 10 or 10000</p>
+        <p>
+          Distributors, sales agents, production companies and other catalog owners can now upload the whole catalog and distribute to our long list of digital partners - and to their own. Manage assets, rights and metadata. Fill all territory gaps. Focus solely on promoting your clients’ titles, building relationships with content owners &amp; video services, without upfront investment and technical concerns.</p>
       </div>
       <div class="col-md-4">
-        <h3><i class="fa fa-globe fa-lg"></i> 全球覆盖</h3>
-        <p>科技的便利和零预付费用的模式让我们实现了前所未有的高效率和大规模。我们可以同时从世界各地接收上百部电影，并快速投放到全球两百多个视频点播服务商。</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <h3><i class="fa fa-bar-chart-o fa-lg"></i> 快速获利</h3>
-        <p>透明、自动化的在线报账，每一次点播带来的收入都即时可见。我们将来自全球各地的点播收入为您集中结算，您可以随时提取。</p>
-      </div>
-      <div class="col-md-4">
-        <h3><i class="fa fa-check-square fa-lg"></i> 追求质量</h3>
-        <p>最佳质量的云端转码，严格的质量把关。支持4K以及未来的更高标准。</p>
-      </div>
-      <div class="col-md-4">
-        <h3><i class="fa fa-magic fa-lg"></i> 营销工具</h3>
-        <p>通过我们提供的自助营销工具，内容拥有者可以快速在全球范围找到受众。</p>
+        <h2>For digital video services</h2>
+        <p class="lead">
+          Smart discovery and instant delivery from the largest avails platform
+        </p>
+        <p>
+          The first marketplace of global film, TV &amp; vertical content to refresh any catalog. Smart, data driven tools and predictive analytics help you select. Immediate and consistent delivery from the cloud.
+        </p>
+        <p>
+          Our proven track record with Amazon, Hulu and many others gives you confidence that Filmhub’s hassle-free process can be seamlessly integrated with your service. We radically simplify dealing with your content providers.
+        </p>
       </div>
     </div>
   </div>
 </section>
 
-<a class="anchor" id="howitworks"></a>
-<section class="howitworks">
+<section class="different bg-gradient-info text-white" id="different">
   <div class="container">
-    <h1 class="text-center">怎样运作</h1>
     <div class="row">
-      <div class="col-md-4">
-        <h2><span class="steps">1</span> 您上传</h2>
-        <p>上传原片和预告片，添加图片，输入资料数据。支持多端上传、断点续传，无文件大小限制。</p>
+      <div class="col-md-4 text-center different">
+        <p>
+          <span class="fa-stack fa-3x text-dark">
+            <i class="fas fa-ban fa-stack-2x transparent-50"></i>
+            <i class="fas fa-dollar-sign fa-stack-1x"></i>
+         </span>
+        </p>
+        <p><b>No upfront fee.</b> Free listing, asset processing and delivery.</p>
       </div>
-      <div class="col-md-4">
-        <h2><span class="steps">2</span> 我们转码</h2>
-        <p>将您上传的文件按照到各个平台的不同技术要求分别转码。</p>
+
+      <div class="col-md-4 text-center different">
+        <p>
+          <span class="fa-stack fa-3x text-dark">
+            <i class="fas fa-ban fa-stack-2x transparent-50"></i>
+            <i class="fas fa-hand-paper fa-stack-1x"></i>
+         </span>
+       </p>
+      <p><b>No gatekeeper.</b> Access for all filmmakers. No "approval" - just upload.</p>
       </div>
-      <div class="col-md-4">
-        <h2><span class="steps">3</span> 我们授权</h2>
-        <p>我们的系统将您提供的图片和资料数据汇总整合，和视频文件一同递送。</p>
+
+      <div class="col-md-4 text-center different">
+        <p>
+           <span class="fa-stack fa-3x text-dark">
+             <i class="fas fa-ban fa-stack-2x transparent-50"></i>
+             <i class="fas fa-link fa-stack-1x"></i>
+          </span>
+        </p>
+
+        <p><b>Keep your rights.</b> Non-exclusive, cancel anytime.</p>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-4">
-        <h2><span class="steps">4</span> 我们分销</h2>
-        <p>您的作品被自动递送到您所选择的数字视频点播/销售平台，由他们查看并筛选。</p>
+      <div class="col-md-4 text-center different">
+        <p><i class="fas fa-cloud fa-5x text-dark"></i></p>
+        <p><b>Technology.</b> A modern B2B tech marketplace takes the entire film distribution online.</p>
       </div>
-      <div class="col-md-4">
-        <h2><span class="steps">5</span> 观众收看</h2>
-        <p>观众通过不同平台、不同方式收看您的作品。</p>
+      <div class="col-md-4 text-center different">
+        <p><i class="fas fa-star fa-5x text-dark"></i></p>
+        <p><b>Discovery.</b> Predictive analytics help what to promote and when.</p>
       </div>
-      <div class="col-md-4">
-        <h2><span class="steps">6</span> 您获利</h2>
-        <p>我们收取和结算您的作品在不同平台获得的收益，从中提成20%，剩下的80%存入您的账户，您可以随时提取。</p>
+      <div class="col-md-4 text-center different">
+        <p><i class="fas fa-globe fa-5x text-dark"></i></p>
+        <p><b>Scale and reach.</b> Cloud handles a global partner network and a massive catalog.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 text-center different">
+        <p><i class="fas fa-chart-bar fa-5x text-dark"></i></p>
+        <p><b>Get paid, and fast.</b> Transparent reporting, auditing, consolidated payments.</p>
+      </div>
+      <div class="col-md-4 text-center different">
+        <p><i class="fas fa-check-square fa-5x text-dark"></i></p>
+        <p><b>Fanatical quality.</b> Rigorous QC, consistent delivery. Tech makes streaming services love us.</p>
+      </div>
+      <div class="col-md-4 text-center different">
+        <p><i class="fas fa-magic fa-5x text-dark"></i></p>
+        <p><b>Beyond film.</b> TV, docs, digital first, family&hellip; Any format, genre, language. </p>
       </div>
     </div>
   </div>
 </section>
 
-<a class="anchor" id="pricing"></a>
-<section class="pricing">
-  <div class="container text-center">
-    <h1>简单的分成定价</h1>
-    <img class="lazy img-responsive" src="/images/pricing_chart.svg" width="340" height="354" alt="Pricing">
-    <p class="lead">基本服务全部免费，没有注册费和授权费。您获得总收益的80%。</p>
-    <p><a href="https://app.filmhub.com/owner/signup" class="btn btn-default btn-lg">现在加入</a></p>
-    <p class="lead"><small>关于<a href="#enterprise" class="animate">企业版</a></small></p>
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 offset-md-1 vertical-center">
+        <div>
+
+        <h1 class="nodisplay-3">Creator-first pricing</h1>
+        <p class="lead">Pay $0. We make money via simple revenue share: 20%. No deductions or recurring fees.</p>
+        <p>
+          <a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-outline-primary">Get started</a>
+        </p>
+        <p class="lead">
+          <small>More info about our <a href="#enterprise" class="animate">enterprise accounts</a>.</small>
+        </p>
+        </div>
+      </div>
+      <div class="col-md-5 offset-md-1">
+        <img class="lazyload img-fluid s-75 my-5" data-src="/images/pricing_chart.svg" alt="Pricing">
+      </div>
+    </div>
   </div>
 </section>
 
-<a class="anchor" id="enterprise"></a>
-<section class="enterprise">
+<section class="enterprise bg-gradient-filmhub text-white" id="enterprise">
   <div class="container">
-    <h1><small>拥有大批内容？</small>Filmhub企业版</h1>
-    <p class="lead">特别针对制作人、制片公司、代理商、分销商</p>
-    <p class="lead">无论您的目录含有五部还是五千部作品，无论是独立团队还是大公司，您都可以通过Filmhub批量发行。</p>
+    <h1>Filmhub Enterprise</h1>
+    <p class="lead">Producers, sales agents, distributors, mini-majors, studios: you own or control high profile titles or a large scale catalog, whether it's 5 or 5000.</p>
+    <p class="lead">Use our cloud service to push your content to streaming services worldwide.</p>
 
     <div class="row">
       <div class="col-md-6">
-        <p>我们将您的内容库批量发行到全球各大数字视频服务商。我们用云技术为您解决所有繁琐的技术问题，保证最低成本、最高效率、最简便的销售结算。无论您有多少内容，我们都能一次性全部接收。</p>
-        <p>VOD市场仍然在快速增长，我们会将您的所有内容即时投放到新兴的VOD平台而不加收任何费用。</p>
-        <p>可以选择排除特定的发行地区和VOD平台，可以为不同的平台设置不同的发行日期。</p>
-          <p>可以选择一次性付清低廉的服务费而不用<a href="#pricing" class="animate">分成计价</a>。</p>
-          <p><a href="https://intercom.help/filmhub" class="contact-us">联系我们</a>获取详细信息或<a href="https://app.filmhub.com/owner/signup">现在加入</a>开始无风险试用。</p>
+        <p>
+          We release your catalog in all major territories and digital stores.
+          Our cloud technology does all the complicated technical work.
+          Low cost, consolidated accounting, short lead times. We are scalable to infinite catalog sizes.
+        </p>
+        <p>
+          Video streaming is an exploding market. As new streaming services appear, we re-deliver your whole catalog
+          automatically at no additional cost.
+        </p>
+        <p>
+          Simply carve out territories already sold. Deselect streaming services you're already in or simply don't want.
+          You can also set different release dates for transactional, ad-based and subscription based business models.
+        </p>
+          <p>Choose between <a href="#pricing" class="animate linkhint">simple revenue sharing</a> or a low one-time service fee.</p>
+          <p><a href="https://filmhub.zendesk.com/hc/en-us/requests/new" class="linkhint">Contact us </a>for details or <a href="https://app.filmhub.com/owner/signup" class="linkhint">get started</a> to try risk-free.</p>
       </div>
 
-      <div class="col-md-3">
-        <a href="/modals/screen-outlets-territories.html" data-toggle="modal" data-target="#screen-outlets-territories-modal" class="thumbnail">
-          <img class="lazy img-responsive img-thumbnail" src="/images/screen-outlets-territories-thumb.jpg" width="300" height="188" alt="Carve out territories and outlets">
-        </a>
-        <p>选择排除特定的发行地区和VOD平台</p>
+      <div class="col-md-6">
+        <div class="card-deck">
+          <div class="card text-white bg-secondary">
+            <img class="lazyload card-img-top" data-src="/images/screen-territories.png" alt="Carve out territories and streaming services">
+            <div class="card-body">
+              <h5 class="card-title">Territory control</h5>
+              <p class="card-text">Carve out territories with fine grained control.</p>
+            </div>
+          </div>
+          <div class="card text-white bg-secondary">
+            <img class="lazyload card-img-top" data-src="/images/screen-releases.png" alt="Separate target release dates">
+            <div class="card-body">
+              <h5 class="card-title">Release windows</h5>
+              <p class="card-text">Set release dates for different business models.</p>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="col-md-3">
-        <a href="/modals/screen-release.html" data-toggle="modal" data-target="#screen-release-modal" class="thumbnail">
-          <img class="lazy img-responsive img-thumbnail" src="/images/screen-release-thumb.jpg" width="300" height="188" alt="Separate target release dates">
-        </a>
-        <p>为不同类型的平台设置不同发行日期</p>
-      </div>
-
     </div>
   </div>
 </section>
 
-<a class="anchor" id="about"></a>
-<section class="about">
+<section class="about bg-gradient-light" id="about">
   <div class="container">
-    <h1 class="text-center">关于Filmhub</h1>
+    <h1 class="text-center">About Filmhub</h1>
     <div class="row">
-      <div class="col-md-8 col-md-offset-2 text-center">
-        <p class="lead">Filmhub成立于加州Santa Monica。我们致力于让内容拥有者和数字视频服务商之间和合作极致简便。</p>
-        <p class="lead">创始人：</p>
+      <div class="col-md-10 offset-md-1 text-center">
+        <p class="lead">Founded by a Hollywood veteran (Pirates of the Caribbean), we're indie film fanatics, committed to give any filmmaker easy access to video streaming services worldwide in any format, language and territory. Filmhub is based in Santa Monica, CA.</p>
+        <p class="lead">Meet the team.</p>
       </div>
     </div> <!-- row -->
-    <div class="row" id="teampics">
-      <div class="col-sm-4 col-sm-offset-2">
+    <div class="row teampics">
+      <div class="col-sm-4 offset-sm-2">
         <div class="text-center">
-          <img src="/images/klaus.jpg" width="140" height="140" alt="Klaus" class="img-circle">
+          <img data-src="/images/klaus.jpg" width="140" height="140" alt="Klaus" class="lazyload rounded-circle mb-2">
           <h3 >Klaus Badelt</h3>
           <p>Founder | CEO</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="text-center">
-          <img src="/images/adam.jpg" width="140" height="140" alt="Adam" class="img-circle">
+          <img data-src="/images/adam.jpg" width="140" height="140" alt="Adam" class="lazyload rounded-circle mb-2">
           <h3>Adam Telanoff</h3>
           <p>Co-founder | COO</p>
         </div>
       </div>
     </div>
-    <div class="row" id="teampics">
+    <div class="row teampics">
       <div class="col-sm-4">
         <div class="text-center">
-          <img src="/images/keju.jpg" width="140" height="140" alt="Mark" class="img-circle">
+          <img data-src="/images/keju.jpg" width="140" height="140" alt="Mark" class="lazyload rounded-circle mb-2">
           <h3 >Keju Luo</h3>
           <p>QC | Editorial | Support</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="text-center">
-          <img src="/images/david.jpg" width="140" height="140" alt="Mark" class="img-circle">
+          <img data-src="/images/david.jpg" width="140" height="140" alt="Mark" class="lazyload rounded-circle mb-2">
           <h3 >David Newkerk</h3>
           <p>Developer</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="text-center">
-          <img src="/images/fatima.jpg" width="140" height="140" alt="Mark" class="img-circle">
+          <img data-src="/images/fatima.jpg" width="140" height="140" alt="Mark" class="lazyload rounded-circle mb-2">
           <h3 >Fatima Klilib</h3>
           <p>Growth</p>
         </div>
@@ -242,19 +287,3 @@ eyebrow: true
     </div>
   </div>
 </section>
-
-<!-- Carve out Modal -->
-<div class="modal fade" id="screen-outlets-territories-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-    </div>
-  </div>
-</div>
-
-<!-- Carve out Modal -->
-<div class="modal fade" id="screen-release-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-    </div>
-  </div>
-</div>

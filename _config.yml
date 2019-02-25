@@ -1,16 +1,16 @@
 title: Filmhub
-description: Film distribution marketplace for indie filmmakers and video streaming services
-# Boolean variables stopped working, so: set to false by commenting out
-# social: false
-# offline: false
+description: Film distribution market network for indie filmmakers and video streaming services
 url: http://filmhub.com
 permalink: none
 plugins:
+  # - octopress-autoprefixer
   - jekyll-sitemap
   - jekyll-github-metadata
   - jekyll-seo-tag
+kramdown:
+  parse_block_html: true
 sass:
-  # style: compressed
+  style: compressed
   sourcemap: inline
   # debug_info: true
   line_numbers: true

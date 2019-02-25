@@ -1,0 +1,49 @@
+{
+  "@context": "http://schema.org",
+  "@type": "jobPosting",
+  "datePosted": "{{ page.date | date_to_xmlschema }}",
+  "validThrough": "{{ page.date | date: '%s' | plus : 31556926 | date_to_xmlschema }}",
+  "title": "{{ page.title }}",
+  "url": "{{ page.url | absolute_url }}",
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "Filmhub",
+    "sameAs": "https://filmhub.com",
+    "logo": "https://filmhub.com/images/icon_v2_600.png"
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "value": {{ page.jsonld.baseSalary.minValue }},
+      "minValue": {{ page.jsonld.baseSalary.minValue }},
+      "maxValue": {{ page.jsonld.baseSalary.maxValue }},
+      "unitText": "YEAR"
+    }
+  },
+  "employmentType": "FULL_TIME",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1626 Montana Avenue #616",
+      "addressLocality": "Santa Monica",
+      "addressRegion": "CA",
+      "postalCode": "90403",
+      "addressCountry": "US"
+    }
+  },
+{%- if page.jsonld.jobLocationType %}
+  "jobLocationType": "{{ page.jsonld.jobLocationType }}",
+{%- endif %}
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "Filmhub",
+    "value": "{{ page.id }}"
+  },
+  "experienceRequirements": "{{ page.jsonld.experienceRequirements }}",
+  "industry": "Computer Software",
+  "occupationalCategory": "{{ page.jsonld.occupationalCategory }}",
+  "description": "{{ page.content | replace: '"','\"' | normalize_whitespace }}"
+}

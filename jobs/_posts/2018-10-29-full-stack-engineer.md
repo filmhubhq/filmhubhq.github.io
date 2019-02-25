@@ -1,15 +1,15 @@
 ---
-layout: job-posting
+layout: bootstrap
+container: true
+offset: 1
 hero: |
-  <h1>Full Stack Engineer <a href="mailto:support@filmhub.com" class="btn btn-warning">Apply</a>
-  </h1>
+  # Full Stack Engineer [Apply](https://intercom.help/filmhub){: .btn .btn-outline-warning .ml-5 .contact-us}
 jsonld:
   baseSalary:
     minValue: 75000.00
     maxValue: 120000.00
   experienceRequirements: Minumum 1 year experience as a software engineer
   occupationalCategory: '15-1254 Web Developers'
-  jobLocationType: TELECOMMUTE
 ---
 Build the premier marketplace web app for the film industry. You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends. If you're familiar with Rails, React and have a passion for movies, this is for you.
 
@@ -23,14 +23,14 @@ Build the premier marketplace web app for the film industry. You'll be working o
 
 ### Technologies
 
-<span class="label label-primary">amazon web services</span>
-<span class="label label-primary">rails</span>
-<span class="label label-primary">react</span>
-<span class="label label-primary">ffmpeg</span>
-<span class="label label-primary">machine learning</span>
-<span class="label label-primary">docker</span>
-<span class="label label-primary">node</span>
-<span class="label label-primary">javascript</span>
+**amazon web services**{: .badge .badge-primary }
+**rails**{: .badge .badge-primary}
+**react**{: .badge .badge-primary}
+**javascript**{: .badge .badge-primary}
+**ffmpeg**{: .badge .badge-primary}
+**machine learning**{: .badge .badge-primary}
+**docker**{: .badge .badge-primary}
+**node**{: .badge .badge-primary}
 
 ### Responsibilities
 
@@ -91,3 +91,5 @@ Filmhub is a fast growing tech startup in Santa Monica's _Silicon Beach_, well f
 - Free weekly team lunch
 - Work on high visibility projects
 - Opportunity to grow
+
+[Apply](https://intercom.help/filmhub){: .btn .btn-primary .contact-us}

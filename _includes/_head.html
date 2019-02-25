@@ -1,22 +1,34 @@
-<!DOCTYPE html>
-{% assign lang = page.language.short | default: 'en' %}
-<html lang="{{ lang }}">
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Filmhub | {{ page.title }}</title>
+
   <meta name="description" content="{{ site.description }}">
   <meta name="norton-safeweb-site-verification" content="f4d-lhnb2358cnb14fpe-a716-jlcmy0hxqb15uw3zvsyu7bzfp2jg77gy75g61zeq9pzx411mszuf66e4d524i9rhaufveghre4q98q-uk45k3th128bj7jqapf2-pa" />
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title="Filmhub Blog" href="https://blog.filmhub.com/feed">
   <link rel="alternate" hreflang="en" href="/" />
   <link rel="alternate" hreflang="zh" href="/zh" />
-  <title>Filmhub | {{ page.title }}</title>
-  {% include _css.html %}
-  {% include _analytics.html %}
-  {% if page.jsonld %}
-    {% include _jsonld.html %}
-  {% else %}
-    {% seo %}
-  {% endif %}
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/app.css">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PWBCVSP');</script>
+<!-- End Google Tag Manager -->
+
+{%- if page.jsonld %}
+  <script type="application/ld+json">
+    {% include _jsonld.json %}
+  </script>
+{%- else %}
+  {% seo %}
+{%- endif %}
+
 </head>

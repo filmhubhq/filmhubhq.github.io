@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lambda": "yarn netlify-lambda serve src",
+    "build:lambda": "yarn netlify-lambda build src"
+  },
+  "dependencies": {
+    "@sendgrid/client": "^6.3.0",
+    "netlify-lambda": "^1.4.2"
+  }
+}

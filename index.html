@@ -199,7 +199,42 @@ hero: |
   </div>
 </section>
 
-<section id="enterprise" class="enterprise bg-gradient-filmhub-reverse text-light">
+<section id="email" class="email bg-gradient-filmhub-reverse text-light">
+  <div class="container text-center">
+    <h3>Sounds interesting but not sure yet?</h3>
+    <p class="lead">Follow us and get our occasional newsletter with digital distribution tips and updates on our development</p>
+
+    <form class="form-inline justify-content-center" action="https://localhost:9000/.netlify/functions/sendgrid-signup" method="post" id="sendgrid-signup">
+        <div class="form-check form-check-inline">
+          <label class="form-check-label mr-2" for="type-filmmaker">I'm a&nbsp;</label>
+          <input class="form-check-input" type="radio" name="type" id="type-filmmaker" value="filmmaker">
+          <label class="form-check-label" for="type-filmmaker">filmmaker/producer</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="type" id="type-catalog" value="catalog">
+          <label class="form-check-label" for="type-catalog">catalog owner</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="type" id="type-buyer" value="buyer">
+          <label class="form-check-label" for="type-buyer">buyer/programmer</label>
+        </div>
+        <input class="form-control email required mr-sm-2" type="email" size=30 value="" name="EMAIL" id="sendgrid-signup-email" placeholder="Email">
+        <button id="sendgrid-signup-submit" type="submit" class="btn btn-outline-warning">Subscribe</button>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="honeypot" tabindex="-1" value=""></div>
+    </form>
+  </div>
+
+<!--       <ul class="list-inline" id="subscribe-form-social">
+        <li class="list-inline-item"><a href="https://twitter.com/filmhubhq"><i class="fas fa-lg fa-twitter"></i></a></li>
+        <li class="list-inline-item"><a href="https://facebook.com/filmhubhq"><i class="fas fa-lg fa-facebook"></i></a></li>
+        <li class="list-inline-item"><a href="https://linkedin.com/company/filmhub"><i class="fas fa-lg fa-linkedin"></i></a></li>
+        <li class="list-inline-item"><a href="https://www.youtube.com/user/kinonationfilms"><i class="fas fa-lg fa-youtube"></i></a></li>
+      </ul>
+ -->
+</section>
+
+
+<section id="enterprise" class="enterprise bg-gradient-dark text-light">
   <div class="container">
     <div class="row">
 

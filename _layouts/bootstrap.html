@@ -3,7 +3,7 @@
 
 {% comment %} *** BODY *** {% endcomment %}
 <body class="{% if page.hero %} {% endif %}page-{{ page.id }}">
-  
+
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWBCVSP"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -32,7 +32,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="jumbotron jumbotron-fluid text-light pt-0 mb-0 d-flex flex-wrap {{ page.hero_class }}">
     {% include _navbar_{{ page.lang | default: 'en' }}.html %}
 
-    <div class="container pt-5 hero">
+    <div class="container pt-4 hero">
       {{ page.hero | markdownify }}
     </div>
   </div>

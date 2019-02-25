@@ -4,8 +4,10 @@
 {% comment %} *** BODY *** {% endcomment %}
 <body class="{% if page.hero %} {% endif %}page-{{ page.id }}">
 
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-564T8LP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=329555447817818&ev=PageView&noscript=1" /></noscript>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWBCVSP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 {% comment %} *** EYEBROW *** {% endcomment %}
 {% if page.eyebrow %}
@@ -53,7 +55,7 @@
     {% if page.container %}</div>{% endif %}
   </div>
 
-{% comment %} *** INCLUDES *** {% endcomment %}
+{% comment %} *** END-OF-BODY *** {% endcomment %}
 {% include _demoreq.html %}
 {% include _footer_{{ page.lang | default: 'en' }}.html %}
 {% include _js.html %}

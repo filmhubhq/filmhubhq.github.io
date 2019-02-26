@@ -3,6 +3,7 @@
 <script type="text/javascript" src="/js/lazyload.min.js"></script>
 
 <script>{% include js/demoreq.min.js %}</script>
+<script>{% include js/sendgrid-popup.js %}</script>
 
 {% for js_file in page.custom_js %}
 <script type="text/javascript">
@@ -10,8 +11,6 @@
 </script>
 {% endfor %}
 
-<script>
-  {% include js/app.js %}
-</script>
+<script>{% include js/app.js %}</script>
 
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-564T8LP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

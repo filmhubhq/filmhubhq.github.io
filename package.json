@@ -1,14 +1,15 @@
 {
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:lambda": "yarn netlify-lambda serve src",
-    "build:lambda": "yarn netlify-lambda build src"
+    "start:lambda": "eval $(egrep -v '^#' .env | xargs) netlify-lambda serve src",
+    "build:lambda": "netlify-lambda build src",
+    "start:jekyll": "jekyll build --watch"
   },
   "dependencies": {
-    "@sendgrid/client": "^6.3.0",
-    "netlify-lambda": "^1.4.2"
+    "@sendgrid/client": "^6.3.0"
   },
   "devDependencies": {
+    "netlify-lambda": "https://github.com/klausbadelt/netlify-lambda.git#patch-1",
     "serve-static": "^1.13.2"
   }
 }

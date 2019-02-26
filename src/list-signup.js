@@ -25,8 +25,14 @@ function addSendgridRecipient(client, email, type) {
 exports.handler = function(event, context, cb) {
   try {
     if (event.httpMethod !== "POST") {
-      cb(null, { statusCode: 405, body: 'Method Not Allowed' });
+      cb({ statusCode: 405, body: 'Method Not Allowed' });
+      return;
     };
+    if (!process.env.SENDGRID_API_KEY) {
+      cb({ statusCode: 401, body: 'API key missing' });
+      return;
+    };
+
     const body = parse(event.body);
     client.setApiKey(process.env.SENDGRID_API_KEY);
     addSendgridRecipient(client, body.email, body.type)

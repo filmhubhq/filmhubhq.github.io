@@ -24,6 +24,8 @@ hero: |
   {: my-5 }
 
   </div></div>
+custom_js:
+  - sendgrid-signup
 ---
 <section id="metrics" class="metrics bg-silver">
   <div class="container">
@@ -202,23 +204,23 @@ hero: |
 <section id="email" class="email bg-gradient-filmhub-reverse text-light">
   <div class="container text-center">
     <h3>Sounds interesting but not sure yet?</h3>
-    <p class="lead">Follow us and get our occasional newsletter with digital distribution tips and updates on our development</p>
+    <p class="lead">Follow us and get our occasional newsletter with digital distribution tips and updates on our development.</p>
 
-    <form class="form-inline justify-content-center" action="https://localhost:9000/.netlify/functions/sendgrid-signup" method="post" id="sendgrid-signup">
+    <form class="form-inline justify-content-center" id="sendgrid-signup-form">
         <div class="form-check form-check-inline">
           <label class="form-check-label mr-2" for="type-filmmaker">I'm a&nbsp;</label>
-          <input class="form-check-input" type="radio" name="type" id="type-filmmaker" value="filmmaker">
+          <input class="form-check-input" type="radio" name="type" id="type-filmmaker" value="filmmaker" required>
           <label class="form-check-label" for="type-filmmaker">filmmaker/producer</label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="type" id="type-catalog" value="catalog">
+          <input class="form-check-input" type="radio" name="type" id="type-catalog" value="catalog" required>
           <label class="form-check-label" for="type-catalog">catalog owner</label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="type" id="type-buyer" value="buyer">
+          <input class="form-check-input" type="radio" name="type" id="type-buyer" value="buyer" required>
           <label class="form-check-label" for="type-buyer">buyer/programmer</label>
         </div>
-        <input class="form-control email required mr-sm-2" type="email" size=30 value="" name="EMAIL" id="sendgrid-signup-email" placeholder="Email">
+        <input class="form-control email required mr-sm-2" type="email" size=30 value="" name="email" id="sendgrid-signup-email" placeholder="Email" required>
         <button id="sendgrid-signup-submit" type="submit" class="btn btn-outline-warning">Subscribe</button>
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="honeypot" tabindex="-1" value=""></div>
     </form>

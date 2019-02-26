@@ -1,4 +1,5 @@
-const client = require('@sendgrid/client');
+import client from '@sendgrid/client';
+import { parse } from "querystring";
 
 function addSendgridRecipient(client, email, type) {
   return new Promise((resolve, reject) => {
@@ -13,37 +14,31 @@ function addSendgridRecipient(client, email, type) {
       url: "/v3/contactdb/recipients",
       body: data
     };
-    client
-      .request(request)
-      .then(([response, body]) => {
-        console.log(response.statusCode);
-        console.log(body);
-        resolve(response);
-      })
-      .catch(err => reject(err));
+    console.log('addSendgridRecipient request', request);
+    client.request( request )
+      .then( ([response, body]) => resolve(response) )
+      .catch( err => reject(err) );
   });
 }
 
-exports.handler = async (event) => {
-  if (event.httpMethod !== "POST") {
-    return { statusCode: 405, body: "Method Not Allowed" };
+// netlify-lambda has touble with async handler, keeping callback for now
+exports.handler = function(event, context, cb) {
+  try {
+    if (event.httpMethod !== "POST") {
+      cb(null, { statusCode: 405, body: 'Method Not Allowed' });
+    };
+    const body = parse(event.body);
+    client.setApiKey(process.env.SENDGRID_API_KEY);
+    addSendgridRecipient(client, body.email, body.type)
+      .then( response => cb( null, { statusCode: 200, body: JSON.stringify(response) }) )
+      .catch(err => {
+        console.log('handler .catch', err)
+        cb(null, { statusCode: 422, body: JSON.stringify(err) });
+      });
+  } catch(err) {
+    console.log('handler catch block', err);
+    cb(null, { statusCode: 422, body: JSON.stringify(err) });
   }
-  const { SENDGRID_API_KEY } = process.env;
-  const body = JSON.parse(event.body);
-
-  addSendgridRecipient(client, body.email, body.type)
-    .then(response => {
-      return {
-        statusCode: 200,
-        body: SENDGRID_API_KEY
-      };
-    })
-    .catch(err => {
-      return {
-        statusCode: 422,
-        body: `Oops! Something went wrong. ${error}`
-      }
-    });
 };
 
 

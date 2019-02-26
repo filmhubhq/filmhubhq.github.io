@@ -7,7 +7,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
   - jekyll-seo-tag
-  # - jekyll-redirect-from
 kramdown:
   parse_block_html: true
 sass:

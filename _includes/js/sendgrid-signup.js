@@ -3,7 +3,7 @@ $(document).ready(function() {
     var $form = $( this );
     $form.find("button[type='submit']").html('<i class="fas fa-spinner fa-spin"></i>').attr('disabled',true);
     event.preventDefault();
-    $.post( 'localhost:9000/.netlify/functions/list-signup', $('#sendgrid-signup-form').serialize() )
+    $.post( '/.netlify/functions/list-signup', $('#sendgrid-signup-form').serialize() )
       .done(function() {
         $form.find("button[type='submit']").html('Thank you!');
       })

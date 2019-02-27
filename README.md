@@ -4,8 +4,7 @@
 
 # Feature requests
 
-[![Feature Requests](http://feathub.com/filmhubhq/filmhub.github.io?format=svg)](http://feathub.com/filmhubhq/filmhub.github.io)
-
+[![Feature Requests](http://feathub.com/filmhubhq/filmhubhq.github.io?format=svg)](http://feathub.com/filmhubhq/filmhub.github.io)
 # Add new channels
 
 * Trace PNG or JPG to SVG at (https://www.pngtosvg.com)

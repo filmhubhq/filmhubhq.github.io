@@ -1,0 +1,51 @@
+---
+layout: bootstrap
+title: FilmFreeway landing page
+hero: |
+  # Filmhub & FilmFreeway
+  Priority terms for FilmFreeway referrals.
+container: true
+---
+
+{: .page-header }
+# Free distribution for FilmFreeway members
+
+{: .lead }
+Filmhub is a film distribution platform that helps independent films get worldwide streaming release. Our data-driven platform takes the entire distribution process online. We take no rights, charge no fees, provide transparent analytics and much better rates than the traditional industry.
+
+<div class="row">
+  <div class="col-md-6">
+
+
+{: .page-header }
+# Special terms for FilmFreeway referrals
+
+* **Free localization** As a new filmmaker referred by FilmFreeway, you receive free localization of your film, documentary, or series into one foreign language, to start reaching a larter world-wide audience.
+* **Reduced revenue share** Filmhub normally receives a 20% revenue share for films licensed through the Filmhub market network. FilmFreeway referrals get that revenue share reduced to 10% for the first year!
+
+{: .page-header }
+Filmhub and FilmFreeway both empower the filmmaker community. Just as FilmFreeway provides filmmakers with access to film festivals, Filmhub provides filmmakers with free global distribution. On Filmhub streaming channels discover your work on the largest maketplace for film, TV, and other professional content.
+Ingest, QC, storage, cataloging, promotion to channels, transcoding/encoding, delivery, collection, reporting, and payment are all free.
+Filmhub allows you to **track performance** with online dashboards, providing streaming metrics much faster than traditional distributor reports.
+Filmhub normalizes and consolidates reporting, audits and collects royalties worldwide.
+
+See your film streamed along with big budget studio films on streaming channels around the world. Make films on your schedule, keep control, and continue to focus on making the films that you want to make.
+
+</div>
+<div class="col-md-6">
+
+{: .page-header }
+# Details:
+
+* **Reduced revenue share**: Filmhub's revenue share is reduced from 20% to 10% for the first year.
+* **Localization** Free localization of your existing English captions into one foreign language (at Filmhub's discretion) for one title.
+  * An eligible title is either a *single work* - such as a feature, documentary, or short
+  * A *series* consisting of up to 12 related episodes 
+  * Existing English captions are required
+  * 300 minutes total run time maximum (includes series as a whole, not each episode)
+* Only new accounts created using the following link are eligible.
+
+This offer is valid only for new Filmhub accounts that sign up via FilmFreeway, as determined by clicking on the button on this page. Additional accounts for existing users are not eligible. All accounts are subject to Filmhub's Terms and Conditions. The offer consists of: 1) Filmhub does not charge up front fees and has no "hidden" fees or membership fees. For this promotion, Filmhub will reduce its revenue share from 20% to 10% for all amounts earned during the first four calendar quarters, commencing with the quarter in which user first submits a title for QC; 2) Free localizatio of subtitles and synopsis into one langauge of Filmhub's choice for users first title submitted to Filmhub. For purposes of this offer a "title" is a single work or a single series of up to 12 episodes, and up to a maximum total of 300 minutes of run time. Localization is defined as neural machin translation of English language captions or subtitles and English languge synopsis. This offer is provided by Filmhub in its sole discretion and may be discontinued at any time with or without notice. Neither Filmhub nor FilmFreeway will be laible to you or any other person in the event of any modification, suspension, or discontinuance of this offer.
+
+</div>
+</div>

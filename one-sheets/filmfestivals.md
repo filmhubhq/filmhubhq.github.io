@@ -24,7 +24,7 @@ Filmhub empower filmmakers. Filmmakers retain all rights to their films, control
 {: .page-header }
 # How Filmhub works
 
-Filmhub operates on a revenue share basis, we get 20% of what your earn through Filmhub. You get 80%. There are no other fees.
+Filmhub operates on a revenue share basis, Filmmakers keep all of their rights and retain 80% of revenue generated. Filmhub's only compensation is 20% revenue share. There are no other fees.
 * Free upload of films to Filmhub through our simple online portal.
 * Free storage of all assets
 * Free QC of content to ensure technical sufficiency
@@ -34,7 +34,6 @@ Filmhub operates on a revenue share basis, we get 20% of what your earn through 
 * Free payment collection
 * Free reporting
 * Free remittance of payments
-
 
 
 {: .page-header }

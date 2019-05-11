@@ -12,7 +12,7 @@ jsonld:
   experienceRequirements: Experience in film distribution and international sales
   occupationalCategory: '15-1254 Web Developers'
 ---
-Manage streaming platform buyer accounts (license sales), acquire of film & TV catalogs (title acquisition) and sign new streaming channels and platforms (channel acquisition).
+Disrupt the industry with us: Acquire film & TV catalogs, manage streaming platform buyer accounts (license sales), and sign new streaming channels and platforms.
 
 - **Job type**: Full-time
 - **Experience level**: Junior to mid level
@@ -65,7 +65,7 @@ Our ideal candidate worked as or with a Foreign Sales Agent, Distributor or Prod
 ### Preferred skills
 
 - Strong relationships in the distribution industry
-- Visited major film markets (AFM, Cannes, etc.)
+- Visited major film markets (AFM, EFM, Cannes, etc.)
 - Mandarin language skills (written and verbal) are a plus
 
 ### Critical Metrics

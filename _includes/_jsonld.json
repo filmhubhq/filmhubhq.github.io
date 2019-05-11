@@ -1,5 +1,5 @@
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "jobPosting",
   "datePosted": "{{ page.date | date_to_xmlschema }}",
   "validThrough": "{{ page.date | date: '%s' | plus : 31556926 | date_to_xmlschema }}",

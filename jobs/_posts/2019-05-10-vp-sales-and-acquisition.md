@@ -33,7 +33,7 @@ The VP Sales and Acquisition at Filmhub is responsible for growing sales / acqui
 
 Your responsibilities include:
 
-1. Manage existing buyer accounts of major and specialized streaming channels and platforms, creating content preference profiles, promoting staff picks and algorithmical content matches to grow license sales
+1. Manage existing buyer accounts of major and specialized streaming channels and platforms to grow license sales
 2. Acquire film & TV catalogs from rights holders worldwide, including distributors, production companies, sales agents, TV stations, DVD publishers
 3. Acquire new streaming channels to sign up and onboard them
 
@@ -43,12 +43,14 @@ You will
 
 * Plan and execute outgoing campaigns and initiatives
 * Develop leads, prospects and relationships
+* Create content preference profiles for channel buyers, promoting staff picks and algorithmic content matches
 * Use market data and competitive intelligence as a tool to inform sales and negotiations
-* Continously keep up-to-date with the industry, news, events and related knowledge
+* Suggest feature improvement for our platform to increase sales
 * Identify and develop processes that improve sales
+* Continously keep up-to-date with the industry, news, events and related knowledge
 
 
-You're familiar with all major international film markets, and collaboratively create a year-round schedule. We expand specifically in foreign territories like Asia, so you'll be developing opportunities with IP owners and streaming platforms and traveling in those markets too.
+You're familiar with all major international film markets, and collaboratively create a year-round schedule to attend them. We expand specifically in foreign territories like Asia, so you'll be developing opportunities with IP owners and streaming platforms and traveling in those markets too.
 
 Filmhub is not your grandma's foreign sales agent or distributor. Our platform disrupts the traditional industry with technology, enabling industry-first value propositions to every filmmaker and streaming channel around the world. Our tech allows for large scale, low cost operation unlike any other traditional industry player. We grow fast, in the fast growing industry of streamed entertainment.
 

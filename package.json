@@ -3,7 +3,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:lambda": "eval $(egrep -v '^#' .env | xargs) netlify-lambda serve src",
     "build:lambda": "netlify-lambda build src",
-    "start:jekyll": "jekyll build --watch"
+    "start:jekyll": "bundle exec jekyll build --watch"
   },
   "dependencies": {
     "@sendgrid/client": "^6.3.0"

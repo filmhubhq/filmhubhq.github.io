@@ -36,7 +36,7 @@ Disrupt the industry with us: Acquire film & TV catalogs, manage streaming platf
 **international**{: .badge .badge-primary}
 **streaming**{: .badge .badge-primary}
 
-The VP Sales and Acquisition at Filmhub is responsible for growing sales / acquisition, planning, negotiating, and executing sales campaigns. You lead development and ongoing management of customer relationships.
+The VP Sales and Acquisition at Filmhub is responsible for growing sales / acquisition, planning, and executing sales campaigns. You lead development and ongoing management of customer relationships.
 
 Your responsibilities include:
 

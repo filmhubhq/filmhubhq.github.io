@@ -10,7 +10,17 @@ jsonld:
     minValue: 45000.00
     maxValue: 65000.00
   experienceRequirements: Minumum 1 year experience as a postproduction or VFX tech
-  occupationalCategory: '15-1254 Web Developers'
+  occupationalCategory:
+    - '27-4011.00 Audio and Video Equipment Technicians'
+    - '27-4012.00 Broadcast Technicians'
+    - '27-4014.00 Sound Engineering Technicians'
+    - '27-4099.00 Media and Communication Equipment Workers, All Other'
+breadcrumb:
+  - name: Home
+    href: /
+  - name: Jobs
+    href: /jobs
+  - name: QC &amp; Support Tech
 ---
 You're a film or broadcast post production tech whiz? Leave your dark backroom and join us. You'll be keeping our quality standards high and users happy. If video codecs and great communication skills are in your DNA, read on.
 

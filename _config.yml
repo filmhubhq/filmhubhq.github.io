@@ -30,10 +30,12 @@ logo: /images/icon_v2_600.png
 social:
   name: Filmhub
   links:
+    - https://blog.filmhub.com
     - https://twitter.com/filmhubhq
-    - https://www.facebook.com/filmhubhq
-    - https://www.linkedin.com/company/filmhub/
+    - https://facebook.com/filmhubhq
     - https://www.youtube.com/user/kinonationfilms
+    - https://www.linkedin.com/company/filmhub/
+    - https://instagram.com/filmhubhq
 author:
   twitter: filmhubhq
 

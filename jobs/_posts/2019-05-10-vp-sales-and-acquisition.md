@@ -10,7 +10,14 @@ jsonld:
     minValue: 60000.00
     maxValue: 120000.00
   experienceRequirements: Experience in film distribution and international sales
-  occupationalCategory: '15-1254 Web Developers'
+  occupationalCategory:
+    - '41-3099.00 Sales Representatives, Services, All Other'
+breadcrumb:
+  - name: Home
+    href: /
+  - name: Jobs
+    href: /jobs
+  - name: VP Sales &amp; Acquisition
 ---
 Disrupt the industry with us: Acquire film & TV catalogs, manage streaming platform buyer accounts (license sales), and sign new streaming channels and platforms.
 

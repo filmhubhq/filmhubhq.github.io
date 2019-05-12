@@ -44,6 +44,8 @@
   },
   "experienceRequirements": "{{ page.jsonld.experienceRequirements }}",
   "industry": "Computer Software",
-  "occupationalCategory": "{{ page.jsonld.occupationalCategory }}",
+{%- if page.jsonld.occupationalCategory %}
+  "occupationalCategory": ["{{ page.jsonld.occupationalCategory | join: '","' }}"],
+{%- endif %}
   "description": "{{ page.content | replace: '"','\"' | normalize_whitespace }}"
 }

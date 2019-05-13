@@ -13,7 +13,7 @@ container: true
 <h3 class="card-title">Value proposition</h3>
 
 {: .lead .card-text  }
-Stream China TV & film IP in 200+ famous Western streaming channels
+Stream China TV & film IP in 200+ major Western streaming channels
 
 {: .lead .card-text  }
 Auto-create **Amazon channels**
@@ -32,7 +32,9 @@ No cost – Technology based - Large scale
 <div class="row">
 <div class="col-md-6">
 
-### Who is Filmhub?
+## Who is Filmhub?
+
+### Profile
   - Large scale online film & TV IP distribution platform
   - 200+ established streaming deals with Amazon, Hulu, iTunes, Netflix, Rakuten, Sinclair Broadcasting+
   + 140+ countries - US, Europe, Africa, South America+

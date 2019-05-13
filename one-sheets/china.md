@@ -56,6 +56,7 @@ No cost – Technology based - Large scale
 ### Benefits
   + Distribute to 200+ Western streaming channels
   + Auto-publish custom *Amazon channels*
+  + Handling hundreds of thousands of content hours
   + Large scale tech infrastructure, no human involvement
   + Non-exclusive, no long-term contracts
 

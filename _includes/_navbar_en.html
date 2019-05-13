@@ -21,7 +21,7 @@
         <a class="nav-item nav-link animate" href="{{ home }}#enterprise">Enterprise</a>
         <a class="nav-item nav-link animate d-none d-lg-inline" href="{{ home }}#about">About</a>
         <a class="nav-item nav-link" href="https://blog.filmhub.com">Blog</a>
-        <a class="nav-item nav-link d-none d-lg-inline" href="/jobs">Jobs</a>
+        <a class="nav-item nav-link {% if page.path contains 'jobs' %}active {% endif %}d-none d-lg-inline" href="/jobs">Jobs</a>
         <a class="nav-item nav-link text-warning" href="#" id="requestdemobtn" data-toggle="modal" data-target="#requestdemomodal">Get a demo</a>
         <a class="nav-item nav-link" href="/zh">中文</a>
         <a class="nav-item nav-link" href="https://app.filmhub.com/login">Sign in</a>

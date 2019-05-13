@@ -13,7 +13,7 @@ container: true
 <h3 class="card-title">Value proposition</h3>
 
 {: .lead .card-text  }
-Stream China TV & film IP in 200+ OTT channels worldwide
+Stream China TV & film IP in 200+ famous Western streaming channels
 
 {: .lead .card-text  }
 Auto-create **Amazon channels**

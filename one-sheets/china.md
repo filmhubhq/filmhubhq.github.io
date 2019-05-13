@@ -55,21 +55,21 @@ No cost – Technology based - Large scale
 
 ### Benefits
   + Distribute to 200+ Western streaming channels
-  + Auto-publish new *Amazon channels etc.*
+  + Auto-publish custom *Amazon channels*
   + Large scale tech infrastructure, no human involvement
   + Non-exclusive, no long-term contracts
 
 ### Royalties at scale
   + **Recurring, growing revenue** at high volume
-  + Access to billions of viewers
+  + Access to billions of Western viewers
+  + Better rates than traditional industry
   + Consolidated collection, auditing, disbursement
-  + Much better rates than traditional industry
   + Low latency, no deductions, transparent
 
 ### Low cost
-  + Technology enables ultra low cost
   + $0 upfront fees
-  + Completely free operation (asset ingest, processing, packaging, delivery etc.)
+  + Technology enables ultra low cost
+  + Completely free operations (asset ingest, processing, packaging, delivery etc.)
 
 </div>
 </div>

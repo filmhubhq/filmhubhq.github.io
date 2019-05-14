@@ -76,10 +76,3 @@ No cost – Technology based - Large scale
 
 </div>
 </div>
-
-# Different
-
-{: .lead }
-Filmhub disrupts the distribution industry.
-
-Filmhub is a film distribution platform that helps independent films get worldwide streaming release. Our data-driven platform takes the entire distribution process online. Filmhub takes no rights, charges no fees, provides transparent analytics and much better rates than the traditional industry.

@@ -38,13 +38,12 @@ No cost – Technology based - Large scale
   - Large scale online film & TV IP distribution platform
   - 200+ established streaming deals with Amazon, Hulu, iTunes, Netflix, Rakuten, Sinclair Broadcasting+
   + 140+ countries - US, Europe, Africa, South America+
-  + Managing hundreds of thousands of licenses
-  + Fastest growing distribution platform
-  + Silicon Valley funded, Hollywood based
+  + Silicon Valley funded, Hollywood based, fast growing
 
 ### Technology
+  - First 100% tech distribution platform
   - Global, proprietary cloud infrastructure
-  - Massive scale, millions of hours of TV & film content
+  - Massive scale, capable of millions of hours of content
   - AI data-driven sales
 
 ### Security
@@ -56,18 +55,17 @@ No cost – Technology based - Large scale
 <div class="col-md-6">
 
 ### Benefits
-  + Distribute to 200+ Western streaming channels
-  + Auto-publish custom *Amazon channels*
-  + Handling hundreds of thousands of content hours
-  + Large scale tech infrastructure, no human involvement
-  + Non-exclusive, no long-term contracts
+  + Distribution to 200+ Western streaming channels
+  + Auto-publish *Amazon channels*
+  + 100% tech - we do everything for you
+  + Flexible: Keep ownership, Non-exclusive, No long-term contracts
 
 ### Royalties at scale
-  + **Recurring, growing revenue** at high volume
+  + **Recurring revenue**, growing, at high volume
   + Access to billions of Western viewers
-  + Better rates than traditional industry
+  + Much better rates than traditional industry
+  + Paid fast, from 1st stream, no deductions, transparent
   + Consolidated collection, auditing, disbursement
-  + Low latency, no deductions, transparent
 
 ### Low cost
   + $0 upfront fees

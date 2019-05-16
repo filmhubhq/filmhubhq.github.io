@@ -32,11 +32,9 @@ No cost – Technology based - Large scale
 <div class="row">
 <div class="col-md-6">
 
-## Who is Filmhub?
-
-### Profile
+# Who is Filmhub?
   - Large scale online film & TV IP distribution platform
-  - 200+ established streaming deals with Amazon, Hulu, iTunes, Netflix, Rakuten, Sinclair Broadcasting+
+  - 200+ established streaming deals incl. Amazon, Hulu, iTunes, Netflix, Rakuten, Sinclair Broadcasting+
   + 140+ countries - US, Europe, Africa, South America+
   + Silicon Valley funded, Hollywood based, fast growing
 
@@ -54,7 +52,7 @@ No cost – Technology based - Large scale
 </div>
 <div class="col-md-6">
 
-### Benefits
+# Benefits for China IP
   + Distribution to 200+ Western streaming channels
   + Auto-publish *Amazon channels*
   + 100% tech - we do everything for you

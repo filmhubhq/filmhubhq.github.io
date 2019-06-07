@@ -9,7 +9,7 @@ jsonld:
   baseSalary:
     minValue: 45000.00
     maxValue: 65000.00
-  experienceRequirements: Minumum 1 year experience as a postproduction or VFX tech
+  experienceRequirements: Minumum 1 year experience in post-production or video quality control
   occupationalCategory:
     - '27-4011.00 Audio and Video Equipment Technicians'
     - '27-4012.00 Broadcast Technicians'
@@ -54,16 +54,20 @@ Our ideal candidate worked as tech in video or audio post, film and TV editorial
 - Run our rigorous ingest QC, onboarding independent film and episodic titles including video, related assets and metadata
 - Supervise and monitor our proprietary cloud based asset processing and delivery to video streaming platforms
 - Respond to and solve user support requests
-- Process and ingest performance reports from video streaming platforms
+- Contribute to our help resources - write help articles, make tutourial videos
+- Evaluate current product, work with development team to improve user experience
 - Manage individual project priorities, deadlines and deliverables
 
 ### Required skills
 
 - 1+ year experience in film industry postproduction
-- Tech wizard in video and audio technologies, including knowledge of
-  - Non-linear editing software like Avid, Final Cut, DaVinci Resolve, Adobe
+- Extremely organized and detail-oriented, strong ability to investigate and troubleshoot
+- Tech wizard with knowledge of
+  - Video streaming and content delivery
   - Video codecs - terms like DNxHD/HR, ProRes, bit rates, resolution, aspect ratios
   - Audio file processing - terms like clipping, export, routing, loudness, metering
+  - Image processing - basics like cropping and scaling
+  - Excel/Google Sheets, project management tools
 - Language skills: writing comprehensive support articles, responding to user requests
 - Passion for film and tech
 
@@ -73,7 +77,9 @@ Our ideal candidate worked as tech in video or audio post, film and TV editorial
 - File-based workflows in broadcast or major studios
 - File-based QC tools like Baton, Dalet etc.
 - Audio non-linear editing tools like Pro Tools, Nuendo, Logic Pro
-- FFmpeg video transcoding
+- Non-linear editing software like Avid, Final Cut, DaVinci Resolve, Adobe
+- Amazon Web Services
+- FFmpeg
 - Not afraid of the command line in Mac and Linux
 
 ## Working at Filmhub

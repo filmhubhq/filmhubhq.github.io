@@ -60,7 +60,7 @@ Our ideal candidate worked as tech in video or audio post, film and TV editorial
 
 ### Required skills
 
-- 1+ year experience in film industry postproduction
+- 1+ year experience in film industry post production, video quality control, and/or content operations
 - Extremely organized and detail-oriented, strong ability to investigate and troubleshoot
 - Tech wizard with knowledge of
   - Video streaming and content delivery

@@ -10,7 +10,7 @@ function reqDemo() {
   var catalog = $('input[name=inputCatalog]:checked', '#requestdemoform').val() || "(not specified)";
   var url_atob = atob(url);
   var fallback =
-    'Yay - another demo request, <@U0K0JNYN8>\n' +
+    'Yay - another demo request, <@UKB9DNGKY>\n' +
     'Name: ' + name + '\n' +
     'Email: ' + email + '\n' +
     'Phone: ' + phone + '\n' +

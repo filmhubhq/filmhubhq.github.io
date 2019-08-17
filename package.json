@@ -3,10 +3,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:lambda": "eval $(egrep -v '^#' .env | xargs) netlify-lambda serve src",
     "build:lambda": "netlify-lambda build src",
-    "start:jekyll": "bundle exec jekyll build --watch"
+    "start:jekyll": "bundle exec jekyll build --watch --incremental"
   },
   "dependencies": {
-    "@sendgrid/client": "^6.3.0"
+    "@sendgrid/client": "^6.3.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "1.9.1",
+    "lazyload": "^2.0.0-rc.2",
+    "mixitup": "^3.3.1"
   },
   "devDependencies": {
     "netlify-lambda": "https://github.com/klausbadelt/netlify-lambda.git#patch-1",

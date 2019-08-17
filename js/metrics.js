@@ -11,8 +11,6 @@ function updateTitles ( data ) {
   $("#titles_metrics").html( data.titles_self_serve.value + data.titles_sales.value );
 }
 
-{% if jekyll.environment == "production" %}
 $(document).ready(function() {
   getMetrics();
 });
-{% endif %}

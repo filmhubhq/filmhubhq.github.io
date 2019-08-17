@@ -15,6 +15,10 @@ sass:
   # debug_info: true
   line_numbers: true
   line_comments: true
+  load_paths:
+    - _sass
+    - node_modules
+exclude: []
 kramdown:
   auto_ids: true
   parse_block_html: true

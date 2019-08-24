@@ -5,5 +5,5 @@ cache:
   directories:
     - /home/travis/.rvm/
 rvm:
-- 2.5.1
+- 2.6.3
 script: "bundle exec jekyll build"

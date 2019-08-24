@@ -1,13 +1,11 @@
 language: ruby
 dist: xenial
 cache:
-  bundler: true
   directories:
-    - /home/travis/.rvm/
+    - vendor/bundle
     - node_modules
-  yarn: true
 rvm:
-- 2.6.3
+  - 2.6.3
 before_install:
   - gem install bundler:1.17.3
 install:

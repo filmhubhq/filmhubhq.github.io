@@ -1,6 +1,8 @@
 language: ruby
 dist: xenial
 cache:
+  bundler: true
+  yarn: true
   directories:
     - vendor/bundle
     - node_modules

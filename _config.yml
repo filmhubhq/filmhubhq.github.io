@@ -18,7 +18,8 @@ sass:
   load_paths:
     - _sass
     - node_modules
-exclude: []
+exclude:
+  - vendor
 kramdown:
   auto_ids: true
   parse_block_html: true

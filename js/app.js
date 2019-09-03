@@ -18,6 +18,7 @@ $(document).ready(function() {
     e.preventDefault();
   });
 
+
   // Lazyload images
   lazyload();
 });

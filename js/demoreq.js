@@ -21,7 +21,7 @@ function reqDemo() {
     // "channel": "@klaus",
     "attachments": [{
       "fallback": fallback,
-      "pretext": "Yay - another demo request, <@U0K0JNYN8>",
+      "pretext": "Yay - another demo request, <@UKB9DNGKY>",
       "fields": [
         { "title": "Name",         "value": name },
         { "title": "Email",        "value": email },

@@ -45,7 +45,7 @@ custom_js:
   "contactPoint": [
   {
     "@type": "ContactPoint",
-    "telephone": " +1-424-209-8578",
+    "telephone": "{{ site.phone }}",
     "contactType": "sales"
   },
   {
@@ -284,7 +284,7 @@ custom_js:
             Choose from no conversion cost, or a low one-time fee.
           </p>
           <p class="pt-4">
-            <a href="https://intercom.help/filmhub" class="btn btn-outline-warning contact-us mr-3">Contact sales</a> or <a href="tel:+1-424-209-8578" title="Call us: +1-424-209-8578" class="linkhint">call us</a></li>
+            <a href="https://intercom.help/filmhub" class="btn btn-outline-warning contact-us mr-3">Contact sales</a> or <a href="tel:{{ site.phone }}" title="Call us: {{ site.phone }}" class="linkhint">call us</a></li>
           </p>
         </div>
       </div>

@@ -37,8 +37,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 {% else %}
-  <div class="px-3">
-    {% include _navbar_{{ page.lang | default: 'en' }}.html theme="light" %}
+  <div class="container">
+    {% include _navbar_{{ page.lang | default: 'en' }}.html theme="light" bg="white" %}
   </div>
 {% endif %}
 

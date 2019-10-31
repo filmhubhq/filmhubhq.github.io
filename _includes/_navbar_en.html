@@ -1,6 +1,6 @@
 {% capture home %}{% if page.url != '/index.html' %}/{% endif %}{% endcapture %}
 
-  <nav class="navbar navbar-{{ include.theme | default: "dark" }} navbar-expand-md w-100 bg-{{ include.theme | default: "transparent" }} ">
+  <nav class="navbar navbar-{{ include.theme | default: "dark" }} navbar-expand-md w-100 px-0 bg-{{ include.bg | default: "transparent" }} ">
     <a class="navbar-brand" {% if page.url == '/index.html' %} href="#top" {% else %} href="/" {% endif %}>
       <img src="/images/filmhub.svg" width="150" alt="Filmhub">
     </a>

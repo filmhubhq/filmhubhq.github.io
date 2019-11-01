@@ -22,14 +22,14 @@ eyebrow: false
     <div class="row">
       <div class="col-md-3">
         <span class="badge badge-info">Featured topic</span>
-        <h4 class="display-4">Immigrant stories</h4>
+        <h4 class="display-4 text-info">Immigrant stories</h4>
       </div>
       <div class="col-md-9">
-        <img src="/images/migrant_crossing_2x3.jpg" class="p-0 m-0" style="width: 160px;" alt="poster">
-        <img src="/images/against_the_tide_3x4.jpg" class="p-0 m-0" style="width: 160px;"  alt="poster">
-        <img src="/images/reunification_3x4.jpg" class="p-0 m-0" style="width: 160px;" alt="poster">
-        <img src="/images/lessons_of_basketball_and_war_3x4.jpg" class="p-0 m-0" style="width: 160px;" alt="poster">
-        <img src="/images/bridge_brothers_3x4.jpg" class="p-0 m-0" style="width: 160px;" alt="poster">
+        <img src="/images/migrant_crossing_2x3.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+        <img src="/images/against_the_tide_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;"  alt="poster">
+        <img src="/images/reunification_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+        <img src="/images/lessons_of_basketball_and_war_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+        <img src="/images/bridge_brothers_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
       </div>
     </div>
   </div>
@@ -64,7 +64,7 @@ eyebrow: false
         <div class="logos-container">
           <div class="logos-scrolling">
             {% assign channels = site.data.channels | where: "logo", "ok" %}
-            {% for channel in channels reversed %}
+            {% for channel in channels %}
               <div class="logo">
                 {% include svg/{{ channel.name | slugify }}.svg %}
               </div>

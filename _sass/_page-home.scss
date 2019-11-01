@@ -91,6 +91,7 @@
       align-items: center;
       transform: translate3d(0, -80%, 0);
       animation: vertical-scroll 30s linear infinite;
+      animation-direction: reverse;
       -moz-transform: translate3d(0, -100%, 0);
       -webkit-transform-style: translate3d(0, -100%, 0);
       -moz-animation: vertical-scroll 12s linear infinite;

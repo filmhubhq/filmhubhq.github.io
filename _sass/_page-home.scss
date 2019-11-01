@@ -8,13 +8,6 @@
     }
   }
 
-  .content section {
-    @extend .py-5;
-    &.channels {
-      @extend .py-0;
-    }
-  }
-
   .nav-stacked {
     li.nav-article>a {
       font-size: 14px;
@@ -48,7 +41,8 @@
   }
 
   .metrics h1 i {
-    color: #7a51e9;
+    // color: #7a51e9;
+    // color: $color-primary;
   }
 
   section {
@@ -61,6 +55,15 @@
       // color: #fff;
       @extend .py-0;
     }
+  }
+
+  /* Topics
+  ------------------------- */
+  .topic.badge {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    @extend .p-2;
   }
 
   /* Featurettes
@@ -94,11 +97,13 @@
       -webkit-animation-trigger: vertical-scroll 12s linear infinite;
       .logo {
         margin: 0 20px 10px;
+        @extend .img-thumbnail;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 10px;
         svg {
           // filter: grayscale(100%);
-          filter: brightness(0%);
-          // filter: gray;
-          width: 80px;
+          // filter: brightness(0) invert(1);
+          width: 120px;
           height: 80px;
         }
       }

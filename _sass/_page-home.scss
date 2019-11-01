@@ -97,7 +97,7 @@
       -webkit-animation-trigger: vertical-scroll 12s linear infinite;
       .logo {
         margin: 0 20px 10px;
-        @extend .img-thumbnail;
+        // @extend .img-thumbnail;
         background-color: rgba(255, 255, 255, 0.7);
         padding: 10px;
         svg {

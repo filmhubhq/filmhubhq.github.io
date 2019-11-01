@@ -6,68 +6,82 @@ eyebrow: false
 custom_js:
   - sendgrid-signup
 ---
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "url": "https://filmhub.com",
-  "logo": "https://filmhub.com/images/icon_v2_600.png",
-  "sameAs": [
-    "https://blog.filmhub.com",
-    "https://twitter.com/filmhubhq",
-    "https://facebook.com/filmhubhq",
-    "https://www.youtube.com/user/kinonationfilms",
-    "https://www.linkedin.com/company/filmhub/",
-    "https://www.facebook.com/filmhubhq",
-    "https://instagram.com/filmhubhq"
-  ],
-  "contactPoint": [
-  {
-    "@type": "ContactPoint",
-    "telephone": "{{ site.phone }}",
-    "contactType": "sales"
-  },
-  {
-    "@type": "ContactPoint",
-    "url": "https://intercom.help/filmhub",
-    "contactType": "customer support"
-  }
-  ]
-}
-</script>
-<section id="summary" class="py-5">
+<section id="summary" class="py-5 bg-light">
   <div class="container">
-    <h1 class="text-center display-1">Film distribution 2.0</h1>
-    <p class="lead text-center pb-4 text-muted">
+    <h1 class="text-center display-2">Film distribution 2.0</h1>
+    <p class="lead text-center pb-4">
       Pay $0. Keep your rights. Transparent reporting.
     </p>
     <div class="text-center">
-      <h1 class="mb-1"><a href="https://app.filmhub.com/signup" class="btn btn-lg btn-primary px-5">Sign up</a></h1>
-      <p class="my-0 py-t small text-muted">Yup, it's free</p>
+      <p class="mb-1">
+        <a href="#whatisfilmhub" class="btn btn-lg btn-outline-info animate px-4 mr-3">Learn more</a>
+        <a href="https://app.filmhub.com/signup" class="btn btn-lg btn-info px-5">Start for free</a>
+      </p>
     </div>
   </div>
 </section>
 
-<section id="featured" class="py-5 bg-silver">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <span class="badge badge-info">Featured topic</span>
-        <h4 class="display-4 text-info">Immigrant stories</h4>
+  <div id="topics-carousel" class="carousel slide" data-ride="carousel">
+<section id="featured" class="py-5 bg-white">
+    <ol class="carousel-indicators">
+      <li data-target="#topics-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#topics-carousel" data-slide-to="1"></li>
+      <li data-target="#topics-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <span class="badge badge-info">Spotlight</span>
+              <h4 class="display-4 text-info">Immigrant stories</h4>
+            </div>
+            <div class="col-md-9">
+              <img src="/images/migrant_crossing_2x3.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+              <img src="/images/against_the_tide_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;"  alt="poster">
+              <img src="/images/reunification_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+              <img src="/images/lessons_of_basketball_and_war_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+              <img src="/images/bridge_brothers_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-9">
-        <img src="/images/migrant_crossing_2x3.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
-        <img src="/images/against_the_tide_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;"  alt="poster">
-        <img src="/images/reunification_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
-        <img src="/images/lessons_of_basketball_and_war_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
-        <img src="/images/bridge_brothers_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <span class="badge badge-info">Spotlight</span>
+              <h4 class="display-4 text-info">Nepalese Films</h4>
+            </div>
+            <div class="col-md-9">
+              <img src="/images/shushree_sampati_3x4.png" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+              <img src="/images/against_the_tide_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;"  alt="poster">
+              <img src="/images/reunification_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+              <img src="/images/lessons_of_basketball_and_war_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+              <img src="/images/bridge_brothers_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+
+    </div> <!-- inner  -->
+
+
+    <a class="carousel-control-prev" href="#topics-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#topics-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
 </section>
+  </div>
 
 
-<section id="segments" class="py-5 segments bg-gradient-filmhub text-light">
+<section id="whatisfilmhub" class="py-5 segments bg-silver text-dark">
   <div class="container">
     <h2 class="display-4 text-center2">Let's disrupt Hollywood's rusty sales structures</h2>
     <div class="row text-center">
@@ -84,12 +98,6 @@ custom_js:
 <section id="channels" class="channels py-0">
   <div class="container" style="z-index: 0 !important;">
     <div class="row">
-      <div class="col-md-4 pt-5">
-        <h1 class="display-4">Go where audiences are</h1>
-        <hr>
-        <p>Reach engaged buyers worldwide on dozens of streaming platforms. Release wide. Get new audiences. Reduce dependency risks on few majors.</p>
-        <!-- <a class="btn btn-outline-warning" href="/channels" role="button">Learn more</a> -->
-      </div>
 
       <div class="col-md-8">
         <div class="logos-container">
@@ -101,7 +109,13 @@ custom_js:
               </div>
             {% endfor %}
           </div>
-        </divs>
+        </div>
+      </div>
+
+      <div class="col-md-4 pt-5">
+        <h1 class="display-4 text-info">Go where audiences are</h1>
+        <hr>
+        <p>Reach engaged buyers worldwide on dozens of streaming platforms. Release wide. Get new audiences. Reduce dependency risks on few majors.</p>
       </div>
     </div>
 </section>
@@ -181,10 +195,10 @@ custom_js:
         <h1 class="display-4 pb-2">Creator-first pricing</h1>
         <p class="lead pb-3">Pay $0. We make money via simple revenue share: 20%. No deductions or recurring fees.</p>
         <p>
-          <a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-outline-primary">Get started</a>
+          <a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-outline-info">Get started</a>
         </p>
         <p class="lead">
-          <small>More info about our <a href="#enterprise" class="animate">enterprise accounts</a>.</small>
+          <small>More info about our <a href="#enterprise" class="animate text-info">enterprise accounts</a>.</small>
         </p>
         </div>
       </div>
@@ -195,12 +209,12 @@ custom_js:
   </div>
 </section>
 
-<section id="email" class="email bg-gradient-filmhub-reverse text-light">
-  <div class="container text-center">
-    <h3>Sounds interesting but not sure yet?</h3>
+<section id="email" class="email py-5 bg-silver text-dark">
+  <div class="container">
+    <h4 class="display-4 text-info">Sounds interesting but not sure yet?</h4>
     <p class="lead">Follow us and get our occasional newsletter with digital distribution tips and updates on our development.</p>
 
-    <form class="form-inline justify-content-center" id="sendgrid-signup-form">
+    <form class="form-inline" id="sendgrid-signup-form">
         <div class="form-check form-check-inline">
           <label class="form-check-label mr-2" for="type-filmmaker">I'm a&nbsp;</label>
           <input class="form-check-input" type="radio" name="type" id="type-filmmaker" value="filmmaker" required>
@@ -215,18 +229,10 @@ custom_js:
           <label class="form-check-label" for="type-buyer">buyer/programmer</label>
         </div>
         <input class="form-control email required mr-sm-2" type="email" size=30 value="" name="email" id="sendgrid-signup-email" placeholder="Email" required>
-        <button id="sendgrid-signup-submit" type="submit" class="btn btn-outline-warning">Subscribe</button>
+        <button id="sendgrid-signup-submit" type="submit" class="btn btn-info">Subscribe</button>
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="honeypot" tabindex="-1" value=""></div>
     </form>
   </div>
-
-<!--       <ul class="list-inline" id="subscribe-form-social">
-        <li class="list-inline-item"><a href="https://twitter.com/filmhubhq"><i class="fas fa-lg fa-twitter"></i></a></li>
-        <li class="list-inline-item"><a href="https://facebook.com/filmhubhq"><i class="fas fa-lg fa-facebook"></i></a></li>
-        <li class="list-inline-item"><a href="https://linkedin.com/company/filmhub"><i class="fas fa-lg fa-linkedin"></i></a></li>
-        <li class="list-inline-item"><a href="https://www.youtube.com/user/kinonationfilms"><i class="fas fa-lg fa-youtube"></i></a></li>
-      </ul>
- -->
 </section>
 
 
@@ -249,20 +255,20 @@ custom_js:
             Choose from no conversion cost, or a low one-time fee.
           </p>
           <p class="pt-4">
-            <a href="https://intercom.help/filmhub" class="btn btn-outline-warning contact-us mr-3">Contact sales</a> or <a href="tel:{{ site.phone }}" title="Call us: {{ site.phone }}" class="linkhint">call us</a></li>
+            <a href="https://intercom.help/filmhub" class="btn btn-outline-info contact-us mr-3">Contact sales</a> or <a href="tel:{{ site.phone }}" title="Call us: {{ site.phone }}" class="linkhint">call us</a></li>
           </p>
         </div>
       </div>
 
       <div class="col-md-4 vertical-center order-2 order-md-1">
-        <div class="">
+        <div class="card">
           <figure class="figure text-center pt-5 pt-md-0">
             <img data-src="/images/screen-territories.png" class="lazyload figure-img img-fluid rounded shadow-lg w-75" alt="Carve out territories and streaming services">
-            <figcaption class="figure-caption text-white-50">Carve out territories with fine grained control.</figcaption>
+            <figcaption class="figure-caption text-white-50">Carve out territories with fine-grained control</figcaption>
           </figure>
           <figure class="figure text-center d-none d-md-block pt-4">
             <img data-src="/images/screen-releases.png" class="lazyload figure-img img-fluid rounded shadow-lg w-75" alt="Set release dates for different business models">
-            <figcaption class="figure-caption text-white-50">Set release dates for different business models.</figcaption>
+            <figcaption class="figure-caption text-white-50">Set release dates for different business models</figcaption>
           </figure>
         </div>
       </div>
@@ -271,3 +277,32 @@ custom_js:
     </div>
   </div>
 </section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://filmhub.com",
+  "logo": "https://filmhub.com/images/icon_v2_600.png",
+  "sameAs": [
+    "https://blog.filmhub.com",
+    "https://twitter.com/filmhubhq",
+    "https://facebook.com/filmhubhq",
+    "https://www.youtube.com/user/kinonationfilms",
+    "https://www.linkedin.com/company/filmhub/",
+    "https://www.facebook.com/filmhubhq",
+    "https://instagram.com/filmhubhq"
+  ],
+  "contactPoint": [
+  {
+    "@type": "ContactPoint",
+    "telephone": "{{ site.phone }}",
+    "contactType": "sales"
+  },
+  {
+    "@type": "ContactPoint",
+    "url": "https://intercom.help/filmhub",
+    "contactType": "customer support"
+  }
+  ]
+}
+</script>

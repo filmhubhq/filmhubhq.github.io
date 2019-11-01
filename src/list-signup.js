@@ -36,13 +36,13 @@ exports.handler = function (event, context, done) {
     const body = parse(event.body)
     client.setApiKey(process.env.SENDGRID_API_KEY)
     addSendgridRecipient(client, body.email, body.type)
-      .then( response => cb( null, { statusCode: 200, body: JSON.stringify(response) }) )
+      .then( response => done( null, { statusCode: 200, body: JSON.stringify(response) }) )
       .catch(err => {
         console.log('handler .catch', err)
-        cb(null, { statusCode: 422, body: JSON.stringify(err) })
+        done(null, { statusCode: 422, body: JSON.stringify(err) })
       });
   } catch(err) {
     console.log('handler catch block', err)
-    cb(null, { statusCode: 422, body: JSON.stringify(err) })
+    done(null, { statusCode: 422, body: JSON.stringify(err) })
   }
 }

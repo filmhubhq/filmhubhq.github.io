@@ -1,16 +1,17 @@
 {
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start:jekyll": "bundle exec jekyll build --watch --incremental",
     "start:lambda": "eval $(egrep -v '^#' .env | xargs) netlify-lambda serve src",
-    "build:lambda": "netlify-lambda build src",
-    "start:jekyll": "bundle exec jekyll build --watch --incremental"
+    "build:lambda": "netlify-lambda build src"
   },
   "dependencies": {
     "@sendgrid/client": "6.4.0",
     "bootstrap": "^4.3.1",
     "jquery": "1.9.1",
     "lazyload": "^2.0.0-rc.2",
-    "mixitup": "^3.3.1"
+    "mixitup": "^3.3.1",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "netlify-lambda": "https://github.com/klausbadelt/netlify-lambda.git#patch-1",

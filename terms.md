@@ -80,7 +80,7 @@ Please read the following terms and conditions carefully. These terms and condit
 
     2. You irrevocably grant to Company, throughout the Territory (defined as the entire world and universe, exluding those territories for which you opt-out on the Site) and during the Term (as defined in Section 5 below), the non-exclusive right:
 
-        1. to distribute, exhibit, license, sell, copy, transfer, distribute and otherwise exploit the Content by all means and media (whether now known or existing in the future) (“Sale”) through any and all Channels now operational or hereafter available;
+        1. to distribute, exhibit, license, sell, copy, transfer, distribute and otherwise exploit the Content by all means and media (whether now known or existing in the future) (“Sale”) through any and all Channels now operational or hereafter available, including but not limited to Channels owned and/or operated by Company;
 
         2. to collect all income deriving therefrom;
 
@@ -166,7 +166,7 @@ Please read the following terms and conditions carefully. These terms and condit
 
     1. Notice and Takedown Procedure
 
-        It is our policy to expeditiously respond to clear notices of alleged copyright infringement that comply with the United States Digital Millennium Copyright Act (DMCA). This page describes the information that should be present in these notices. It is designed to make submitting notices of alleged infringement to  Filmhub as straightforward as possible while reducing the number of notices that we receive that are fraudulent or difficult to understand or verify. The form of notice specified below is consistent with the form suggested by the DMCA (the text of which can be found at the [U.S. Copyright Office Website](http://www.copyright.gov) but we will respond to notices of this form from other jurisdictions as well).
+        It is our policy to expeditiously respond to clear notices of alleged copyright infringement that comply with the United States Digital Millennium Copyright Act (DMCA). This page describes the information that should be present in these notices. It is designed to make submitting notices of alleged infringement to  Filmhub as straightforward as possible while reducing the number of notices that we receive that are fraudulent or difficult to understand or verify. The form of notice specified below is consistent with the form suggested by the DMCA (the text of which can be found at the [U.S. Copyright Office Website](https://www.copyright.gov) but we will respond to notices of this form from other jurisdictions as well).
 
         It is expected that all users of any part of the Filmhub site will comply with applicable copyright laws. However, if Filmhub receives proper notification of claimed copyright infringement, our response to these notices may include removing or disabling access to material claimed to be the subject of infringing activity and/or terminating subscribers, regardless of whether we may be liable for such infringement under United States law or the laws of another jurisdiction.
 
@@ -315,7 +315,7 @@ Please read the following terms and conditions carefully. These terms and condit
 
     9. Live Streaming: access to Content that is happening at the time that it is viewed.
 
-    10. Linear Streaming: access to digital copies of a Title at a set time determined by the Outlet.
+    10. Linear Streaming: access to digital copies of a Title at a set time determined by the Channel.
 
     11. OTT: "Over-the-top" (OTT) is the delivery of audio, video, and other media over the [Internet](https://en.wikipedia.org/wiki/Internet) without the involvement of a [multiple-system operator](https://en.wikipedia.org/wiki/Multiple-system_operator) in the control or distribution of the content
 

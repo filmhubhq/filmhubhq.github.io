@@ -9,7 +9,14 @@ jsonld:
     minValue: 75000.00
     maxValue: 120000.00
   experienceRequirements: Minumum 1 year experience as a software engineer
-  occupationalCategory: '15-1254 Web Developers'
+  occupationalCategory:
+    - '15-1254 Web Developers'
+breadcrumb:
+  - name: Home
+    href: /
+  - name: Jobs
+    href: /jobs
+  - name: Full Stack Engineer
 ---
 Build the premier marketplace web app for the film industry. You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends. If you're familiar with Rails, React and have a passion for movies, this is for you.
 

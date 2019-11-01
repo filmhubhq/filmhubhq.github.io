@@ -1,6 +1,6 @@
 title: Filmhub
 description: Film distribution market network for indie filmmakers and video streaming services
-url: http://filmhub.com
+url: https://filmhub.com
 permalink: none
 plugins:
   # - octopress-autoprefixer
@@ -15,6 +15,11 @@ sass:
   # debug_info: true
   line_numbers: true
   line_comments: true
+  load_paths:
+    - _sass
+    - node_modules
+exclude:
+  - vendor
 kramdown:
   auto_ids: true
   parse_block_html: true
@@ -30,12 +35,15 @@ logo: /images/icon_v2_600.png
 social:
   name: Filmhub
   links:
+    - https://blog.filmhub.com
     - https://twitter.com/filmhubhq
-    - https://www.facebook.com/filmhubhq
-    - https://www.linkedin.com/company/filmhub/
+    - https://facebook.com/filmhubhq
     - https://www.youtube.com/user/kinonationfilms
+    - https://www.linkedin.com/company/filmhub/
+    - https://instagram.com/filmhubhq
 author:
   twitter: filmhubhq
+phone: +1-424-209-8578
 
 defaults:
   -

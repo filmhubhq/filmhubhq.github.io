@@ -20,8 +20,8 @@
         <a class="nav-item nav-link animate" href="{{ home }}#pricing" >Pricing</a>
         <a class="nav-item nav-link animate" href="{{ home }}#enterprise">Enterprise</a>
         <a class="nav-item nav-link" href="https://blog.filmhub.com">Blog</a>
-        <a class="nav-item nav-link d-none d-lg-inline" href="/jobs">Jobs</a>
-        <a class="nav-item nav-link" href="#" id="requestdemobtn" data-toggle="modal" data-target="#requestdemomodal">Get demo</a>
+        <a class="nav-item nav-link {% if page.path contains 'jobs' %}active {% endif %}d-none d-lg-inline" href="/jobs">Jobs</a>
+        <a class="nav-item nav-link text-warning" href="#" id="requestdemobtn" data-toggle="modal" data-target="#requestdemomodal">Get demo</a>
         <a class="nav-item nav-link" href="/zh">中文</a>
         <a class="nav-item nav-link" href="https://app.filmhub.com/login">Log in</a>
         <a class="nav-item btn btn-outline-primary my-2 my-sm-0" href="https://app.filmhub.com/owner/signup">Sign up</a>

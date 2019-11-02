@@ -1,0 +1,18 @@
+---
+- name: Immigrant stories
+  titles:
+    - name: Migrant crossing
+      image: migrant_crossing.jpg
+      url:
+    - name: Against the tide
+      image: against_the_tide.jpg
+      url:
+    - name: Reunification
+      image: reunification.jpg
+      url:
+    - name: Lessons of basketball and war
+      image: lessons_of_basketball_and_war.jpg
+      url:
+    - name: Bridge brothers
+      image: bridge_brothers.jpg
+      url:

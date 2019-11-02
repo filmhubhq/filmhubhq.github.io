@@ -66,6 +66,18 @@
     @extend .p-2;
   }
 
+  .poster-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    align-items: center;
+    .poster {
+      max-width: 100px;
+      padding: 0;
+    }
+  }
+
   /* Featurettes
   ------------------------- */
 
@@ -83,7 +95,6 @@
     height: 440px;
     overflow: hidden;
     .logos-scrolling {
-      // position: relative;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -98,12 +109,8 @@
       -webkit-animation-trigger: vertical-scroll 12s linear infinite;
       .logo {
         margin: 0 20px 10px;
-        // @extend .img-thumbnail;
-        // background-color: rgba(255, 255, 255, 0.7);
         padding: 10px;
         svg {
-          // filter: grayscale(100%);
-          // filter: brightness(0) invert(1);
           width: 120px;
           height: 80px;
         }
@@ -140,9 +147,18 @@
   -------------------------------------------------- */
 
   @include media-breakpoint-up(md) {
+    .poster-container .poster {
+      max-width: 130px;
+    }
     .featurette-heading {
       font-size: 50px;
       margin-top: 7rem;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    .poster-container .poster {
+      max-width: 160px;
     }
   }
 }

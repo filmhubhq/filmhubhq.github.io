@@ -21,8 +21,8 @@ custom_js:
   </div>
 </section>
 
-  <div id="topics-carousel" class="carousel slide" data-ride="carousel">
 <section id="featured" class="py-5 bg-white">
+  <div id="topics-carousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#topics-carousel" data-slide-to="0" class="active"></li>
       <li data-target="#topics-carousel" data-slide-to="1"></li>
@@ -30,45 +30,33 @@ custom_js:
     </ol>
     <div class="carousel-inner">
 
-      <div class="carousel-item active">
+      {% for topic in site.data.topics %}
+      <div class="carousel-item {% if forloop.first == true %}active{% endif %}">
         <div class="container">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4">
               <span class="badge badge-info">Spotlight</span>
-              <h4 class="display-4 text-info">Immigrant stories</h4>
+              <h4 class="display-4 text-info">{{ topic.name }}</h4>
             </div>
-            <div class="col-md-9">
-              <img src="/images/migrant_crossing_2x3.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
-              <img src="/images/against_the_tide_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;"  alt="poster">
-              <img src="/images/reunification_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
-              <img src="/images/lessons_of_basketball_and_war_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
-              <img src="/images/bridge_brothers_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
+            <div class="col-lg-9 col-md-8 poster-container">
+
+            {% for title in topic.titles %}
+              <picture>
+                <source src="" type="">
+                <img
+                  src="/images/{{ title.image }}"
+                  srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
+                  class="poster p-0 m-0 shadow rounded"
+                  alt="{{ title.name }}">
+            {% endfor %}
+
             </div>
           </div>
         </div>
       </div>
+      {% endfor %}
 
-      <div class="carousel-item">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
-              <span class="badge badge-info">Spotlight</span>
-              <h4 class="display-4 text-info">Nepalese Films</h4>
-            </div>
-            <div class="col-md-9">
-              <img src="/images/shushree_sampati_3x4.png" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
-              <img src="/images/against_the_tide_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;"  alt="poster">
-              <img src="/images/reunification_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
-              <img src="/images/lessons_of_basketball_and_war_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
-              <img src="/images/bridge_brothers_3x4.jpg" class="p-0 m-0 shadow rounded" style="width: 160px;" alt="poster">
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div> <!-- inner  -->
-
-
+    </div>
     <a class="carousel-control-prev" href="#topics-carousel" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -77,14 +65,14 @@ custom_js:
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-</section>
   </div>
+</section>
 
 
 <section id="whatisfilmhub" class="py-5 segments bg-silver text-dark">
-  <div class="container">
-    <h2 class="display-4 text-center2">Let's disrupt Hollywood's rusty sales structures</h2>
-    <div class="row text-center">
+  <div class="container text-center">
+    <h2 class="display-4">Let's disrupt Hollywood's rusty sales structures</h2>
+    <div class="row">
       <div class="col-md-8 offset-md-2">
         <p class="lead">
           Filmhub allows filmmakers to upload your film for free, while streaming channels discover, order, and stream your work - worldwide.

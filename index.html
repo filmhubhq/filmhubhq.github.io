@@ -34,19 +34,19 @@ custom_js:
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-4">
-              <span class="badge badge-info">Spotlight</span>
+              <span class="badge badge-info">Featured collection</span>
               <h4 class="display-4 text-info">{{ topic.name }}</h4>
             </div>
             <div class="col-lg-9 col-md-8 poster-container">
 
             {% for title in topic.titles %}
-              <picture>
-                <source src="" type="">
+              <div class="col col-md p-0 m-0">
                 <img
                   src="/images/{{ title.image }}"
                   srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
-                  class="poster p-0 m-0 shadow rounded"
+                  class="img-fluid poster shadow rounded"
                   alt="{{ title.name }}">
+                </div>
             {% endfor %}
 
             </div>
@@ -99,7 +99,7 @@ custom_js:
             {% assign channels = site.data.channels | where: "logo", "ok" %}
             {% for channel in channels %}
               <div class="col-4 col-md-3 col-xl-2 my-md-1 text-center">
-                <div class="img-thumbnail2 logo ">
+                <div class="logo ">
                   {% include svg/{{ channel.name | slugify }}.svg %}
                 </div>
               </div>

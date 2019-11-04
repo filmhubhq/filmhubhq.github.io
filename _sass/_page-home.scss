@@ -73,9 +73,9 @@
     // justify-content: space-between;
     align-items: center;
     .poster {
-      max-width: 160px;
-      margin: 0;
-      padding: 0;
+      // width: 33.333%;
+      // margin: 0;
+      // padding: 0;
     }
   }
 
@@ -109,13 +109,9 @@
       -moz-animation: vertical-scroll 12s linear infinite;
       -webkit-animation-trigger: vertical-scroll 12s linear infinite;
       .logo {
-        // margin: 0 20px 10px;
         padding-top: 10px;
         padding-bottom: 10px;
         svg {
-          // filter: grayscale(100%);
-          // filter: brightness(0) invert(1);
-          // width: 120px;
           height: 80px;
           max-width: 100%;
         }

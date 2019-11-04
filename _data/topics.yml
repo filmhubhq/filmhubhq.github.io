@@ -13,29 +13,14 @@
     - name: Lessons of basketball and war
       image: lessons_of_basketball_and_war.jpg
       url:
-    - name: Bridge brothers
-      image: bridge_brothers.jpg
       url:
 - name: Nepalese Films
   titles:
     - name: Sushree Sampati
       image: sushree_sampati.jpg
-      description: A fast-paced romantic comedy with subtle social commentary
-      year: 2018
-      director: Subrat Acharya
-      url:
     - name: Shatru Gate
       image: against_the_tide.jpg
-      description: A wedding conflict between two families
-      year: 2018
-      director: Pradip Bhattarai
-      url:
-    - name: Reunification
-      image: reunification.jpg
-      url:
-    - name: Lessons of basketball and war
-      image: lessons_of_basketball_and_war.jpg
-      url:
     - name: Bridge brothers
       image: bridge_brothers.jpg
-      url:
+    - name: Reunification
+      image: sushree_sampati.jpg

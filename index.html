@@ -6,7 +6,7 @@ eyebrow: false
 custom_js:
   - sendgrid-signup
 ---
-<section id="summary" class="py-5 bg-light">
+<section id="summary" class="my-4 my-md-5 py-5 bg-light">
   <div class="container">
     <h1 class="text-center display-2">Film distribution 2.0</h1>
     <p class="lead text-center pb-4">
@@ -14,70 +14,63 @@ custom_js:
     </p>
     <div class="text-center">
       <p class="mb-1">
-        <a href="https://app.filmhub.com/signup" class="btn btn-lg btn-info px-5">Start for free</a>
+        <a href="https://app.filmhub.com/signup" class="btn btn-lg btn-info px-5">Get started</a>
       </p>
     </div>
   </div>
 </section>
 
-<section id="featured" class="py-5 bg-white">
-  <div id="topics-carousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#topics-carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#topics-carousel" data-slide-to="1"></li>
-      <li data-target="#topics-carousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-
-      {% for topic in site.data.topics %}
-      <div class="carousel-item {% if forloop.first == true %}active{% endif %}">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-4">
-              <span class="badge badge-info">Featured collection</span>
-              <h4 class="display-4 text-info">{{ topic.name }}</h4>
-            </div>
-            <div class="col-lg-9 col-md-8 poster-container">
-
+<section id="featured" class="my-4 py-5 bg-white2">
+  <div class="container">
+    <h2 class="display-4 text-center">Amazing content</h2>
+    <p class="lead text-center">Join great filmmakers and 1000s of strong, fresh films &amp; shows made for an audience. </p>
+    <div id="topics-carousel" class="carousel slide" data-ride="carousel" data-interval=8000>
+      <div class="carousel-inner">
+        {% for topic in site.data.topics %}
+        <div class="carousel-item {% if forloop.first == true %}active{% endif %}">
+            <div class="row poster-container">
             {% for title in topic.titles %}
-              <div class="col col-md p-0 m-0">
+              <div class="col col-md" style="max-height: 180px">
                 <img
                   src="/images/{{ title.image }}"
                   srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
                   class="img-fluid poster shadow rounded"
-                  alt="{{ title.name }}">
-                </div>
+                  alt="{{ title.name }}"
+                  title="{{ title.name }}">
+                <div class="topic badge badge-info">{{ topic.name }}</div>
+              </div>
             {% endfor %}
-
             </div>
-          </div>
         </div>
+        {% endfor %}
       </div>
+      <ol class="carousel-indicators">
+      {% for topic in site.data.topics %}
+        <li data-target="#topics-carousel" data-slide-to="{{ forloop.index }}" class="{% if forloop.first == true %}active{% endif %}"></li>
       {% endfor %}
-
-    </div>
-    <a class="carousel-control-prev" href="#topics-carousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#topics-carousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+      </ol>
+      <a class="carousel-control-prev" href="#topics-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#topics-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div> {% comment %} *** CAROUSEL *** {% endcomment %}
   </div>
 </section>
 
 
 <section id="whatisfilmhub" class="py-5 segments bg-info text-white">
   <div class="container text-center">
-    <h2 class="display-4">What's Filmhub?<sup>*</sup></h2>
+    <h2 class="display-4">How it works</h2>
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <p class="lead">
           Filmhub allows filmmakers to upload your film for free, while streaming channels discover, order, and stream your work - worldwide.
         </p>
         <p class="lead">Once revenue starts flowing, 80% goes to you. That's it. Plain &amp; simple.</p>
-        <p class="lead"><sup>*</sup>In Hollywood's rusty sales structures, only 1% got distribution. Let's change the story.
       </div>
     </div>
   </div>
@@ -88,9 +81,9 @@ custom_js:
     <div class="row">
 
       <div class="col-md-4 pt-5 order-md-2">
-        <h1 class="display-4 text-info">Go where audiences are</h1>
+        <h1 class="display-4 text-info">Get on many channels</h1>
         <hr>
-        <p>Reach engaged buyers on dozens of streaming platforms worldwide. Release wide to new audiences. Reduce dependency risks on few majors.</p>
+        <p>Reach engaged buyers of streaming platforms worldwide. Release wide to new audiences. Reduce dependency risks on few majors.</p>
       </div>
 
       <div class="col-md-8 order-md-1">
@@ -99,7 +92,7 @@ custom_js:
             {% assign channels = site.data.channels | where: "logo", "ok" %}
             {% for channel in channels %}
               <div class="col-4 col-md-3 col-xl-2 my-md-1 text-center">
-                <div class="logo ">
+                <div class="logo">
                   {% include svg/{{ channel.name | slugify }}.svg %}
                 </div>
               </div>

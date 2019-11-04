@@ -14,7 +14,6 @@ custom_js:
     </p>
     <div class="text-center">
       <p class="mb-1">
-        <a href="#whatisfilmhub" class="btn btn-lg btn-outline-info animate px-4 mr-3">Learn more</a>
         <a href="https://app.filmhub.com/signup" class="btn btn-lg btn-info px-5">Start for free</a>
       </p>
     </div>
@@ -69,15 +68,16 @@ custom_js:
 </section>
 
 
-<section id="whatisfilmhub" class="py-5 segments bg-silver text-dark">
+<section id="whatisfilmhub" class="py-5 segments bg-info text-white">
   <div class="container text-center">
-    <h2 class="display-4">Let's disrupt Hollywood's rusty sales structures</h2>
+    <h2 class="display-4">What's Filmhub?<sup>*</sup></h2>
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <p class="lead">
           Filmhub allows filmmakers to upload your film for free, while streaming channels discover, order, and stream your work - worldwide.
         </p>
         <p class="lead">Once revenue starts flowing, 80% goes to you. That's it. Plain &amp; simple.</p>
+        <p class="lead"><sup>*</sup>In Hollywood's rusty sales structures, only 1% got distribution. Let's change the story.
       </div>
     </div>
   </div>
@@ -87,23 +87,25 @@ custom_js:
   <div class="container" style="z-index: 0 !important;">
     <div class="row">
 
-      <div class="col-md-8">
+      <div class="col-md-4 pt-5 order-md-2">
+        <h1 class="display-4 text-info">Go where audiences are</h1>
+        <hr>
+        <p>Reach engaged buyers on dozens of streaming platforms worldwide. Release wide to new audiences. Reduce dependency risks on few majors.</p>
+      </div>
+
+      <div class="col-md-8 order-md-1">
         <div class="logos-container">
           <div class="logos-scrolling">
             {% assign channels = site.data.channels | where: "logo", "ok" %}
             {% for channel in channels %}
-              <div class="logo">
-                {% include svg/{{ channel.name | slugify }}.svg %}
+              <div class="col-4 col-md-3 col-xl-2 my-md-1 text-center">
+                <div class="img-thumbnail2 logo ">
+                  {% include svg/{{ channel.name | slugify }}.svg %}
+                </div>
               </div>
             {% endfor %}
           </div>
         </div>
-      </div>
-
-      <div class="col-md-4 pt-5">
-        <h1 class="display-4 text-info">Go where audiences are</h1>
-        <hr>
-        <p>Reach engaged buyers worldwide on dozens of streaming platforms. Release wide. Get new audiences. Reduce dependency risks on few majors.</p>
       </div>
     </div>
 </section>

@@ -6,38 +6,41 @@ eyebrow: false
 custom_js:
   - sendgrid-signup
 ---
-<section id="summary" class="my-4 my-md-5 py-5 bg-light">
-  <div class="container">
-    <h1 class="text-center display-2">Film distribution 2.0</h1>
-    <p class="lead text-center pb-4">
-      Pay $0. Keep your rights. Transparent reporting.
+<section id="summary" class="py-5 bg-light">
+  <div class="container text-md-center">
+    <h1 class="display-1">Film distribution&nbsp;2.0</h1>
+    <p class="lead pb-4">
+      Filmmakers: pay $0. Keep your rights. Transparent reporting.
     </p>
-    <div class="text-center">
+    <div>
       <p class="mb-1">
-        <a href="https://app.filmhub.com/signup" class="btn btn-lg btn-info px-5">Get started</a>
+        <a href="https://app.filmhub.com/signup" class="btn btn-block btn-md-lg btn-info py-3 px-5">Get started</a>
       </p>
     </div>
   </div>
 </section>
 
-<section id="featured" class="my-4 py-5 bg-white2">
+<section id="featured" class="py-5 bg-white2">
   <div class="container">
-    <h2 class="display-4 text-center">Amazing content</h2>
-    <p class="lead text-center">Join great filmmakers and 1000s of strong, fresh films &amp; shows made for an audience. </p>
-    <div id="topics-carousel" class="carousel slide" data-ride="carousel" data-interval=8000>
+    <h2 class="display-4 text-info text-md-center">Amazing cinema</h2>
+    <p class="lead text-md-center mb-0">Join thousands of filmmakers with strong, fresh films &amp; shows made for an audience.</p>
+  </div>
+  <div class="container-fluid px-0">
+    <div id="topics-carousel" class="carousel slide " data-ride="carousel" data-interval=8000>
       <div class="carousel-inner">
         {% for topic in site.data.topics %}
-        <div class="carousel-item {% if forloop.first == true %}active{% endif %}">
-            <div class="row poster-container">
+        <div class="carousel-item {% if forloop.first == true %}active{% endif %} mt-3 pt-2">
+            <div class="topic-header text-uppercase2 badge badge-info">{{ topic.name }}</div>
+            <div class="poster-container">
             {% for title in topic.titles %}
-              <div class="col col-md" style="max-height: 180px">
+              <div class="poster">
+<!--                 <div class="topic badge badge-info text-right">{{ topic.name }}</div> -->
                 <img
                   src="/images/{{ title.image }}"
                   srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
-                  class="img-fluid poster shadow rounded"
                   alt="{{ title.name }}"
-                  title="{{ title.name }}">
-                <div class="topic badge badge-info">{{ topic.name }}</div>
+                  title="{{ title.name }}"
+                  class="img-fluid2">
               </div>
             {% endfor %}
             </div>
@@ -62,9 +65,9 @@ custom_js:
 </section>
 
 
-<section id="whatisfilmhub" class="py-5 segments bg-info text-white">
-  <div class="container text-center">
-    <h2 class="display-4">How it works</h2>
+<section id="whatisfilmhub" class="pb-5 segments bg-info2 text-white2">
+  <div class="container text-md-center">
+    <h2 class="display-4 text-info">How it works</h2>
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <p class="lead">
@@ -81,8 +84,7 @@ custom_js:
     <div class="row">
 
       <div class="col-md-4 pt-5 order-md-2">
-        <h1 class="display-4 text-info">Get on many channels</h1>
-        <hr>
+        <h2 class="display-4 text-info">Get on many channels</h2>
         <p>Reach engaged buyers of streaming platforms worldwide. Release wide to new audiences. Reduce dependency risks on few majors.</p>
       </div>
 

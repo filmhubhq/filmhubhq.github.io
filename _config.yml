@@ -4,11 +4,9 @@ url: https://filmhub.com
 permalink: none
 plugins:
   # - octopress-autoprefixer
-  # - jekyll-sitemap
+  - jekyll-sitemap
   # - jekyll-github-metadata
   - jekyll-seo-tag
-kramdown:
-  parse_block_html: true
 sass:
   # style: compressed
   # sourcemap: inline

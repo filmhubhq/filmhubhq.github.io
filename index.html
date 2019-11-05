@@ -31,16 +31,15 @@ custom_js:
         {% for topic in site.data.topics %}
         <div class="carousel-item {% if forloop.first == true %}active{% endif %} mt-3 pt-2">
             <div class="topic-header text-uppercase2 badge badge-info">{{ topic.name }}</div>
-            <div class="poster-container">
+            <div class="poster-container d-flex flex-row justify-content-center">
             {% for title in topic.titles %}
-              <div class="poster">
+              <div class="poster dnu-flex-grow-1">
 <!--                 <div class="topic badge badge-info text-right">{{ topic.name }}</div> -->
                 <img
                   src="/images/{{ title.image }}"
                   srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
                   alt="{{ title.name }}"
-                  title="{{ title.name }}"
-                  class="img-fluid2">
+                  title="{{ title.name }}">
               </div>
             {% endfor %}
             </div>

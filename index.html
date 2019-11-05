@@ -14,7 +14,7 @@ custom_js:
     </p>
     <div>
       <p class="mb-1">
-        <a href="https://app.filmhub.com/signup" class="btn btn-block btn-md-lg btn-info py-3 px-5">Get started</a>
+        <a href="https://app.filmhub.com/signup" class="btn btn-block btn-lg btn-info ">Get started</a>
       </p>
     </div>
   </div>
@@ -39,7 +39,8 @@ custom_js:
                   src="/images/{{ title.image }}"
                   srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
                   alt="{{ title.name }}"
-                  title="{{ title.name }}">
+                  title="{{ title.name }}"
+                  class="">
               </div>
             {% endfor %}
             </div>

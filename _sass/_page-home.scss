@@ -78,7 +78,7 @@
         img {
           // width: 120px;
           width: 28vw;
-          max-width: 120px;
+          max-width: 160px;
         }
       }
     }
@@ -157,9 +157,18 @@
   -------------------------------------------------- */
 
   @include media-breakpoint-up(md) {
-    .featurette-heading {
-      font-size: 50px;
-      margin-top: 7rem;
+    #featured {
+      .poster-container .poster {
+        img {
+          // width: 25vw;
+          max-width: 160px;
+        }
+      }
+      .topic-header {
+        position: relative;
+        // top: 0px;
+        // left: 10px;
+      }
     }
   }
 }

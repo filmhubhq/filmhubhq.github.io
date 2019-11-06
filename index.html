@@ -30,11 +30,12 @@ custom_js:
       <div class="carousel-inner">
         {% for topic in site.data.topics %}
         <div class="carousel-item {% if forloop.first == true %}active{% endif %} mt-3 pt-2">
-            <div class="topic-header text-uppercase2 badge badge-info">{{ topic.name }}</div>
-            <div class="poster-container d-flex flex-row justify-content-center">
+          <div class="topic-container d-flex flex-row justify-content-center">
             {% for title in topic.titles %}
               <div class="poster dnu-flex-grow-1">
-<!--                 <div class="topic badge badge-info text-right">{{ topic.name }}</div> -->
+              {% if forloop.first == true %}
+                <div class="topic-header text-uppercase badge badge-info">{{ topic.name }}</div>
+              {% endif %}
                 <img
                   src="/images/{{ title.image }}"
                   srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
@@ -43,7 +44,7 @@ custom_js:
                   class="">
               </div>
             {% endfor %}
-            </div>
+          </div>
         </div>
         {% endfor %}
       </div>
@@ -65,7 +66,7 @@ custom_js:
 </section>
 
 
-<section id="whatisfilmhub" class="pb-5 segments bg-info2 text-white2">
+<section id="howitworks" class="pb-5 segments bg-info2 text-white2">
   <div class="container text-md-center">
     <h2 class="display-4 text-info">How it works</h2>
     <div class="row">

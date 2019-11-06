@@ -53,33 +53,25 @@
   #featured {
     .topic.badge {
       position: absolute;
-      // float: right;
       bottom: -10px;
       left: 30px;
-      // left: 15%;
-      // @extend .py-1;
-      // @extend .px-2;
     }
 
-    .topic-header {
+    div.topic-header {
       position: absolute;
-      top: 0px;
-      left: 10px;
+      // top: 0;
+      // left: 1;
+      transform: translate(-5%,-50%);
     }
 
-    .poster-container {
-        // display: flex;
-        // flex-direction: row;
-        // justify-content: center;
-      .poster {
-        // flex-grow: 1;
-        // max-width: 150px;
-        // min-width: 120px;
-        img {
-          // width: 120px;
-          width: 28vw;
-          max-width: 160px;
-        }
+    .poster {
+      // flex-grow: 1;
+      // max-width: 150px;
+      // min-width: 120px;
+      img {
+        // width: 120px;
+        width: 28vw;
+        max-width: 160px;
       }
     }
 

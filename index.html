@@ -6,9 +6,9 @@ eyebrow: false
 custom_js:
   - sendgrid-signup
 ---
-<section id="summary" class="py-5 bg-light">
+<section id="summary" class="py-3 py-md-5 bg-light">
   <div class="container text-md-center">
-    <h1 class="display-1">Film distribution&nbsp;2.0</h1>
+    <h1 class="font-weight-bolder display-1">Film distribution, evolved.</h1>
     <p class="lead pb-4">
       Filmmakers: pay $0. Keep your rights. Transparent reporting.
     </p>
@@ -22,26 +22,26 @@ custom_js:
 
 <section id="featured" class="py-5 bg-white2">
   <div class="container">
-    <h2 class="display-4 text-info text-md-center">Amazing cinema</h2>
+    <h2 class="font-weight-bolder display-3 n-text-info text-md-center">Amazing cinema</h2>
     <p class="lead text-md-center mb-0">Join thousands of filmmakers with strong, fresh films &amp; shows made for an audience.</p>
   </div>
   <div class="container-fluid px-0">
-    <div id="topics-carousel" class="carousel slide " data-ride="carousel" data-interval=8000>
+    <div id="topics-carousel" class="carousel slide" data-ride="carousel" data-interval=8000>
       <div class="carousel-inner">
         {% for topic in site.data.topics %}
         <div class="carousel-item {% if forloop.first == true %}active{% endif %} mt-3 pt-2">
-          <div class="topic-container d-flex flex-row justify-content-center">
+          <div class="topic-container d-flex flex-row justify-content-left">
             {% for title in topic.titles %}
-              <div class="poster dnu-flex-grow-1">
-              {% if forloop.first == true %}
-                <div class="topic-header text-uppercase badge badge-info">{{ topic.name }}</div>
-              {% endif %}
+              <div class="poster p-2">
                 <img
                   src="/images/{{ title.image }}"
                   srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
                   alt="{{ title.name }}"
                   title="{{ title.name }}"
                   class="">
+                <div class="bg-info text-center text-white text-uppercase font-weight-bold small p-2">
+                  {{ topic.name }}
+                </div>
               </div>
             {% endfor %}
           </div>
@@ -65,10 +65,9 @@ custom_js:
   </div>
 </section>
 
-
 <section id="howitworks" class="pb-5 segments bg-info2 text-white2">
   <div class="container text-md-center">
-    <h2 class="display-4 text-info">How it works</h2>
+    <h2 class="font-weight-bolder display-3 n-text-info">How it works</h2>
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <p class="lead">
@@ -85,7 +84,7 @@ custom_js:
     <div class="row">
 
       <div class="col-md-4 pt-5 order-md-2">
-        <h2 class="display-4 text-info">Get on many channels</h2>
+        <h2 class="font-weight-bolder display-3 n-text-info">Get on many channels</h2>
         <p>Reach engaged buyers of streaming platforms worldwide. Release wide to new audiences. Reduce dependency risks on few majors.</p>
       </div>
 
@@ -172,24 +171,21 @@ custom_js:
   </div>
 </section>
 
-<section id="pricing" class="py-5 pricing text-dark">
+<section id="pricing" class="py-5 text-dark">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 offset-1 vertical-center">
+      <div class="col-md-6 offset-md-1 vertical-center">
         <div>
-
-        <h1 class="display-4 pb-2">Creator-first pricing</h1>
-        <p class="lead pb-3">Pay $0. We make money via simple revenue share: 20%. No deductions or recurring fees.</p>
-        <p>
-          <a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-outline-info">Get started</a>
-        </p>
-        <p class="lead">
-          <small>More info about our <a href="#enterprise" class="animate text-info">enterprise accounts</a>.</small>
-        </p>
+          <h2 class="font-weight-bolder display-3 pb-2">Creator-first pricing</h2>
+          <p class="lead pb-3">Pay $0. We make money via simple revenue share: 20%. You get 80%. No deductions or recurring fees.</p>
+          <p><a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-block btn-info">Get started</a></p>
+          <p class="lead">
+            <small>More info about our <a href="#enterprise" class="animate text-info">enterprise accounts</a>.</small>
+          </p>
         </div>
       </div>
       <div class="col-md-5">
-        <img class="lazyload img-fluid s-75 my-3 pl-3" data-src="/images/pricing_chart.svg" alt="Pricing">
+        <img class="lazyload img-fluid s-75 my-3 pl-md-3" data-src="/images/pricing_chart.svg" alt="Pricing">
       </div>
     </div>
   </div>
@@ -197,7 +193,7 @@ custom_js:
 
 <section id="email" class="email py-5 bg-silver text-dark">
   <div class="container">
-    <h4 class="display-4 text-info">Sounds interesting but not sure yet?</h4>
+    <h2 class="font-weight-bolder display-3 n-text-info">Sounds interesting but not sure yet?</h2>
     <p class="lead">Follow us and get our occasional newsletter with digital distribution tips and updates on our development.</p>
 
     <form class="form-inline" id="sendgrid-signup-form">
@@ -228,7 +224,7 @@ custom_js:
 
       <div class="col-md-8 pl-md-4 order-1 order-md-2">
         <div>
-          <h1 class="display-4">Filmhub Enterprise</h1>
+          <h2 class="font-weight-bolder display-3">Filmhub Enterprise</h2>
           <p class="lead pb-3">Sales agents, distributors, indie studios: use our cloud service to release your content in streaming services worldwide.</p>
           <p>
             Monetize all dormant assets. Fill your distribution gaps. Carve out territories already sold. Deliver to your own channels and ours.

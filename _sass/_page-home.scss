@@ -39,8 +39,6 @@
   section {
     &.channels {
       // background: #9327f5;
-      // background: -webkit-linear-gradient(top left, #9327f5 0%, #00d4c3 100%);
-      // background: -o-linear-gradient(top left, #9327f5 0%, #00d4c3 100%);
       // background: linear-gradient(to bottom right, #9327f5 0%, #00d4c3 100%);
       // // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='$purple', endColorstr='$teal', GradientType=1 );
       // color: #fff;
@@ -59,7 +57,7 @@
 
     div.topic-header {
       position: absolute;
-      // top: 0;
+      bottom: -8px;
       // left: 1;
       transform: translate(-5%,-50%);
     }
@@ -70,7 +68,7 @@
       // min-width: 120px;
       img {
         // width: 120px;
-        width: 28vw;
+        width: 33vw;
         max-width: 160px;
       }
     }
@@ -105,10 +103,6 @@
       transform: translate3d(0, -80%, 0);
       animation: vertical-scroll 30s linear infinite;
       animation-direction: reverse;
-      -moz-transform: translate3d(0, -100%, 0);
-      -webkit-transform-style: translate3d(0, -100%, 0);
-      -moz-animation: vertical-scroll 12s linear infinite;
-      -webkit-animation-trigger: vertical-scroll 12s linear infinite;
       .logo {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -123,8 +117,6 @@
   @keyframes vertical-scroll {
     100% {
       transform: translateY(0%);
-      -moz-transform: translateY(0%);
-      -webkit-transform: translateY(0%)
     }
   }
 

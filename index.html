@@ -3,8 +3,6 @@ layout: bootstrap
 title: Indie film digital distribution platform
 id: home
 eyebrow: false
-custom_js:
-  - sendgrid-signup
 ---
 <section id="summary" class="py-3 py-md-5 bg-light">
   <div class="container text-md-center">
@@ -20,35 +18,39 @@ custom_js:
   </div>
 </section>
 
-<section id="featured" class="py-5 bg-white2">
+<section id="featured" class="pt-5 bg-white2">
   <div class="container">
     <h2 class="font-weight-bolder display-3 n-text-info text-md-center">Amazing cinema</h2>
     <p class="lead text-md-center mb-0">Join thousands of filmmakers with strong, fresh films &amp; shows made for an audience.</p>
   </div>
 
   <div class="container-fluid px-0 pt-2">
-    <div class="posters">
+    <div class="posters pt-4">
     {% for title in site.data.featured.titles %}
         <div class="poster mr-2">
           <img
-            src="/images/{{ title.image }}"
-            srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
+            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+            data-src="/images/{{ title.image }}"
+            data-srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
+            class="lazyload"
             alt="{{ title.name }}"
             title="{{ title.name }}"
-            class="">
-          <div
-             class="topic text-white"
-             style="background-color: #{{ site.data.featured.topics[title.topic].color }}">
-            {{ site.data.featured.topics[title.topic].name }}
+          >
+            <!-- <div class="topic-header small bg-secondary">Collection</div> -->
+            <div
+              class="topic text-uppercase"
+              style="background-color: #{{ site.data.featured.topics[title.topic].color }};"
+            >
+              {{ site.data.featured.topics[title.topic].name }}
           </div>
         </div>
     {% endfor %}
   </div>
 </section>
 
-<section id="howitworks" class="pb-5 segments bg-info2 text-white2">
+<section id="howitworks" class="pt-5 pb-3 segments bg-gradient-secondary2 text-white2">
   <div class="container text-md-center">
-    <h2 class="font-weight-bolder display-3 n-text-info">How it works</h2>
+    <h2 class="font-weight-bolder display-3">How it works</h2>
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <p class="lead">
@@ -64,9 +66,9 @@ custom_js:
   <div class="container" style="z-index: 0 !important;">
     <div class="row">
 
-      <div class="col-md-4 pt-5 order-md-2">
-        <h2 class="font-weight-bolder display-3 n-text-info">Get on many channels</h2>
-        <p>Reach engaged buyers of streaming platforms worldwide. Release wide to new audiences. Reduce dependency risks on few majors.</p>
+      <div class="col-md-4 order-md-2">
+        <h2 class="font-weight-bolder display-3">Release wide</h2>
+        <p class="lead">Get on Filmhub's fast growing channel partner network.</p>
       </div>
 
       <div class="col-md-8 order-md-1">
@@ -106,7 +108,7 @@ custom_js:
             <i class="fas fa-hand-paper fa-stack-1x"></i>
          </span>
        </p>
-      <p><b>No gatekeeper.</b> Access for all filmmakers. No "approval" - just upload.</p>
+      <p><b>No gatekeeper.</b> Access for all filmmakers. No "application" - just upload.</p>
       </div>
 
       <div class="col-md-4 text-center different">
@@ -126,11 +128,11 @@ custom_js:
         <p><i class="fas fa-cloud fa-5x text-dark"></i></p>
         <p><b>Technology.</b> A modern B2B tech marketplace takes the entire film distribution online.</p>
       </div>
-      <div class="col-md-4 text-center different">
+      <div class="col-md-4 text-center d-none d-lg-block different">
         <p><i class="fas fa-star fa-5x text-dark"></i></p>
         <p><b>Discovery.</b> Predictive analytics help what to promote and when.</p>
       </div>
-      <div class="col-md-4 text-center different">
+      <div class="col-md-4 text-center d-none d-lg-block different">
         <p><i class="fas fa-globe fa-5x text-dark"></i></p>
         <p><b>Scale and reach.</b> Cloud handles a global partner network and a massive catalog.</p>
       </div>
@@ -140,11 +142,11 @@ custom_js:
         <p><i class="fas fa-chart-bar fa-5x text-dark"></i></p>
         <p><b>Get paid, and fast.</b> Transparent reporting, auditing, consolidated payments.</p>
       </div>
-      <div class="col-md-4 text-center different">
+      <div class="col-md-4 text-center d-none d-lg-block different">
         <p><i class="fas fa-check-square fa-5x text-dark"></i></p>
         <p><b>Fanatical quality.</b> Rigorous QC, consistent delivery. Tech makes streaming services love us.</p>
       </div>
-      <div class="col-md-4 text-center different">
+      <div class="col-md-4 text-center d-none d-lg-block different">
         <p><i class="fas fa-magic fa-5x text-dark"></i></p>
         <p><b>Beyond film.</b> TV, docs, digital first, family&hellip; Any format, genre, language. </p>
       </div>
@@ -152,7 +154,7 @@ custom_js:
   </div>
 </section>
 
-<section id="pricing" class="py-5 text-dark">
+<section id="pricing" class="py-5">
   <div class="container">
     <div class="row">
       <div class="col-md-6 offset-md-1 vertical-center">
@@ -172,34 +174,36 @@ custom_js:
   </div>
 </section>
 
-<section id="email" class="email py-5 bg-silver text-dark">
-  <div class="container">
+<section id="email" class="email py-5 bg-silver">
+  <div class="container text-md-center">
     <h2 class="font-weight-bolder display-3 n-text-info">Sounds interesting but not sure yet?</h2>
     <p class="lead">Follow us and get our occasional newsletter with digital distribution tips and updates on our development.</p>
 
-    <form class="form-inline" id="sendgrid-signup-form">
-        <div class="form-check form-check-inline">
-          <label class="form-check-label mr-2" for="type-filmmaker">I'm a&nbsp;</label>
-          <input class="form-check-input" type="radio" name="type" id="type-filmmaker" value="filmmaker" required>
-          <label class="form-check-label" for="type-filmmaker">filmmaker/producer</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="type" id="type-catalog" value="catalog" required>
-          <label class="form-check-label" for="type-catalog">catalog owner</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="type" id="type-buyer" value="buyer" required>
-          <label class="form-check-label" for="type-buyer">buyer/programmer</label>
-        </div>
-        <input class="form-control email required mr-sm-2" type="email" size=30 value="" name="email" id="sendgrid-signup-email" placeholder="Email" required>
-        <button id="sendgrid-signup-submit" type="submit" class="btn btn-info">Subscribe</button>
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="honeypot" tabindex="-1" value=""></div>
+    <form class="form-inline justify-content-md-center" id="sendgrid-signup-form">
+      <div class="mb-0 d-block d-md-inline pr-md-2">I'm a:</div>
+      <div class="form-check form-check-inline mt-2">
+        <!-- <label class="form-check-label mr-2" for="type-filmmaker">I'm a </label> -->
+        <input class="form-check-input" type="radio" name="type" id="type-filmmaker" value="filmmaker" required>
+        <label class="form-check-label" for="type-filmmaker">filmmaker/producer</label>
+      </div>
+      <div class="form-check form-check-inline mt-2">
+        <input class="form-check-input" type="radio" name="type" id="type-catalog" value="catalog" required>
+        <label class="form-check-label" for="type-catalog">catalog owner</label>
+      </div>
+      <div class="form-check form-check-inline mt-2">
+        <input class="form-check-input" type="radio" name="type" id="type-buyer" value="buyer" required>
+        <label class="form-check-label" for="type-buyer">buyer/programmer</label>
+      </div>
+      <label class="sr-only" for="sendgrid-signup-email">Email</label>
+      <input class="form-control email required mt-2 mr-md-2" type="email" size=30 value="" name="email" id="sendgrid-signup-email" placeholder="Email" required>
+      <button id="sendgrid-signup-submit" type="submit" class="btn btn-block-xs btn-info mt-2">Subscribe</button>
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="honeypot" tabindex="-1" value=""></div>
     </form>
   </div>
 </section>
 
 
-<section id="enterprise" class="enterprise py-5 bg-gradient-dark text-light">
+<section id="enterprise" class="enterprise py-5 bg-gradient-secondary text-light">
   <div class="container">
     <div class="row">
 

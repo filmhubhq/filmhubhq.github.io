@@ -49,19 +49,6 @@
   /* Topics
   ------------------------- */
   #featured {
-    .topic.badge {
-      position: absolute;
-      bottom: -10px;
-      left: 30px;
-    }
-
-    div.topic-header {
-      position: absolute;
-      bottom: -8px;
-      // left: 1;
-      transform: translate(-5%,-50%);
-    }
-
     .posters {
       display: flex;
       flex-wrap: nowrap;
@@ -73,24 +60,33 @@
       }
       .poster {
         flex: 0 0 auto;
-        width: 140px;
+        width: 150px;
         img {
           width: 100%;
         }
+        color: $gray-100;
+        position: relative;
         .topic {
           display: flex;
           justify-content: center;
           text-align: center;
           align-items: center;
           box-sizing: border-box;
-          height: 60px;
-          padding: 9px 13px;
+          height: 70px;
+          padding: 9px;
+          line-height: 1.2;
+        }
+        .topic-header {
+          position: absolute;
+          top: -9px;
+          right: -4px;
+          padding: 2px 6px;
+          color: $white;
+          background-color: $info;
+          opacity: 0.8;
+          @extend .shadow;
         }
       }
-    }
-
-    .carousel-item {
-      // min-height: 220px;
     }
   }
 
@@ -166,7 +162,7 @@
   @include media-breakpoint-up(xl) {
     #featured {
       .posters .poster {
-        width: 200px;
+        // width: 200px;
       }
     }
   }

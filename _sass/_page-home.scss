@@ -158,16 +158,15 @@
 
   @include media-breakpoint-up(md) {
     #featured {
-      .poster-container .poster {
-        img {
-          // width: 25vw;
-          max-width: 160px;
-        }
+      .posters .poster {
+        width: 180px;
       }
-      .topic-header {
-        position: relative;
-        // top: 0px;
-        // left: 10px;
+    }
+  }
+  @include media-breakpoint-up(xl) {
+    #featured {
+      .posters .poster {
+        width: 200px;
       }
     }
   }

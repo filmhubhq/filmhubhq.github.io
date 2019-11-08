@@ -3,10 +3,11 @@ topics:
   immigrant:
     name: Immigrant stories
     description: |
-      “It makes an immigrant laugh to hear the fears of the nationalist,” British novelist Sadie Smith wrote,
-      “Scared of infection, penetration, miscegenation, when this is small fry, peanuts,
-      compared to what the immigrant fears — dissolution, disappearance.”
-      In this selection of remarkable documentaries, we share the untold stories of immigrants.
+      “It makes an immigrant laugh to hear the fears of the nationalist,”
+      British novelist Sadie Smith wrote, Scared of infection, penetration, miscegenation,
+      when this is small fry, peanuts, compared to what the immigrant fears —
+      dissolution, disappearance.” In this selection of remarkable documentaries,
+      we share the untold stories of immigrants.
     color: a5af29
   nepalese:
     name: Nepalese films
@@ -17,44 +18,110 @@ topics:
       thrives as young filmmakers break into the mainstream, shaping the new Nepali narrative.
       Here are a few that represent the best and the most fun.
     color: 24c7ae
-  Topic 3:
+  comic:
+    name: Comic book artists
     description: |
-      Rain euro-pop faded singularity nodal point engine sensory bomb systemic weathered. Sunglasses footage order-flow alcohol courier tattoo dolphin dissident smart-apophenia modem into. Sprawl alcohol human cyber-chrome math-j-pop realism concrete assassin monofilament soul-delay nano.
-    color: a5af29
-  Topic 4:
+      Long before Marvel movies dominated the worldwide box office,
+      comic book artists have worked to create colorful and nuanced worlds.
+      In this selection, we take a deep dive into the comic book industry
+      and hear firsthand stories told by the artists themselves.
+    color: 68abff
+  oscars:
+    name: Oscar season
     description: |
-      Bridge lights uplink physical vinyl-space dolphin smart-urban pistol face forwards.-space courier drone beef noodles digital dead ablative gang crypto-into A.I. weathered plastic man rifle BASE jump Chiba. Sub-orbital dissident tank-traps semiotics camera corrupted grenade RAF claymore mine apophenia. Tiger-team tank-traps lights dolphin computer tube sprawl camera sentient carbon smart-franchise motion film.
+      Alfonso Cuarón makes history Sunday night to be the first director
+      to win Best Cinematography as DP on his own film, besides winning
+      Best Director for a second time. Here we look at a few documentaries on Filmhub
+      that were mansterfully created by Oscar winners/nominees over the years,
+      including 2005's Black Sun, co-produced by Cuarón.
     color: 9685ce
-    # other colors: 68abff 3ec2dd ac9f92 f25959
+  blackhistory:
+    name: Black history month
+    description: |
+      From touching stories of struggling kids in New Orleans school marching bands,
+      to the golden age of Beale Street remembered by the blues masters themselves,
+      to eyewitness testimonies of black veterans in WWI…This selection of rare and
+      extraordinary documentaries barely scratched the surface, but it’s a start.
+    color: 3ec2dd
+  eleven:
+    name: These Go to Eleven
+    description: |
+      The Spinal Tap spirit lives on in these absolutely hilarious and absurd mockumentaries.
+    color: f25959
+  search:
+    name: The Search
+    description: |
+      Here’s one of our favorite types of documentaries — the audience is taken on a journey
+      in search of something (or someone) along with the protagonist (sometimes the filmmakers themselves),
+      and get to experience every bit of excitement and frustration and joy and despair along the way.
+      Besides being powerful, engaging, and irresistibly fun to watch,
+      they also reveal a lot about the filmmaking process itself.
+    color: ac9f92
 
 titles:
-  - name: Sushree Sampati
-    image: sushree_sampati.jpg
-    topic: immigrant
-  - name: Lessons of basketball and war
-    image: lessons_of_basketball_and_war.jpg
-    topic: nepalese
-  - name: Shatru Gate
-    image: against_the_tide.jpg
-    topic: immigrant
-  - name: Bridge brothers
-    image: bridge_brothers.jpg
-    topic: immigrant
-  - name: Reunification
-    image: sushree_sampati.jpg
-    topic: immigrant
   - name: Migrant crossing
-    image: migrant_crossing.jpg
+    image_id: 30166
     topic: immigrant
+  - name: Heroes Manufactured
+    image_id: 20352
+    topic: comic
+  - name: Black sun
+    image_id: 4009
+    topic: oscars
+  - name: Gaja Baja
+    image_id: 48779
+    topic: nepalese
+  - name: The Whole Gritty City
+    image_id: 4534
+    topic: blackhistory
+  - name: Noseland
+    image_id: 4196
+    topic: eleven
+  - name: The book of Lenins
+    image_id: 47110
+    topic: search
+  - name: "All Day and All Night: Memories from Beale Street Musicians"
+    image_id: 4965
+    topic: blackhistory
   - name: Against the tide
-    image: against_the_tide.jpg
+    image_id: 20132
     topic: immigrant
+  - name: A Fighting Chance
+    image_id: 5487
+    topic: oscars
+  - name: The Bomb Hunters
+    image_id: 46987
+    topic: search
+  - name: My English Soccer Adventure
+    image_id: 45504
+    topic: eleven
+  - name: Sushree Sampati
+    image_id: 48981
+    topic: nepalese
   - name: Reunification
-    image: reunification.jpg
-    topic: nepalese
+    image_id: 5658
+    topic: immigrant
+  - name: The Orator
+    image_id: 4038
+    topic: oscars
   - name: Lessons of basketball and war
-    image: lessons_of_basketball_and_war.jpg
-    topic: nepalese
-  - name: Lessons of basketball and war
-    image: lessons_of_basketball_and_war.jpg
+    image_id: 24438
+    topic: immigrant
+  - name: Rude Dude
+    image_id: 27169
+    topic: comic
+  - name: Bridge brothers
+    image_id: 45493
+    topic: immigrant
+  - name: Noodle deli
+    image_id: 40709
+    topic: immigrant
+  - name: Comic Book Independents
+    image_id: 25029
+    topic: comic
+  - name: My family feast
+    image_id: 41578
+    topic: immigrant
+  - name: Shatru Gate
+    image_id: 47478
     topic: nepalese

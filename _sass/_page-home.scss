@@ -36,16 +36,6 @@
     // color: $color-primary;
   }
 
-  section {
-    &.channels {
-      // background: #9327f5;
-      // background: linear-gradient(to bottom right, #9327f5 0%, #00d4c3 100%);
-      // // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='$purple', endColorstr='$teal', GradientType=1 );
-      // color: #fff;
-      @extend .py-0;
-    }
-  }
-
   /* Topics
   ------------------------- */
   #featured {
@@ -53,11 +43,12 @@
       display: flex;
       flex-wrap: nowrap;
       overflow-x: auto;
-      width: 100%;
       -webkit-overflow-scrolling: touch;
-      &::-webkit-scrollbar {
+      &::-webkit-scrollbar { // Safari, Chrome
         display: none;
       }
+      scrollbar-width: none; // Firefox
+      width: 100%;
       .poster {
         flex: 0 0 auto;
         width: 150px;
@@ -88,16 +79,6 @@
         }
       }
     }
-  }
-
-  /* Featurettes
-  ------------------------- */
-
-  /* Thin out the marketing headings */
-  .featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.05rem;
   }
 
   /* Channel logos
@@ -132,39 +113,45 @@
     }
   }
 
-  // MailChimp form style overrides
-  // @import url('//cdn-images.mailchimp.com/embedcode/classic-10_7.css');
-  #mc-embedded-subscribe-form {
-    margin-bottom: 20px;
-  }
-  #mc_embed_signup {
-    input.mce_inline_error {
-      border-color: $danger;
+
+  /* How it works
+  ------------------------- */
+
+  #howitworks {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f8f9fa+0,e9ecef+100 */
+    background: $light; /* Old browsers */
+    // background: -moz-linear-gradient(top,  $light 0%, $gray-200 100%); /* FF3.6-15 */
+    // background: -webkit-linear-gradient(top,  $light 0%,$gray-200 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  $light 0%, $gray-200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f9fa', endColorstr='#e9ecef',GradientType=0 ); /* IE6-9 */
+
+    .chart-text {
+      fill: $gray-800;
+      font-weight: bold;
+      transform: translateY(0.25em);
     }
-    div.mce_inline_error {
-      @extend .badge;
-      @extend .badge-danger;
-      margin-left: 1em;
+
+    .chart-number {
+      font-size: 0.6em;
+      line-height: 1;
+      text-anchor: middle;
+      transform: translateY(-0.25em);
     }
-    background: transparent;
+
+    .chart-label {
+      font-size: 0.2em;
+      text-transform: uppercase;
+      text-anchor: middle;
+      transform: translateY(0.7em);
+    }
   }
 
   /* RESPONSIVE CSS
   -------------------------------------------------- */
 
   @include media-breakpoint-up(md) {
-    #featured {
-      .posters .poster {
-        width: 180px;
-      }
-    }
   }
   @include media-breakpoint-up(xl) {
-    #featured {
-      .posters .poster {
-        // width: 200px;
-      }
-    }
   }
 }
 

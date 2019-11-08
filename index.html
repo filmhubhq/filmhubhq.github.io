@@ -4,7 +4,7 @@ title: Indie film digital distribution platform
 id: home
 eyebrow: false
 ---
-<section id="summary" class="py-3 py-md-5 bg-light">
+<section id="summary" class="py-3 pt-md-5 bg-light">
   <div class="container text-md-center">
     <h1 class="font-weight-bolder display-1">Film distribution, evolved.</h1>
     <p class="lead pb-4">
@@ -18,9 +18,9 @@ eyebrow: false
   </div>
 </section>
 
-<section id="featured" class="pt-5 bg-white2">
+<section id="featured" class="pt-5">
   <div class="container">
-    <h2 class="font-weight-bolder display-3 n-text-info text-md-center">Amazing cinema</h2>
+    <h2 class="font-weight-bolder display-3 text-md-center">Amazing cinema</h2>
     <p class="lead text-md-center mb-0">Join thousands of filmmakers with strong, fresh films &amp; shows made for an audience.</p>
   </div>
 
@@ -30,11 +30,15 @@ eyebrow: false
         <div class="poster mr-2">
           <img
             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-            data-src="/images/{{ title.image }}"
-            data-srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
+            data-src="{{ site.image_cdn }}/{{ title.image_id }}/50x66%23"
+            data-srcset="
+              {{ site.image_cdn }}/{{ title.image_id }}/150x200%23 1x,
+              {{ site.image_cdn }}/{{ title.image_id }}/300x400%23 2x"
             class="lazyload"
             alt="{{ title.name }}"
             title="{{ title.name }}"
+            width="150"
+            height="200"
           >
             <!-- <div class="topic-header small bg-secondary">Collection</div> -->
             <div
@@ -48,15 +52,33 @@ eyebrow: false
   </div>
 </section>
 
-<section id="howitworks" class="pt-5 pb-3 segments bg-gradient-secondary2 text-white2">
-  <div class="container text-md-center">
-    <h2 class="font-weight-bolder display-3">How it works</h2>
+<section id="howitworks" class="py-5 bg-silver">
+  <div class="container">
     <div class="row">
-      <div class="col-md-8 offset-md-2">
-        <p class="lead">
-          Filmhub allows filmmakers to upload your film for free, while streaming channels discover, order, and stream your work - worldwide.
-        </p>
-        <p class="lead">Once revenue starts flowing, 80% goes to you. That's it. Plain &amp; simple.</p>
+      <div class="col-md-6 offset-md-1 vertical-center order-md-2">
+        <div>
+          <h2 class="font-weight-bolder display-3 pb-2">How it works</h2>
+          <p class="lead">
+            Filmhub allows filmmakers to upload your film for free, while streaming channels discover, order, and stream your work - worldwide.
+          </p>
+          <p class="lead">Once revenue starts flowing, 80% goes to you. No deductions or fees. That's it. </p>
+          <p><a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-block-xs btn-info">Get started</a></p>
+        </div>
+      </div>
+      <div class="col-md-4 offset-md-1 vertical-center order-md-1">
+        <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+          <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="8"></circle>
+          <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="8" stroke-dasharray="80 20" stroke-dashoffset="0"></circle>
+          <g class="chart-text">
+            <text x="50%" y="50%" class="chart-number">
+              80
+            </text>
+            <text dx="50%" y="50%" class="chart-label">
+              %
+            </text>
+          </g>
+        </svg>
+        <!-- <img class="lazyload img-fluid s-75 my-3 pl-md-3" data-src="/images/pricing_chart.svg" alt="Pricing"> -->
       </div>
     </div>
   </div>
@@ -66,12 +88,14 @@ eyebrow: false
   <div class="container" style="z-index: 0 !important;">
     <div class="row">
 
-      <div class="col-md-4 order-md-2">
-        <h2 class="font-weight-bolder display-3">Release wide</h2>
-        <p class="lead">Get on Filmhub's fast growing channel partner network.</p>
+      <div class="col-md-5 vertical-center">
+        <div>
+          <h2 class="font-weight-bolder display-3">Get streamin'</h2>
+          <p class="lead">Release wide on Filmhub's fast growing channel partner network.</p>
+        </div>
       </div>
 
-      <div class="col-md-8 order-md-1">
+      <div class="col-md-7">
         <div class="logos-container">
           <div class="logos-scrolling">
             {% assign channels = site.data.channels | where: "logo", "ok" %}
@@ -97,10 +121,9 @@ eyebrow: false
             <i class="fas fa-ban fa-stack-2x transparent-50"></i>
             <i class="fas fa-dollar-sign fa-stack-1x"></i>
          </span>
-       </p>
+        </p>
         <p><b>No upfront fee.</b> Free listing, asset processing and delivery.</p>
       </div>
-
       <div class="col-md-4 text-center different">
         <p>
           <span class="fa-stack fa-3x text-dark">
@@ -110,7 +133,6 @@ eyebrow: false
        </p>
       <p><b>No gatekeeper.</b> Access for all filmmakers. No "application" - just upload.</p>
       </div>
-
       <div class="col-md-4 text-center different">
         <p>
            <span class="fa-stack fa-3x text-dark">
@@ -118,57 +140,31 @@ eyebrow: false
              <i class="fas fa-link fa-stack-1x"></i>
           </span>
         </p>
-
         <p><b>Keep your rights.</b> Non-exclusive, cancel anytime.</p>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4 text-center different">
-        <p><i class="fas fa-cloud fa-5x text-dark"></i></p>
-        <p><b>Technology.</b> A modern B2B tech marketplace takes the entire film distribution online.</p>
-      </div>
-      <div class="col-md-4 text-center d-none d-lg-block different">
-        <p><i class="fas fa-star fa-5x text-dark"></i></p>
-        <p><b>Discovery.</b> Predictive analytics help what to promote and when.</p>
-      </div>
-      <div class="col-md-4 text-center d-none d-lg-block different">
-        <p><i class="fas fa-globe fa-5x text-dark"></i></p>
-        <p><b>Scale and reach.</b> Cloud handles a global partner network and a massive catalog.</p>
-      </div>
-    </div>
-    <div class="row">
       <div class="col-md-4 text-center different">
         <p><i class="fas fa-chart-bar fa-5x text-dark"></i></p>
         <p><b>Get paid, and fast.</b> Transparent reporting, auditing, consolidated payments.</p>
       </div>
-      <div class="col-md-4 text-center d-none d-lg-block different">
+      <div class="col-md-4 text-center d-none d-md-block different">
+        <p><i class="fas fa-star fa-5x text-dark"></i></p>
+        <p><b>Discovery.</b> Predictive analytics help what to promote and when.</p>
+      </div>
+      <div class="col-md-4 text-center d-none d-md-block different">
+        <p><i class="fas fa-globe fa-5x text-dark"></i></p>
+        <p><b>Scale and reach.</b> Cloud handles a global partner network and a massive catalog.</p>
+      </div>
+      <div class="col-md-4 text-center different">
+        <p><i class="fas fa-cloud fa-5x text-dark"></i></p>
+        <p><b>Technology.</b> A modern B2B tech marketplace takes the entire film distribution online.</p>
+      </div>
+      <div class="col-md-4 text-center d-none d-md-block different">
         <p><i class="fas fa-check-square fa-5x text-dark"></i></p>
         <p><b>Fanatical quality.</b> Rigorous QC, consistent delivery. Tech makes streaming services love us.</p>
       </div>
-      <div class="col-md-4 text-center d-none d-lg-block different">
+      <div class="col-md-4 text-center d-none d-md-block different">
         <p><i class="fas fa-magic fa-5x text-dark"></i></p>
         <p><b>Beyond film.</b> TV, docs, digital first, family&hellip; Any format, genre, language. </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="pricing" class="py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 offset-md-1 vertical-center">
-        <div>
-          <h2 class="font-weight-bolder display-3 pb-2">Creator-first pricing</h2>
-          <p class="lead pb-3">Pay $0. We make money via simple revenue share: 20%. You get 80%. No deductions or recurring fees.</p>
-          <p><a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-block-xs btn-info">Get started</a></p>
-          <p class="lead">
-            <small>More info about our <a href="#enterprise" class="animate text-info">enterprise accounts</a>.</small>
-          </p>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <img class="lazyload img-fluid s-75 my-3 pl-md-3" data-src="/images/pricing_chart.svg" alt="Pricing">
       </div>
     </div>
   </div>

@@ -124,9 +124,13 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f9fa', endColorstr='#e9ecef',GradientType=0 ); /* IE6-9 */
 
     .chart-text {
-      fill: $gray-800;
+      fill: #ce4b99; //$gray-700; //
       font-weight: bold;
       transform: translateY(0.25em);
+    }
+
+    .chart-percent {
+      font-size: 0.5em;
     }
 
     .chart-number {
@@ -136,8 +140,15 @@
       transform: translateY(-0.25em);
     }
 
-    .chart-label {
+    .chart-note {
       font-size: 0.2em;
+      text-transform: uppercase;
+      text-anchor: middle;
+      transform: translateY(0.7em);
+    }
+    .chart-label {
+      fill: $gray-200; // #ce4b99;
+      font-size: 0.1em;
       text-transform: uppercase;
       text-anchor: middle;
       transform: translateY(0.7em);

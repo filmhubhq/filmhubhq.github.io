@@ -62,14 +62,30 @@
       transform: translate(-5%,-50%);
     }
 
-    .poster {
-      // flex-grow: 1;
-      // max-width: 150px;
-      // min-width: 120px;
-      img {
-        // width: 120px;
-        width: 33vw;
-        max-width: 160px;
+    .posters {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      width: 100%;
+      -webkit-overflow-scrolling: touch;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      .poster {
+        flex: 0 0 auto;
+        width: 140px;
+        img {
+          width: 100%;
+        }
+        .topic {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          box-sizing: border-box;
+          height: 60px;
+          padding: 9px 13px;
+        }
       }
     }
 

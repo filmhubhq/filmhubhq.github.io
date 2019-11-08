@@ -2,11 +2,6 @@ title: Filmhub
 description: Film distribution platform for indie filmmakers and video streaming services
 url: https://filmhub.com
 permalink: none
-plugins:
-  - jekyll-sitemap
-  # - jekyll-github-metadata
-  - jekyll-seo-tag
-  - jekyll-autoprefixer
 sass:
   # style: compressed
   # sourcemap: inline
@@ -23,7 +18,13 @@ include:
 kramdown:
   auto_ids: true
   parse_block_html: true
-
+plugins:
+  - jekyll-sitemap
+  # - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-autoprefixer
+autoprefixer:
+  only_production: true
 # jekyll-seo-tag properties
 twitter:
   username: filmhubhq

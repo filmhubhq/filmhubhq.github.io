@@ -1,0 +1,60 @@
+---
+topics:
+  immigrant:
+    name: Immigrant stories
+    description: |
+      “It makes an immigrant laugh to hear the fears of the nationalist,” British novelist Sadie Smith wrote,
+      “Scared of infection, penetration, miscegenation, when this is small fry, peanuts,
+      compared to what the immigrant fears — dissolution, disappearance.”
+      In this selection of remarkable documentaries, we share the untold stories of immigrants.
+    color: a5af29
+  nepalese:
+    name: Nepalese films
+    description: |
+      Despite its short history and imitation of Bollywood in the early days,
+      Nepali cinema has found its own voice in recent years.
+      Kollywood (named after Nepal’s capital and largest city Kathmandu)
+      thrives as young filmmakers break into the mainstream, shaping the new Nepali narrative.
+      Here are a few that represent the best and the most fun.
+    color: 24c7ae
+  Topic 3:
+    description: |
+      Rain euro-pop faded singularity nodal point engine sensory bomb systemic weathered. Sunglasses footage order-flow alcohol courier tattoo dolphin dissident smart-apophenia modem into. Sprawl alcohol human cyber-chrome math-j-pop realism concrete assassin monofilament soul-delay nano.
+    color: a5af29
+  Topic 4:
+    description: |
+      Bridge lights uplink physical vinyl-space dolphin smart-urban pistol face forwards.-space courier drone beef noodles digital dead ablative gang crypto-into A.I. weathered plastic man rifle BASE jump Chiba. Sub-orbital dissident tank-traps semiotics camera corrupted grenade RAF claymore mine apophenia. Tiger-team tank-traps lights dolphin computer tube sprawl camera sentient carbon smart-franchise motion film.
+    color: 9685ce
+    # other colors: 68abff 3ec2dd ac9f92 f25959
+
+titles:
+  - name: Sushree Sampati
+    image: sushree_sampati.jpg
+    topic: immigrant
+  - name: Lessons of basketball and war
+    image: lessons_of_basketball_and_war.jpg
+    topic: nepalese
+  - name: Shatru Gate
+    image: against_the_tide.jpg
+    topic: immigrant
+  - name: Bridge brothers
+    image: bridge_brothers.jpg
+    topic: immigrant
+  - name: Reunification
+    image: sushree_sampati.jpg
+    topic: immigrant
+  - name: Migrant crossing
+    image: migrant_crossing.jpg
+    topic: immigrant
+  - name: Against the tide
+    image: against_the_tide.jpg
+    topic: immigrant
+  - name: Reunification
+    image: reunification.jpg
+    topic: nepalese
+  - name: Lessons of basketball and war
+    image: lessons_of_basketball_and_war.jpg
+    topic: nepalese
+  - name: Lessons of basketball and war
+    image: lessons_of_basketball_and_war.jpg
+    topic: nepalese

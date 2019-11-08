@@ -25,43 +25,24 @@ custom_js:
     <h2 class="font-weight-bolder display-3 n-text-info text-md-center">Amazing cinema</h2>
     <p class="lead text-md-center mb-0">Join thousands of filmmakers with strong, fresh films &amp; shows made for an audience.</p>
   </div>
-  <div class="container-fluid px-0">
-    <div id="topics-carousel" class="carousel slide" data-ride="carousel" data-interval=8000>
-      <div class="carousel-inner">
-        {% for topic in site.data.topics %}
-        <div class="carousel-item {% if forloop.first == true %}active{% endif %} mt-3 pt-2">
-          <div class="topic-container d-flex flex-row justify-content-left">
-            {% for title in topic.titles %}
-              <div class="poster p-2">
-                <img
-                  src="/images/{{ title.image }}"
-                  srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
-                  alt="{{ title.name }}"
-                  title="{{ title.name }}"
-                  class="">
-                <div class="bg-info text-center text-white text-uppercase font-weight-bold small p-2">
-                  {{ topic.name }}
-                </div>
-              </div>
-            {% endfor %}
+
+  <div class="container-fluid px-0 pt-2">
+    <div class="posters">
+    {% for title in site.data.featured.titles %}
+        <div class="poster mr-2">
+          <img
+            src="/images/{{ title.image }}"
+            srcset="/images/{{ title.image | replace_first: '.', '@2x.' }}"
+            alt="{{ title.name }}"
+            title="{{ title.name }}"
+            class="">
+          <div
+             class="topic text-white"
+             style="background-color: #{{ site.data.featured.topics[title.topic].color }}">
+            {{ site.data.featured.topics[title.topic].name }}
           </div>
         </div>
-        {% endfor %}
-      </div>
-      <ol class="carousel-indicators">
-      {% for topic in site.data.topics %}
-        <li data-target="#topics-carousel" data-slide-to="{{ forloop.index }}" class="{% if forloop.first == true %}active{% endif %}"></li>
-      {% endfor %}
-      </ol>
-      <a class="carousel-control-prev" href="#topics-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#topics-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div> {% comment %} *** CAROUSEL *** {% endcomment %}
+    {% endfor %}
   </div>
 </section>
 

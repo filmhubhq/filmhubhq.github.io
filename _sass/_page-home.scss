@@ -123,35 +123,48 @@
     background: linear-gradient(to bottom,  $gray-100 0%, $gray-200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f9fa', endColorstr='#e9ecef',GradientType=0 ); /* IE6-9 */
 
-    .chart-text {
-      fill: #ce4b99; //$gray-700; //
-      font-weight: bold;
-      transform: translateY(0.25em);
-    }
+    svg.donut {
+      .donut-segment {
+        stroke: #00816f; //#a5af29;
+      }
 
-    .chart-percent {
-      font-size: 0.5em;
-    }
+      .donut-ring {
+        stroke: $info;
+      }
 
-    .chart-number {
-      font-size: 0.6em;
-      line-height: 1;
-      text-anchor: middle;
-      transform: translateY(-0.25em);
-    }
+      .chart-text {
+        fill: #00816f; //#a5af29; //#ce4b99; // #$gray-800;
+        font-weight: bold;
+        transform: translateY(0.25em);
+      }
 
-    .chart-note {
-      font-size: 0.2em;
-      text-transform: uppercase;
-      text-anchor: middle;
-      transform: translateY(0.7em);
-    }
-    .chart-label {
-      fill: $gray-200; // #ce4b99;
-      font-size: 0.1em;
-      text-transform: uppercase;
-      text-anchor: middle;
-      transform: translateY(0.7em);
+      .chart-percent {
+        font-size: 0.5em;
+      }
+
+      .chart-number {
+        font-size: 0.6em;
+        line-height: 1;
+        text-anchor: middle;
+        transform: translateY(-0.25em);
+      }
+
+      .chart-note {
+        font-size: 0.2em;
+        text-transform: uppercase;
+        text-anchor: middle;
+        transform: translateY(0.7em);
+      }
+      .chart-label {
+        fill: $gray-200; // #ce4b99;
+        font-size: 0.09em;
+        text-transform: uppercase;
+        text-anchor: middle;
+        transform: translateY(0.7em);
+        &.you {
+          font-size: 0.12em;
+        }
+      }
     }
   }
 

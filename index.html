@@ -40,9 +40,11 @@ eyebrow: false
             width="150"
             height="200"
           >
-            <!-- <div class="topic-header small bg-secondary">Collection</div> -->
+          {% if title.new == true %}
+            <div class="badge badge-success topic-header small text-uppercase">New</div>
+          {% endif %}
             <div
-              class="topic text-uppercase"
+              class="topic text-uppercase small"
               style="background-color: #{{ site.data.featured.topics[title.topic].color }};"
             >
               {{ site.data.featured.topics[title.topic].name }}
@@ -52,7 +54,7 @@ eyebrow: false
   </div>
 </section>
 
-<section id="howitworks" class="pb-5 py-sm-5">
+<section id="howitworks" class="py-5">
   <div class="container">
     <div class="row">
       <div class="col-md-6 offset-md-1 vertical-center order-md-2">
@@ -188,7 +190,7 @@ eyebrow: false
 
 <section id="email" class="email py-5 bg-silver">
   <div class="container text-md-center">
-    <h2 class="font-weight-bolder display-3 n-text-info">Sounds interesting but not sure yet?</h2>
+    <h2 class="font-weight-bolder n-text-info">Sounds interesting but not sure yet?</h2>
     <p class="lead">Follow us and get our occasional newsletter with digital distribution tips and updates on our development.</p>
 
     <form class="form-inline justify-content-md-center" id="sendgrid-signup-form">

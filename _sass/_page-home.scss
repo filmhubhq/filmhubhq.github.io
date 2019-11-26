@@ -71,11 +71,9 @@
           position: absolute;
           top: -9px;
           right: -4px;
-          padding: 2px 6px;
-          color: $white;
-          background-color: $info;
-          opacity: 0.8;
-          @extend .shadow;
+          border-radius: 0;
+          // padding: 2px 6px;
+          // @extend .shadow;
         }
       }
     }

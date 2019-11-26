@@ -62,6 +62,7 @@ titles:
   - name: Migrant crossing
     image_id: 30166
     topic: immigrant
+    new: true
   - name: Heroes Manufactured
     image_id: 20352
     topic: comic
@@ -71,6 +72,7 @@ titles:
   - name: Gaja Baja
     image_id: 48779
     topic: nepalese
+    new: true
   - name: The Whole Gritty City
     image_id: 4534
     topic: blackhistory
@@ -83,6 +85,7 @@ titles:
   - name: "All Day and All Night: Memories from Beale Street Musicians"
     image_id: 4965
     topic: blackhistory
+    new: true
   - name: Against the tide
     image_id: 20132
     topic: immigrant
@@ -95,6 +98,7 @@ titles:
   - name: My English Soccer Adventure
     image_id: 45504
     topic: eleven
+    new: true
   - name: Sushree Sampati
     image_id: 48981
     topic: nepalese
@@ -104,6 +108,7 @@ titles:
   - name: The Orator
     image_id: 4038
     topic: oscars
+    new: true
   - name: Lessons of basketball and war
     image_id: 24438
     topic: immigrant

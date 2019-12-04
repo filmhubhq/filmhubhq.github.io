@@ -14,7 +14,6 @@ function addSendgridRecipient (client, email, type) {
       url: '/v3/contactdb/recipients',
       body: data
     }
-    console.log('addSendgridRecipient request', request)
     client.request(request)
       .then(([response, body]) => resolve(response))
       .catch(err => reject(err))

@@ -21,4 +21,7 @@ $(document).ready(function() {
 
   // Lazyload images
   lazyload();
+
+  // custom file input
+  bsCustomFileInput.init()
 });

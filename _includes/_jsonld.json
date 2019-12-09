@@ -1,5 +1,5 @@
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "jobPosting",
   "datePosted": "{{ page.date | date_to_xmlschema }}",
   "validThrough": "{{ page.date | date: '%s' | plus : 31556926 | date_to_xmlschema }}",
@@ -44,6 +44,8 @@
   },
   "experienceRequirements": "{{ page.jsonld.experienceRequirements }}",
   "industry": "Computer Software",
-  "occupationalCategory": "{{ page.jsonld.occupationalCategory }}",
+{%- if page.jsonld.occupationalCategory %}
+  "occupationalCategory": ["{{ page.jsonld.occupationalCategory | join: '","' }}"],
+{%- endif %}
   "description": "{{ page.content | replace: '"','\"' | normalize_whitespace }}"
 }

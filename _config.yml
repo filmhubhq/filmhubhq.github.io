@@ -1,24 +1,32 @@
 title: Filmhub
-description: Film distribution market network for indie filmmakers and video streaming services
-url: http://filmhub.com
+description: Film distribution platform for indie filmmakers and video streaming services
+url: https://filmhub.com
 permalink: none
-plugins:
-  # - octopress-autoprefixer
-  - jekyll-sitemap
-  - jekyll-github-metadata
-  - jekyll-seo-tag
-kramdown:
-  parse_block_html: true
 sass:
-  style: compressed
-  sourcemap: inline
-  # debug_info: true
-  line_numbers: true
-  line_comments: true
+  # style: compressed
+  # sourcemap: inline
+  # line_numbers: true
+  # line_comments: true
+  load_paths:
+    # - _sass
+    - node_modules
+include:
+  - node_modules/jquery/jquery.js
+  - node_modules/bootstrap/dist/js/bootstrap.bundle.js
+  - node_modules/bootstrap/dist/js/bootstrap.bundle.js.map
+  - node_modules/lazyload/lazyload.js
+  - node_modules/bs-custom-file-input/dist/bs-custom-file-input.min.js
+  - node_modules/bs-custom-file-input/dist/bs-custom-file-input.min.js.map
 kramdown:
   auto_ids: true
   parse_block_html: true
-
+plugins:
+  - jekyll-sitemap
+  # - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-autoprefixer
+autoprefixer:
+  only_production: true
 # jekyll-seo-tag properties
 twitter:
   username: filmhubhq
@@ -30,12 +38,15 @@ logo: /images/icon_v2_600.png
 social:
   name: Filmhub
   links:
+    - https://blog.filmhub.com
     - https://twitter.com/filmhubhq
-    - https://www.facebook.com/filmhubhq
-    - https://www.linkedin.com/company/filmhub/
+    - https://facebook.com/filmhubhq
     - https://www.youtube.com/user/kinonationfilms
+    - https://www.linkedin.com/company/filmhub/
+    - https://instagram.com/filmhubhq
 author:
   twitter: filmhubhq
+phone: +1-424-209-8578
 
 defaults:
   -
@@ -53,3 +64,8 @@ defaults:
       path: help
     values:
       sitemap: false
+
+# Image resize service
+# Assumes image id and minimagick geometry parameter to be appended as URL parameters,
+# like https://d3fu66dsue3x22.cloudfront.net/images/:id/800x450%23
+image_cdn: https://d3fu66dsue3x22.cloudfront.net/images

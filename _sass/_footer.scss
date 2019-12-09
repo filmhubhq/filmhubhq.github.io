@@ -24,7 +24,8 @@ footer {
       margin-top: 24px;
     }
   }
-  .footer-legal {
+  section.footer-legal {
+    @extend .py-3;
     background-color: #222;
   }
 }

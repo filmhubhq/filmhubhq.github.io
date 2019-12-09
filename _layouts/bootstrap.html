@@ -4,17 +4,12 @@
 {% comment %} *** BODY *** {% endcomment %}
 <body class="{% if page.hero %} {% endif %}page-{{ page.id }}">
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWBCVSP"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
 {% comment %} *** EYEBROW *** {% endcomment %}
 {% if page.eyebrow %}
   <div class="navbar navbar-dark bg-dark py-0 eyebrow">
     <div class="navbar-nav flex-row">
-      <a class="nav-item nav-link pl-0" href="tel:+1-424-209-8578" title="Call Us Today: +1-424-209-8578">
-        <i class="fas fa-phone"></i> +1 (424) 209&nbsp;8578
+      <a class="nav-item nav-link pl-0" href="tel:{{ site.phone }}" title="Call Us Today: {{ site.phone }}">
+        <i class="fas fa-phone"></i> {{ site.phone }}
       </a>
     </div>
     <div class="navbar-nav flex-row d-none d-sm-flex">
@@ -29,7 +24,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 {% comment %} *** HERO *** {% endcomment %}
 {% if page.hero %}
-  <div class="jumbotron jumbotron-fluid text-light pt-0 mb-0 d-flex flex-wrap {{ page.hero_class }}">
+  <div class="jumbotron jumbotron-fluid text-light pt-0 px-3 mb-0 d-flex flex-wrap {{ page.hero_class }}">
     {% include _navbar_{{ page.lang | default: 'en' }}.html %}
 
     <div class="container pt-4 hero">
@@ -37,7 +32,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 {% else %}
-  <div class="px-3">
+  <div class="container">
     {% include _navbar_{{ page.lang | default: 'en' }}.html theme="light" %}
   </div>
 {% endif %}
@@ -45,6 +40,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 {% comment %} *** CONTENT *** {% endcomment %}
   <div class="content body">
     {% if page.container %}<div class="container py-5">{% endif %}
+
+    {% if page.breadcrumb %}
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          {% for leaf in page.breadcrumb %}
+            <li class="breadcrumb-item{% if forloop.last == true %} active{% endif %}"{% if forloop.last == true %} aria-current="page"{% endif %}>
+              {% if leaf.href %}<a href="{{ leaf.href }}">{% endif %}
+                {{ leaf.name }}
+              {% if leaf.href %}</a>{% endif %}
+            </li>
+          {% endfor %}
+        </ol>
+      </nav>
+    {% endif %}
+
     {% if page.offset %}<div class="row"><div class="col-md-{{ page.offset | times: -2 | plus: 12 }} offset-md-{{ page.offset }}">{% endif %}
 
     <div class="content">

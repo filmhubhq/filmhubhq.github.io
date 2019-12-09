@@ -4,4 +4,4 @@ Disallow: /modals
 Disallow: /help
 Disallow: /thank-you.html
 Disallow: /track.html
-Sitemap: http://filmhub.com/sitemap.xml
+Sitemap: https://filmhub.com/sitemap.xml

@@ -2,31 +2,259 @@
 layout: bootstrap
 title: Indie film digital distribution platform
 id: home
-eyebrow: true
-hero_class: min-vh-100
-hero: |
-  <div class="vertical-center"><div class="text-center">
-
-  # Less than <span class="text-warning">1%</span> get distribution
-  {: .display-3 .text-center}
-
-  ![Less than 1% get distribution](/images/less_than_1_percent.svg){: .img-fluid .my-3 .w-75 }
-
-  ## Change the story.
-  {: .display-4 .text-warning }
-
-  Stream your film and show [everywhere](#channels){: .linkhint .animate }.
-  Own [everything](#different){: .linkhint .animate }. Pay nothing.
-  {: .lead }
-
-  [Get started](https://app.filmhub.com/owner/signup){: .btn.btn-lg .btn-warning .mt-sm-4 .mr-4 }
-  [Learn more ↓](#metrics){: .btn .btn-lg .btn-outline-warning .mt-sm-4 .animate }
-  {: my-5 }
-
-  </div></div>
-custom_js:
-  - sendgrid-signup
+eyebrow: false
 ---
+<section id="summary" class="py-3 pt-md-5">
+  <div class="container text-md-center">
+    <h1 class="font-weight-bolder display-1">Film distribution 2.0</h1>
+    <p class="lead pb-4">
+      Filmmakers: pay $0. Keep your rights. Transparent reporting.
+    </p>
+    <div>
+      <p class="mb-1">
+        <a href="https://app.filmhub.com/owner/signup" class="btn btn-block-xs btn-lg btn-info ">Get started</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="featured" class="pt-5">
+  <div class="container">
+    <h2 class="font-weight-bolder display-3 text-md-center">Amazing cinema</h2>
+    <p class="lead text-md-center mb-0">Join thousands of filmmakers with strong, fresh films &amp; shows made for an audience.</p>
+  </div>
+
+  <div class="container-fluid px-0 pt-2">
+    <div class="posters pt-4">
+    {% for title in site.data.featured.titles %}
+        <div class="poster mr-2">
+          <img
+            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+            data-src="{{ site.image_cdn }}/{{ title.image_id }}/50x66%23"
+            data-srcset="
+              {{ site.image_cdn }}/{{ title.image_id }}/150x200%23 1x,
+              {{ site.image_cdn }}/{{ title.image_id }}/300x400%23 2x"
+            class="lazyload"
+            alt="{{ title.name }}"
+            title="{{ title.name }}"
+            width="150"
+            height="200"
+          >
+          {% if title.new == true %}
+            <div class="badge badge-success topic-header small text-uppercase">New</div>
+          {% endif %}
+            <div
+              class="topic text-uppercase small"
+              style="background-color: #{{ site.data.featured.topics[title.topic].color }};"
+            >
+              {{ site.data.featured.topics[title.topic].name }}
+          </div>
+        </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="howitworks" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-1 vertical-center order-md-2">
+        <div>
+          <h2 class="font-weight-bolder display-3 pb-2">How it works</h2>
+          <p class="lead">
+            Filmhub allows filmmakers to upload your film for free, while streaming channels discover, order, and stream your work - worldwide.
+          </p>
+          <p class="lead">Once revenue starts flowing, 80% goes to you. No deductions or fees. That's it. </p>
+          <p class="d-none d-md-block"><a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-info">Get started</a></p>
+        </div>
+      </div>
+      <div class="col-md-4 offset-md-1 vertical-center order-md-1">
+        <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+          <circle
+            class="donut-ring"
+            cx="21"
+            cy="21"
+            r="15.91549430918954"
+            fill="transparent"
+            stroke-width="8">
+          </circle>
+          <circle
+            class="donut-segment"
+            cx="21"
+            cy="21"
+            r="15.91549430918954"
+            fill="transparent"
+            stroke-width="8"
+            stroke-dasharray="80 20"
+            stroke-dashoffset="0">
+          </circle>
+          <g transform="translate(110,110)">
+            <path d="M2862 161l-18-18c14-9 18-23 20-36 3-23 0-45-11-65-7-13-15-23-27-30s-25-12-39-12h-167v307h175c8 0 16-5 25-3 15-7 32-13 44-27 12-15 19-32 22-50 3-25-5-48-24-66zM2681 61h92a30 30 0 0122 10 30 30 0 010 41c-5 6-13 10-22 10h-92V61zm135 183a23 23 0 01-2 2 23 23 0 01-2 2 30 30 0 01-4 2 31 31 0 01-4 2 15 15 0 01-1 1h-2c-3 2-7 2-11 2h-109v-69h109a35 35 0 0126 58zm-340-39c0 9-3 16-6 24-8 14-12 22-19 30a131 131 0 01-73 44c-11 2-23 4-36 4h-1a127 127 0 01-4 0c-65-3-117-44-127-97v-2-2l-1-4v-3V0h64v183c0 26 20 48 47 56a81 81 0 0047 0c17-5 30-15 39-28a53 53 0 008-31V0h62v205zm-472-85V0h60v307h-60V179h-144v128h-61V0h61v120h144zm-414 13l-17 21-73 83-90-104v174h-61V1h21l128 153L1630 0h21v307h-61V133zm-383 119v55H987V0h58v252h162zM837 0v307h-59V0h59zM493 59v64h117v59H493v125h-58V0h215v59H493zM234 242c-3-3-3-8 0-11a7 7 0 0110 0c3 3 3 8 0 11a7 7 0 01-10 0zM44 149a7 7 0 100 14 7 7 0 000-14zm28 82c-3 3-3 8 0 10a7 7 0 0010 0c3-2 3-7 0-10a7 7 0 00-10 0zM244 80c3-3 3-8 0-11-3-2-8-2-10 0a7 7 0 000 11c2 2 7 2 10 0zM73 69c-3 3-3 8 0 11 2 2 7 2 10 0 3-3 3-8 0-11-3-2-8-2-10 0zm241-7v187c0 34-28 62-62 62H62c-34 0-62-28-62-62V62C0 28 28 0 62 0h190c34 0 62 28 62 62zm-25 94a17 17 0 00-33-4h-39c-1-13-7-26-15-35l28-28a17 17 0 10-5-5l-28 28c-10-9-22-14-35-15V58a17 17 0 10-7 0v39c-13 1-26 6-35 15L92 84a17 17 0 10-5 4l28 28c-9 10-14 23-15 36H60a17 17 0 00-33 4 17 17 0 0033 3h40a58 58 0 0014 35l-28 28a17 17 0 105 5l28-28c10 9 22 14 36 15v40a17 17 0 107 0v-40c13-1 25-6 35-14l28 28a17 17 0 105-5l-28-28c8-10 14-22 15-36h39a17 17 0 0033-3zM165 41a7 7 0 10-14 0 7 7 0 0014 0zm108 107a7 7 0 100 15 7 7 0 000-15zm-115-41a48 48 0 100 97 48 48 0 000-97zm-7 163a7 7 0 1014 0 7 7 0 00-14 0z"/>
+          </g>
+          <g class="chart-text">
+            <text x="51%" y="51%" class="chart-number">80<tspan class="chart-percent">%</tspan></text>
+            <text x="50%" y="50%" class="chart-note">YOU</text>
+            <text x="83%" y="20%" class="chart-label filmhub">Filmhub</text>
+            <text x="50%" y="76%" class="chart-label you">Filmmaker</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="channels" class="channels pt-5 pb-0 py-sm-0">
+  <div class="container" style="z-index: 0 !important;">
+    <div class="row">
+
+      <div class="col-md-5 vertical-center">
+        <div>
+          <h2 class="font-weight-bolder display-3">Dozens of channels</h2>
+          <p class="lead">Release wide on Filmhub's fast growing channel partner network.</p>
+        </div>
+      </div>
+
+      <div class="col-md-7">
+        <div class="logos-container">
+          <div class="logos-scrolling">
+            {% assign channels = site.data.channels | where: "logo", "ok" %}
+            {% for channel in channels %}
+              <div class="col-4 col-md-3 col-xl-2 my-md-1 text-center">
+                <div class="logo">
+                  {% include svg/{{ channel.name | slugify }}.svg %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section id="different" class="py-5 different bg-gradient-info text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-center different">
+        <p>
+          <span class="fa-stack fa-3x text-dark">
+            <i class="fas fa-ban fa-stack-2x transparent-50"></i>
+            <i class="fas fa-dollar-sign fa-stack-1x"></i>
+         </span>
+        </p>
+        <p><b>No upfront fee.</b> Free listing, asset processing and delivery.</p>
+      </div>
+      <div class="col-md-4 text-center different">
+        <p>
+          <span class="fa-stack fa-3x text-dark">
+            <i class="fas fa-ban fa-stack-2x transparent-50"></i>
+            <i class="fas fa-hand-paper fa-stack-1x"></i>
+         </span>
+       </p>
+      <p><b>No gatekeeper.</b> Access for all filmmakers. No "application" - just upload.</p>
+      </div>
+      <div class="col-md-4 text-center different">
+        <p>
+           <span class="fa-stack fa-3x text-dark">
+             <i class="fas fa-ban fa-stack-2x transparent-50"></i>
+             <i class="fas fa-link fa-stack-1x"></i>
+          </span>
+        </p>
+        <p><b>Keep your rights.</b> Non-exclusive, cancel anytime.</p>
+      </div>
+      <div class="col-md-4 text-center different">
+        <p><i class="fas fa-chart-bar fa-5x text-dark"></i></p>
+        <p><b>Get paid, and fast.</b> Transparent reporting, auditing, consolidated payments.</p>
+      </div>
+      <div class="col-md-4 text-center d-none d-md-block different">
+        <p><i class="fas fa-star fa-5x text-dark"></i></p>
+        <p><b>Discovery.</b> Predictive analytics help what to promote and when.</p>
+      </div>
+      <div class="col-md-4 text-center d-none d-md-block different">
+        <p><i class="fas fa-globe fa-5x text-dark"></i></p>
+        <p><b>Scale and reach.</b> Cloud handles a global partner network and a massive catalog.</p>
+      </div>
+      <div class="col-md-4 text-center different">
+        <p><i class="fas fa-cloud fa-5x text-dark"></i></p>
+        <p><b>Technology.</b> A modern B2B tech marketplace takes the entire film distribution online.</p>
+      </div>
+      <div class="col-md-4 text-center d-none d-md-block different">
+        <p><i class="fas fa-check-square fa-5x text-dark"></i></p>
+        <p><b>Fanatical quality.</b> Rigorous QC, consistent delivery. Tech makes streaming services love us.</p>
+      </div>
+      <div class="col-md-4 text-center d-none d-md-block different">
+        <p><i class="fas fa-magic fa-5x text-dark"></i></p>
+        <p><b>Beyond film.</b> TV, docs, digital first, family&hellip; Any format, genre, language. </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="email" class="email py-5 bg-silver">
+  <div class="container text-md-center">
+    <h2 class="font-weight-bolder n-text-info">Sounds interesting but not sure yet?</h2>
+    <p class="lead">Follow us and get our occasional newsletter with digital distribution tips and updates on our development.</p>
+
+    <form class="form-inline justify-content-md-center" id="sendgrid-signup-form">
+      <div class="mb-0 d-block d-md-inline pr-sm-2 mt-2">I'm a:</div>
+      <div class="form-check form-check-inline mt-2">
+        <input class="form-check-input" type="radio" name="type" id="type-filmmaker" value="filmmaker" required>
+        <label class="form-check-label" for="type-filmmaker">filmmaker/producer</label>
+      </div>
+      <div class="form-check form-check-inline mt-2">
+        <input class="form-check-input" type="radio" name="type" id="type-catalog" value="catalog" required>
+        <label class="form-check-label" for="type-catalog">catalog owner</label>
+      </div>
+      <div class="form-check form-check-inline mt-2">
+        <input class="form-check-input" type="radio" name="type" id="type-buyer" value="buyer" required>
+        <label class="form-check-label" for="type-buyer">buyer/programmer</label>
+      </div>
+      <label class="sr-only" for="sendgrid-signup-email">Email</label>
+      <input class="form-control email required mt-4 mt-sm-2 mr-sm-2" type="email" size=30 value="" name="email" id="sendgrid-signup-email" placeholder="Email" required>
+      <button id="sendgrid-signup-submit" type="submit" class="btn btn-block-xs btn-info mt-2">Subscribe</button>
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="honeypot" tabindex="-1" value=""></div>
+    </form>
+  </div>
+</section>
+
+
+<section id="enterprise" class="enterprise py-5 bg-gradient-secondary text-light">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-8 order-md-2">
+        <h2 class="font-weight-bolder display-3">Filmhub Enterprise</h2>
+        <p class="lead pb-3">Sales agents, distributors, indie studios: use our cloud service to release your content in streaming services worldwide.</p>
+        <p>
+          Monetize dormant assets. Fill your distribution gaps. Carve out territories already sold. Deliver to your own channels and ours.
+        </p>
+        <p>
+          Our cloud technology does all the complicated technical work.
+          Consolidated tracking, collection, accounting, short lead times all included. We are scalable to infinite catalog sizes.
+        </p>
+        <p>
+          Choose from no conversion cost, or a low one-time fee.
+        </p>
+        <p class="pt-4">
+          <a href="https://intercom.help/filmhub" class="btn btn-info btn-block-xs contact-us mr-3">Contact sales</a></li>
+        </p>
+      </div>
+
+      <div class="col-md-4 px-sm-5 px-md-1 px-lg-5 order-md-1">
+        <div class="card text-dark bg-light shadow my-3">
+          <div class="card-body">
+            <p class="card-text">Carve out territories with fine-grained control</p>
+          </div>
+          <img data-src="/images/screen-territories.png" class="card-img-top lazyload" alt="Carve out territories and streaming services">
+        </div>
+        <div class="card text-dark bg-light shadow my-3">
+          <div class="card-body">
+            <p class="card-text">Set release dates for different business models</p>
+          </div>
+          <img data-src="/images/screen-releases.png" class="card-img-top lazyload" alt="Set release dates for different business models">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -56,253 +284,3 @@ custom_js:
   ]
 }
 </script>
-<section id="metrics" class="metrics bg-silver">
-  <div class="container">
-    <h1 class="text-center">Taking the entire film distribution process online</h1>
-    <p class="lead text-center pb-4">
-      Our data-driven platform helps independent films get worldwide streaming release. We take no rights, charge no fees, provide transparent analytics and much better rates than the traditional industry.
-    </p>
-    <div class="row">
-      <div class="col text-center">
-        <h1><i class="fas fa-hand-holding-usd"></i></h1>
-        <h1>$3M<small>+</small></h1>
-        <p>generated for filmmakers and producers</p>
-      </div>
-
-      <div class="col text-center">
-        <h1><i class="fas fa-tv"></i></h1>
-        <h1>70<small>+</small></h1>
-        <p>streaming channel partners</p>
-      </div>
-
-      <div class="col text-center">
-        <h1><i class="fas fa-globe"></i></h1>
-        <h1>100<small>+</small></h1>
-        <p>countries worldwide</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="channels" class="channels py-0 bg-gradient-primary text-white">
-  <div class="container" style="z-index: 0 !important;">
-    <div class="row">
-      <div class="col-md-4 pt-5">
-        <h1>Go where audiences are</h1>
-        <hr>
-        <p>Release worldwide on many streaming platforms. Reach engaged buyers. Get new audiences. Reduce dependency risks on few majors.</p>
-        <!-- <a class="btn btn-outline-warning" href="/channels" role="button">Learn more</a> -->
-      </div>
-
-      <div class="col-md-8">
-        <div class="logos-container">
-          <div class="logos-scrolling">
-            {% assign channels = site.data.channels | where: "logo", "ok" %}
-            {% for channel in channels reversed %}
-              <div class="logo">
-                {% include svg/{{ channel.name | slugify }}.svg %}
-              </div>
-            {% endfor %}
-          </div>
-        </divs>
-      </div>
-    </div>
-</section>
-
-<section id="segments" class="segments bg-light text-dark">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h2>For filmmakers</h2>
-        <p class="lead">The first marketplace for all filmmakers and streaming services worldwide</p>
-        <p>
-          No application needed - all creators and producers now have access to the worldwide distribution market. Streaming service buyers from all over the world discover your great content on the largest online platform for film, TV &amp; other professional content. Securely store all your assets in the cloud. Promote and create digital revenue around the world.
-        </p>
-      </div>
-      <div class="col-md-4">
-        <h2>For catalog owners</h2>
-        <p class="lead">Pay $0 to manage &amp; distribute your titles in the cloud - whether 10 or 10000</p>
-        <p>
-          Distributors, sales agents, production companies and other catalog owners can now upload the whole catalog and distribute to our long list of digital partners - and to their own. Manage assets, rights and metadata. Fill all territory gaps. Focus solely on promoting your clients’ titles, building relationships with content owners &amp; video services, without upfront investment and technical concerns.</p>
-      </div>
-      <div class="col-md-4">
-        <h2>For streaming channels</h2>
-        <p class="lead">
-          Smart discovery and instant delivery from the largest distribution platform
-        </p>
-        <p>
-          The first market network of global film, TV &amp; vertical content to refresh any catalog. Smart, data driven tools and predictive analytics help you select. Immediate and consistent delivery from the cloud.
-        </p>
-        <p>
-          Our proven track record with majors like Amazon and Hulu gives you confidence that Filmhub’s hassle-free process can be seamlessly integrated with your channels. We radically simplify dealing with your content providers.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="different" class="different bg-gradient-info text-white">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 text-center different">
-        <p>
-          <span class="fa-stack fa-3x text-dark">
-            <i class="fas fa-ban fa-stack-2x transparent-50"></i>
-            <i class="fas fa-dollar-sign fa-stack-1x"></i>
-         </span>
-       </p>
-        <p><b>No upfront fee.</b> Free listing, asset processing and delivery.</p>
-      </div>
-
-      <div class="col-md-4 text-center different">
-        <p>
-          <span class="fa-stack fa-3x text-dark">
-            <i class="fas fa-ban fa-stack-2x transparent-50"></i>
-            <i class="fas fa-hand-paper fa-stack-1x"></i>
-         </span>
-       </p>
-      <p><b>No gatekeeper.</b> Access for all filmmakers. No "approval" - just upload.</p>
-      </div>
-
-      <div class="col-md-4 text-center different">
-        <p>
-           <span class="fa-stack fa-3x text-dark">
-             <i class="fas fa-ban fa-stack-2x transparent-50"></i>
-             <i class="fas fa-link fa-stack-1x"></i>
-          </span>
-        </p>
-
-        <p><b>Keep your rights.</b> Non-exclusive, cancel anytime.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4 text-center different">
-        <p><i class="fas fa-cloud fa-5x text-dark"></i></p>
-        <p><b>Technology.</b> A modern B2B tech marketplace takes the entire film distribution online.</p>
-      </div>
-      <div class="col-md-4 text-center different">
-        <p><i class="fas fa-star fa-5x text-dark"></i></p>
-        <p><b>Discovery.</b> Predictive analytics help what to promote and when.</p>
-      </div>
-      <div class="col-md-4 text-center different">
-        <p><i class="fas fa-globe fa-5x text-dark"></i></p>
-        <p><b>Scale and reach.</b> Cloud handles a global partner network and a massive catalog.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 text-center different">
-        <p><i class="fas fa-chart-bar fa-5x text-dark"></i></p>
-        <p><b>Get paid, and fast.</b> Transparent reporting, auditing, consolidated payments.</p>
-      </div>
-      <div class="col-md-4 text-center different">
-        <p><i class="fas fa-check-square fa-5x text-dark"></i></p>
-        <p><b>Fanatical quality.</b> Rigorous QC, consistent delivery. Tech makes streaming services love us.</p>
-      </div>
-      <div class="col-md-4 text-center different">
-        <p><i class="fas fa-magic fa-5x text-dark"></i></p>
-        <p><b>Beyond film.</b> TV, docs, digital first, family&hellip; Any format, genre, language. </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="pricing" class="pricing text-dark">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 offset-1 vertical-center">
-        <div>
-
-        <h1 class="display-4 pb-2">Creator-first pricing</h1>
-        <p class="lead pb-3">Pay $0. We make money via simple revenue share: 20%. No deductions or recurring fees.</p>
-        <p>
-          <a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-outline-primary">Get started</a>
-        </p>
-        <p class="lead">
-          <small>More info about our <a href="#enterprise" class="animate">enterprise accounts</a>.</small>
-        </p>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <img class="lazyload img-fluid s-75 my-3 pl-3" data-src="/images/pricing_chart.svg" alt="Pricing">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="email" class="email bg-gradient-filmhub-reverse text-light">
-  <div class="container text-center">
-    <h3>Sounds interesting but not sure yet?</h3>
-    <p class="lead">Follow us and get our occasional newsletter with digital distribution tips and updates on our development.</p>
-
-    <form class="form-inline justify-content-center" id="sendgrid-signup-form">
-        <div class="form-check form-check-inline">
-          <label class="form-check-label mr-2" for="type-filmmaker">I'm a&nbsp;</label>
-          <input class="form-check-input" type="radio" name="type" id="type-filmmaker" value="filmmaker" required>
-          <label class="form-check-label" for="type-filmmaker">filmmaker/producer</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="type" id="type-catalog" value="catalog" required>
-          <label class="form-check-label" for="type-catalog">catalog owner</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="type" id="type-buyer" value="buyer" required>
-          <label class="form-check-label" for="type-buyer">buyer/programmer</label>
-        </div>
-        <input class="form-control email required mr-sm-2" type="email" size=30 value="" name="email" id="sendgrid-signup-email" placeholder="Email" required>
-        <button id="sendgrid-signup-submit" type="submit" class="btn btn-outline-warning">Subscribe</button>
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="honeypot" tabindex="-1" value=""></div>
-    </form>
-  </div>
-
-<!--       <ul class="list-inline" id="subscribe-form-social">
-        <li class="list-inline-item"><a href="https://twitter.com/filmhubhq"><i class="fas fa-lg fa-twitter"></i></a></li>
-        <li class="list-inline-item"><a href="https://facebook.com/filmhubhq"><i class="fas fa-lg fa-facebook"></i></a></li>
-        <li class="list-inline-item"><a href="https://linkedin.com/company/filmhub"><i class="fas fa-lg fa-linkedin"></i></a></li>
-        <li class="list-inline-item"><a href="https://www.youtube.com/user/kinonationfilms"><i class="fas fa-lg fa-youtube"></i></a></li>
-      </ul>
- -->
-</section>
-
-
-<section id="enterprise" class="enterprise bg-gradient-dark text-light">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-md-8 pl-md-4 order-1 order-md-2">
-        <div>
-          <h1 class="display-4">Filmhub Enterprise</h1>
-          <p class="lead pb-3">Sales agents, distributors, indie studios: use our cloud service to release your content in streaming services worldwide.</p>
-          <p>
-            Monetize all dormant assets. Fill your distribution gaps. Carve out territories already sold. Deliver to your own channels and ours.
-          </p>
-          <p>
-            Our cloud technology does all the complicated technical work.
-            Consolidated tracking, collection, accounting, short lead times all included. We are scalable to infinite catalog sizes.
-          </p>
-          <p>
-            Choose from no conversion cost, or a low one-time fee.
-          </p>
-          <p class="pt-4">
-            <a href="https://intercom.help/filmhub" class="btn btn-outline-warning contact-us mr-3">Contact sales</a> or <a href="tel:{{ site.phone }}" title="Call us: {{ site.phone }}" class="linkhint">call us</a></li>
-          </p>
-        </div>
-      </div>
-
-      <div class="col-md-4 vertical-center order-2 order-md-1">
-        <div class="">
-          <figure class="figure text-center pt-5 pt-md-0">
-            <img data-src="/images/screen-territories.png" class="lazyload figure-img img-fluid rounded shadow-lg w-75" alt="Carve out territories and streaming services">
-            <figcaption class="figure-caption text-white-50">Carve out territories with fine grained control.</figcaption>
-          </figure>
-          <figure class="figure text-center d-none d-md-block pt-4">
-            <img data-src="/images/screen-releases.png" class="lazyload figure-img img-fluid rounded shadow-lg w-75" alt="Set release dates for different business models">
-            <figcaption class="figure-caption text-white-50">Set release dates for different business models.</figcaption>
-          </figure>
-        </div>
-      </div>
-
-
-    </div>
-  </div>
-</section>

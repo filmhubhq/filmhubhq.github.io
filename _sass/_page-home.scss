@@ -1,20 +1,4 @@
 .page-home {
-  .jumbotron {
-    .lead: {
-      font-size: 1.75rem;
-    }
-    &.min-vh-100 .navbar {
-      height: 56px;
-    }
-  }
-
-  .content section {
-    @extend .py-5;
-    &.channels {
-      @extend .py-0;
-    }
-  }
-
   .nav-stacked {
     li.nav-article>a {
       font-size: 14px;
@@ -48,29 +32,51 @@
   }
 
   .metrics h1 i {
-    color: #7a51e9;
+    // color: #7a51e9;
+    // color: $color-primary;
   }
 
-  section {
-    &.channels {
-      // background: #9327f5;
-      // background: -webkit-linear-gradient(top left, #9327f5 0%, #00d4c3 100%);
-      // background: -o-linear-gradient(top left, #9327f5 0%, #00d4c3 100%);
-      // background: linear-gradient(to bottom right, #9327f5 0%, #00d4c3 100%);
-      // // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='$purple', endColorstr='$teal', GradientType=1 );
-      // color: #fff;
-      @extend .py-0;
-    }
-  }
-
-  /* Featurettes
+  /* Topics
   ------------------------- */
-
-  /* Thin out the marketing headings */
-  .featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.05rem;
+  #featured {
+    .posters {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      &::-webkit-scrollbar { // Safari, Chrome
+        display: none;
+      }
+      scrollbar-width: none; // Firefox
+      width: 100%;
+      .poster {
+        flex: 0 0 auto;
+        width: 150px;
+        img {
+          width: 100%;
+        }
+        color: $gray-100;
+        position: relative;
+        .topic {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          box-sizing: border-box;
+          height: 70px;
+          padding: 9px;
+          line-height: 1.2;
+        }
+        .topic-header {
+          position: absolute;
+          top: -9px;
+          right: -4px;
+          border-radius: 0;
+          // padding: 2px 6px;
+          // @extend .shadow;
+        }
+      }
+    }
   }
 
   /* Channel logos
@@ -80,7 +86,6 @@
     height: 440px;
     overflow: hidden;
     .logos-scrolling {
-      // position: relative;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -88,18 +93,13 @@
       align-items: center;
       transform: translate3d(0, -80%, 0);
       animation: vertical-scroll 30s linear infinite;
-      -moz-transform: translate3d(0, -100%, 0);
-      -webkit-transform-style: translate3d(0, -100%, 0);
-      -moz-animation: vertical-scroll 12s linear infinite;
-      -webkit-animation-trigger: vertical-scroll 12s linear infinite;
+      animation-direction: reverse;
       .logo {
-        margin: 0 20px 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         svg {
-          // filter: grayscale(100%);
-          filter: brightness(0%);
-          // filter: gray;
-          width: 80px;
           height: 80px;
+          max-width: 100%;
         }
       }
     }
@@ -108,36 +108,70 @@
   @keyframes vertical-scroll {
     100% {
       transform: translateY(0%);
-      -moz-transform: translateY(0%);
-      -webkit-transform: translateY(0%)
     }
   }
 
-  // MailChimp form style overrides
-  // @import url('//cdn-images.mailchimp.com/embedcode/classic-10_7.css');
-  #mc-embedded-subscribe-form {
-    margin-bottom: 20px;
-  }
-  #mc_embed_signup {
-    input.mce_inline_error {
-      border-color: $danger;
+
+  /* How it works
+  ------------------------- */
+
+  #howitworks {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f8f9fa+0,e9ecef+100 */
+    background: $light; /* Old browsers */
+    background: linear-gradient(to bottom,  $gray-100 0%, $gray-200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f9fa', endColorstr='#e9ecef',GradientType=0 ); /* IE6-9 */
+
+    svg.donut {
+      .donut-segment {
+        stroke: #00816f; //#a5af29;
+      }
+
+      .donut-ring {
+        stroke: $info;
+      }
+
+      .chart-text {
+        fill: #00816f; //#a5af29; //#ce4b99; // #$gray-800;
+        font-weight: bold;
+        transform: translateY(0.25em);
+      }
+
+      .chart-percent {
+        font-size: 0.5em;
+      }
+
+      .chart-number {
+        font-size: 0.6em;
+        line-height: 1;
+        text-anchor: middle;
+        transform: translateY(-0.25em);
+      }
+
+      .chart-note {
+        font-size: 0.2em;
+        text-transform: uppercase;
+        text-anchor: middle;
+        transform: translateY(0.7em);
+      }
+      .chart-label {
+        fill: $gray-200; // #ce4b99;
+        font-size: 0.09em;
+        text-transform: uppercase;
+        text-anchor: middle;
+        transform: translateY(0.7em);
+        &.you {
+          font-size: 0.12em;
+        }
+      }
     }
-    div.mce_inline_error {
-      @extend .badge;
-      @extend .badge-danger;
-      margin-left: 1em;
-    }
-    background: transparent;
   }
 
   /* RESPONSIVE CSS
   -------------------------------------------------- */
 
   @include media-breakpoint-up(md) {
-    .featurette-heading {
-      font-size: 50px;
-      margin-top: 7rem;
-    }
+  }
+  @include media-breakpoint-up(xl) {
   }
 }
 

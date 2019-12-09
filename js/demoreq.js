@@ -1,4 +1,3 @@
-// send contact form to Slack
 function reqDemo() {
   $('#inputSubmit').html("<i class='fas fa-spinner fa-spin'>").attr('disabled',true);
   var url = "aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDA1NVVUMzNHL0IwTjdZRVRRVy9PNkx3NU5HbXRpaEtyd3d6Q0hvMGN5YXY=";

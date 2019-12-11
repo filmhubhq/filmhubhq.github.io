@@ -12,6 +12,7 @@
     "jquery": "3.4.0",
     "lazyload": "^2.0.0-rc.2",
     "mixitup": "^3.3.1",
+    "popper.js": "^1.16.0",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {

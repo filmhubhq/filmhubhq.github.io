@@ -60,7 +60,7 @@ hero: |
             {% assign channels = site.data.channels | where: "logo", "ok" %}
             {% for channel in channels reversed %}
               <div class="logo">
-                  <img src="/images/svg/{{ channel.name | slugify }}.svg">
+                <img src="/images/svg/{{ channel.name | slugify }}.svg" alt="{{ channel.name }}" title="{{ channel.name }}">
               </div>
             {% endfor %}
           </div>

@@ -2,18 +2,19 @@ name,status,activated_at,hq,formats,profiles,logo
 All Guitar Network,Active,2017-08-15,North America,"AVOD,SVOD",Cultural,ok
 All Warrior Network,Active,2017-11-01,North America,"AVOD,SVOD",,ok
 Amazon Media On Demand,Active,2013-06-01,North America,DVD,"Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",ok
-Amazon Prime Video DE,Active,2016-05-01,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",hide
-Amazon Prime Video Japan,Active,2016-05-01,Asia,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",hide
+Amazon Prime Video DE,Active,2016-05-01,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",ok
+Amazon Prime Video Japan,Active,2016-05-01,Asia,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",ok
 Amazon RoW English,Active,2017-04-01,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",missing
-Amazon Prime Video French,Active,2018-04-18,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",hide
+Amazon Prime Video French,Active,2018-04-18,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",ok
 Amazon RoW Italian,Active,2018-04-18,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",missing
-Amazon Prime Video Latin America,Active,2018-04-18,South America,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",hide
+Amazon Prime Video Latin America,Active,2018-04-18,South America,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",ok
 Amazon RoW Portuguese,Active,2018-04-18,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",missing
-Amazon Prime Video Spain,Active,2018-04-18,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",missing
+Amazon Prime Video ES,Active,2018-04-18,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",ok
 Amazon UK,Active,2016-05-01,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",missing
 Amazon Prime Video US,Active,2013-05-01,North America,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",ok
 American Classics,Active,2018-02-21,Europe,AVOD,,missing
 Apocalypse,Active,2018-02-22,North America,"AVOD,SVOD",Horror,missing
+Avail TV,Active,2019-12-20,North America,"AVOD",Horror,ok
 Bidslate,Active,2018-04-02,North America,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",missing
 BingeHorror,Active,2018-11-09,North America,AVOD,Horror,ok
 Blume,Active,2019-09-02,North America,"SVOD,TVOD","Sports,Music,Comedy,Docs",ok

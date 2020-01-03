@@ -1,5 +1,6 @@
 name,status,activated_at,hq,formats,profiles,logo
 Vyre,Active,2020-01-02,North America,AVOD,"Shorts, Cultural, Docs",vyre.png
+Cine-Books,Active,2020-01-03,Europe ,SVOD,"Horror, Cultural, Docs",cine-books.png
 BingeHorror,Active,2018-11-09,North America,AVOD,Horror,bingehorror.svg
 CozyFlix,Active,2016-01-01,North America,SVOD,Wholesome,cozyflix.svg
 SnagFilms,Active,2013-08-22,North America,AVOD,,snagfilms.svg

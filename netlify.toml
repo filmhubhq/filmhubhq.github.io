@@ -2,5 +2,5 @@
   functions = "./functions"
 
 [build.environment]
-  NODE_VERSION = 13.5
-  YARN_VERSION = 1.21
+  NODE_VERSION = "13.5"
+  YARN_VERSION = "1.21"

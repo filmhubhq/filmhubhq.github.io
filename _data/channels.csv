@@ -1,4 +1,5 @@
 name,status,activated_at,hq,formats,profiles,logo
+Vyre,Active,2020-01-02,North America,AVOD,"Shorts, Cultural, Docs",vyre.png
 BingeHorror,Active,2018-11-09,North America,AVOD,Horror,bingehorror.svg
 CozyFlix,Active,2016-01-01,North America,SVOD,Wholesome,cozyflix.svg
 SnagFilms,Active,2013-08-22,North America,AVOD,,snagfilms.svg
@@ -30,7 +31,6 @@ Avail TV,Active,2019-12-20,North America,"AVOD",Horror,avail-tv.svg
 Posflix,Active,2019-12-01,Africa,SVOD,"Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",posflix.svg
 Docurama,Active,2014-05-27,North America,"AVOD,SVOD",Docs,docurama.svg
 Vimeo on Demand,Active,2014-05-01,North America,TVOD,"Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",vimeo-on-demand.svg
-Vyre,Active,2020-01-02,North America,AVOD,"Shorts, Cultural, Docs",vyre.png
 ConTV,Active,2015-01-19,North America,"AVOD,SVOD",SciFi/Fantasy,contv.svg
 Noisypeak,Active,2019-12-01,Europe,AVOD,,noisypeak.svg
 Christian Cinema,Active,2015-01-01,North America,TVOD,Wholesome,christian-cinema.svg

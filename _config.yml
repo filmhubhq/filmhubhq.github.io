@@ -30,6 +30,7 @@ plugins:
   - jekyll-autoprefixer
 autoprefixer:
   only_production: true
+
 # jekyll-seo-tag properties
 twitter:
   username: filmhubhq

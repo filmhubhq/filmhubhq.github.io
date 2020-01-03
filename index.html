@@ -116,11 +116,11 @@ eyebrow: false
       <div class="col-md-7">
         <div class="logos-container">
           <div class="logos-scrolling">
-            {% assign channels = site.data.channels | where: "logo", "ok" %}
+            {% assign channels = site.data.channels | where_exp: "item", "item.logo != nil" %}
             {% for channel in channels %}
               <div class="col-4 col-md-3 col-xl-2 my-md-1 text-center">
                 <div class="logo">
-                <img src="/images/svg/{{ channel.name | slugify }}.svg" alt="{{ channel.name }}" title="{{ channel.name }}">
+                  <img src="/images/channels/{{ channel.logo }}" class="img-fluid" alt="{{ channel.name }}" title="{{ channel.name }}">
                 </div>
               </div>
             {% endfor %}

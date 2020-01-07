@@ -118,7 +118,7 @@ eyebrow: false
           <div class="logos-scrolling">
             {% assign channels = site.data.channels | where_exp: "item", "item.logo != nil" %}
             {% for channel in channels %}
-              <div class="col-4 col-md-3 col-xl-2 my-md-1 text-center">
+              <div class="col-4 col-md-3 col-xl-2 my-md-1 text-center"  id={{ channel.name | slugify }}>
                 <div class="logo">
                   <img
                     src="/images/channels/{{ channel.logo }}"

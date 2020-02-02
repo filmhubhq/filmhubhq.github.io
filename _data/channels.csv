@@ -1,5 +1,6 @@
 name,status,activated_at,hq,formats,profiles,logo
 Nuella TV,Active,2020-03-01,Africa,"AVOD,SVOD",,nuella-tv.svg
+Christian Channel,Active,2020-02-05,North America,SVOD,,christian-channel.svg
 Flixfoureel,Active,2020-01-11,Columbia,SVOD,"Wholesome",flixfoureel.png
 Indiecinema,Active,2020-01-11,Italy,SVOD,"Arthouse,Docs",indiecinema.jpg
 Filmzie,Active,2020-01-11,Slovakia,AVOD,,filmzie.svg

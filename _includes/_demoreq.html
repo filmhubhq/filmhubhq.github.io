@@ -10,10 +10,7 @@
       <form id="requestdemoform">
         <div class="modal-body">
           <p class="lead2">
-            Please complete the form to speak with a Filmhub representative about our service and to get a demo.
-          </p>
-          <p class="lead2">
-            Want to speak with us right now? Call <a href="tel:{{ site.phone }}" title="Call Us Today: {{ site.phone }}">{{ site.phone }}</a>, we're happy to help.
+            Please complete the form to get more info about our service:
           </p>
           <div class="form-group">
             <input type="text" class="form-control" id="inputName" placeholder="Name" autocomplete="name" required>
@@ -31,15 +28,15 @@
             <input type="text" class="form-control" id="inputCountry" placeholder="Country" autocomplete="country">
           </div>
           <div class="form-group">
-            <label class="control-label">Catalog Size: </label>
+            <label class="control-label">Catalog Size:&nbsp;</label>
             <label class="radio-inline">
-              <input type="radio" name="inputCatalog" id="inputCatalog1" value="1-9"> 1-9 titles
+              <input type="radio" name="inputCatalog" id="inputCatalog1" value="1-9" required> 1-9 titles&nbsp;
             </label>
             <label class="radio-inline">
-              <input type="radio" name="inputCatalog" id="inputCatalog10" value="10-499"> 10-499 titles
+              <input type="radio" name="inputCatalog" id="inputCatalog10" value="10-499" required> 10-499 titles&nbsp;
             </label>
             <label class="radio-inline">
-              <input type="radio" name="inputCatalog" id="inputCatalog500" value="500+"> over 500 titles
+              <input type="radio" name="inputCatalog" id="inputCatalog500" value="500+" required> over 500 titles
             </label>
           </div>
         </div>

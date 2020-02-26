@@ -9,7 +9,7 @@ function reqDemo() {
   var catalog = $('input[name=inputCatalog]:checked', '#requestdemoform').val() || "(not specified)";
   var url_atob = atob(url);
   var fallback =
-    'Yay - another demo request, <@UKB9DNGKY>\n' +
+    'Yay - another demo request, <@USCTL8RJB>\n' +
     'Name: ' + name + '\n' +
     'Email: ' + email + '\n' +
     'Phone: ' + phone + '\n' +
@@ -20,7 +20,7 @@ function reqDemo() {
     // "channel": "@klaus",
     "attachments": [{
       "fallback": fallback,
-      "pretext": "Yay - another demo request, <@UKB9DNGKY>",
+      "pretext": "Yay - another demo request, <@USCTL8RJB>",
       "fields": [
         { "title": "Name",         "value": name },
         { "title": "Email",        "value": email },

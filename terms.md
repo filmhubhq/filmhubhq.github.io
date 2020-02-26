@@ -6,7 +6,7 @@ container: true
 ---
 # Terms & Conditions
 
-_updated September 13, 2018_
+_[updated](https://github.com/filmhubhq/filmhubhq.github.io/commits/master/terms.md) January 28, 2020_
 {: .text-muted }
 
 <div class="row py-5"><div class="col-lg-8 offset-lg-2">
@@ -42,9 +42,9 @@ This is non-legally-binding introductory summary of (and not a substitute for) t
 ##### With the understanding that:
 
 * You control the necessary rights
-* You can withdraw your title(s) from Filmhub at any time, but remain bound to the rules of Channels already delivered to
-* Channels may decline titles. Your titles are *not* guaranteed to be on all Channels, or any particular Channel.
-You can opt out territories and Channels
+* You can withdraw your titles at any time, but remain bound to the rules of Channels already delivered to
+* Channels may decline titles
+* You can opt out territories and Channels
 * You communicate with our Channels only through us, not directly
 {: .card-text }
 
@@ -57,8 +57,8 @@ Some most-asked questions:
 1. **Am I signing over all distribution rights?** No.
     The only rights we take are the obvious ones we need to run the service.
     For example, the right to deliver the titles you upload to Channels on your behalf.
-1. **Can I upload "unsold" titles only?**No. We operate **non-exclusively**. We can augment other distribution deals you might have with territories and streaming channels they don't cover. We just ask not to deliver to the same streaming channels. You can exclude specific streaming channels and territories per title.
-1. **Am I tied into a long term contract?** No. You can withdraw your title(s) from Filmhub at any time, but remain bound to the rules of Channels already delivered to.
+1. **Can I upload "unsold" titles only?** No. We operate **non-exclusive**ly. We can augment other distribution deals you might have with territories and streaming channels they don't cover. We just ask not to deliver to the same streaming channels. You can exclude specific streaming channels and territories per title.
+1. **Am I tied into a long term contract?** No. You can withdraw your titles from Filmhub at any time, but remain bound to the rules of Channels already delivered to.
 
 Now on to the binding [legal text](#filmhub-terms--conditions).
 

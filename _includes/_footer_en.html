@@ -8,14 +8,15 @@
             <li><a href="https://app.filmhub.com/owner/signup">Sign up</a></li>
             <li><a href="https://app.filmhub.com/login">Log in</a></li>
             <li><a href="https://headwayapp.co/filmhub-updates">Product Updates</a></li>
-            <li><a href="https://stackshare.io/klausbadelt/filmhub">StackShare&nbsp;<img class="lazyload" data-src="https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" /></a></li>
-            <li><a href="https://app.netlify.com/sites/unruffled-archimedes-c4fc4d/deploys">Website&nbsp;<img class="lazyload" data-src="https://api.netlify.com/api/v1/badges/2ae96e73-f5c2-4b6e-ad71-23337a2c407d/deploy-status" /></a></li>
+            <li>
+              <a href="https://stackshare.io/klausbadelt/filmhub"><img class="lazyload" data-src="https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" /></a>&nbsp;
+              <a href="https://app.netlify.com/sites/unruffled-archimedes-c4fc4d/deploys"><img class="lazyload" data-src="https://api.netlify.com/api/v1/badges/2ae96e73-f5c2-4b6e-ad71-23337a2c407d/deploy-status" /></a>
+            </li>
           </ul>
         </div>
         <div class="col-sm-3">
           <h4>Company</h4>
           <ul class="list-unstyled">
-            <li><a href="tel:{{ site.phone }}" title="Call us: {{ site.phone }}">Call us <i class="fa fa-phone"></i></a></li>
             <li><a href="https://intercom.help/filmhub" class="contact-us">Contact us</a></li>
             <li><a href="/jobs">Careers</a></li>
             <li><a href="/pr">Public Relations</a></li>
@@ -46,7 +47,7 @@
   </section>
   <section class="footer-legal">
     <div class="container">
-      &copy; 2017-{{ site.time | date: '%Y' }} Filmhub · <a href="/terms">Terms</a> · <a href="/privacy">Privacy</a>
+      &copy; {{ site.time | date: '%Y' }} Filmhub · <a href="/terms">Terms</a> · <a href="/privacy">Privacy</a>
     </div>
   </section>
 </footer>

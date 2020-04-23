@@ -22,7 +22,6 @@ CozyFlix,Active,2016-01-01,North America,SVOD,Wholesome,cozyflix.svg
 Pnnny,Active,2018-12-13,North America,"SVOD,TVOD",,pnnny.svg
 Dekkoo,Active,2016-10-25,North America,SVOD,LGBT,dekkoo.svg
 Filmocracy,Active,2018-08-21,North America,SVOD,,filmocracy.svg
-Amazon Prime Video DE,Active,2016-05-01,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",amazon-prime-video-de.svg
 Gaia,Active,2017-10-27,North America,SVOD,Wholesome,gaia.svg
 POV Horror,Active,2018-05-21,North America,"AVOD,SVOD",Horror,pov-horror.svg
 Skoot TV,Active,2019-12-18,North America,TVOD,,skoot-tv.svg
@@ -38,10 +37,8 @@ Pantaflix,Active,2017-05-01,Europe,TVOD,"Arthouse,Culture,Docs,Educational,Horro
 iflix,Active,2018-08-20,Asia,SVOD,,iflix.svg
 Nandar TV,Active,2018-06-04,North America,"AVOD,SVOD,TVOD",,nandar-tv.svg
 FlixOn TV,Active,2018-04-14,North America,SVOD,,flixon-tv.svg
-Amazon Prime Video French,Active,2018-04-18,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",amazon-prime-video-french.svg
 FNTV,Active,2018-01-01,North America,"AVOD,SVOD",Culture,fntv.svg
 Revry,Active,2018-07-09,North America,SVOD,LGBT,revry.svg
-Amazon Prime Video Latin America,Active,2018-04-18,South America,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",amazon-prime-video-latin-america.svg
 Avail TV,Active,2019-12-20,North America,"AVOD",Horror,avail-tv.svg
 Posflix,Active,2019-12-01,Africa,SVOD,"Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",posflix.svg
 Docurama,Active,2014-05-27,North America,"AVOD,SVOD",Docs,docurama.svg
@@ -49,15 +46,12 @@ ConTV,Active,2015-01-19,North America,"AVOD,SVOD",SciFi/Fantasy,contv.svg
 Noisypeak,Active,2019-12-01,Europe,AVOD,,noisypeak.svg
 Christian Cinema,Active,2015-01-01,North America,TVOD,Wholesome,christian-cinema.svg
 TubiTV,Active,2015-07-09,North America,AVOD,"Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",tubitv.svg
-Amazon Media On Demand,Active,2013-06-01,North America,DVD,"Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",amazon-media-on-demand.svg
 Xumo,Active,2018-08-17,North America,Linear,,xumo.svg
-Amazon Prime Video ES,Active,2018-04-18,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",amazon-prime-video-es.svg
 Film Ahoy,Active,2018-08-01,Europe,"AVOD,TVOD",,film-ahoy.svg
 Overdrive,Active,2017-05-01,North America,TVOD,,overdrive.svg
 GuideDoc,Active,2017-11-03,Europe,SVOD,Docs,guidedoc.svg
 GayBingeTV,Active,2019-12-12,North America,SVOD,LGBT,gaybingetv.svg
-Amazon Prime Video US,Active,2013-05-01,North America,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",amazon-prime-video-us.svg
-Amazon Prime Video Japan,Active,2016-05-01,Asia,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",amazon-prime-video-japan.svg
+Amazon Prime Video,Active,2013-05-01,North America,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",amazon-prime-video.svg
 All Warrior Network,Active,2017-11-01,North America,"AVOD,SVOD",,all-warrior-network.svg
 Streampix,Active,2014-05-30,North America,SVOD,,streampix.svg
 FlixPremiere,Active,2016-08-31,Europe,SVOD,,flixpremiere.svg
@@ -71,14 +65,10 @@ Conscious Good,Active,2018-01-16,North America,"AVOD,SVOD,TVOD",Wholesome,consci
 FlixFling,Active,2018-06-05,North America,"SVOD,TVOD",,flixfling.svg
 Telus,Active,2017-11-02,North America,SVOD,Educational,telus.svg
 Realeyz,Active,2015-06-28,Europe,TVOD,,
-Amazon UK,Active,2016-05-01,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",
-Amazon RoW Portuguese,Active,2018-04-18,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",
 The Love Destination,Active,2018-09-17,Oceania,SVOD,,
 TikiLive,Active,2018-03-14,North America,SVOD,,
-Amazon RoW Italian,Active,2018-04-18,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",
 PlayNow Media,Active,2018-09-12,North America,"AVOD,SVOD",Horror,
 InsideOutside,Active,2018-01-18,North America,"AVOD,SVOD",Cultural,
-Amazon RoW English,Active,2017-04-01,Europe,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",
 Bidslate,Active,2018-04-02,North America,"SVOD,TVOD","Arthouse,Culture,Docs,Educational,Horror,LGBT,Shorts,Wholesome",
 FreebieTV,Active,2018-10-31,Europe,AVOD,,freebie-tv.png
 Screambox,Active,2017-08-30,North America,"AVOD,SVOD",Horror,

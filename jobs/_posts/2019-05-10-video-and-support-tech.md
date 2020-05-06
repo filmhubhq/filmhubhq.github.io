@@ -2,14 +2,14 @@
 layout: bootstrap
 container: true
 offset: 2
-title: QC &amp; Support Tech
+title: Content Operations Technician
 hero: |
-  # Video &amp; Support Technician [Apply](https://intercom.help/filmhub){: .btn .btn-outline-warning .ml-5 .contact-us}
+  # Content Operations Technician - Contract [Apply](https://intercom.help/filmhub){: .btn .btn-outline-warning .ml-5 .contact-us}
 jsonld:
   baseSalary:
     minValue: 45000.00
     maxValue: 65000.00
-  experienceRequirements: Minumum 1 year experience in post-production or video quality control
+  experienceRequirements: Minumum 1 year of experience in post-production or video quality control
   occupationalCategory:
     - '27-4011.00 Audio and Video Equipment Technicians'
     - '27-4012.00 Broadcast Technicians'
@@ -20,19 +20,20 @@ breadcrumb:
     href: /
   - name: Jobs
     href: /jobs
-  - name: QC &amp; Support Tech
+  - name: Content Operations Technicican
 ---
-You're a film or broadcast post production tech whiz? Leave your dark backroom and join us. You'll be keeping our quality standards high and users happy. If video codecs and great communication skills are in your DNA, read on.
+You're a film or broadcast post production tech whiz? Leave your dark backroom and join us. You'll be keeping our quality standards high and users happy. If video codecs, extreme attention to detail, and great communication skills are in your DNA, read on.
 
 Disrupt the traditional film industry. Filmhub takes the entire film distribution process online, and gives every filmmaker access to digital distribution. Our cloud technology makes that possible.
 
-- **Job type**: Full-time
+- **Job type**: Contract (potential for full-time after a few months)
 - **Experience level**: Junior to Mid level
 - **Role**: Video QC & Support technician
 - **Industry**: Tech, Video streaming, Movies
 - **Company size**: 5-10 people
-- **Company type**: Private, Startup
-- **Location**: Los Angeles, California &ndash; Remote possible
+- **Company type**: Private, Star
+p
+- **Location**: Remote
 
 ### Technologies
 
@@ -43,7 +44,7 @@ Disrupt the traditional film industry. Filmhub takes the entire film distributio
 **audio editing**{: .badge .badge-primary}
 **video mastering**{: .badge .badge-primary}
 
-At Filmhub, you'll be running of our rigorous video ingest QC (Quality Control). We are quality fanatics, keeping our video assets to the highest standards. You also control and monitor our cloud based asset processing and delivery to the leading video streaming platforms worldwide.
+At Filmhub, you'll be working on our rigorous video ingest QC (Quality Control). We are quality fanatics, keeping our video assets to the highest standards. You also control and monitor our cloud based asset processing and delivery to the leading video streaming platforms worldwide.
 
 You'll also be part of our customer happiness mission - supporting filmmakers to make the most out of their films at Filmhub. Using cutting edge online tools, you'll respond to user questions and concerns, solving issues before they turn into problems.
 
@@ -53,14 +54,13 @@ Our ideal candidate worked as tech in video or audio post, film and TV editorial
 
 - Run our rigorous ingest QC, onboarding independent film and episodic titles including video, related assets and metadata
 - Supervise and monitor our proprietary cloud based asset processing and delivery to video streaming platforms
-- Respond to and solve user support requests
-- Contribute to our help resources - write help articles, make tutourial videos
+- Contribute to our help resources - write help articles, make tutorial videos
 - Evaluate current product, work with development team to improve user experience
 - Manage individual project priorities, deadlines and deliverables
 
 ### Required skills
 
-- 1+ year experience in film industry post production, video quality control, and/or content operations
+- 1+ year(s) in film industry post production, video quality control, and/or content operations
 - Extremely organized and detail-oriented, strong ability to investigate and troubleshoot
 - Tech wizard with knowledge of
   - Video streaming and content delivery
@@ -68,7 +68,7 @@ Our ideal candidate worked as tech in video or audio post, film and TV editorial
   - Audio file processing - terms like clipping, export, routing, loudness, metering
   - Image processing - basics like cropping and scaling
   - Excel/Google Sheets, project management tools
-- Language skills: writing comprehensive support articles, responding to user requests
+- Language skills: writing comprehensive support articles
 - Passion for film and tech
 
 ### Preferred skills
@@ -86,22 +86,6 @@ Our ideal candidate worked as tech in video or audio post, film and TV editorial
 
 Filmhub takes the entire film distribution process online. For that, we're building web, mobile and TV applications in the cloud, using latest cutting-edge technologies for cloud services, frontend, video processing, and machine learning.
 
-Filmhub is a fast growing tech startup in Santa Monica's _Silicon Beach_, well funded by Silicon Valley investors, and co-founded by a Hollywood veteran (_Pirates of the Caribbean_).  We offer the perks of the big guys without the corporate feel. Join our great team.
-
-### Benefits
-
-- Competitive Pay
-- Flexible hours
-- Unlimited vacation
-- Visa sponsor
-- Relocation
-- Remote possible
-- Free choice of MacBook or Linux laptop
-- Unlimited book budget
-- Unlimited training classes
-- Silicon Beach location
-- Free weekly team lunch
-- Work on high visibility projects
-- Opportunity to grow
+Filmhub is well funded by Silicon Valley investors, and co-founded by a Hollywood veteran (_Pirates of the Caribbean_).  We offer the perks of the big guys without the corporate feel. While we acknowledge film has a home in Los Angeles, we're a remote first team and believe you can work from wherever.
 
 [Apply](https://intercom.help/filmhub){: .btn .btn-primary .contact-us}

@@ -3,7 +3,7 @@ layout: bootstrap
 container: true
 offset: 1
 hero: |
-  # Full Stack Engineer [Apply](https://intercom.help/filmhub){: .btn .btn-outline-warning .ml-5 .contact-us}
+  # Full Stack Engineer [Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-outline-warning .ml-5 .contact-us}
 jsonld:
   baseSalary:
     minValue: 75000.00
@@ -26,7 +26,7 @@ Build the premier marketplace web app for the film industry. You'll be working o
 - **Industry**: Tech, Entertainment, Movies
 - **Company size**: 5-10 people
 - **Company type**: Private, Startup
-- **Location**: Los Angeles, California &ndash; Remote possible
+- **Location**: Remote-first
 
 ### Technologies
 
@@ -46,7 +46,7 @@ Build the premier marketplace web app for the film industry. You'll be working o
 
 ### Required skills
 
-- 1+ year experience in software development
+- 2+ years experience in software development
 - Familiarity with our core stack technologies:
   + Ruby on Rails
   + React, or at least one similar front end framework
@@ -81,22 +81,18 @@ Build the premier marketplace web app for the film industry. You'll be working o
 
 Filmhub takes the entire film distribution process online. For that, we're building web, mobile and TV applications in the cloud, using latest cutting-edge technologies for cloud services, frontend, video processing, and machine learning.
 
-Filmhub is a fast growing tech startup in Santa Monica's _Silicon Beach_, well funded by Silicon Valley investors, and co-founded by a Hollywood veteran (_Pirates of the Caribbean_).  We offer the perks of the big guys without the corporate feel. Join our great team.
+Filmhub is well funded by Silicon Valley investors, and co-founded by a Hollywood veteran (_Pirates of the Caribbean_).  We offer the perks of the big guys without the corporate feel. Join our great team.
 
 ### Benefits
 
 - Competitive Pay
 - Flexible hours
 - Unlimited vacation
-- Visa sponsor
-- Relocation
-- Remote possible
+- Remote first
 - Free choice of MacBook or Linux laptop
-- Unlimited book budget
-- Unlimited training classes
-- Silicon Beach location
-- Free weekly team lunch
+- $200/year for books
+- $2000/year for training classes
 - Work on high visibility projects
 - Opportunity to grow
 
-[Apply](https://intercom.help/filmhub){: .btn .btn-primary .contact-us}
+[Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-primary .contact-us}

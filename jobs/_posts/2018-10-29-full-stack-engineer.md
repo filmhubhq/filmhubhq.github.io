@@ -26,7 +26,7 @@ Build the premier marketplace web app for the film industry. You'll be working o
 - **Industry**: Tech, Entertainment, Movies
 - **Company size**: 5-10 people
 - **Company type**: Private, Startup
-- **Location**: Los Angeles, California &ndash; Remote possible
+- **Location**: Remote
 
 ### Technologies
 
@@ -88,15 +88,11 @@ Filmhub is a fast growing tech startup in Santa Monica's _Silicon Beach_, well f
 - Competitive Pay
 - Flexible hours
 - Unlimited vacation
-- Visa sponsor
-- Relocation
-- Remote possible
+- Work Remotely
 - Free choice of MacBook or Linux laptop
-- Unlimited book budget
-- Unlimited training classes
-- Silicon Beach location
-- Free weekly team lunch
+- $200/yr book budget
+- $2000/yr training classes
 - Work on high visibility projects
 - Opportunity to grow
 
-[Apply](https://intercom.help/filmhub){: .btn .btn-primary .contact-us}
+[Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link)

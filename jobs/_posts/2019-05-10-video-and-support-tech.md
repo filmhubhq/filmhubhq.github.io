@@ -31,8 +31,7 @@ Disrupt the traditional film industry. Filmhub takes the entire film distributio
 - **Role**: Video QC & Support technician
 - **Industry**: Tech, Video streaming, Movies
 - **Company size**: 5-10 people
-- **Company type**: Private, Star
-p
+- **Company type**: Private, Startup
 - **Location**: Remote
 
 ### Technologies
@@ -88,4 +87,4 @@ Filmhub takes the entire film distribution process online. For that, we're build
 
 Filmhub is well funded by Silicon Valley investors, and co-founded by a Hollywood veteran (_Pirates of the Caribbean_).  We offer the perks of the big guys without the corporate feel. While we acknowledge film has a home in Los Angeles, we're a remote first team and believe you can work from wherever.
 
-[Apply](https://intercom.help/filmhub){: .btn .btn-primary .contact-us}
+[Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-primary}

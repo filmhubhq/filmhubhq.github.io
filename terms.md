@@ -6,7 +6,7 @@ container: true
 ---
 # Terms & Conditions
 
-_[updated](https://github.com/filmhubhq/filmhubhq.github.io/commits/master/terms.md) January 28, 2020_
+_[updated](https://github.com/filmhubhq/filmhubhq.github.io/commits/master/terms.md) May 21, 2020_
 {: .text-muted }
 
 <div class="row py-5"><div class="col-lg-8 offset-lg-2">
@@ -176,14 +176,14 @@ Please read the following terms and conditions carefully. These terms and condit
 
         Filmhub's Designated Agent for notification of alleged infringement under the DMCA is:
 
-        Adam Telanoff, Copyright Officer
+        Alan d'Escragnolle, Chief Executive Officer
         Email: copyright at filmhub dot com
 
         Physical Mail:
         Kinonation, Inc.
         1626 Montana Avenue, Suite 616
         Santa Monica, CA 90403
-        Attn: Adam Telanoff
+        Attn: Alan d'Escragnolle
 
         Upon receipt of proper notification of claimed infringement, Filmhub will follow the procedures outlined herein and in the DMCA.
 

@@ -30,10 +30,10 @@ eyebrow: false
         <div class="poster mr-2">
           <img
             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-            data-src="{{ site.image_cdn }}/{{ title.image_id }}/50x66&crop=1"
+            data-src="{{ site.image_cdn }}/{{ title.image_id }}/50x66?crop=1"
             data-srcset="
-              {{ site.image_cdn }}/{{ title.image_id }}/150x200&crop=1 1x,
-              {{ site.image_cdn }}/{{ title.image_id }}/300x400&crop=1 2x"
+              {{ site.image_cdn }}/{{ title.image_id }}/150x200?crop=1 1x,
+              {{ site.image_cdn }}/{{ title.image_id }}/300x400?crop=1 2x"
             class="lazyload"
             alt="{{ title.name }}"
             title="{{ title.name }}"

@@ -4,7 +4,7 @@ container: true
 offset: 2
 title: Content Operations Technician
 hero: |
-  # Content Operations Technician - Contract [Apply](https://intercom.help/filmhub){: .btn .btn-outline-warning .ml-5 .contact-us}
+  # Content Operations Technician - Contract [Apply](http://help.filmhub.com){: .btn .btn-outline-warning .ml-5 .contact-us}
 jsonld:
   baseSalary:
     minValue: 45000.00

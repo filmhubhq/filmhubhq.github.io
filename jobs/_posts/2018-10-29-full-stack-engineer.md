@@ -3,7 +3,7 @@ layout: bootstrap
 container: true
 offset: 1
 hero: |
-  # Full Stack Engineer [Apply](https://intercom.help/filmhub){: .btn .btn-outline-warning .ml-5 .contact-us}
+  # Full Stack Engineer [Apply](http://help.filmhub.com){: .btn .btn-outline-warning .ml-5 .contact-us}
 jsonld:
   baseSalary:
     minValue: 75000.00

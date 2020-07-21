@@ -2,7 +2,7 @@
 layout: job-posting
 lang: de
 hero: |
-  <h1>Full Stack Engineer <a href="https://intercom.help/filmhub" class="contact-us" class="btn btn-warning">Apply</a>
+  <h1>Full Stack Engineer <a href="http://help.filmhub.com" class="contact-us" class="btn btn-warning">Apply</a>
   </h1>
 jsonld:
   baseSalary:

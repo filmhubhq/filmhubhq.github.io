@@ -56,11 +56,11 @@ Our website may contain links to enable you to visit other websites of interest 
 ### Controlling your personal information
 You may choose to restrict the collection or use of your personal information in the following ways:
 
-* if you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by [contacting us](https://intercom.help/filmhub ){: .intercom-launcher }.
+* if you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by [contacting us](http://help.filmhub.com ){: .intercom-launcher }.
 
 We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.
 
-You may request details of personal information which we hold about you under the Data Protection Act 1998. A small fee will be payable. If you would like a copy of the information held on you please [contact us](https://intercom.help/filmhub){: .intercom-launcher }.
+You may request details of personal information which we hold about you under the Data Protection Act 1998. A small fee will be payable. If you would like a copy of the information held on you please [contact us](http://help.filmhub.com){: .intercom-launcher }.
 
 If you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible, at the above address. We will promptly correct any information found to be incorrect.
 

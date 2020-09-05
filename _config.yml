@@ -69,7 +69,9 @@ defaults:
     values:
       sitemap: false
 
-# Image resize service
-# Assumes image id and minimagick geometry parameter to be appended as URL parameters,
-# like https://d3fu66dsue3x22.cloudfront.net/images/:id/800x450?crop=1
-image_cdn: https://d3fu66dsue3x22.cloudfront.net/images
+# Image Handler Service
+# Expects Base64 encoded hash with image information
+# Requires, image.filename, image.bucket, width, height, fit mode (cover or inside)
+# like https://dblir06cn1w4c.cloudfront.net/base64...encoded...string
+image_cdn: https://dblir06cn1w4c.cloudfront.net
+image_bucket: kinonation-imagebucket-1l7ud25lkgnrz

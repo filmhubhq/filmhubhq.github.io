@@ -24,4 +24,9 @@
   {% seo %}
 {%- endif %}
 
+  <!-- Image Resize handler Service Vars -->
+  <script type="text/javascript">
+    window.IMAGE_SERVICE_RESIZE_ENDPOINT = '{{ site.image_cdn }}'
+    window.IMAGES_BUCKET = '{{ site.image_bucket }}'
+  </script>
 </head>

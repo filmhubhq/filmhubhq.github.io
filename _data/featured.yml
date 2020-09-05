@@ -60,73 +60,73 @@ topics:
 
 titles:
   - name: Migrant crossing
-    image_id: 30166
+    image_filename: image_id_30166_a0faf1d267c22a1590d8a3c1e65585d5.jpg
     topic: immigrant
     new: true
   - name: Heroes Manufactured
-    image_id: 20352
+    image_filename: image_id_20352_e9fce5d1e68b1878699a51f6a77b3307.jpg
     topic: comic
   - name: Black sun
-    image_id: 4009
+    image_filename: image_id_4009_6951f637aeb14971f62c87279acf3f3c.jpg
     topic: oscars
   - name: Gaja Baja
-    image_id: 48779
+    image_filename: image_id_48779_823a15cb4e1648f8cf98c16779f0fc6a.png
     topic: nepalese
     new: true
   - name: The Whole Gritty City
-    image_id: 4534
+    image_filename: image_id_4534_4e974f42f1b6c188443d505a91fb66af.jpg
     topic: blackhistory
   - name: Noseland
-    image_id: 4196
+    image_filename: image_id_4196_e259442bc9661c4cea0a56108df8add1.jpg
     topic: eleven
   - name: The book of Lenins
-    image_id: 47110
+    image_filename: image_id_47110_4c5137521726f27f8ce32bbb08639721.png
     topic: search
   - name: "All Day and All Night: Memories from Beale Street Musicians"
-    image_id: 4965
+    image_filename: image_id_4965_164e160057d599f8cb3417e9b7f04424.jpg
     topic: blackhistory
     new: true
   - name: Against the tide
-    image_id: 20132
+    image_filename: image_id_20132_feaf16d081b0e84f1da7dc5ddccfae20.jpg
     topic: immigrant
   - name: A Fighting Chance
-    image_id: 5487
+    image_filename: image_id_5487_1ecf8c8188e24906fb65179fd705b37a.jpg
     topic: oscars
   - name: The Bomb Hunters
-    image_id: 46987
+    image_filename: image_id_46987_9572895b277752bc4e652375494605ef.png
     topic: search
   - name: My English Soccer Adventure
-    image_id: 45504
+    image_filename: image_id_45504_94cd57201b333522d5eef05ad552841c.jpg
     topic: eleven
     new: true
   - name: Sushree Sampati
-    image_id: 48981
+    image_filename: image_id_48981_eca75d089dff3e91ee3b3b5765bb01c0.png
     topic: nepalese
   - name: Reunification
-    image_id: 5658
+    image_filename: image_id_5658_d39b356e0a779d208dd9095afe7841f0.jpg
     topic: immigrant
   - name: The Orator
-    image_id: 4038
+    image_filename: image_id_4038_c8817081bf9eefbb0ddc5cfe590d9c31.jpg
     topic: oscars
     new: true
   - name: Lessons of basketball and war
-    image_id: 24438
+    image_filename: image_id_24438_59a8a23e7849d83fcc86d4f684cf1094.jpg
     topic: immigrant
   - name: Rude Dude
-    image_id: 27169
+    image_filename: image_id_27169_1b9e4a5180f92064de7a17b59d9d3ef9.jpg
     topic: comic
   - name: Bridge brothers
-    image_id: 45493
+    image_filename: image_id_45493_5a30d1369e8daf8932c7babc9f8e8682.jpg
     topic: immigrant
   - name: Noodle deli
-    image_id: 40709
+    image_filename: image_id_40709_c2a00df3f5d3f0ae6d3b7eb56b735ee0.png
     topic: immigrant
   - name: Comic Book Independents
-    image_id: 25029
+    image_filename: image_id_25029_4a2c3dcde00e78e5a776450d2d500422.jpg
     topic: comic
   - name: My family feast
-    image_id: 41578
+    image_filename: image_id_41578_aab7c9f4ac8ea6bd44b85b85e9d19eb1.jpg
     topic: immigrant
   - name: Shatru Gate
-    image_id: 47478
+    image_filename: image_id_47478_76a2f54e5252650b8b31b1a7d5175f50.jpg
     topic: nepalese

@@ -3,12 +3,7 @@ description: Film distribution platform for indie filmmakers and video streaming
 url: https://filmhub.com
 permalink: none
 sass:
-  # style: compressed
-  # sourcemap: inline
-  # line_numbers: true
-  # line_comments: true
   load_paths:
-    # - _sass
     - node_modules
 include:
   - node_modules/jquery/dist/jquery.min.js
@@ -23,7 +18,6 @@ kramdown:
   parse_block_html: true
 plugins:
   - jekyll-sitemap
-  # - jekyll-github-metadata
   - jekyll-seo-tag
   - jekyll-autoprefixer
 autoprefixer:

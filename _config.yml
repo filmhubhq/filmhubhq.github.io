@@ -6,6 +6,7 @@ permalink: none
 sass:
   load_paths:
     - node_modules
+  style: compressed
 include:
   - node_modules/jquery/dist/jquery.min.js
   - node_modules/jquery/dist/jquery.min.js.map

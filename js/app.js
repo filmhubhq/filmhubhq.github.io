@@ -23,9 +23,6 @@ $(document).ready(function() {
   // Lazyload images
   var lazyLoad = new LazyLoad({use_native: true});
 
-  // custom file input
-  bsCustomFileInput.init()
-
   // Image Resize Handler
   const imageProps = ({ width, height, key, crop = true }) => ({
     bucket: "{{ site.image_bucket }}", key,

@@ -1,3 +1,5 @@
+---
+---
 $(document).ready(function() {
   // animate same-page anchor scroll
   var $root = $('html, body');
@@ -19,16 +21,14 @@ $(document).ready(function() {
   });
 
   // Lazyload images
-  lazyload();
+  var lazyLoad = new LazyLoad({use_native: true});
 
   // custom file input
   bsCustomFileInput.init()
 
-
-  // ***
   // Image Resize Handler
   const imageProps = ({ width, height, key, crop = true }) => ({
-    bucket: window.IMAGES_BUCKET, key,
+    bucket: "{{ site.image_bucket }}", key,
     edits: {
       resize: { width, height, fit: crop ? 'cover' : 'inside' },
       toFormat: 'jpeg',
@@ -46,8 +46,8 @@ $(document).ready(function() {
     const image2x = btoa(JSON.stringify(imageProps({ width: width * 2, height: height * 2, key })))
 
     img.srcset = `
-      ${window.IMAGE_SERVICE_RESIZE_ENDPOINT}/${image1x} 1x,
-      ${window.IMAGE_SERVICE_RESIZE_ENDPOINT}/${image2x} 2x
+      {{ site.image_cdn }}/${image1x} 1x,
+      {{ site.image_cdn }}/${image2x} 2x
     `
   })
 });

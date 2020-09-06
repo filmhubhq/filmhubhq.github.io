@@ -17,7 +17,7 @@ include:
   - node_modules/popper.js/dist/umd/popper.min.js.map
   - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
   - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
-  - node_modules/lazyload/lazyload.min.js
+  - node_modules/vanilla-lazyload/dist/lazyload.min.js
   - node_modules/bs-custom-file-input/dist/bs-custom-file-input.min.js
   - node_modules/bs-custom-file-input/dist/bs-custom-file-input.min.js.map
 kramdown:

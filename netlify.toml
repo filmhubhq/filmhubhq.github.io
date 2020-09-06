@@ -1,2 +1,7 @@
 [build]
   functions = "./functions"
+[build.processing]
+  skip_processing = false
+[build.processing.js]
+  bundle = true
+  minify = true

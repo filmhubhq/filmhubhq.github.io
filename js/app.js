@@ -23,4 +23,31 @@ $(document).ready(function() {
 
   // custom file input
   bsCustomFileInput.init()
+
+
+  // ***
+  // Image Resize Handler
+  const imageProps = ({ width, height, key, crop = true }) => ({
+    bucket: window.IMAGES_BUCKET, key,
+    edits: {
+      resize: { width, height, fit: crop ? 'cover' : 'inside' },
+      toFormat: 'jpeg',
+      jpeg: { quality: 60 },
+    },
+  })
+
+  // Setting image URLs with proper formatting for resizing
+  $('[data-image-filename]').each((_, img) => {
+    const width = img.getAttribute('width')
+    const height = img.getAttribute('height')
+    const key = img.dataset.imageFilename
+
+    const image1x = btoa(JSON.stringify(imageProps({ width, height, key })))
+    const image2x = btoa(JSON.stringify(imageProps({ width: width * 2, height: height * 2, key })))
+
+    img.srcset = `
+      ${window.IMAGE_SERVICE_RESIZE_ENDPOINT}/${image1x} 1x,
+      ${window.IMAGE_SERVICE_RESIZE_ENDPOINT}/${image2x} 2x
+    `
+  })
 });

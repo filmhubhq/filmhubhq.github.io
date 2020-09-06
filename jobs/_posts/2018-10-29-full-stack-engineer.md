@@ -5,12 +5,13 @@ offset: 1
 hero: |
   # Full Stack Engineer [Apply](http://help.filmhub.com){: .btn .btn-outline-warning .ml-5 .contact-us}
 jsonld:
+  template: _jsonld_job_posting.json
   baseSalary:
     minValue: 75000.00
     maxValue: 120000.00
   experienceRequirements: Minumum 1 year experience as a software engineer
-  occupationalCategory:
-    - '15-1254 Web Developers'
+  occupationalCategory: 
+    - 15-1254 Web Developers
 breadcrumb:
   - name: Home
     href: /

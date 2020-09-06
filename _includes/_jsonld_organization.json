@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Filmhub",
+  "description": "{{ site. description }}",
+  "headline": "{{ site.tagline }}",
+  "url": "https://filmhub.com",
+  "logo": "https://filmhub.com/images/icon_v2_600.png",
+  "foundingDate": "2017",
+  "founders": [
+    {
+      "@type": "Person",
+      "name": "Alan d'Escragnolle"
+    } 
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1626 Montana Ave. #616",
+    "addressLocality": "Santa Monica",
+    "addressRegion": "CA",
+    "postalCode": "90403",
+    "addressCountry": "USA"
+    },
+  "sameAs": [
+    "https://blog.filmhub.com",
+    "https://twitter.com/filmhubhq",
+    "https://facebook.com/filmhubhq",
+    "https://www.facebook.com/filmhubhq",
+    "https://www.youtube.com/user/kinonationfilms",
+    "https://www.linkedin.com/company/filmhub/",
+    "https://instagram.com/filmhubhq"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "url": "http://help.filmhub.com",
+    "contactType": "customer support",
+    "email": "support@filmhub.com"
+  }
+}

@@ -6,6 +6,7 @@ title: Content Operations Technician
 hero: |
   # Content Operations Technician - Contract [Apply](http://help.filmhub.com){: .btn .btn-outline-warning .ml-5 .contact-us}
 jsonld:
+  template: _jsonld_job_posting.json
   baseSalary:
     minValue: 45000.00
     maxValue: 65000.00
@@ -22,7 +23,7 @@ breadcrumb:
     href: /jobs
   - name: Content Operations Technicican
 ---
-You're a film or broadcast post production tech whiz? Leave your dark backroom and join us. You'll be keeping our quality standards high and users happy. If video codecs, extreme attention to detail, and great communication skills are in your DNA, read on.
+You're a post production tech whiz? Get out of your dark backroom and join us. You'll be keeping our quality standards high and users happy. If video codecs, extreme attention to detail, and great communication skills are in your DNA, read on.
 
 Disrupt the traditional film industry. Filmhub takes the entire film distribution process online, and gives every filmmaker access to digital distribution. Our cloud technology makes that possible.
 

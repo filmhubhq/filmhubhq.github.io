@@ -1,5 +1,6 @@
 title: Filmhub
-description: Film distribution platform for indie filmmakers and video streaming services
+tagline: "The #1 indie film distribution platform"
+description: The alternative to the traditional film distribution industry - open, transparent, and creator-first.
 url: https://filmhub.com
 permalink: none
 sass:
@@ -18,32 +19,9 @@ kramdown:
   parse_block_html: true
 plugins:
   - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-autoprefixer
 autoprefixer:
   only_production: true
-
-# jekyll-seo-tag properties
-twitter:
-  username: filmhubhq
-facebook:
-  app_id: 159020761463817
-  publisher: https://www.facebook.com/filmhubhq
-  admins: 1034572123
-logo: /images/icon_v2_600.png
-social:
-  name: Filmhub
-  links:
-    - https://blog.filmhub.com
-    - https://twitter.com/filmhubhq
-    - https://facebook.com/filmhubhq
-    - https://www.youtube.com/user/kinonationfilms
-    - https://www.linkedin.com/company/filmhub/
-    - https://instagram.com/filmhubhq
-author:
-  twitter: filmhubhq
-phone:
-
 defaults:
   -
     scope:
@@ -67,3 +45,37 @@ defaults:
 # like https://dblir06cn1w4c.cloudfront.net/base64...encoded...string
 image_cdn: https://dblir06cn1w4c.cloudfront.net
 image_bucket: kinonation-imagebucket-1l7ud25lkgnrz
+jsonld:
+  "@context": https://schema.org
+  "@type": Organization
+  name: Filmhub
+  description: The alternative to the traditional film distribution industry - open, transparent, and creator-first.
+  headline: "The #1 indie film distribution platform"
+  url: https://filmhub.com
+  logo: https://filmhub.com/images/icon_v2_600.png
+  foundingDate: 2017
+  founders:
+    - "@type": Person
+      name: Klaus Badelt
+    - "@type": Person
+      name: Alan d'Escragnolle
+  address:
+    "@type": PostalAddress
+    streetAddress: 1626 Montana Ave.
+    addressLocality: Santa MOnica
+    addressRegion: CA
+    postalCode: 90403
+    addressCountry: USA
+  sameAs:
+    - https://blog.filmhub.com
+    - https://twitter.com/filmhubhq
+    - https://facebook.com/filmhubhq
+    - https://www.facebook.com/filmhubhq
+    - https://www.youtube.com/user/kinonationfilms
+    - https://www.linkedin.com/company/filmhub/
+    - https://instagram.com/filmhubhq
+  contactPoint:
+    "@type": ContactPoint
+    url: http://help.filmhub.com
+    contactType: customer support
+    email: support@filmhub.com

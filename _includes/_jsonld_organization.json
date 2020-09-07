@@ -5,6 +5,7 @@
   "description": "{{ site. description }}",
   "headline": "{{ site.tagline }}",
   "url": "https://filmhub.com",
+  "@id": "https://filmhub.com",
   "logo": "https://filmhub.com/images/icon_v2_600.png",
   "foundingDate": "2017",
   "founders": [

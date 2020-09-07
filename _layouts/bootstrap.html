@@ -19,10 +19,9 @@
 
 {% comment %} *** HERO *** {% endcomment %}
 {% if page.hero %}
-  <div class="jumbotron jumbotron-fluid text-light pt-0 px-3 mb-0 d-flex flex-wrap {{ page.hero_class }}">
+  <div class="jumbotron jumbotron-fluid text-light pt-0 px-3 mb-0 {{ page.hero_class }}">
     {% include _navbar_{{ page.lang | default: 'en' }}.html %}
-
-    <div class="container pt-4 hero">
+    <div class="container hero">
       {{ page.hero | markdownify }}
     </div>
   </div>

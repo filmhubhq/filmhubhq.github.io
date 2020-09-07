@@ -1,10 +1,11 @@
 ---
 layout: bootstrap
 container: true
-offset: 2
+# offset: 2
 title: Content Operations Technician
 hero: |
-  # Content Operations Technician - Contract [Apply](http://help.filmhub.com){: .btn .btn-outline-warning .ml-5 .contact-us}
+  # Content Operations Technician - Contract
+  [Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-outline-warning .mt-3}
 jsonld:
   template: _jsonld_job_posting.json
   baseSalary:

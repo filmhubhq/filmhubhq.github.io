@@ -1,9 +1,10 @@
 ---
 layout: bootstrap
 container: true
-offset: 1
+# offset: 1
 hero: |
-  # Full Stack Engineer [Apply](http://help.filmhub.com){: .btn .btn-outline-warning .ml-5 .contact-us}
+  # Full Stack Engineer 
+  [Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-outline-warning .mt-3}
 jsonld:
   template: _jsonld_job_posting.json
   baseSalary:
@@ -96,4 +97,4 @@ Filmhub is a fast growing tech startup in Santa Monica's _Silicon Beach_, well f
 - Work on high visibility projects
 - Opportunity to grow
 
-[Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link)
+[Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-primary}

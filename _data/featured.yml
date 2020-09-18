@@ -17,14 +17,10 @@ topics:
       These fearless and original films showcase the best of a 
       rising generation of forward-thinking filmmakers.
     color: 68abff
-  oscars:
-    name: Oscar season
+  climate:
+    name: Climate Change
     description: |
-      Alfonso Cuarón makes history Sunday night to be the first director
-      to win Best Cinematography as DP on his own film, besides winning
-      Best Director for a second time. Here we look at a few documentaries on Filmhub
-      that were mansterfully created by Oscar winners/nominees over the years,
-      including 2005's Black Sun, co-produced by Cuarón.
+      Documentaries raising awareness on environmental and climate issues.
     color: 9685ce
   blackhistory:
     name: Black history month
@@ -50,6 +46,10 @@ topics:
     color: ac9f92
 
 titles:
+  - name: Aleksi
+    image_filename: image_id_84549_1cc1e84c28f0579d180d0f51df811dca.jpg
+    topic: womenfilmmakers
+    new: true
   - name: Homeland Gone
     image_filename: image_id_84357_06260dd39bad35c50ec1aa4095bd8a60.jpg
     topic: protest
@@ -57,9 +57,10 @@ titles:
   - name: Animal
     image_filename: image_id_33141_935cdcee70ef58c172f9d4df4152821f.jpg
     topic: iran
-  - name: Black sun
-    image_filename: image_id_4009_6951f637aeb14971f62c87279acf3f3c.jpg
-    topic: oscars
+  - name: Endgame 2050
+    image_filename: image_id_77990_09468589dbe99f257faeb41950718e39.jpg
+    topic: climate
+    new: true
   - name: 88
     image_filename: image_id_6115_e8dc6d011b231113a51766ff17bc7518.jpg
     topic: protest
@@ -76,9 +77,9 @@ titles:
   - name: "All Day and All Night: Memories from Beale Street Musicians"
     image_filename: image_id_4965_164e160057d599f8cb3417e9b7f04424.jpg
     topic: blackhistory
-  - name: A Fighting Chance
-    image_filename: image_id_5487_1ecf8c8188e24906fb65179fd705b37a.jpg
-    topic: oscars
+  - name: Earth Day
+    image_filename: image_id_55113_55c005745c0541fb4c6bc0b091c5758d.jpg
+    topic: climate
   - name: The Bomb Hunters
     image_filename: image_id_46987_9572895b277752bc4e652375494605ef.png
     topic: search
@@ -88,16 +89,12 @@ titles:
   - name: "Belonging: The Truth Behind the Headlines"
     image_filename: image_id_35627_dac861570027d3cc1f9765979dd8ab51.png
     topic: protest
-  - name: Aleksi
-    image_filename: image_id_84549_1cc1e84c28f0579d180d0f51df811dca.jpg
-    topic: womenfilmmakers
-    new: true
   - name: To the New Girl
     image_filename: image_id_78478_a866f03795a13c2ccddb883c98d7bbb2.jpg
     topic: womenfilmmakers
-  - name: The Orator
-    image_filename: image_id_4038_c8817081bf9eefbb0ddc5cfe590d9c31.jpg
-    topic: oscars
+  - name: Speechless: The Polar Realm
+    image_filename: image_id_90913_4cdf1bb3f440f745c6ebe0ba93a0d202.jpg
+    topic: climate
   - name: Wink
     image_filename: image_id_39712_9ea426d164eaa26780f7f1de530bd631.jpg
     topic: womenfilmmakers

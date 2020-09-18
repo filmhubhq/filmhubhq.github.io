@@ -10,13 +10,12 @@ topics:
     description: |
       Power to the people.
     color: 24c7ae
-  comic:
-    name: Comic book artists
+  iran:
+    name: Iranian Cinema
     description: |
-      Long before Marvel movies dominated the worldwide box office,
-      comic book artists have worked to create colorful and nuanced worlds.
-      In this selection, we take a deep dive into the comic book industry
-      and hear firsthand stories told by the artists themselves.
+      Iran has a rich history in cinematic art. 
+      These fearless and original films showcase the best of a 
+      rising generation of forward-thinking filmmakers.
     color: 68abff
   oscars:
     name: Oscar season
@@ -51,12 +50,13 @@ topics:
     color: ac9f92
 
 titles:
-  - name: To the New Girl
-    image_filename: image_id_78478_a866f03795a13c2ccddb883c98d7bbb2.jpg
-    topic: womenfilmmakers
-  - name: Heroes Manufactured
-    image_filename: image_id_20352_e9fce5d1e68b1878699a51f6a77b3307.jpg
-    topic: comic
+  - name: Homeland Gone
+    image_filename: image_id_84357_06260dd39bad35c50ec1aa4095bd8a60.jpg
+    topic: protest
+    new: true
+  - name: Animal
+    image_filename: image_id_33141_935cdcee70ef58c172f9d4df4152821f.jpg
+    topic: iran
   - name: Black sun
     image_filename: image_id_4009_6951f637aeb14971f62c87279acf3f3c.jpg
     topic: oscars
@@ -92,22 +92,21 @@ titles:
     image_filename: image_id_84549_1cc1e84c28f0579d180d0f51df811dca.jpg
     topic: womenfilmmakers
     new: true
+  - name: To the New Girl
+    image_filename: image_id_78478_a866f03795a13c2ccddb883c98d7bbb2.jpg
+    topic: womenfilmmakers
   - name: The Orator
     image_filename: image_id_4038_c8817081bf9eefbb0ddc5cfe590d9c31.jpg
     topic: oscars
   - name: Wink
     image_filename: image_id_39712_9ea426d164eaa26780f7f1de530bd631.jpg
     topic: womenfilmmakers
-  - name: Rude Dude
-    image_filename: image_id_27169_1b9e4a5180f92064de7a17b59d9d3ef9.jpg
-    topic: comic
+  - name: The Last Fiction
+    image_filename: image_id_88677_8a47481af28e2b72d157de424c909a31.jpg
+    topic: iran
   - name: The Pink Chateau
     image_filename: image_id_60877_9c722e9e1c252566fd3be44f360fbfbe.jpg
     topic: womenfilmmakers
-  - name: Comic Book Independents
-    image_filename: image_id_25029_4a2c3dcde00e78e5a776450d2d500422.jpg
-    topic: comic
-  - name: Homeland Gone
-    image_filename: image_id_84357_06260dd39bad35c50ec1aa4095bd8a60.jpg
-    topic: protest
-    new: true
+  - name: "316"
+    image_filename: image_id_32208_a8c11e1b7ff95f734d99364ff4cfe3af.jpg
+    topic: iran

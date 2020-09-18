@@ -9,14 +9,10 @@ topics:
       dissolution, disappearance.” In this selection of remarkable documentaries,
       we share the untold stories of immigrants.
     color: a5af29
-  nepalese:
-    name: Nepalese films
+  protest:
+    name: Protest!
     description: |
-      Despite its short history and imitation of Bollywood in the early days,
-      Nepali cinema has found its own voice in recent years.
-      Kollywood (named after Nepal’s capital and largest city Kathmandu)
-      thrives as young filmmakers break into the mainstream, shaping the new Nepali narrative.
-      Here are a few that represent the best and the most fun.
+      Power to the people.
     color: 24c7ae
   comic:
     name: Comic book artists
@@ -69,9 +65,9 @@ titles:
   - name: Black sun
     image_filename: image_id_4009_6951f637aeb14971f62c87279acf3f3c.jpg
     topic: oscars
-  - name: Gaja Baja
-    image_filename: image_id_48779_823a15cb4e1648f8cf98c16779f0fc6a.png
-    topic: nepalese
+  - name: 88
+    image_filename: image_id_6115_e8dc6d011b231113a51766ff17bc7518.jpg
+    topic: protest
     new: true
   - name: The Whole Gritty City
     image_filename: image_id_4534_4e974f42f1b6c188443d505a91fb66af.jpg
@@ -98,10 +94,10 @@ titles:
   - name: My English Soccer Adventure
     image_filename: image_id_45504_94cd57201b333522d5eef05ad552841c.jpg
     topic: eleven
+  - name: Belonging: The Truth Behind the Headlines
+    image_filename: image_id_35627_dac861570027d3cc1f9765979dd8ab51.png
+    topic: protest
     new: true
-  - name: Sushree Sampati
-    image_filename: image_id_48981_eca75d089dff3e91ee3b3b5765bb01c0.png
-    topic: nepalese
   - name: Reunification
     image_filename: image_id_5658_d39b356e0a779d208dd9095afe7841f0.jpg
     topic: immigrant
@@ -127,6 +123,3 @@ titles:
   - name: My family feast
     image_filename: image_id_41578_aab7c9f4ac8ea6bd44b85b85e9d19eb1.jpg
     topic: immigrant
-  - name: Shatru Gate
-    image_filename: image_id_47478_76a2f54e5252650b8b31b1a7d5175f50.jpg
-    topic: nepalese

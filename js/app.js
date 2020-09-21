@@ -35,8 +35,8 @@ $(document).ready(function() {
 
   // Setting image URLs with proper formatting for resizing
   $('[data-image-filename]').each((_, img) => {
-    const width = img.getAttribute('width')
-    const height = img.getAttribute('height')
+    const width = Number(img.getAttribute('width'))
+    const height = Number(img.getAttribute('height'))
     const key = img.dataset.imageFilename
 
     const image1x = btoa(JSON.stringify(imageProps({ width, height, key })))

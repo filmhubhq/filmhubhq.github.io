@@ -2,9 +2,9 @@
 layout: bootstrap
 container: true
 # offset: 2
-title: Content Operations Technician
+title: Content Owner Operations & Support
 hero: |
-  # Content Operations Technician - Contract
+  # Content Owner Operations & Support - Contract
   [Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-outline-warning .mt-3}
 jsonld:
   template: _jsonld_job_posting.json
@@ -22,7 +22,7 @@ breadcrumb:
     href: /
   - name: Jobs
     href: /jobs
-  - name: Content Operations Technicican
+  - name: Content Owner Operations & Support
 ---
 Do you love film and working with filmmakers? Come join the Filmhub operations team and help ensure content owners have an amazing experience using Filmhub to get their films out to millions of people.
 

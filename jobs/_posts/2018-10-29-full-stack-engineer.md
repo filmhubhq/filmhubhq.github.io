@@ -20,11 +20,14 @@ breadcrumb:
     href: /jobs
   - name: Full Stack Engineer
 ---
-Build the premier marketplace web app for the film industry. You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends. If you're familiar with Rails, React and have a passion for movies, this is for you.
+Build the premier marketplace web app for the film industry. 
+You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends. 
+If you're familiar with Rails, React and have a passion for movies, this is for you.
 
 - **Job type**: Full-time
 - **Experience level**: Junior to Advanced
 - **Role**: Full Stack Developer
+- **Languages**: Ruby, Javascript
 - **Industry**: Tech, Entertainment, Movies
 - **Company size**: 5-10 people
 - **Company type**: Private, Startup
@@ -48,22 +51,33 @@ Build the premier marketplace web app for the film industry. You'll be working o
 
 ### Required skills
 
-- 1+ year experience in software development
-- Familiarity with our core stack technologies:
+- 2+ year experience in software development
+- Backend:
   + Ruby on Rails
+  + NodeJS
+- Frontend:
   + React, or at least one similar front end framework
+  + NextJS
+  + State Management - Redux, MobX
+  + Responsive UI, desktop first
+- Testing:
+  + Minitest
+  + Jest
+  + React Testing Library
+- Databases:
   + PostgreSQL or other SQL databases
-  + Testing frameworks like minitest, jasmine
-+ Some experience with Amazon Web Services or similar
+  + NoSQL databases or principles
+- Some experience with Amazon Web Services or similar
 
 ### Preferred skills
 
 - Understanding of fundamental design principles behind a distributed and scalable application
 - Continuous Integration and Deployment Experience using DevOps tools such as Codepipeline
 - In-depth knowledge of creation of automated unit and integration testing
-- Excellent written, communication, inter personal, liaison and problem-solving skills with the ability to work in multi-cultural environment
-- FFmpeg and video encoding
-- Experience in film & TV postproduction
+- Excellent written, communication, inter personal, liaison and 
+problem-solving skills with the ability to work in multi-cultural environment
+- FFmpeg audio and video encoding
+- Experience in film & TV post-production
 - As many of the following tech stack components as possible:
   + Docker
   + Amazon web services:
@@ -74,8 +88,6 @@ Build the premier marketplace web app for the film industry. You'll be working o
     + Networking: Cloudfront, VPC, Elastic Load Balancing
     + Batch, Step Functions
     + Cloudwatch, CloudFormation
-  + NoSQL databases or principles
-  + Node.js
   + Mixpanel
   + Google Analytics
 

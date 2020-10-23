@@ -72,12 +72,12 @@ If you're familiar with Rails, React and have a passion for movies, this is for 
   + NoSQL databases: FaunaDB, MongoDB, DynamoDB or similar
 - Serverless: AWS Lambda, Serverless framework
 - CI/CD experience
-- Excellent written, communication, inter personal, liaison and 
-problem-solving skills with the ability to work in multi-cultural environment
 - FFmpeg
 - Film & TV or audio post production
-- Docker, AWS ECS
-- AWS - EC2, RDS, Elasticache, S3, Batch, Step Functions, Cloudwatch
+- Docker
+- AWS - EC2, ECS, RDS, Elasticache, S3, Batch, Step Functions, Cloudwatch
+- Excellent written, communication, inter personal, liaison and 
+problem-solving skills with the ability to work in multi-cultural environment
 
 ## Working at Filmhub
 

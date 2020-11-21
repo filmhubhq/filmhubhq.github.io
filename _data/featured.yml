@@ -30,10 +30,10 @@ topics:
       to eyewitness testimonies of black veterans in WWI…This selection of rare and
       extraordinary documentaries barely scratched the surface, but it’s a start.
     color: 3ec2dd
-  eleven:
-    name: These Go to Eleven
+  cancer:
+    name: Fight Cancer
     description: |
-      The Spinal Tap spirit lives on in these absolutely hilarious and absurd mockumentaries.
+      Cancer related
     color: f25959
   road:
     name: Road Trip
@@ -45,6 +45,7 @@ titles:
   - name: Ice Motion
     image_filename: image_id_80390_9aba973c2433f4e164ee0a0cea18f2df.jpg
     topic: climate
+    new: true
   - name: Aleksi
     image_filename: image_id_84549_1cc1e84c28f0579d180d0f51df811dca.jpg
     topic: womenfilmmakers
@@ -59,7 +60,6 @@ titles:
   - name: Endgame 2050
     image_filename: image_id_77990_09468589dbe99f257faeb41950718e39.jpg
     topic: climate
-    new: true
   - name: By Light Of Desert Night
     image_filename: image_id_92909_d898276cea12bce68af1825553983124.png
     topic: road
@@ -67,9 +67,9 @@ titles:
   - name: The Whole Gritty City
     image_filename: image_id_4534_4e974f42f1b6c188443d505a91fb66af.jpg
     topic: blackhistory
-  - name: Noseland
-    image_filename: image_id_4196_e259442bc9661c4cea0a56108df8add1.jpg
-    topic: eleven
+  - name: Paddling for Sue
+    image_filename: image_id_29336_73c33fbab617e4d0948288eade554b18.jpg
+    topic: cancer
   - name: 88
     image_filename: image_id_6115_e8dc6d011b231113a51766ff17bc7518.jpg
     topic: protest
@@ -82,9 +82,10 @@ titles:
   - name: Penny Black
     image_filename: image_id_35254_c8aa1aba11d72cc702a751915371426b.jpg
     topic: road
-  - name: My English Soccer Adventure
-    image_filename: image_id_45504_94cd57201b333522d5eef05ad552841c.jpg
-    topic: eleven
+  - name: Walk on the Wild Side
+    image_filename: image_id_92312_c93cb413b4a2def05b6cb74f7634c2ef.jpg
+    topic: cancer
+    new: true
   - name: "Belonging: The Truth Behind the Headlines"
     image_filename: image_id_35627_dac861570027d3cc1f9765979dd8ab51.png
     topic: protest
@@ -100,6 +101,9 @@ titles:
   - name: The Last Fiction
     image_filename: image_id_88677_8a47481af28e2b72d157de424c909a31.jpg
     topic: iran
+  - name: "3:19"
+    image_filename: image_id_86408_b061497e277fdf3fee48f737803d688a.jpg
+    topic: cancer
   - name: The Pink Chateau
     image_filename: image_id_60877_9c722e9e1c252566fd3be44f360fbfbe.jpg
     topic: womenfilmmakers

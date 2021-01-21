@@ -22,13 +22,10 @@ topics:
     description: |
       Documentaries raising awareness on environmental and climate issues.
     color: 9685ce
-  blackhistory:
-    name: Black history month
+  blackcinema:
+    name: Black Cinema
     description: |
-      From touching stories of struggling kids in New Orleans school marching bands,
-      to the golden age of Beale Street remembered by the blues masters themselves,
-      to eyewitness testimonies of black veterans in WWI…This selection of rare and
-      extraordinary documentaries barely scratched the surface, but it’s a start.
+      Black cinema
     color: 3ec2dd
   cancer:
     name: Fight Cancer
@@ -42,10 +39,13 @@ topics:
     color: ac9f92
 
 titles:
+  - name: Six Rounds
+    image_filename: image_id_106364_82f52d45f900505f006a1bff2a76e73e.jpg
+    topic: blackcinema
+    new: true
   - name: Ice Motion
     image_filename: image_id_80390_9aba973c2433f4e164ee0a0cea18f2df.jpg
     topic: climate
-    new: true
   - name: Aleksi
     image_filename: image_id_84549_1cc1e84c28f0579d180d0f51df811dca.jpg
     topic: womenfilmmakers
@@ -53,7 +53,6 @@ titles:
   - name: Homeland Gone
     image_filename: image_id_84357_06260dd39bad35c50ec1aa4095bd8a60.jpg
     topic: protest
-    new: true
   - name: Animal
     image_filename: image_id_33141_935cdcee70ef58c172f9d4df4152821f.jpg
     topic: iran
@@ -64,21 +63,21 @@ titles:
     image_filename: image_id_92909_d898276cea12bce68af1825553983124.png
     topic: road
     new: true
-  - name: The Whole Gritty City
-    image_filename: image_id_4534_4e974f42f1b6c188443d505a91fb66af.jpg
-    topic: blackhistory
+  - name: The Rise and Fall of Miss Thang
+    image_filename: image_id_4746_0ee4950a442140d9fc6bb45a1e598b8f.jpg
+    topic: blackcinema
   - name: Paddling for Sue
     image_filename: image_id_29336_73c33fbab617e4d0948288eade554b18.jpg
     topic: cancer
   - name: 88
     image_filename: image_id_6115_e8dc6d011b231113a51766ff17bc7518.jpg
     topic: protest
-  - name: "All Day and All Night: Memories from Beale Street Musicians"
-    image_filename: image_id_4965_164e160057d599f8cb3417e9b7f04424.jpg
-    topic: blackhistory
   - name: Earth Day
     image_filename: image_id_55113_55c005745c0541fb4c6bc0b091c5758d.jpg
     topic: climate
+  - name: Back to Natural
+    image_filename: image_id_110321_0bc196749736c2ecc5164adb24db3f74.jpg
+    topic: blackcinema
   - name: Penny Black
     image_filename: image_id_35254_c8aa1aba11d72cc702a751915371426b.jpg
     topic: road

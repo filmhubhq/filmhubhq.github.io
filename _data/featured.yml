@@ -27,10 +27,10 @@ topics:
     description: |
       Black cinema
     color: 3ec2dd
-  cancer:
-    name: Fight Cancer
+  debut:
+    name: Directorial Debuts
     description: |
-      Cancer related
+      Directorial debut
     color: f25959
   road:
     name: Road Trip
@@ -66,9 +66,10 @@ titles:
   - name: The Rise and Fall of Miss Thang
     image_filename: image_id_4746_0ee4950a442140d9fc6bb45a1e598b8f.jpg
     topic: blackcinema
-  - name: Paddling for Sue
-    image_filename: image_id_29336_73c33fbab617e4d0948288eade554b18.jpg
-    topic: cancer
+  - name: Sister
+    image_filename: image_id_118846_09270b1632aed6f261c53c21d2f9f3e1.png
+    topic: debut
+    new: true
   - name: 88
     image_filename: image_id_6115_e8dc6d011b231113a51766ff17bc7518.jpg
     topic: protest
@@ -81,16 +82,18 @@ titles:
   - name: Penny Black
     image_filename: image_id_110472_d9407b5fe70b39db567d6fd2ed134393.jpg
     topic: road
-  - name: Walk on the Wild Side
-    image_filename: image_id_92312_c93cb413b4a2def05b6cb74f7634c2ef.jpg
-    topic: cancer
-    new: true
+  - name: Wedding Guests
+    image_filename: image_id_114186_63066b8715101eba68fde7cf427c69c8.png
+    topic: debut
   - name: "Belonging: The Truth Behind the Headlines"
     image_filename: image_id_35627_dac861570027d3cc1f9765979dd8ab51.png
     topic: protest
   - name: To the New Girl
     image_filename: image_id_78478_a866f03795a13c2ccddb883c98d7bbb2.jpg
     topic: womenfilmmakers
+  - name: Anticipation
+    image_filename: image_id_86077_a5d0f57821ba09f4708a2271dae48fcd.jpg
+    topic: debut
   - name: "Speechless: The Polar Realm"
     image_filename: image_id_90913_4cdf1bb3f440f745c6ebe0ba93a0d202.jpg
     topic: climate
@@ -100,9 +103,9 @@ titles:
   - name: The Last Fiction
     image_filename: image_id_88677_8a47481af28e2b72d157de424c909a31.jpg
     topic: iran
-  - name: "3:19"
-    image_filename: image_id_86408_b061497e277fdf3fee48f737803d688a.jpg
-    topic: cancer
+  - name: Why Siegfried Teitelbaum Had To Die
+    image_filename: image_id_33569_d34d1888c0badfb60c973b5fc705aba6.png
+    topic: debut
   - name: The Pink Chateau
     image_filename: image_id_60877_9c722e9e1c252566fd3be44f360fbfbe.jpg
     topic: womenfilmmakers

@@ -1,18 +1,11 @@
 {
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:jekyll": "bundle exec jekyll build --watch --incremental",
-    "start:lambda": "eval $(egrep -v '^#' .env | xargs) netlify-lambda serve src",
-    "build:lambda": "netlify-lambda build src"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@sendgrid/client": "6.4.0",
     "bootstrap": "^4",
     "jquery": "^3.5.0",
-    "mixitup": "^3.3.1",
-    "netlify-lambda": "^1.6.3",
     "popper.js": "^1.16.0",
-    "slick-carousel": "^1.8.1",
-    "vanilla-lazyload": "^17.1.2"
+    "vanilla-lazyload": "^17.3.1"
   }
 }

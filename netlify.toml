@@ -1,5 +1,5 @@
 [build]
-  functions = "functions"
+  functions = "_functions"
 [build.processing]
   skip_processing = false
 [build.processing.js]

@@ -4,6 +4,7 @@
     "dev": "netlify dev"
   },
   "dependencies": {
+    "@sendgrid/client": "^7",
     "bootstrap": "^4",
     "jquery": "^3.5.0",
     "popper.js": "^1.16.0",

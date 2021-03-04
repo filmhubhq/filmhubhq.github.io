@@ -17,7 +17,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav ml-auto d-none d-flex">
-        <a class="nav-item nav-link animate" href="{{ home }}#howitworks" >How it works</a>
+        <a class="nav-item nav-link animate d-none d-lg-inline" href="{{ home }}#howitworks" >How it works</a>
+        <a class="nav-item nav-link {% if page.path contains 'buyers' %}active {% endif %}" href="/buyers" >For Buyers</a>
         <a class="nav-item nav-link animate d-none d-lg-inline" href="{{ home }}#enterprise">Enterprise</a>
         <a class="nav-item nav-link" href="https://blog.filmhub.com">Blog</a>
         <a class="nav-item nav-link {% if page.path contains 'jobs' %}active {% endif %} d-lg-inline" href="/jobs/">Jobs</a>

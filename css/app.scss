@@ -105,7 +105,8 @@ table {
 }
 
 .jumbotron {
-  @extend .bg-gradient-filmhub;
+  background: rgb(0,31,63);
+  // @extend .bg-gradient-filmhub;
   // link hint styling
 }
 

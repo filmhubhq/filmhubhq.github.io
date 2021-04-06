@@ -38,7 +38,7 @@ function reqDemo() {
     dataType: 'text',
     processData: false,
   }).done(function()  {
-    window.location.replace("https://cal.mixmax.com/alandescragnolle-305/demo");
+    window.location.replace("https://cal.mixmax.com/luiscarhuayo/30");
   }).fail(function()  {
     $("#requestdemomodal .modal-body").html("Sorry - there was an error. Please reload and try again.");
     $("#requestdemomodal .modal-footer").html('<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>');

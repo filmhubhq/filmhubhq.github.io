@@ -4,7 +4,7 @@ container: true
 # offset: 2
 title: Asset Operations Engineer
 hero: |
-  # Asset Operations Engineer - Contract
+  # Asset Operations Engineer
   [Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-outline-warning .mt-3}
 jsonld:
   template: _jsonld_job_posting.json
@@ -59,7 +59,7 @@ Our ideal candidate worked _as tech_ in video or audio post, editorials, mixing 
 
 ### Required skills
 
-- 1+ year(s) in technical post production and broadcast 
+- 2+ year(s) in technical post production, broadcast, software engineering
 - Familiarity with these tools and concepts - the more, the better:
   - Video and image file formats - mov, mxf, mp4, ...
   - Video codecs - DNxHR, Apple ProRes 422, H.264, bit rates, resolution, aspect ratio, ...

@@ -24,17 +24,7 @@ breadcrumb:
     href: /jobs
   - name: Video Engineer (DevOps)
 ---
-### Technologies & Tools
-
-**codecs**{: .badge .badge-primary }
-**aws**{: .badge .badge-primary}
-**video**{: .badge .badge-primary}
-**ffmpeg**{: .badge .badge-primary}
-**databases**{: .badge .badge-primary}
-**audio**{: .badge .badge-primary}
-**linux**{: .badge .badge-primary}
-
-At Filmhub, you’ll manage our cloud technology to configure, package and transfer TV and movie deliverables to Video Streaming Platforms.
+Administer and tune the Filmhub cloud technology to configure, package and transfer TV and movie deliverables to Video Streaming Platforms.
 
 To accomplish this, you are familiar with tools and concepts such as 
 
@@ -51,6 +41,16 @@ To accomplish this, you are familiar with tools and concepts such as
 It's ok if you don’t have deep knowledge of some of the tools, but you must have an appetite to learn.
 
 Our ideal candidate works _as tech_ in postproduction, broadcast, mixing stages, VFX studios, or audio recording studios. He/She is solid with audio and video codecs and formats, transfers from S3 to Aspera, and automates everything with bash scripts. Passion for film is a big plus. No film editors though, please - this is an engineering and devops position.
+
+### Technologies & Tools
+
+**codecs**{: .badge .badge-primary }
+**aws**{: .badge .badge-primary}
+**video**{: .badge .badge-primary}
+**ffmpeg**{: .badge .badge-primary}
+**databases**{: .badge .badge-primary}
+**audio**{: .badge .badge-primary}
+**linux**{: .badge .badge-primary}
 
 ### Responsibilities
 

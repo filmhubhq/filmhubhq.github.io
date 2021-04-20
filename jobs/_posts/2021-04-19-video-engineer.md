@@ -2,9 +2,9 @@
 layout: bootstrap
 container: true
 # offset: 2
-title: Asset Operations Engineer
+title: Video Engineer (DevOps)
 hero: |
-  # Asset Operations Engineer
+  # Video Engineer (DevOps)
   [Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-outline-warning .mt-3}
 jsonld:
   template: _jsonld_job_posting.json
@@ -22,37 +22,41 @@ breadcrumb:
     href: /
   - name: Jobs
     href: /jobs
-  - name: Asset Operations Engineer
+  - name: Video Engineer (DevOps)
 ---
-Disrupt the traditional film industry. Filmhub takes the entire film distribution process online, and gives every filmmaker access to digital distribution. Our cloud technology makes that possible.
-
-- **Job type**: Contract (potential for full-time after a few months)
-- **Experience level**: Mid level
-- **Role**: Asset Operations Engineer
-- **Industry**: IT, Tech, Video streaming, Movies
-- **Company size**: 10-20 people
-- **Company type**: Private, Startup
-- **Location**: Remote
-
 ### Technologies & Tools
 
 **codecs**{: .badge .badge-primary }
-**video QC**{: .badge .badge-primary}
+**aws**{: .badge .badge-primary}
+**video**{: .badge .badge-primary}
 **ffmpeg**{: .badge .badge-primary}
-**intercom**{: .badge .badge-primary}
-**audio editing**{: .badge .badge-primary}
-**video mastering**{: .badge .badge-primary}
+**databases**{: .badge .badge-primary}
+**audio**{: .badge .badge-primary}
+**linux**{: .badge .badge-primary}
 
-At Filmhub, you’ll be working with our cloud delivery technology to configure, package and transfer TV and movie deliverables to Video Streaming Platforms.
+At Filmhub, you’ll manage our cloud technology to configure, package and transfer TV and movie deliverables to Video Streaming Platforms.
 
-To accomplish this, you are familiar with tools and concepts such as file transfer, video transcoding, subtitles, SQL, command line, S3/FTP/Aspera & friends, Photoshop, and Google Apps. Ok if you don’t know some of the tools, but you must have an appetite to learn.
+To accomplish this, you are familiar with tools and concepts such as 
 
-Our ideal candidate worked _as tech_ in video or audio post, editorials, mixing stages, VFX studios, or audio recording studios. He/She is solid with audio and video codecs and formats, transfers from S3 to Aspera, and writes Bash scripts in his sleep to automate things. Good written communication skills and passion for film is a must. To be clear: this job is not for editors - more like the level up for assistant editors with high technical skills :).
+* AWS services
+* Video transcoding, FFmpeg, Mediainfo
+* Subtitle formats like SRT, SCC
+* Linux administration
+* PostgreSQL or other SQL queries and administration
+* Command line scripting
+* S3/FTP/Aspera file services
+* Javascript and Ruby on Rails development
+* Liquid template language
+
+It's ok if you don’t have deep knowledge of some of the tools, but you must have an appetite to learn.
+
+Our ideal candidate works _as tech_ in postproduction, broadcast, mixing stages, VFX studios, or audio recording studios. He/She is solid with audio and video codecs and formats, transfers from S3 to Aspera, and automates everything with bash scripts. Passion for film is a big plus. No film editors though, please - this is an engineering and devops position.
 
 ### Responsibilities
 
-- Technical Onboarding of Video Streaming Platforms
-- Delivery broadcast master deliverables to Video Streaming Platforms
+- Monitor, manage, and operate scalable, highly available, and fault-tolerant systems on AWS
+- Technical onboarding of Video Streaming Platforms like Netflix, Amazon Prime, and Tubi etc.
+- Supervise and troubleshoot scalable cloud delivery of broadcast master deliverables to Video Streaming Platforms
 - Monitor, analyze and fix transcodes, images, captions, and metadata file formats
 - Work with the development team to improve product and user experience
 - Manage individual project priorities, deadlines, and deliverables
@@ -70,16 +74,24 @@ Our ideal candidate worked _as tech_ in video or audio post, editorials, mixing 
   - Liquid template language
   - Image editors - Photoshop, GIMP, Pixelmator, ...
   - Bash command line, scripting
-  - SQL (PostgresQL)
-  - Dashboarding Tools like Retool, Chartio, PopSQL
+  - SQL (PostgreSQL)
+  - Dashboarding tools like Retool
   - Excel/Google Sheets, project management tools
 - Infinite learner
 - Extremely organized and detail-oriented, strong ability to investigate and troubleshootline in Mac and Linux
 
 ## Working at Filmhub
 
-Filmhub takes the entire film distribution process online. For that, we're building web, mobile and TV applications in the cloud, using latest cutting-edge technologies for cloud services, frontend, video processing, and machine learning.
+Disrupt the traditional film industry. Filmhub takes the entire film distribution process online, and gives every filmmaker access to digital distribution. For that, we're building web, mobile and TV applications in the cloud, using latest cutting-edge technologies for cloud services, frontend, video processing, and machine learning.
 
 Filmhub is well funded by Silicon Valley investors, and co-founded by a Hollywood veteran (_Pirates of the Caribbean_).  We offer the perks of the big guys without the corporate feel. While we acknowledge film has a home in Los Angeles, we're a remote first team and believe you can work from wherever.
+
+- **Job type**: Contract (potential for full-time after a few months)
+- **Experience level**: Mid level
+- **Role**: Video Engineer (DevOps)
+- **Industry**: IT, Tech, Video streaming, Movies
+- **Company size**: 10-20 people
+- **Company type**: Private, Startup
+- **Location**: Remote
 
 [Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-primary}

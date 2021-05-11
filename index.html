@@ -1,55 +1,48 @@
 ---
 layout: bootstrap
-title: Filmhub, the Indie Film Distribution Platform
+title: "Filmhub, the #1 Film Distribution Platform"
 id: home
 eyebrow: false
 ---
-<section id="summary" class="py-3 pt-md-5">
-  <div class="container text-md-center">
-    <h1 class="font-weight-bolder display-1">Film Distribution 2.0</h1>
-    <p class="lead pb-4">
-      Filmmakers: pay $0. Keep your rights. Transparent reporting.
-    </p>
-    <div>
-      <p class="mb-1">
-        <a href="https://app.filmhub.com/owner/signup" class="btn btn-block-xs btn-lg btn-info ">Get started</a>
-      </p>
-    </div>
-  </div>
-</section>
 
-<section id="featured" class="pt-5">
+<section id="cinema" class="pt-3 pb-5">
   <div class="container">
-    <h2 class="font-weight-bolder display-3 text-md-center">Amazing Cinema</h2>
-    <p class="lead text-md-center mb-0">Join thousands of filmmakers with strong, fresh films &amp; shows made for an audience.</p>
+    <h2 class="font-weight-bolder display-1 text-md-center">Amazing Cinema</h2>
+    <p class="lead text-md-center mb-0">Join thousands of filmmakers distributing strong, fresh films &amp; shows made for an
+      audience.</p>
   </div>
+  </section>
 
-  <div class="container-fluid px-0 pt-2">
-    <div class="posters pt-4">
-    {% for title in site.data.featured.titles %}
-        <div class="poster mr-2">
-          <img
-            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-            class="lazy"
-            alt="{{ title.name }}"
-            title="{{ title.name }}"
-            width="150"
-            height="200"
-            data-image-filename="{{ title.image_filename }}"
-          >
-          {% if title.new == true %}
-            <div class="badge badge-success topic-header small text-uppercase">New</div>
-          {% endif %}
-          <div
-            class="topic text-uppercase small"
-            style="background-color: #{{ site.data.featured.topics[title.topic].color }};"
-          >
-            {{ site.data.featured.topics[title.topic].name }}
-          </div>
+  <section id="endorsements" class="endorsements py-5 bg-silver">
+    <div class="container">
+      <blockquote class="blockquote text-center mb-0 pb-0">
+        <h2 class="mb-4 font-weight-bolder">&#8220;&hellip; dynamic disruptor in the film distribution space&#8221;</h2>
+        <img class="img-fluid" src="images/variety.svg" style="max-width: 160px;" alt="Variety" />
+      </blockquote>
+    </div>
+  </section>
+  
+<section id="featured" class="pt-0 bg-silver">
+  <div class="container-fluid px-0 pt-0">
+    <div class="posters pt-3">
+      {% for title in site.data.featured.titles %}
+      <div class="poster mr-2">
+        <img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" class="lazy"
+          alt="{{ title.name }}" title="{{ title.name }}" width="150" height="200"
+          data-image-filename="{{ title.image_filename }}">
+        {% if title.new == true %}
+        <div class="badge badge-success topic-header small text-uppercase">New</div>
+        {% endif %}
+        <div class="topic text-uppercase small"
+          style="background-color: #{{ site.data.featured.topics[title.topic].color }};">
+          {{ site.data.featured.topics[title.topic].name }}
         </div>
-    {% endfor %}
-  </div>
+      </div>
+      {% endfor %}
+    </div>
 </section>
+
+
 
 <section id="howitworks" class="py-5">
   <div class="container">
@@ -60,8 +53,10 @@ eyebrow: false
           <p class="lead">
             Filmhub allows filmmakers to upload your film for free, while streaming channels discover, order, and stream your work - worldwide.
           </p>
-          <p class="lead">Once revenue starts flowing, 80% goes to you. No deductions or fees. That's it. </p>
-          <p class="d-none d-md-block"><a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-info">Get started</a></p>
+          <p class="lead">Once revenue starts flowing, 80% goes to you. No deductions or fees. That's it.</p>
+          <p class="d-none d-md-block">
+            <a href="https://app.filmhub.com/owner/signup" class="btn btn-lg btn-info">Get started</a>
+          </p>
         </div>
       </div>
       <div class="col-md-4 offset-md-1 vertical-center order-md-1">
@@ -107,6 +102,9 @@ eyebrow: false
         <div>
           <h2 class="font-weight-bolder display-3">Dozens of Channels</h2>
           <p class="lead">Release wide on Filmhub's fast growing channel partner network.</p>
+          <p class="mt-3">
+            <a href="https://app.filmhub.com/owner/outlets" class="btn btn-block-xs btn-info">Sign Up to See All</a>
+          </p>
         </div>
       </div>
 
@@ -115,7 +113,7 @@ eyebrow: false
           <div class="logos-scrolling">
             {% assign channels = site.data.channels | where_exp: "item", "item.logo != nil" %}
             {% for channel in channels %}
-              <div class="col-4 col-md-3 col-xl-2 my-md-1 text-center"  id={{ channel.name | slugify }}>
+              <div class="col-4 col-md-3 col-xl-3 my-md-1 text-center"  id={{ channel.name | slugify }}>
                 <div class="logo">
                   <img
                     src="/images/channels/{{ channel.logo }}"
@@ -130,15 +128,6 @@ eyebrow: false
         </div>
       </div>
     </div>
-</section>
-
-<section id="endorsements" class="endorsements py-5 bg-silver">
-  <div class="container">
-    <blockquote class="blockquote text-center">
-      <h2 class="mb-3 font-weight-bolder">&#8220;&hellip; dynamic disruptor in the film distribution space&#8221;</h2>
-      <h1 class="blockquote-footer">Variety</h1>
-    </blockquote>
-  </div>
 </section>
 
 

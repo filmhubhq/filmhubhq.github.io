@@ -1,7 +1,6 @@
 ---
 title: Privacy Policy
 layout: bootstrap
-id: terms
 id: privacy
 container: true
 offset: 2

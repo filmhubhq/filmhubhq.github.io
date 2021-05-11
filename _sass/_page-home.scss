@@ -31,11 +31,6 @@
     margin-top: 40px;
   }
 
-  .metrics h1 i {
-    // color: #7a51e9;
-    // color: $color-primary;
-  }
-
   /* Topics
   ------------------------- */
   #featured {
@@ -174,6 +169,3 @@
   @include media-breakpoint-up(xl) {
   }
 }
-
-
-

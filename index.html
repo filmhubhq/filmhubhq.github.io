@@ -17,7 +17,12 @@ eyebrow: false
     <div class="container">
       <blockquote class="blockquote text-center mb-0 pb-0">
         <h2 class="mb-4 font-weight-bolder">&#8220;&hellip; dynamic disruptor in the film distribution space&#8221;</h2>
-        <img class="img-fluid" src="images/variety.svg" style="max-width: 160px;" alt="Variety" />
+        <img 
+          class="lazy" 
+          data-src="images/variety.svg"
+          style="max-width: 160px;" 
+          alt="Variety"
+          title="Variety" />
       </blockquote>
     </div>
   </section>
@@ -116,8 +121,8 @@ eyebrow: false
               <div class="col-4 col-md-3 col-xl-3 my-md-1 text-center"  id={{ channel.name | slugify }}>
                 <div class="logo">
                   <img
-                    src="/images/channels/{{ channel.logo }}"
-                    class="img-fluid"
+                    data-src="/images/channels/{{ channel.logo }}"
+                    class="img-fluid lazy"
                     alt="{{ channel.name }}"
                     title="{{ channel.name }}"
                   >

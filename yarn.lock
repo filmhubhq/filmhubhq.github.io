@@ -7921,11 +7921,6 @@ validate-npm-package-name@^3.0.0:
   dependencies:
     builtins "^1.0.3"
 
-vanilla-lazyload@^17.3.1:
-  version "17.3.1"
-  resolved "https://registry.yarnpkg.com/vanilla-lazyload/-/vanilla-lazyload-17.3.1.tgz#8b3c3f9ee12b04ef04994304c5418eefe25279e1"
-  integrity sha512-9cag1j3ImrmP0VYbqOIT79qit34nV2SijuCgQucv4RhZs5Ln5xfZSqMSWeWgoBBVFp4AIIVSjpkMxmSoW3WiJQ==
-
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"

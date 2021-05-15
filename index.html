@@ -18,8 +18,8 @@ eyebrow: false
       <blockquote class="blockquote text-center mb-0 pb-0">
         <h2 class="mb-4 font-weight-bolder">&#8220;&hellip; dynamic disruptor in the film distribution space&#8221;</h2>
         <img 
-          class="lazy" 
-          data-src="images/variety.svg"
+          src="images/variety.svg"
+          loading="lazy"
           style="max-width: 160px;" 
           alt="Variety"
           title="Variety" />
@@ -32,7 +32,7 @@ eyebrow: false
     <div class="posters pt-3">
       {% for title in site.data.featured.titles %}
       <div class="poster mr-2">
-        <img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" class="lazy"
+        <img loading="lazy"
           alt="{{ title.name }}" title="{{ title.name }}" width="150" height="200"
           data-image-filename="{{ title.image_filename }}">
         {% if title.new == true %}
@@ -118,15 +118,14 @@ eyebrow: false
           <div class="logos-scrolling">
             {% assign channels = site.data.channels | where_exp: "item", "item.logo != nil" %}
             {% for channel in channels %}
-              <div class="col-4 col-md-3 col-xl-3 my-md-1 text-center"  id={{ channel.name | slugify }}>
-                <div class="logo">
-                  <img
-                    data-src="/images/channels/{{ channel.logo }}"
-                    class="img-fluid lazy"
-                    alt="{{ channel.name }}"
-                    title="{{ channel.name }}"
-                  >
-                </div>
+              <div class="col-4 col-md-3 col-xl-3 my-md-1 text-center logo" id={{ channel.name | slugify }}>
+                <img
+                  src="/images/channels/{{ channel.logo }}"
+                  class="img-fluid"
+                  loading="lazy"
+                  alt="{{ channel.name }}"
+                  title="{{ channel.name }}"
+                >
               </div>
             {% endfor %}
           </div>
@@ -250,13 +249,13 @@ eyebrow: false
           <div class="card-body">
             <p class="card-text">Carve out territories with fine-grained control</p>
           </div>
-          <img data-src="/images/screen-territories.png" class="card-img-top lazy" alt="Carve out territories and streaming services">
+          <img src="/images/screen-territories.png" loading="lazy" class="card-img-top" alt="Carve out territories and streaming services">
         </div>
         <div class="card text-dark bg-light shadow my-3">
           <div class="card-body">
             <p class="card-text">Set release dates for different business models</p>
           </div>
-          <img data-src="/images/screen-releases.png" class="card-img-top lazy" alt="Set release dates for different business models">
+          <img src="/images/screen-releases.png" loading="lazy" class="card-img-top" alt="Set release dates for different business models">
         </div>
       </div>
     </div>

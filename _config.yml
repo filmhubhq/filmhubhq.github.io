@@ -14,7 +14,14 @@ include:
   - node_modules/popper.js/dist/umd/popper.min.js.map
   - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
   - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
-  - node_modules/vanilla-lazyload/dist/lazyload.min.js
+exclude:
+  - jest.config.js
+  - netlify.toml
+  - nortonsw_cb4d3fe0-1121-0.html
+  - package.json
+  - README.md
+  - yarn-error.log
+  - yarn.lock
 kramdown:
   auto_ids: true
   parse_block_html: true

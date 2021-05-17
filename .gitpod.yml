@@ -1,2 +1,6 @@
 tasks:
-  - init: yarn install; bundle install
+  - init: >
+      bundle install &&
+      yarn install
+  - command: >
+      _bin/jekyll.command

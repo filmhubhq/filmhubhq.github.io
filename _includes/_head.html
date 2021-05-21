@@ -8,13 +8,19 @@
 
   <meta name="description" content="{{ site.description }}">
   
-  {%- comment -%} 
+  {%- comment -%}
   Social Media tags, @see https://css-tricks.com/essential-meta-tags-social-media/ 
   Also @see for more opportunities: https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/template.html
   TODO: add seo image
   {%- endcomment %}
+
   <meta property="og:title" content="{{ title }}" />
   <meta property="og:description" content="{{ site.description }}" />
+  {%- comment -%}
+  The recommended image ratio for a og:image is 1.91:2.
+  The optimal size would be 1200 x 630.
+  {%- endcomment %}
+  <meta property="og:image" content="{{ site.icon_with_name }}">
   <meta property="og:url" content="{{ site.url }}" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:site_name" content="{{ site.title }}" />
@@ -24,6 +30,10 @@
   {%- endif %}
 
   <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:image" content="{{ site.icon }}">
+  <meta name="twitter:image:alt" content="{{ title }}">
   <meta name="twitter:site" content="@filmhubhq" />
   <meta name="twitter:creator" content="@filmhubhq" />
 

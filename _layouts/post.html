@@ -1,0 +1,13 @@
+---
+layout: bootstrap
+container: true
+offset: 2
+---
+
+{% for tag in page.tags %}
+<li class="list-inline-item">
+  {{ tag }}
+</li>
+{% endfor %}
+
+{{ content }}

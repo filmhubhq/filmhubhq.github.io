@@ -11,18 +11,16 @@ container: true
         <img src="/images/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
       </div>
       <div class="card-body">
-
         <h3 class="card-title">
-          <a href="#" class="stretched-link">{{ post.title }}</a>
+          <a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a>
         </h3>
         <p class="card-text truncate">{{ post.excerpt | strip_html }}</p>
 
       </div>
-      <div class="card-footer">
-        <p class="text-muted">
-          <small>{{ post.author }}&nbsp; • &nbsp;{{ post.date | date_to_string }}</small>
-        </p>
-      </div>
+      <p class="card-footer d-flex justify-content-between">
+        <small class="text-muted">{{ post.author }}&nbsp; • &nbsp;{{ post.date | date_to_string: "ordinal", "US" }}</small>
+        <span class="badge badge-light">{{ post.category }}</span>
+      </p>
     </div>
   </div>
 {% endfor %}

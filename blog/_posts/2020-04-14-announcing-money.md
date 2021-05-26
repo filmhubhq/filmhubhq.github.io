@@ -1,8 +1,9 @@
 ---
+title: "Announcing: Money"
 author: Klaus Badelt
-category: updates
-layout: blog
+category: Updates
 image: announcing-money.png
+layout: post
 ---
 We’re excited to announce the launch of Money. Filmhubbers will now be able to see earnings, download statements, and transfer to PayPal at their convenience — all on Filmhub.com.
 

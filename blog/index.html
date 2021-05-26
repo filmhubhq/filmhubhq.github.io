@@ -3,8 +3,29 @@ layout: bootstrap
 id: blog
 container: true
 ---
+<div class="row row-cols-1">
+  <div class="col mb-4">
+    <div class="card">
+      {% assign post = site.categories["blog"][0] %}
+      <div class="embed-responsive embed-responsive-3by1">
+        <img src="/images/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">
+          <a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a>
+        </h3>
+        <p class="card-text truncate">{{ post.excerpt | strip_html }}</p>
+
+      </div>
+      <p class="card-footer d-flex justify-content-between">
+        <small class="text-muted">{{ post.author }}&nbsp; • &nbsp;{{ post.date | date_to_string: "ordinal", "US" }}</small>
+        <span class="badge badge-light">{{ post.category }}</span>
+      </p>
+    </div>
+  </div>
+</div>
 <div class="posts row row-cols-1 row-cols-md-2">
-  {% for post in site.categories["blog"] %}
+  {% for post in site.categories["blog"] offset: 1 %}
   <div class="col mb-4">
     <div class="card h-100">
       <div class="embed-responsive embed-responsive-16by9">

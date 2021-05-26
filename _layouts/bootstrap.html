@@ -26,9 +26,11 @@
     </div>
   </div>
 {% else %}
-  <div class="container">
-    {% include _navbar_{{ page.lang | default: 'en' }}.html theme="light" %}
-  </div>
+  <section id="navbar">
+    <div class="container">
+      {% include _navbar_{{ page.lang | default: 'en' }}.html theme="light" %}
+    </div>
+  </section>
 {% endif %}
 
 {% comment %} *** CONTENT *** {% endcomment %}
@@ -61,6 +63,7 @@
 
 {% comment %} *** END-OF-BODY *** {% endcomment %}
 {% include _demoreq.html %}
+</main>
 {% include _footer_{{ page.lang | default: 'en' }}.html %}
 {% include _js.html %}
 

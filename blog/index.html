@@ -1,0 +1,27 @@
+---
+layout: bootstrap
+id: blog
+container: true
+---
+<div class="posts row row-cols-1 row-cols-md-2">
+  {% for post in site.categories["blog"] %}
+  <div class="col mb-4">
+    <div class="card h-100">
+      <div class="embed-responsive embed-responsive-16by9">
+        <img src="/images/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
+      </div>
+      <div class="card-body">
+
+        <h3 class="card-title"><a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a></h3>
+        <p class="card-text truncate">{{ post.excerpt | strip_html }}</p>
+
+      </div>
+      <div class="card-footer">
+        <p class="text-muted">
+          <small>{{ post.author }}&nbsp; • &nbsp;{{ post.date | date_to_string }}</small>
+        </p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>

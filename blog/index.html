@@ -12,7 +12,9 @@ container: true
       </div>
       <div class="card-body">
 
-        <h3 class="card-title"><a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a></h3>
+        <h3 class="card-title">
+          <a href="#" class="stretched-link">{{ post.title }}</a>
+        </h3>
         <p class="card-text truncate">{{ post.excerpt | strip_html }}</p>
 
       </div>

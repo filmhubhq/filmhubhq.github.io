@@ -35,19 +35,23 @@ autoprefixer:
 defaults:
   -
     scope:
-      path: oldblog
-    values:
-      sitemap: false
-  -
-    scope:
       path: modals
     values:
       sitemap: false
   -
     scope:
-      path: help
+      path: ""
+      type: "pages"
     values:
-      sitemap: false
+      layout: "bootstrap"
+  -
+    scope:
+      path: "blog"
+      type: "posts"
+    values:
+      layout: "post"
+      container: true
+      offset: 2
 
 # Image Handler Service
 # Expects Base64 encoded hash with image information

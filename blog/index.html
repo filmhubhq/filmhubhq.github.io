@@ -3,6 +3,15 @@ layout: bootstrap
 id: blog
 container: true
 ---
+<div class="text-center pb-4">
+  <ul class="list-inline">
+    {% for cat in site.categories %}
+    <li class="list-inline-item category-name">
+      {{ cat[0] }}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 <div class="row row-cols-1">
   <div class="col mb-4">
     <div class="card">
@@ -19,7 +28,7 @@ container: true
       </div>
       <p class="card-footer d-flex justify-content-between">
         <small class="text-muted">{{ post.author }}&nbsp; • &nbsp;{{ post.date | date_to_string: "ordinal", "US" }}</small>
-        <span class="badge badge-light">{{ post.category }}</span>
+        <span class="badge badge-light text-capitalize">{{ post.categories.last }}</span>
       </p>
     </div>
   </div>
@@ -40,7 +49,7 @@ container: true
       </div>
       <p class="card-footer d-flex justify-content-between">
         <small class="text-muted">{{ post.author }}&nbsp; • &nbsp;{{ post.date | date_to_string: "ordinal", "US" }}</small>
-        <span class="badge badge-light">{{ post.category }}</span>
+        <span class="badge badge-light text-capitalize">{{ post.categories.last }}</span>
       </p>
     </div>
   </div>

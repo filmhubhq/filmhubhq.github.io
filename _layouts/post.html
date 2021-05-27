@@ -6,9 +6,9 @@ layout: bootstrap
   <p class="text-muted lead">
     {{ page.author}}<br />
     {{ page.date | date_to_long_string: "ordinal", "US" }} &bull; {{ content | number_of_words | divided_by: 200.0 | ceil }} min read &bull;
-    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}%20by%20@filmhubhq%20{{ page.url | absolute_url }}">
+    <a class="text-decoration-none" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}%20by%20@filmhubhq%20{{ page.url | absolute_url }}">
       <i class="text-muted fab fa-fw fa-twitter"></i></a>
-    <a href="https://www.facebook.com/dialog/share?app_id={{ site.facebook_app_id }}&display=page&href={{ page.url | absolute_url }}&redirect_uri={{ page.url | absolute_url }}&quote={{ page.title | url_encode }}">
+    <a class="text-decoration-none" href="https://www.facebook.com/dialog/share?app_id={{ site.facebook_app_id }}&display=page&href={{ page.url | absolute_url }}&redirect_uri={{ page.url | absolute_url }}&quote={{ page.title | url_encode }}">
       <i class="text-muted fab fa-fw fa-facebook"></i></a>
 </div>
 <div class="mb-5">
@@ -17,13 +17,13 @@ layout: bootstrap
 
 {{ content }}
 
-<ul class="list-inline mt-5">
+<ul class="list-inline mt-5 pt-3">
   <li class="list-inline-item">
-    <span class="badge badge-primary">{{ page.category }}</span>
+    <span class="badge badge-dark text-capitalize py-2 px-3">{{ page.categories.last }}</span>
   </li>
 {% for tag in page.tags %}
   <li class="list-inline-item">
-    <span class="badge badge-secondary">{{ tag }}</span>
+    <span class="badge badge-secondary text-capitalize py-2 px-2"><i class="fas fa-tag"></i>&nbsp;{{ tag }}</span>
   </li>
 {% endfor %}
 </ul>

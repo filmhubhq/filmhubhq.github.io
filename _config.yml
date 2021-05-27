@@ -52,6 +52,7 @@ defaults:
       layout: "post"
       container: true
       offset: 2
+facebook_app_id: "1116971662127675"
 
 # Image Handler Service
 # Expects Base64 encoded hash with image information

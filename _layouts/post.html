@@ -3,10 +3,15 @@ layout: bootstrap
 ---
 <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
   <h1 class="display-4">{{ page.title }}</h1>
-  <p class="text-muted post-info">
+  <p class="text-muted">
     {{ page.author}}<br />
-    {{ page.date | date_to_long_string: "ordinal", "US" }} • {{ content | number_of_words | divided_by: 200.0 | ceil }} min read
-  </p>
+    {{ page.date | date_to_long_string: "ordinal", "US" }} &bull; {{ content | number_of_words | divided_by: 200.0 | ceil }} min read &bull;
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}%20by%20@filmhubhq%20{{ page.url | absolute_url }}">
+      <i class="text-muted fab fa-fw fa-twitter"></i>
+   </a>
+    <a href="https://www.facebook.com/dialog/share?app_id={{ site.facebook_app_id }}&display=page&href={{ page.url | absolute_url }}&redirect_uri={{ page.url | absolute_url }}&quote={{ page.title | url_encode }}">
+      <i class="text-muted fab fa-fw fa-facebook"></i>
+    </a>
 </div>
 <div class="mb-5">
   <img src="/images/{{ page.image }}" class="img-fluid rounded" alt="{{ post.title }}">

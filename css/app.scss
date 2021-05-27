@@ -11,6 +11,9 @@ $enable-gradients: true;
 @import "navbar";
 @import "footer";
 
+// specific layouts styles
+@import "layout–post";
+
 // specific page styles
 @import "page-home";
 @import "page-blog";

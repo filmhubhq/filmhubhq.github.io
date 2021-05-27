@@ -13,17 +13,17 @@ Amazon is not disclosing the entire formula, but we have some insights about how
 
 The "CER" is designed to measure engagement. Several objective factors are used in its calculation, including:
 
-* _Unique Customers_: How many different people are watching your title
-* _View Length_: How long people are watching your title
+* _Unique Customers:_ How many different people are watching your title
+* _View Length:_ How long people are watching your title
 
 The CER also uses less objective factors:
 
-* _Popularity_: This involves talent, genre, IMDB ratings, and box office performance
-* _Caliber_: This is very subjective and includes aspects like quality of poster art, accurate metadata, localized subtitles and key art
+* _Popularity:_ This involves talent, genre, IMDB ratings, and box office performance
+* _Caliber:_ This is very subjective and includes aspects like quality of poster art, accurate metadata, localized subtitles and key art
 
 ## What can you do?
 
-The subjective factors can be addressed. To start with, see our tips and tricks how to create effective [streaming channel artwork](https://intercom.help/filmhub/submission-process/artwork-and-images/filmhub-artwork-specs) along with [some examples](https://intercom.help/filmhub/submission-process/artwork-and-images/artwork-examples).
+The subjective factors can be addressed. To start with, create specific streaming channel artwork, which is different than the traditional movie posters.
 
 The real key is to drive traffic to your film. You know your audience and are now in control of your marketing and how to reach out to them.
 

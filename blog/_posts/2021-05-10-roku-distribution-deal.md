@@ -1,7 +1,7 @@
 ---
 title: Roku Distribution Deal
 author: Alan d'Escragnolle
-category: Press Releases
+category: PR
 image: roku-distribution-deal.jpg
 layout: post
 ---

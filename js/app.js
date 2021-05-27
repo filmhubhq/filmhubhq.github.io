@@ -1,10 +1,10 @@
 ---
 ---
-$(document).ready(function() {
+$(function() {
   // animate same-page anchor scroll
   var $root = $('html, body');
-  $('a.animate').click(function(e) {
-      var href = $.attr(this, 'href').replace(/^\//,'');
+  $('a.animate').on('click', function(e) {
+      var href = $.attr(this, 'href').replace(new RegExp('^\/'),'');
       $root.animate({
         scrollTop: $(href).offset().top
       }, 500, function () {
@@ -16,7 +16,7 @@ $(document).ready(function() {
   // init bootstrap popover & tooltip
   $('[data-toggle="popover"]').popover();
   $('[data-toggle="tooltip"]').tooltip()
-  $('a[data-toggle="tooltip"]').click(function(e) {
+  $('a[data-toggle="tooltip"]').on('click', function(e) {
     e.preventDefault();
   });
 

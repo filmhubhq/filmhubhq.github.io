@@ -8,7 +8,7 @@ container: true
     <div class="card">
       {% assign post = site.categories["blog"][0] %}
       <div class="embed-responsive embed-responsive-3by1">
-        <img src="/images/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
+        <img loading="lazy" src="/images/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
       </div>
       <div class="card-body">
         <h3 class="card-title">
@@ -29,7 +29,7 @@ container: true
   <div class="col mb-4">
     <div class="card h-100">
       <div class="embed-responsive embed-responsive-16by9">
-        <img src="/images/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
+        <img loading="lazy" src="/images/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
       </div>
       <div class="card-body">
         <h3 class="card-title">

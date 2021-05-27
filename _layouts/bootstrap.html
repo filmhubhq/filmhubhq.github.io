@@ -2,7 +2,7 @@
 {% include _head.html %}
 
 {% comment %} *** BODY *** {% endcomment %}
-<body class="{% if page.hero %} {% endif %}page-{{ page.id }} layout-{{ page.layout }}">
+<body class="d-flex flex-column h-100 {% if page.hero %} {% endif %}page-{{ page.id }} layout-{{ page.layout }}">
 
 {% comment %} *** EYEBROW *** {% endcomment %}
 {% if page.eyebrow %}

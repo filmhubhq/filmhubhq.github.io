@@ -19,7 +19,7 @@ layout: null
           <description>
               {{ post.content | truncatewords: 3 | xml_escape }}
           </description>
-          <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           <guid>
               {{ post.url | prepend: site.url }}
           </guid>

@@ -1,0 +1,73 @@
+---
+layout: bootstrap
+container: true
+---
+<div class="text-center pb-4">
+  <ul class="nav nav-pills justify-content-center">
+    <li class="nav-item"><a href="/blog/" class="nav-link {% if page.title == "Blog" %}active{% endif %}">All</a></li>
+    {% for cat in site.categories %}
+    {% if cat[0] != 'jobs' %}
+    <li class="nav-item text-capitalize">
+      {% assign cat_slug = cat[0] | slugify %}
+      <a
+        class="nav-link {% if page.path contains cat_slug %}active{% endif %}"
+        href="/{{ cat[0] | slugify }}"
+      >{{ cat[0] }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+{% comment %} Show *all* posts on Blog page {% endcomment %}
+{% if page.title == "Blog" %}
+{% assign posts = site.posts | where_exp: "post", "post.categories.first != 'jobs'" %}
+{% else %}
+{% assign posts = site.posts | where_exp: "post", "post.categories.first == page.title" %}
+{% endif %}
+<div class="row row-cols-1">
+  <div class="col mb-4">
+    <div class="card">
+      {% assign post = posts.first %}
+      {% if post.image %}
+      <div class="embed-responsive embed-responsive-3by1">
+        <img loading="lazy" src="/images/blog/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
+      </div>
+      {% endif %}
+      <div class="card-body">
+        <h3 class="card-title font-weight-bold">
+          <a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a>
+        </h3>
+        <p class="card-text">{{ post.excerpt | strip_html }}</p>
+
+      </div>
+      <p class="card-footer d-flex justify-content-between">
+        <small class="text-muted">{{ post.author }}&nbsp; • &nbsp;{{ post.date | date_to_string: "ordinal", "US" }}</small>
+        <span class="badge badge-light text-capitalize">{{ post.categories | join: "," }}</span>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="posts row row-cols-1 row-cols-md-2">
+  {% for post in posts offset: 1 %}
+  <div class="col mb-4">
+    <div class="card h-100">
+      {% if post.image %}
+      <div class="embed-responsive embed-responsive-16by9">
+        <img loading="lazy" src="/images/blog/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
+      </div>
+      {% endif %}
+      <div class="card-body">
+        <h3 class="card-title font-weight-bold">
+          <a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a>
+        </h3>
+        <p class="card-text truncate">{{ post.excerpt | strip_html }}</p>
+
+      </div>
+      <p class="card-footer d-flex justify-content-between">
+        <small class="text-muted">{{ post.author }}&nbsp; • &nbsp;{{ post.date | date_to_string: "ordinal", "US" }}</small>
+        <span class="badge badge-light text-capitalize">{{ post.categories | join: "," }}</span>
+      </p>
+    </div>
+  </div>
+{% endfor %}
+</div>

@@ -35,7 +35,7 @@
 
 {% comment %} *** CONTENT *** {% endcomment %}
   <div class="content body">
-    {% if page.container %}<div class="container py-5">{% endif %}
+    {% if page.container or layout.container %}<div class="container py-5">{% endif %}
 
     {% if page.breadcrumb %}
       <nav aria-label="breadcrumb">
@@ -58,7 +58,7 @@
     </div>
 
     {% if page.offset %}</div></div>{% endif %}
-    {% if page.container %}</div>{% endif %}
+    {% if page.container or layout.container %}</div>{% endif %}
   </div>
 
 {% comment %} *** END-OF-BODY *** {% endcomment %}

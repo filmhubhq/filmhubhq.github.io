@@ -16,8 +16,8 @@ collections:
       - label: 'Category'
         name: 'category'
         widget: 'select'
-        options: [Blog, Press, Updates]
-        default: Blog
+        options: [Articles, Press, Updates]
+        default: Articles
       - { label: 'Publish Date', name: 'date', widget: 'date' }
       - { label: 'Featured Image', name: 'image', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

@@ -13,10 +13,10 @@ $enable-gradients: true;
 
 // specific layouts styles
 @import "layout–post";
+@import "layout-posts";
 
 // specific page styles
 @import "page-home";
-@import "page-blog";
 
 // globals
 @import "globals";

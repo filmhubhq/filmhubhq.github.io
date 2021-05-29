@@ -1,7 +1,7 @@
 ---
 title: Roku Distribution Deal
 author: Alan d'Escragnolle
-category: PR
+category: Press
 image: roku-distribution-deal.jpg
 layout: post
 ---
@@ -21,8 +21,8 @@ Headquartered in Santa Monica, Calif., Filmhub is disrupting the $74 billion str
 
 ##### Media Contact
 
-EPEC Media  
-[filmhub@EPECmedia.com](mailto:filmhub@EPECmedia.com)  
+EPEC Media
+[filmhub@EPECmedia.com](mailto:filmhub@EPECmedia.com)
 [424-335-4734](tel:424-335-4734)
 
 ---

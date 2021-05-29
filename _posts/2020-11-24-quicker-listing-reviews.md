@@ -2,7 +2,7 @@
 title:  Quicker Listing Review Turnarounds
 author: Alan d'Escragnolle
 category: Updates
-tags: 
+tags:
   - Listing Review
   - Film Distribution
   - Company Update

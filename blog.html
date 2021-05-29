@@ -3,22 +3,28 @@ layout: bootstrap
 id: blog
 container: true
 ---
-<div class="text-center pb-4">
-  <ul class="list-inline">
+<!-- <div class="text-center pb-4">
+  <ul class="nav nav-pills justify-content-center">
+    <li class="nav-item"><a class="nav-link active">All</a></li>
     {% for cat in site.categories %}
-    <li class="list-inline-item category-name">
-      {{ cat[0] }}
+    {% if cat[0] != 'jobs' %}
+    <li class="nav-item text-capitalize">
+      <a class="nav-link" href="#">{{ cat[0] }}</a>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
-</div>
+</div> -->
+{% assign posts = site.posts | where_exp: "post", "post.categories.first != 'jobs'" %}
 <div class="row row-cols-1">
   <div class="col mb-4">
     <div class="card">
-      {% assign post = site.categories["blog"][0] %}
+      {% assign post = posts.first %}
+      {% if post.image %}
       <div class="embed-responsive embed-responsive-3by1">
-        <img loading="lazy" src="/images/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
+        <img loading="lazy" src="/images/blog/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
       </div>
+      {% endif %}
       <div class="card-body">
         <h3 class="card-title font-weight-bold">
           <a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a>
@@ -28,18 +34,20 @@ container: true
       </div>
       <p class="card-footer d-flex justify-content-between">
         <small class="text-muted">{{ post.author }}&nbsp; • &nbsp;{{ post.date | date_to_string: "ordinal", "US" }}</small>
-        <span class="badge badge-light text-capitalize">{{ post.categories.last }}</span>
+        <span class="badge badge-light text-capitalize">{{ post.categories | join: "," }}</span>
       </p>
     </div>
   </div>
 </div>
 <div class="posts row row-cols-1 row-cols-md-2">
-  {% for post in site.categories["blog"] offset: 1 %}
+  {% for post in posts offset: 1 %}
   <div class="col mb-4">
     <div class="card h-100">
+      {% if post.image %}
       <div class="embed-responsive embed-responsive-16by9">
-        <img loading="lazy" src="/images/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
+        <img loading="lazy" src="/images/blog/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
       </div>
+      {% endif %}
       <div class="card-body">
         <h3 class="card-title font-weight-bold">
           <a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a>
@@ -49,7 +57,7 @@ container: true
       </div>
       <p class="card-footer d-flex justify-content-between">
         <small class="text-muted">{{ post.author }}&nbsp; • &nbsp;{{ post.date | date_to_string: "ordinal", "US" }}</small>
-        <span class="badge badge-light text-capitalize">{{ post.categories.last }}</span>
+        <span class="badge badge-light text-capitalize">{{ post.categories | join: "," }}</span>
       </p>
     </div>
   </div>

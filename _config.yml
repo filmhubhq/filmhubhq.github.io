@@ -40,12 +40,13 @@ defaults:
       sitemap: false
   -
     scope:
-      path: blog
+      path: _posts
       type: posts
     values:
       layout: post
       container: true
       offset: 2
+      category: Blog
 facebook_app_id: "1116971662127675"
 
 # Image Handler Service

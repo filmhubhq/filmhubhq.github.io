@@ -1,7 +1,7 @@
 ---
 title: Amazon Now Pays Filmmakers Based On How Much They Like Your Movie
 author: Klaus Badelt
-# category: Blog
+category: Blog
 image: amazon-now-pays-based-on-how-much-they-like-your-movie.jpg
 layout: post
 ---

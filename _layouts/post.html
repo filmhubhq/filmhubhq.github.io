@@ -11,9 +11,11 @@ layout: bootstrap
     <a class="text-decoration-none" href="https://www.facebook.com/dialog/share?app_id={{ site.facebook_app_id }}&display=page&href={{ page.url | absolute_url }}&redirect_uri={{ page.url | absolute_url }}&quote={{ page.title | url_encode }}">
       <i class="text-muted fab fa-fw fa-facebook"></i></a>
 </div>
+{% if page.image %}
 <div class="mb-5">
   <img src="/images/{{ page.image }}" class="img-fluid rounded" alt="{{ post.title }}">
 </div>
+{% endif %}
 
 {{ content }}
 

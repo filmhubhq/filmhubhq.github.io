@@ -7,9 +7,9 @@
   <title>{{ title }}</title>
 
   <meta name="description" content="{{ site.description }}">
-  
+
   {%- comment -%}
-  Social Media tags, @see https://css-tricks.com/essential-meta-tags-social-media/ 
+  Social Media tags, @see https://css-tricks.com/essential-meta-tags-social-media/
   Also @see for more opportunities: https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/template.html
   TODO: add seo image
   {%- endcomment %}
@@ -66,4 +66,5 @@
       {% include _jsonld_organization.json %}
     {% endif %}
   </script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>

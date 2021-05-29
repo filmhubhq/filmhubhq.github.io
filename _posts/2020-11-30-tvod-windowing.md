@@ -1,11 +1,11 @@
 ---
 title: Indie Film Distribution & TVOD Windowing
 author: Alan d'Escragnolle
-# category: Blog
+category: Blog
 image: tvod-windowing.png
 layout: post
 ---
-TVOD windowing strategy does not work for 95%+ of Independent Films. Yes, I said it. 
+TVOD windowing strategy does not work for 95%+ of Independent Films. Yes, I said it.
 
 We’ve worked with thousands of independent films and nearly every single time that a content owner wants to pursue a windowing strategy — they come back to us and ask us to start releasing on AVOD/SVOD sooner than originally planned because not enough revenues are coming in from TVOD.
 

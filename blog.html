@@ -3,7 +3,7 @@ layout: bootstrap
 id: blog
 container: true
 ---
-<!-- <div class="text-center pb-4">
+<div class="text-center pb-4">
   <ul class="nav nav-pills justify-content-center">
     <li class="nav-item"><a class="nav-link active">All</a></li>
     {% for cat in site.categories %}
@@ -14,7 +14,7 @@ container: true
     {% endif %}
     {% endfor %}
   </ul>
-</div> -->
+</div>
 {% assign posts = site.posts | where_exp: "post", "post.categories.first != 'jobs'" %}
 <div class="row row-cols-1">
   <div class="col mb-4">

@@ -1,0 +1,71 @@
+backend:
+  name: git-gateway
+  branch: feature/blog
+media_folder: 'images/blog'
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - label: 'Category'
+        name: 'category'
+        widget: 'select'
+        options: [Articles, Press, Updates]
+        default: Articles
+      - { label: 'Publish Date', name: 'date', widget: 'date' }
+      - { label: 'Featured Image', name: 'image', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'one-sheets'
+    label: 'One-Sheets'
+    folder: 'one-sheets/'
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'bootstrap' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Hero', name: 'hero', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'markdown', minimal: true }
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - label: Privacy Policy
+        name: privacy
+        file: /privacy.md
+        editor:
+          preview: false
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'ID', name: 'id', widget: 'string' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'bootstrap' }
+          - { label: 'Container', name: 'container', widget: 'boolean' }
+          - { label: 'Offset', name: 'offset', widget: 'number' }
+          - { label: 'Body', name: 'body', widget: 'markdown', minimal: true }
+      - label: Terms & Conditions
+        name: terms
+        file: /terms.md
+        editor:
+          preview: false
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'ID', name: 'id', widget: 'string' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'bootstrap' }
+          - { label: 'Container', name: 'container', widget: 'boolean' }
+          - { label: 'Offset', name: 'offset', widget: 'number' }
+          - { label: 'Body', name: 'body', widget: 'markdown', minimal: true }
+      - label: Cross Promotion
+        name: pr
+        file: /pr.md
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'ID', name: 'id', widget: 'string' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'bootstrap' }
+          - { label: 'Container', name: 'container', widget: 'boolean' }
+          - { label: 'Hero', name: 'hero', widget: 'markdown' }
+          - { label: 'Body', name: 'body', widget: 'markdown', minimal: true }

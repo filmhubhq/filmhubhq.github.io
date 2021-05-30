@@ -1,0 +1,29 @@
+.layout-posts {
+  .card {
+    border-radius: 10px;
+    transition: 330ms transform cubic-bezier(.55, .085, .68, .53), 330ms box-shadow, 330ms;
+    border: 0 solid transparent;
+    &:hover{
+      transform: scale(1.02);
+      box-shadow: 0 11px 14px 4px rgba(115,129,170,.35);
+    }
+    a {
+      color: $body-color;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    .embed-responsive .card-img-top {
+      object-fit: cover;
+    }
+    .truncate {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    .card-footer {
+      background-color: inherit;
+      border-top: inherit;
+    }
+  }
+}

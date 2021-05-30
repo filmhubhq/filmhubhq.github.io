@@ -1,14 +1,10 @@
 ---
-title: Press Release
-layout: bootstrap
-id: press-release
-container: true
-offset: 2
+title: Roku Distribution Deal
+author: Alan d'Escragnolle
+category: Press
+image: roku-distribution-deal.jpg
+layout: post
 ---
-**Press Release**{: .badge .badge-primary }
-
-# Filmhub Expands Global Distribution with Roku Partnership
-
 Film distribution disruptor Filmhub signs deal with Roku, expanding opportunities for its filmmakers.
 {: .lead}
 
@@ -20,13 +16,13 @@ Launched in 2017, The Roku Channel features a diverse lineup of more than 40,000
 
 #### About Filmhub
 
-Headquartered in Santa Monica, Calif., Filmhub is disrupting the $74 billion streaming entertainment industry with a modern, technology-driven solution for filmmakers to reach streaming channels throughout the world. The platform takes the entire film distribution process online and adds smart data layers for discovery, automated asset fulfillment, and payment processing. It has over 10,000 titles available for licensing to dozens of channels, including [Amazon Prime Video](https://www.primevideo.com/), [IMDb TV](https://www.imdb.com/tv/), [Tubi](https://www.imdb.com/tv/) (acquired by Fox), [Plex](https://www.plex.tv/), and [Xumo](https://www.xumo.tv/) (acquired by Comcast). For more information, visit [https://filmhub.com]().
+Headquartered in Santa Monica, Calif., Filmhub is disrupting the $74 billion streaming entertainment industry with a modern, technology-driven solution for filmmakers to reach streaming channels throughout the world. The platform takes the entire film distribution process online and adds smart data layers for discovery, automated asset fulfillment, and payment processing. It has over 10,000 titles available for licensing to dozens of channels, including [Amazon Prime Video](https://www.primevideo.com/), [IMDb TV](https://www.imdb.com/tv/), [Tubi](https://www.tubi.com/) (acquired by Fox), [Plex](https://www.plex.tv/), and [Xumo](https://www.xumo.tv/) (acquired by Comcast). For more information, visit [filmhub.com](https://filmhub.com).
 
 
 ##### Media Contact
 
-EPEC Media  
-[filmhub@EPECmedia.com](mailto:filmhub@EPECmedia.com)  
+EPEC Media
+[filmhub@EPECmedia.com](mailto:filmhub@EPECmedia.com)
 [424-335-4734](tel:424-335-4734)
 
 ---

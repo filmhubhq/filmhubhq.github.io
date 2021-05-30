@@ -1,5 +1,6 @@
 ---
 layout: bootstrap
+# category: jobs
 container: true
 hero: |
   # Web Developer
@@ -10,7 +11,7 @@ jsonld:
     minValue: 65000.00
     maxValue: 120000.00
   experienceRequirements: Minumum 1 year experience as a software engineer
-  occupationalCategory: 
+  occupationalCategory:
     - 15-1254 Web Developers
 breadcrumb:
   - name: Home
@@ -19,8 +20,8 @@ breadcrumb:
     href: /jobs
   - name: Web Developer
 ---
-Build the premier marketplace web app for the film industry. 
-You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends. 
+Build the premier marketplace web app for the film industry.
+You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends.
 If you're familiar with Rails, React and have a passion for movies, this is for you.
 
 - **Job type**: Full-time
@@ -76,7 +77,7 @@ If you're familiar with Rails, React and have a passion for movies, this is for 
 - Film & TV or audio post production
 - Docker
 - AWS - EC2, ECS, RDS, Elasticache, S3, Batch, Step Functions, Cloudwatch
-- Excellent written, communication, inter personal, liaison and 
+- Excellent written, communication, inter personal, liaison and
 problem-solving skills with the ability to work in multi-cultural environment
 
 ## Working at Filmhub

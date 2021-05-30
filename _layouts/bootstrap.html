@@ -2,7 +2,7 @@
 {% include _head.html %}
 
 {% comment %} *** BODY *** {% endcomment %}
-<body class="d-flex flex-column h-100 {% if page.hero %} {% endif %}page-{{ page.id }}">
+<body class="d-flex flex-column h-100 {% if page.hero %} {% endif %}page-{{ page.id }} layout-{{ page.layout }}">
 
 {% comment %} *** EYEBROW *** {% endcomment %}
 {% if page.eyebrow %}
@@ -26,14 +26,16 @@
     </div>
   </div>
 {% else %}
-  <div class="container">
-    {% include _navbar_{{ page.lang | default: 'en' }}.html theme="light" %}
-  </div>
+  <section id="navbar">
+    <div class="container">
+      {% include _navbar_{{ page.lang | default: 'en' }}.html theme="light" %}
+    </div>
+  </section>
 {% endif %}
 
 {% comment %} *** CONTENT *** {% endcomment %}
   <div class="content body">
-    {% if page.container %}<div class="container py-5">{% endif %}
+    {% if page.container or layout.container %}<div class="container py-5">{% endif %}
 
     {% if page.breadcrumb %}
       <nav aria-label="breadcrumb">
@@ -56,11 +58,12 @@
     </div>
 
     {% if page.offset %}</div></div>{% endif %}
-    {% if page.container %}</div>{% endif %}
+    {% if page.container or layout.container %}</div>{% endif %}
   </div>
 
 {% comment %} *** END-OF-BODY *** {% endcomment %}
 {% include _demoreq.html %}
+</main>
 {% include _footer_{{ page.lang | default: 'en' }}.html %}
 {% include _js.html %}
 

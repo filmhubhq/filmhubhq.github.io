@@ -1,7 +1,7 @@
 title: Filmhub
-tagline: "The #1 film distribution platform"
-description: Built to empower filmmakers to direct distribute their films around the world.
 url: https://filmhub.com
+description: Empower filmmakers to direct distribute their films around the world.
+tagline: "The #1 film distribution platform"
 icon: https://filmhub.com/images/icon_v2_600.png
 icon_with_name: https://filmhub.com/images/filmhub_1200x630.png
 permalink: none
@@ -11,12 +11,13 @@ sass:
   style: compressed
 include:
   - node_modules/jquery/dist/jquery.min.js
-  - node_modules/jquery/dist/jquery.min.js.map
+  - node_modules/jquery/dist/jquery.min.map
   - node_modules/popper.js/dist/umd/popper.min.js
   - node_modules/popper.js/dist/umd/popper.min.js.map
   - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
   - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
 exclude:
+  - .gitpod.yml
   - jest.config.js
   - netlify.toml
   - nortonsw_cb4d3fe0-1121-0.html
@@ -35,19 +36,19 @@ autoprefixer:
 defaults:
   -
     scope:
-      path: oldblog
-    values:
-      sitemap: false
-  -
-    scope:
       path: modals
     values:
       sitemap: false
   -
     scope:
-      path: help
+      path: _posts
+      type: posts
     values:
-      sitemap: false
+      layout: post
+      container: true
+      offset: 2
+      category: Articles
+facebook_app_id: "1116971662127675"
 
 # Image Handler Service
 # Expects Base64 encoded hash with image information

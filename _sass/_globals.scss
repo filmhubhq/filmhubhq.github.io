@@ -1,0 +1,126 @@
+body {
+  background-color: #f6f6f9; // $light;
+}
+
+// style tables in markdown
+table {
+  @extend .table;
+}
+
+.transparent-50 {
+  opacity: 0.5;
+}
+
+.linkhint {
+  border-bottom: $gray-500 2px dotted;
+  color: inherit;
+  padding-bottom: 2px;
+
+  &:hover {
+    border-bottom: solid;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &:focus {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.bg-gradient-filmhub {
+  background: rgb(0,31,63);
+  background: linear-gradient(152deg,
+    rgba(0,31,63,1) 0%,
+    rgba(0,31,63,1) 40%,
+    rgba(10,84,122,1) 72%,
+    rgba(21,141,187,1) 100%);
+}
+
+.bg-gradient-filmhub-reverse {
+  background: rgb(0,31,63);
+  background: linear-gradient(152deg,
+    rgba(21,141,187,1) 0%,
+    rgba(10,84,122,1) 40%,
+    rgba(0,31,63,1) 72%,
+    rgba(0,31,63,1) 100%);
+}
+
+.bg-silver {
+  background-color: $silver;
+  color: $black;
+}
+
+.bg-navy {
+  background-color: $navy; /* #e67d25 #4C5679; #36426B */
+  color: $silver;
+  a {
+    color: $silver;
+    text-decoration: underline;
+  }
+}
+
+.navbar {
+  .navbar-brand:hover {
+    opacity: 0.7;
+  }
+
+  &.navbar-dark .navbar-brand {
+    filter: brightness(1000);
+    transition: none;
+    &:hover {
+      transition: none;
+    }
+  }
+
+  // navbar menu a bit smaller
+  .navbar-nav {
+    font-size: 0.90rem;
+    .nav-link {
+      padding-left: 1rem;
+      padding-right: 0.5rem;
+    }
+  }
+
+  svg {
+    fill: $info;
+  }
+}
+
+.jumbotron {
+  @extend .bg-gradient-filmhub;
+  // link hint styling
+}
+
+a[data-toggle="tooltip"] {
+  color: inherit;
+  border-bottom: 1px dashed #000;
+  text-decoration: none;
+}
+
+.vertical-center {
+  // min-height: 100%;
+  // min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+  background: none;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ddd' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ddd' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+@include media-breakpoint-down(xs) {
+  .btn-block-xs {
+    display: block;
+    width: 100%;
+  }
+}

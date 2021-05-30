@@ -1,6 +1,11 @@
 tasks:
   - init: >
+      sudo apt install -y libgsl-dev
       bundle install &&
       yarn install
   - command: >
       _bin/jekyll.command
+ports:
+  - port: 4000
+    onOpen: open-browser
+    

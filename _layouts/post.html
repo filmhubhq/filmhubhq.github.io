@@ -1,0 +1,60 @@
+---
+layout: bootstrap
+---
+<div class="px-3 pt-md-3 pb-md-4 mx-auto">
+  <h1 class="display-4 text-center">{{ page.title }}</h1>
+  <p class="text-muted lead text-center">
+    {{ page.author}}<br />
+    {{ page.date | date_to_long_string: "ordinal", "US" }} &bull; {{ content | number_of_words | divided_by: 200.0 | ceil }} min read &bull;
+    <a class="text-decoration-none" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}%20by%20@filmhubhq%20{{ page.url | absolute_url }}">
+      <i class="text-muted fab fa-fw fa-twitter"></i></a>
+    <a class="text-decoration-none" href="https://www.facebook.com/dialog/share?app_id={{ site.facebook_app_id }}&display=page&href={{ page.url | absolute_url }}&redirect_uri={{ page.url | absolute_url }}&quote={{ page.title | url_encode }}">
+      <i class="text-muted fab fa-fw fa-facebook"></i></a>
+</div>
+{% if page.image %}
+<div class="mb-5">
+  <img src="/images/blog/{{ page.image }}" class="img-fluid rounded" alt="{{ post.title }}">
+</div>
+{% endif %}
+
+{{ content }}
+
+<ul class="list-inline my-4 my-md-5">
+  <li class="list-inline-item">
+    <span class="badge badge-dark text-capitalize py-2 px-3">{{ page.categories.last }}</span>
+  </li>
+{% for tag in page.tags %}
+  <li class="list-inline-item">
+    <span class="badge badge-secondary text-capitalize py-2 px-2"><i class="fas fa-tag"></i>&nbsp;{{ tag }}</span>
+  </li>
+{% endfor %}
+</ul>
+
+<hr/>
+<div class="d-flex justify-content-between">
+  <h4>Related Posts</h4>
+  <a href="/blog" class="text-secondary small">&larr; Back to Blog</a>
+</div>
+<div class="posts row row-cols-2 row-cols-md-3">
+{% assign related_posts = site.related_posts | where_exp: "post", "post.categories.first != 'jobs'" %}
+{% for post in related_posts limit: 6 %}
+  <div class="col my-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h6 class="card-title">
+          <a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a>
+        </h6>
+      </div>
+      {% if post.image %}
+      <div class="embed-responsive embed-responsive-21by9">
+        <img loading="lazy" src="/images/blog/{{ post.image }}" class="card-img-bottom embed-responsive-item" alt="{{ post.title }}">
+      </div>
+      {% endif %}
+      <!-- <p class="card-footer d-flex justify-content-between">
+        <small class="text-muted">{{ post.author }}&nbsp; • &nbsp;{{ post.date | date_to_string: "ordinal", "US" }}</small>
+        <span class="badge badge-light text-capitalize">{{ post.categories | join: "," }}</span>
+      </p> -->
+    </div>
+  </div>
+{% endfor %}
+</div>

@@ -3,7 +3,6 @@ title: Amazon Now Pays Filmmakers Based On How Much They Like Your Movie
 author: Klaus Badelt
 category: Articles
 image: amazon-now-pays-based-on-how-much-they-like-your-movie.jpg
-layout: post
 ---
 On March 1, 2019 Amazon announced that pay rates in the US would no longer be on a tiered basis, but would have a base hourly rate modified by a “Customer Engagement Ranking.” (For exact amounts please log in or sign up to your [Filmhub account](https://filmhub.com)).
 

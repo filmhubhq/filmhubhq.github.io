@@ -17,6 +17,7 @@ include:
   - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
   - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
 exclude:
+  - .gitpod.yml
   - jest.config.js
   - netlify.toml
   - nortonsw_cb4d3fe0-1121-0.html

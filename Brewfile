@@ -1,0 +1,5 @@
+brew 'gsl'
+brew 'git-flow-avh'
+brew 'git'
+brew 'node'
+brew 'yarn'

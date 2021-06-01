@@ -18,6 +18,11 @@ include:
   - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
 exclude:
   - .gitpod.yml
+  - .node-version
+  - .env
+  - Brewfile
+  - Gemfile
+  - Gemfile.lock
   - jest.config.js
   - netlify.toml
   - nortonsw_cb4d3fe0-1121-0.html

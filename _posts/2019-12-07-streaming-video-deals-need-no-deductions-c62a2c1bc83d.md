@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Streaming video deals need no deductions
+author: Klaus Badelt
 category: Articles
 date: 2021-06-02T18:03:32.180Z
 image: /images/blog/streaming-video-deals-need-no-deductions.jpeg

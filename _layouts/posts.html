@@ -30,7 +30,7 @@ container: true
       {% assign post = posts.first %}
       {% if post.image %}
       <div class="embed-responsive embed-responsive-3by1">
-        <img loading="lazy" src="/images/blog/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
+        <img loading="lazy" src="{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
       </div>
       {% endif %}
       <div class="card-body">
@@ -53,7 +53,7 @@ container: true
     <div class="card h-100">
       {% if post.image %}
       <div class="embed-responsive embed-responsive-16by9">
-        <img loading="lazy" src="/images/blog/{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
+        <img loading="lazy" src="{{ post.image }}" class="card-img-top embed-responsive-item" alt="{{ post.title }}">
       </div>
       {% endif %}
       <div class="card-body">

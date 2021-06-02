@@ -4,7 +4,7 @@ author: Klaus Badelt
 tags: Articles
 category: Articles
 date: 2021-06-02T17:24:16.904Z
-image: amazon-now-pays-based-on-how-much-they-like-your-movie.jpg
+image: /images/blog/amazon-now-pays-based-on-how-much-they-like-your-movie.jpg
 ---
 On March 1, 2019 Amazon announced that pay rates in the US would no longer be on a tiered basis, but would have a base hourly rate modified by a “Customer Engagement Ranking.” (For exact amounts please log in or sign up to your [Filmhub account](https://filmhub.com)).
 

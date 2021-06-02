@@ -13,7 +13,7 @@ layout: bootstrap
 </div>
 {% if page.image %}
 <div class="mb-5">
-  <img src="/images/blog/{{ page.image }}" class="img-fluid rounded" alt="{{ post.title }}">
+  <img src="{{ page.image }}" class="img-fluid rounded" alt="{{ post.title }}">
 </div>
 {% endif %}
 
@@ -47,7 +47,7 @@ layout: bootstrap
       </div>
       {% if post.image %}
       <div class="embed-responsive embed-responsive-21by9">
-        <img loading="lazy" src="/images/blog/{{ post.image }}" class="card-img-bottom embed-responsive-item" alt="{{ post.title }}">
+        <img loading="lazy" src="{{ post.image }}" class="card-img-bottom embed-responsive-item" alt="{{ post.title }}">
       </div>
       {% endif %}
       <!-- <p class="card-footer d-flex justify-content-between">

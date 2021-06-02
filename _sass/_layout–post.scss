@@ -32,4 +32,8 @@
       border-top: inherit;
     }
   }
+  img {
+    @extend .img-fluid;
+    @extend .rounded;
+  }
 }

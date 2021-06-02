@@ -12,6 +12,8 @@ On March 1, 2019 Amazon announced that pay rates in the US would no longer be on
 
 Amazon is not disclosing the entire formula, but we have some insights about how it will work.
 
+![Alt text](/images/blog/screen-territories.png)
+
 The "CER" is designed to measure engagement. Several objective factors are used in its calculation, including:
 
 * *Unique Customers:* How many different people are watching your title

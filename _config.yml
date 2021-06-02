@@ -36,6 +36,7 @@ kramdown:
 plugins:
   - jekyll-sitemap
   - jekyll-autoprefixer
+  - jekyll-feed
 autoprefixer:
   only_production: true
 defaults:

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Real Time Performance Insights Now Available For Filmhub Filmmakers
+author: Filmhub
 category: Updates
 date: 2018-12-05T20:53:31.823Z
 image: /images/blog/real-time-performance-insights-now-available-for-filmhub-filmmakers.png

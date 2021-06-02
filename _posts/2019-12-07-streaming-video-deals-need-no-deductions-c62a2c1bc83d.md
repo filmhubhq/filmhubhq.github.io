@@ -10,6 +10,8 @@ With digital streaming, the cost of distribution should approach zero — especi
 
 Yet, we at [Filmhub](https://filmhub.com) increasingly have “retailers” — i.e. streaming platforms — trying to squeeze in deductions off the top. “Cost” for “telco”, “marketing”, “technical” are to come off before a filmmaker’s share is even calculated.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eMSI7CVdreU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 This would get filmmakers a fraction of what consumers originally pay. Sounds familiar? Yes, this reminds us of the old industry, when DVDs had to be pressed and trucked to brick-and-mortar retailers around the country. That was expensive. Only today, none of this is necessary. Why should filmmakers have similar “expenses” deducted from their share? It should be different now.
 
 [Filmhub](https://filmhub.com)’s goal is fast growth to build massive audiences for independent filmmakers.

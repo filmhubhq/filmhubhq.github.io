@@ -83,7 +83,6 @@ jsonld:
     postalCode: 90403
     addressCountry: USA
   sameAs:
-    - https://blog.filmhub.com
     - https://twitter.com/filmhubhq
     - https://facebook.com/filmhubhq
     - https://www.facebook.com/filmhubhq

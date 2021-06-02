@@ -3,7 +3,7 @@ layout: post
 title: Streaming video deals need no deductions
 category: Articles
 date: 2021-06-02T18:03:32.180Z
-image: https://miro.medium.com/max/1600/1*uNf-W4dsEC5gpkHQZJcjWA.jpeg
+image: /images/blog/streaming-video-deals-need-no-deductions.jpeg
 ---
 With digital streaming, the cost of distribution should approach zero — especially when compared to the physical era of DVD, theaters, satellite and cable.
 

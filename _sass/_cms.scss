@@ -1,3 +1,9 @@
 div.frame-content {
   padding: 40px;
+  img {
+    @extend .img-fluid;
+    @extend .rounded;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }

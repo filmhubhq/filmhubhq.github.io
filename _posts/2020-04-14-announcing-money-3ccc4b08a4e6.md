@@ -4,7 +4,7 @@ author: Klaus Badelt
 category: Updates
 image: /images/blog/announcing-money.png
 tags: Payments Analytics Distribution
-date: 2021-06-03T21:35:49.452Z
+date: 2020-04-14T21:35:49.452Z
 ---
 We’re excited to announce the launch of Money. Filmhubbers will now be able to see earnings, download statements, and transfer to PayPal at their convenience — all on [filmhub.com](https://filmhub.com).
 

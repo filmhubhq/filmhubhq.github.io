@@ -3,7 +3,7 @@ layout: post
 title: Readable CodePipeline deploy notifications with AWS Lambda
 author: Klaus Badelt
 category: Articles
-date: 2021-06-03T21:54:41.897Z
+date: 2020-04-02T21:54:41.897Z
 image: /images/blog/readable-codepipeline-deploy-notifications-with-aws-lambda-d3c8fd215cc7.png
 ---
 - - -
@@ -35,15 +35,23 @@ Simple, but wiring it up is a bit more involved.
 
 First, the function needs two environment variables: `TOPIC_ARN` is the ARN of the SNS topic to send the notification to, and `BRANCH` is the git branch we trigger a CodePipeline execution with. We have everything in CloudFormation, here is the Lambda function resource in the template:
 
+<script src="https://gist.github.com/klausbadelt/75e2178407dca1483bc9a917b1ba98fd.js"></script>
+
 CloudFormation template — lambda function
 
 The `DeployBranch` is the git branch CodePipeline is triggered by. We use a template parameter to define it.
+
+<script src="https://gist.github.com/klausbadelt/5bead1acf2d203ec6856409ba3e46285.js"></script>
 
 CloudFormation template — DeployBranch parameter
 
 Let’s invoke the Lambda function. A Lambda policy defines how — as the target of a CloudWatch event rule. Here is both.
 
+<script src="https://gist.github.com/klausbadelt/6e2e4c6c2db4ac6cfcad54c21481f5d7.js"></script>
+
 All that’s left is the actual SNS topic. Here I’m subscribed to receive deploy notifications on my cell phone.
+
+<script src="https://gist.github.com/klausbadelt/6697ce7348c3a0ed8db75852e7bb3a9c.js"></script>
 
 ### How it works
 
@@ -57,6 +65,8 @@ To summarize how this works:
 4. SNS sends emails and SMS messages to all subscribers of the SNS topic
 
 Here’s also the complete CloudFormation template with all resources.
+
+https://gist.github.com/klausbadelt/9e004c0eef87de697d689cc566637686#file-cloudformation-yaml
 
 - - -
 

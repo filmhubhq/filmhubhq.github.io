@@ -1,9 +1,10 @@
 ---
+layout: post
 title: Roku Distribution Deal
 author: Alan d'Escragnolle
 category: Press
-image: /images/blog/roku-distribution-deal.jpg
-layout: post
+date: 2021-06-03T23:51:38.609Z
+image: /images/blog/rokufilmhub.jpg
 ---
 Film distribution disruptor Filmhub signs deal with Roku, expanding opportunities for its filmmakers.
 {: .lead}

@@ -10,6 +10,8 @@ Raised in Portugal and currently residing in Poland, [Miguel Gaudêncio](https:/
 
 Despite a strong portfolio of success, Miguel Gaudencio still struggled to get access to streaming services that could exhibit his independently produced movies. His wife’s recommendation that he try Filmhub “*changed \[his] life as a filmmaker*”.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fna5WNu-iRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Before Filmhub: Miguel was frustrated by the gatekeepers of the old system
 
 Before using [Filmhub](http://filmhub.com?utm_source=medium&utm_medium=blog&utm_campaign=customer_success_story_miguel_gaudencio), Miguel understood the challenges involved in pre-production, production, and post-production. Making the film is less than half the battle. Making a film costs money, and budgeting and finance are hugely important. Miguel largely self-funded; “*We usually self-fund 50% of a project through [our production company](http://bit.ly/2DaDHAh) and the other half out of private funding from sponsors and other backers*,” he explains.

@@ -30,20 +30,19 @@ Instead of targeting SNS directly to send the raw CloudWatch Event coming from C
 
 <script src="https://gist.github.com/klausbadelt/4d55993bb1a40e686123a43ab0566920.js"></script>
 
-
 Simple, but wiring it up is a bit more involved.
 
 First, the function needs two environment variables: `TOPIC_ARN` is the ARN of the SNS topic to send the notification to, and `BRANCH` is the git branch we trigger a CodePipeline execution with. We have everything in CloudFormation, here is the Lambda function resource in the template:
 
 <script src="https://gist.github.com/klausbadelt/75e2178407dca1483bc9a917b1ba98fd.js"></script>
 
-CloudFormation template — lambda function
+*CloudFormation template — lambda function*
 
 The `DeployBranch` is the git branch CodePipeline is triggered by. We use a template parameter to define it.
 
 <script src="https://gist.github.com/klausbadelt/5bead1acf2d203ec6856409ba3e46285.js"></script>
 
-CloudFormation template — DeployBranch parameter
+*CloudFormation template — DeployBranch parameter*
 
 Let’s invoke the Lambda function. A Lambda policy defines how — as the target of a CloudWatch event rule. Here is both.
 

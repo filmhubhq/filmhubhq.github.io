@@ -52,4 +52,4 @@ With our large and rapidly growing network of virtually every streaming channel 
 
 Combining powerful tools and worldwide, deep data, we open access to a world previously locked up by the studio system — and taking it beyond, for every filmmaker, producer or catalog owner.
 
-Filmhub is made for filmmakers by filmmakers (and technology geeks). Please [check out our website](http://bit.ly/2AOkS5J) and share your feedback either in the comments, with a clap or two, or [send us a message](http://bit.ly/2yA9l98). We value your thoughts, questions and contributions.
+Filmhub is made for filmmakers by filmmakers (and technology geeks). Please [check out our website](http://bit.ly/2AOkS5J) and share your feedback. We value your thoughts, questions and contributions.

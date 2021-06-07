@@ -56,4 +56,4 @@ He is now able to work more effectively, and has gained the ability to develop m
 
 > *“Filmhub does the hard part of the work: pitching films to streaming services. It’s a huge relief for us as filmmakers, and we can concentrate on the things we want to do — creating great and truly independent films.”*
 
-You can read more about digital distribution and producing movies in [our interview](https://blog.filmhub.com/filmhub-focus-independent-filmmaker-ryan-balas-e951420605c3) with independent filmmaker Ryan Balas.
+You can read more about digital distribution and producing movies in [our interview]({% post_url 2021-06-03-filmhub-focus-independent-filmmaker-ryan-balas-e951420605c3 %}) with independent filmmaker Ryan Balas.

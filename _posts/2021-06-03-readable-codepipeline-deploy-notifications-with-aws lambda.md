@@ -65,8 +65,7 @@ To summarize how this works:
 
 Here’s also the complete CloudFormation template with all resources.
 
-https://gist.github.com/klausbadelt/9e004c0eef87de697d689cc566637686#file-cloudformation-yaml
-
+<script src="https://gist.github.com/klausbadelt/9e004c0eef87de697d689cc566637686.js"></script>
 - - -
 
 Passionate about film and cloud technology? At [Filmhub](http://), we’re doing revolutionary things for filmmakers with code and data. If you’d like to be part of the team [contact us](https://filmhub.zendesk.com/hc/en-us/requests/new).

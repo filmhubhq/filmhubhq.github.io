@@ -3,6 +3,8 @@ layout: post
 title: Sarah Clark shares tips for casting
 author: Sarah Clark
 category: Articles
+tags:
+  - Filmmaking
 date: 2019-01-03T22:37:45.258Z
 image: /images/blog/crazy-enough-to-cast-ffeb98adeeab.jpeg
 ---

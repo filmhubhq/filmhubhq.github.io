@@ -6,11 +6,9 @@ category: Articles
 date: 2021-06-09T20:23:25.002Z
 image: /images/blog/season-2-assets.png
 ---
-Our CEO & Co-Founder, [Alan d'Escragnolle](https://www.linkedin.com/in/alandescragnolle/), recently sat down with [Meg Elys](https://www.linkedin.com/in/meg-elys-492796b3/) of [GoodBadMad](https://www.goodbadmad.com/) to discuss how Filmhub can help filmmakers direct distribute their films.  Check out the podcast on Spotify or Apple below!
+Our CEO & Co-Founder, [Alan d'Escragnolle](https://www.linkedin.com/in/alandescragnolle/), recently sat down with [Meg Elys](https://www.linkedin.com/in/meg-elys-492796b3/) of [GoodBadMad](https://www.goodbadmad.com/) to discuss how Filmhub can help filmmakers direct distribute their films.  
 
 <iframe src="https://open.spotify.com/embed/episode/1K3YBkeZYLojRZMk3g8iJZ?theme=0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-<iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="232" style="width:100%;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/gb/podcast/2-4-film-distribution-with-filmhub/id1502435331?i=1000521987398"></iframe>
 
 **See the full transcript here:**
 

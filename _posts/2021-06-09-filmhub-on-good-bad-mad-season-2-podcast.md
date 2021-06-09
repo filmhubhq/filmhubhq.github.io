@@ -8,7 +8,15 @@ image: /images/blog/soundtrap-h6pdedr9izo-unsplash.jpeg
 ---
 Our CEO & Co-Founder, [Alan d'Escragnolle](https://www.linkedin.com/in/alandescragnolle/), recently sat down with [Meg Elys](https://www.linkedin.com/in/meg-elys-492796b3/) of [GoodBadMad](https://www.goodbadmad.com/) to discuss how Filmhub can help filmmakers direct distribute their films.  
 
+
+
+
+
 <iframe src="https://open.spotify.com/embed/episode/1K3YBkeZYLojRZMk3g8iJZ?theme=0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+
+
 
 **See the full transcript here:**
 

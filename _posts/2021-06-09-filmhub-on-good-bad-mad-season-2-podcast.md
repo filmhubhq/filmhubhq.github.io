@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Filmhub on Good Bad Mad Season 2 Podcast!
+title: Filmhub on Good Bad Mad's Season 2 Podcast!
 author: Filmhub
 category: Articles
 date: 2021-06-09T20:23:25.002Z

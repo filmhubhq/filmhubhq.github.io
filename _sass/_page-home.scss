@@ -74,6 +74,25 @@
     }
   }
 
+  /* Custom header
+  ------------------------- */
+  .hero-header {
+    font-size: 10rem;
+    line-height: 10rem;
+    font-weight: 800;
+
+    @include media-breakpoint-down(md) {
+      font-size: 7rem;
+      line-height: 7rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+    }
+  }
+
+
   /* Channel logos
   ------------------------- */
 

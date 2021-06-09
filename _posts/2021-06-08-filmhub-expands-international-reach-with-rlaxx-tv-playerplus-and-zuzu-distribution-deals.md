@@ -5,7 +5,7 @@ title: Filmhub Expands International Reach with rlaxx TV, PlayerPlus, and Zuzu
 author: Alan d'Escragnolle
 category: Press
 date: 2021-06-08T02:34:23.510Z
-image: /images/blog/1920x1080_3x1.png
+image: /images/blog/blog-header-3-partners-.png
 ---
 Film distribution disruptor **Filmhub** signs deals with Germany's ***rlaxx TV***, UK's ***PlayerPlus,*** and Canada's ***Zuzu***, expanding international distribution potential for its Filmmakers.
 

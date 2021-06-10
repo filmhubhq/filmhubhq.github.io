@@ -3,6 +3,8 @@ layout: post
 title: Readable CodePipeline deploy notifications with AWS Lambda
 author: Klaus Badelt
 category: Articles
+tags:
+  - Code
 date: 2020-04-02T21:54:41.897Z
 image: /images/blog/readable-codepipeline-deploy-notifications-with-aws-lambda-d3c8fd215cc7.png
 ---

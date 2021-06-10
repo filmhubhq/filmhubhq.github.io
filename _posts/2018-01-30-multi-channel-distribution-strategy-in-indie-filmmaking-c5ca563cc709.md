@@ -6,7 +6,7 @@ category: Articles
 tags:
   - Film Distribution
 date: 2018-01-30T19:16:07.916Z
-image: /images/blog/multi-channel-distribution-strategy-in-indie-filmmaking.png
+image: /images/blog/multi-channel-distribution-strategy-in-indie-filmmaking-c5ca563cc709.png
 ---
 When Amazon Video opened their streaming service as Amazon Video Direct to every creator, it seemingly created a sensation in the filmmaker community. All creators could stream their content on Amazon and generate revenues just like the big names? It seemed too good to be true and, sadly, it is now.
 

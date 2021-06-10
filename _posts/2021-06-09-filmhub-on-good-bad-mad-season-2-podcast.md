@@ -4,7 +4,7 @@ title: Filmhub on Good Bad Mad's Season 2 Podcast!
 author: Filmhub
 category: Articles
 date: 2021-06-09T20:23:25.002Z
-image: /images/blog/soundtrap-h6pdedr9izo-unsplash.jpeg
+image: /images/blog/soundtrap-h6pdedr9izo-unsplash-lo.jpg
 ---
 <br>Our CEO & Co-Founder, [Alan d'Escragnolle](https://www.linkedin.com/in/alandescragnolle/), recently sat down with [Meg Elys](https://www.linkedin.com/in/meg-elys-492796b3/) of [GoodBadMad](https://www.goodbadmad.com/) to discuss how Filmhub can help filmmakers direct distribute their films.  
 

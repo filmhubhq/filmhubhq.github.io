@@ -3,6 +3,8 @@ layout: post
 title: Why Indie Filmmakers need a multi-channel distribution strategy
 author: Klaus Badelt
 category: Articles
+tags:
+  - Film Distribution
 date: 2018-01-30T19:16:07.916Z
 image: /images/blog/multi-channel-distribution-strategy-in-indie-filmmaking.png
 ---

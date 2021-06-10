@@ -35,12 +35,14 @@ If you're familiar with Rails, React and have a passion for movies, this is for 
 
 ### Technologies
 
-**aws**{: .badge .badge-primary }
-**react**{: .badge .badge-primary}
-**rails**{: .badge .badge-primary}
 **javascript**{: .badge .badge-primary}
-**ffmpeg**{: .badge .badge-primary}
-**machine learning**{: .badge .badge-primary}
+**react**{: .badge .badge-primary}
+**nextjs**{: .badge .badge-primary}
+**rails**{: .badge .badge-info}
+**node**{: .badge .badge-info}
+**serverless**{: .badge .badge-info}
+**aws**{: .badge .badge-secondary }
+**ffmpeg**{: .badge .badge-secondary}
 
 ### Responsibilities
 
@@ -51,15 +53,16 @@ If you're familiar with Rails, React and have a passion for movies, this is for 
 
 - 2+ year experience in software development
 - Full Stack preferred, but at least one skillset in either:
-  - Backend
-    + Ruby on Rails
-    + Minitest
-    + PostgreSQL or other SQL databases
   - Frontend
-    + React (preferred) or similar
+    + React
     + State Management - Redux, MobX (preferred)
     + Responsive UI
     + Jest
+  - Backend
+    + Ruby on Rails
+    + Serverless (Javascript/Node)
+    + Minitest
+    + PostgreSQL
 - Some AWS experience
 
 ### Preferred Skills
@@ -68,15 +71,12 @@ If you're familiar with Rails, React and have a passion for movies, this is for 
   + NextJS
   + React Testing Library
   + Cypress e2e testing
-- Backend
-  + NodeJS
-  + NoSQL databases: FaunaDB, MongoDB, DynamoDB or similar
 - Serverless: AWS Lambda, Serverless framework
-- CI/CD experience
+- CI/CD
 - FFmpeg
 - Film & TV or audio post production
 - Docker
-- AWS - EC2, ECS, RDS, Elasticache, S3, Batch, Step Functions, Cloudwatch
+- AWS services like EC2, ECS, RDS, Elasticache, S3, Batch, Step Functions, Cloudwatch
 - Excellent written, communication, inter personal, liaison and
 problem-solving skills with the ability to work in multi-cultural environment
 

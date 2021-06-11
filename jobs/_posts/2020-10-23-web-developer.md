@@ -6,8 +6,8 @@ hero: |
 jsonld:
   template: _jsonld_job_posting.json
   baseSalary:
-    minValue: 65000.00
-    maxValue: 120000.00
+    minValue: 65000
+    maxValue: 120000
   experienceRequirements: Minumum 1 year experience as a software engineer
   occupationalCategory:
     - 15-1254 Web Developers

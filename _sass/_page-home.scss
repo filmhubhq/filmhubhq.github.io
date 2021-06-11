@@ -77,20 +77,38 @@
   /* Custom header
   ------------------------- */
   .hero-header {
-    font-size: 10rem;
-    line-height: 10rem;
+    font-size: 9rem;
+    line-height: 0.95;
     font-weight: 800;
-    letter-spacing: -0.4rem;
+    letter-spacing: -0.04em;
 
     @include media-breakpoint-down(md) {
       font-size: 7rem;
-      line-height: 7rem;
-      letter-spacing: 0;
     }
 
     @include media-breakpoint-down(sm) {
-      font-size: 3.5rem;
-      line-height: 3.5rem;
+      font-size: 4rem;
+    }
+    .shine {
+      background-image: linear-gradient(to right, $body-color 20%, $info 40%, $info 60%, $body-color 80%);
+      background-clip: text;
+      background-size: 500% auto;
+      color: transparent;
+      animation: shine 20s linear infinite;
+      animation-delay: 2s;
+      @keyframes shine {
+        0%   { background-position: 0    center; }
+        25%  { background-position: 100% center; }
+        100% { background-position: 100% center; }
+      }
+      &.shine-group2 {
+        // background-image: linear-gradient(to right, $body-color 20%, $success 40%, $success 60%, $body-color 80%);
+        animation-delay: 7s;
+      }
+      &.shine-group3 {
+        background-image: linear-gradient(to right, $body-color 20%, $purple 40%, $purple 60%, $body-color 80%);
+        animation-delay: 12s;
+      }
     }
   }
 

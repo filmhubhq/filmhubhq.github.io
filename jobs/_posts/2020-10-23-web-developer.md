@@ -1,15 +1,12 @@
 ---
 layout: bootstrap
-# category: jobs
 container: true
-hero: |
-  # Web Developer
-  [Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-outline-warning .mt-3}
+hero: "# Web Developer"
 jsonld:
   template: _jsonld_job_posting.json
   baseSalary:
-    minValue: 65000.00
-    maxValue: 120000.00
+    minValue: 65000
+    maxValue: 120000
   experienceRequirements: Minumum 1 year experience as a software engineer
   occupationalCategory:
     - 15-1254 Web Developers
@@ -19,6 +16,7 @@ breadcrumb:
   - name: Jobs
     href: /jobs
   - name: Web Developer
+title: Web Developer
 ---
 Build the premier marketplace web app for the film industry.
 You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends.

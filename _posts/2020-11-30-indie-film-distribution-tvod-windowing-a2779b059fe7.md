@@ -1,7 +1,9 @@
 ---
 title: Indie Film Distribution & TVOD Windowing
 author: Alan d'Escragnolle
-tags: Articles
+category: Articles
+tags:
+  - Film Distribution
 image: /images/blog/tvod-windowing.png
 layout: post
 ---

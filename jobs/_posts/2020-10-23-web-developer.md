@@ -1,15 +1,12 @@
 ---
 layout: bootstrap
-# category: jobs
 container: true
-hero: |
-  # Web Developer
-  [Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-outline-warning .mt-3}
+hero: "# Web Developer"
 jsonld:
   template: _jsonld_job_posting.json
   baseSalary:
-    minValue: 65000.00
-    maxValue: 120000.00
+    minValue: 65000
+    maxValue: 120000
   experienceRequirements: Minumum 1 year experience as a software engineer
   occupationalCategory:
     - 15-1254 Web Developers
@@ -19,6 +16,7 @@ breadcrumb:
   - name: Jobs
     href: /jobs
   - name: Web Developer
+title: Web Developer
 ---
 Build the premier marketplace web app for the film industry.
 You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends.
@@ -35,12 +33,14 @@ If you're familiar with Rails, React and have a passion for movies, this is for 
 
 ### Technologies
 
-**aws**{: .badge .badge-primary }
-**react**{: .badge .badge-primary}
-**rails**{: .badge .badge-primary}
 **javascript**{: .badge .badge-primary}
-**ffmpeg**{: .badge .badge-primary}
-**machine learning**{: .badge .badge-primary}
+**react**{: .badge .badge-primary}
+**nextjs**{: .badge .badge-primary}
+**rails**{: .badge .badge-info}
+**node**{: .badge .badge-info}
+**serverless**{: .badge .badge-info}
+**aws**{: .badge .badge-secondary }
+**ffmpeg**{: .badge .badge-secondary}
 
 ### Responsibilities
 
@@ -51,15 +51,16 @@ If you're familiar with Rails, React and have a passion for movies, this is for 
 
 - 2+ year experience in software development
 - Full Stack preferred, but at least one skillset in either:
-  - Backend
-    + Ruby on Rails
-    + Minitest
-    + PostgreSQL or other SQL databases
   - Frontend
-    + React (preferred) or similar
+    + React
     + State Management - Redux, MobX (preferred)
     + Responsive UI
     + Jest
+  - Backend
+    + Ruby on Rails
+    + Serverless (Javascript/Node)
+    + Minitest
+    + PostgreSQL
 - Some AWS experience
 
 ### Preferred Skills
@@ -68,15 +69,12 @@ If you're familiar with Rails, React and have a passion for movies, this is for 
   + NextJS
   + React Testing Library
   + Cypress e2e testing
-- Backend
-  + NodeJS
-  + NoSQL databases: FaunaDB, MongoDB, DynamoDB or similar
 - Serverless: AWS Lambda, Serverless framework
-- CI/CD experience
+- CI/CD
 - FFmpeg
 - Film & TV or audio post production
 - Docker
-- AWS - EC2, ECS, RDS, Elasticache, S3, Batch, Step Functions, Cloudwatch
+- AWS services like EC2, ECS, RDS, Elasticache, S3, Batch, Step Functions, Cloudwatch
 - Excellent written, communication, inter personal, liaison and
 problem-solving skills with the ability to work in multi-cultural environment
 

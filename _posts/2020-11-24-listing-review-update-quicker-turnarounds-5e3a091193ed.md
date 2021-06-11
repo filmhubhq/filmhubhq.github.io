@@ -1,13 +1,14 @@
 ---
-title:  Quicker Listing Review Turnarounds
+layout: post
+title: Quicker Listing Review Turnarounds
 author: Alan d'Escragnolle
 category: Updates
 tags:
   - Listing Review
   - Film Distribution
   - Company Update
-image: /images/blog/quicker-listing-reviews.png
-layout: post
+date: 2020-11-24T21:44:54.343Z
+image: /images/blog/listing-review-update-quicker-turnarounds-5e3a091193ed.jpg
 ---
 We want to thank you for your patience over the past months as you experienced longer than normal wait times for listing reviews. We’ve made significant progress optimizing our internal processes, updating documentation, and increasing our team size to help support the great influx of new titles we have seen over these trying times.
 

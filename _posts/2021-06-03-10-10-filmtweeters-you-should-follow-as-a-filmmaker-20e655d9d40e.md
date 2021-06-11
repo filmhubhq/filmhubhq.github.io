@@ -3,6 +3,8 @@ layout: post
 title: 10 Filmtweeters you should follow as a Filmmaker
 author: Filmhub
 category: Articles
+tags:
+  - Filmmaking
 date: 2017-12-18T21:44:05.104Z
 image: /images/blog/10-filmtweeters-you-should-follow-as-a-filmmaker-20e655d9d40e.png
 ---

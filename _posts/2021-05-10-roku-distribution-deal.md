@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Roku Distribution Deal
+title: Filmhub Expands Global Distribution with Roku Partnership
 author: Alan d'Escragnolle
 category: Press
 date: 2021-06-03T23:51:38.609Z
-image: /images/blog/rokufilmhub.jpg
+image: /images/blog/1920x1080.png
 ---
 Film distribution disruptor Filmhub signs deal with Roku, expanding opportunities for its filmmakers.
 {: .lead}

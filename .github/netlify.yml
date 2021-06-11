@@ -1,0 +1,11 @@
+name: Scheduled Netlify Build
+on:
+  schedule:
+    - cron: '0 0 * * *' # Once a day
+jobs:
+  build:
+    name: Deploy on Netlify
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST to Build Hook
+        run: curl -X POST -d {} https://api.netlify.com/build_hooks/60c3d7f2550cf9266998edb4

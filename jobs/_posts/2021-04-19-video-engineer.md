@@ -1,11 +1,8 @@
 ---
-layout: bootstrap
-container: true
-# offset: 2
+layout: job
 title: Video Engineer (DevOps)
 hero: |
   # Video Engineer (DevOps)
-  [Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-outline-warning .mt-3}
 jsonld:
   template: _jsonld_job_posting.json
   baseSalary:
@@ -17,16 +14,10 @@ jsonld:
     - '27-4012.00 Broadcast Technicians'
     - '27-4014.00 Sound Engineering Technicians'
     - '27-4099.00 Media and Communication Equipment Workers, All Other'
-breadcrumb:
-  - name: Home
-    href: /
-  - name: Jobs
-    href: /jobs
-  - name: Video Engineer (DevOps)
 ---
 Administer and tune the Filmhub cloud technology to configure, package and transfer TV and movie deliverables to Video Streaming Platforms.
 
-To accomplish this, you are familiar with tools and concepts such as 
+To accomplish this, you are familiar with tools and concepts such as
 
 * AWS services
 * Video transcoding, FFmpeg, Mediainfo
@@ -93,5 +84,3 @@ Filmhub is well funded by Silicon Valley investors, and co-founded by a Hollywoo
 - **Company size**: 10-20 people
 - **Company type**: Private, Startup
 - **Location**: Remote
-
-[Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-primary}

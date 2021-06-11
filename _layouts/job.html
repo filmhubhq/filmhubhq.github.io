@@ -1,0 +1,89 @@
+---
+layout: bootstrap
+---
+<div class="container py-5">
+  <div class="row">
+    <div class="col-md-7 pb-5">
+
+      {{ content }}
+
+    </div>
+
+    <div class="col-md-4 offset-md-1">
+      <p class="lead">
+        Interested? Apply right here.
+      </p>
+      <form name="contact" method="POST" data-netlify="true">
+        <div class="form-group">
+          <label for="position">Position</label>
+          <input type="text" class="form-control" id="position" name="position" value="{{ page.title }}" disabled>
+        </div>
+        <div class="form-group">
+          <label for="email">Email <sup class="text-info">*</sup></label>
+          <input type="email" class="form-control" id="email" name="email aria-describedby="emailHelp" required>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="first-name">First name <sup class="text-info">*</sup></label>
+          <input type="text" class="form-control" id="first-name" name="first-name" required>
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last name <sup class="text-info">*</sup></label>
+          <input type="text" class="form-control" id="last-name" name="last-name" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone number <sup class="text-info">*</sup></label>
+          <input type="tel" class="form-control" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="linkedin-url">LinkedIn profile URL <sup class="text-info">*</sup></label>
+          <input type="url" class="form-control" id="linkedin-url" name="linkedin-url" required>
+        </div>
+        <div class="form-group">
+          <label for="github-url">GitHub profile URL</label>
+          <input type="url" class="form-control" id="github-url" name="github-url" required>
+        </div>
+        <div class="form-group">
+          <label for="resume">Upload resume <sup class="text-info">*</sup></label>
+          <input type="file" class="form-control-file" id="resume" name="resume" accept="application/pdf,.pdf" required>
+        </div>
+        <div class="form-group">
+          <label for="fit">What makes you a great fit for this role? <sup class="text-info">*</sup></label>
+          <textarea class="form-control" id="fit" name="fit" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="fit">Where do you live? We're a remote-first team. We live all over &#9786. <sup class="text-info">*</sup></label>
+          <input type="text" class="form-control" id="location" name="location" required></input>
+        </div>
+        <div class="form-group">
+          <label for="fit">How do you feel about working at a remote-first company? What scares you? What excites you? How do you think you'll keep your energy high? <sup class="text-info">*</sup></label>
+          <textarea class="form-control" id="remote" name="remote" rows="3" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="fit">We're an early-stage startup. Passion for our filmmakers and our mission is key. What excites you about film and Filmhub? <sup class="text-info">*</sup></label>
+          <textarea class="form-control" id="early-stage" name="early-stage" rows="3" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="fit">What's your favorite movie and why? <sup class="text-info">*</sup></label>
+          <textarea class="form-control" id="favorite-movie" name="favorite-movie" rows="3" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="fit">Anything else we should know about you?</label>
+          <textarea class="form-control" id="anything-we-should-know" name="anything-we-should-know" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3 px-5">Apply</button>
+        <p></p>
+        <small class="form-text text-muted">Fields marked <sup class="text-info">*</sup> are required.</small>
+      </form>
+
+      <div class="py-5">
+        <p>
+          <a href="/jobs" class="small text-secondary">&larr;  back to jobs</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+

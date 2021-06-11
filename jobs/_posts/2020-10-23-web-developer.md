@@ -1,10 +1,8 @@
 ---
-layout: bootstrap
-# category: jobs
-container: true
+layout: job
+title: Web Developer
 hero: |
   # Web Developer
-  [Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-outline-warning .mt-3}
 jsonld:
   template: _jsonld_job_posting.json
   baseSalary:
@@ -13,12 +11,6 @@ jsonld:
   experienceRequirements: Minumum 1 year experience as a software engineer
   occupationalCategory:
     - 15-1254 Web Developers
-breadcrumb:
-  - name: Home
-    href: /
-  - name: Jobs
-    href: /jobs
-  - name: Web Developer
 ---
 Build the premier marketplace web app for the film industry.
 You'll be working on the web backend and frontend, the cloud infrastructure and video processing backends.
@@ -76,8 +68,8 @@ If you're familiar with React, Serverless, Rails and have a passion for movies, 
 - FFmpeg
 - Film & TV or audio post production
 - Docker
-- AWS 
-  + AWS CDK, deploy Lambdas 
+- AWS
+  + AWS CDK, deploy Lambdas
   + Other AWS services like EC2, ECS, RDS, Elasticache, S3, Batch, Step Functions, Cloudwatch
 - Elasticsearch, Algolia or other search engine
 - Excellent written, communication, inter personal, liaison and
@@ -100,5 +92,3 @@ Filmhub is a fast growing tech startup in Santa Monica's _Silicon Beach_, well f
 - $2000/yr training classes
 - Work on high visibility projects
 - Opportunity to grow
-
-[Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-primary}

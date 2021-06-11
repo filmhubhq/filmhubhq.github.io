@@ -34,6 +34,28 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Hero', name: 'hero', widget: 'markdown' }
       - { label: 'Body', name: 'body', widget: 'markdown', minimal: true }
+  - name: 'jobs'
+    label: 'Jobs'
+    folder: 'jobs/_posts'
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'job' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Hero', name: 'hero', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'markdown', minimal: true }
+  #     - label: JSON-LD
+  #       name: jsonld
+  #       widget: object
+
+  # template: _jsonld_job_posting.json
+  # baseSalary:
+  #   minValue: 65000.00
+  #   maxValue: 120000.00
+  # experienceRequirements: Minumum 1 year experience as a software engineer
+  # occupationalCategory:
+  #   - 15-1254 Web Developers
   - name: 'pages'
     label: 'Pages'
     files:

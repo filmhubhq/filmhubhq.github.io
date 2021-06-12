@@ -1,8 +1,6 @@
 ---
 layout: job
 title: Content Operations Technician (Contract)
-hero: |
-  # Content Operations Technician - Contract
 jsonld:
   template: _jsonld_job_posting.json
   baseSalary:

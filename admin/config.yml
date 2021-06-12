@@ -32,7 +32,6 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'bootstrap' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Hero', name: 'hero', widget: 'markdown' }
       - { label: 'Body', name: 'body', widget: 'markdown', minimal: true }
   - name: 'jobs'
     label: 'Jobs'
@@ -43,7 +42,6 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'job' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Hero', name: 'hero', widget: 'markdown' }
       - { label: 'Body', name: 'body', widget: 'markdown', minimal: true }
   #     - label: JSON-LD
   #       name: jsonld

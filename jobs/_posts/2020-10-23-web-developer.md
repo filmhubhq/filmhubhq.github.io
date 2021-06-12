@@ -1,8 +1,6 @@
 ---
 layout: job
 title: Web Developer
-hero: |
-  # Web Developer
 jsonld:
   template: _jsonld_job_posting.json
   baseSalary:

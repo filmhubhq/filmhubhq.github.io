@@ -1,11 +1,11 @@
 ---
-layout: bootstrap
-title: Filmhub for China IP rights holders - One-Sheet
-hero: |
-  # Filmhub for China IP rights holders
-  Large scale, global IP catalog monetization
+layout: one-sheet
+title: Filmhub for China IP Rights Holders
 container: true
 ---
+<h1 class="display-4 pb-4">
+  Large scale, global IP catalog monetization
+</h1>
 <div class="row">
 <div class="col-8 offset-2">
 <div class="card mb-5">

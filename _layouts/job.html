@@ -1,5 +1,6 @@
 ---
 layout: bootstrap
+hero: true
 ---
 <div class="container py-5">
   <div class="row">
@@ -41,7 +42,7 @@ layout: bootstrap
         </div>
         <div class="form-group">
           <label for="github-url">GitHub profile URL</label>
-          <input type="url" class="form-control" id="github-url" name="github-url" required>
+          <input type="url" class="form-control" id="github-url" name="github-url">
         </div>
         <div class="form-group">
           <label for="resume">Upload resume <sup class="text-info">*</sup></label>
@@ -49,7 +50,7 @@ layout: bootstrap
         </div>
         <div class="form-group">
           <label for="fit">What makes you a great fit for this role? <sup class="text-info">*</sup></label>
-          <textarea class="form-control" id="fit" name="fit" rows="3"></textarea>
+          <textarea class="form-control" id="fit" name="fit" rows="3" required></textarea>
         </div>
         <div class="form-group">
           <label for="fit">Where do you live? We're a remote-first team. We live all over &#9786. <sup class="text-info">*</sup></label>
@@ -69,7 +70,7 @@ layout: bootstrap
         </div>
         <div class="form-group">
           <label for="fit">Anything else we should know about you?</label>
-          <textarea class="form-control" id="anything-we-should-know" name="anything-we-should-know" rows="3" required></textarea>
+          <textarea class="form-control" id="anything-we-should-know" name="anything-we-should-know" rows="3"></textarea>
         </div>
         <button type="submit" class="btn btn-primary mt-3 px-5">Apply</button>
         <p></p>

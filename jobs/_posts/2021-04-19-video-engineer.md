@@ -1,8 +1,6 @@
 ---
 layout: job
 title: Video Engineer (DevOps)
-hero: |
-  # Video Engineer (DevOps)
 jsonld:
   template: _jsonld_job_posting.json
   baseSalary:

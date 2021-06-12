@@ -18,11 +18,11 @@
 {% endif %}
 
 {% comment %} *** HERO *** {% endcomment %}
-{% if page.hero %}
+{% if page.hero or layout.hero %}
   <div class="jumbotron jumbotron-fluid text-light py-0 px-3 mb-0 {{ page.hero_class }}">
     {% include _navbar_{{ page.lang | default: 'en' }}.html %}
     <div class="container hero pb-5">
-      {{ page.hero | markdownify }}
+      <h1>{{ page.hero | default: page.title }}</h1>
     </div>
   </div>
 {% else %}

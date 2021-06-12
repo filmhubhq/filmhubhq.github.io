@@ -42,18 +42,30 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'job' }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - label: JSON-LD
+        name: jsonld
+        widget: object
+        # summary: '{{fields.baseSalary.minValue}} - {{fields.baseSalary.maxValue}}'
+        fields:
+          - { name: 'template', widget: 'hidden', default: '_jsonld_job_posting.json' }
+          - label: Base Salary
+            name: baseSalary
+            widget: object
+            collapsed: true
+            summary: '{{fields.minValue}} - {{fields.maxValue}}'
+            fields:
+              - { label: 'minValue', name: 'minValue', widget: 'number', value_type: 'float' }
+              - { label: 'maxValue', name: 'maxValue', widget: 'number', value_type: 'float' }
+          - label: 'Experience Requirements'
+            name: 'experienceRequirements'
+            widget: 'text'
+          - label: Occupational Categories
+            name: occupationalCategory
+            widget: list
+            collapsed: true
+            summary: '{{fields.category}}'
+            field: { name: 'category', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown', minimal: true }
-  #     - label: JSON-LD
-  #       name: jsonld
-  #       widget: object
-
-  # template: _jsonld_job_posting.json
-  # baseSalary:
-  #   minValue: 65000.00
-  #   maxValue: 120000.00
-  # experienceRequirements: Minumum 1 year experience as a software engineer
-  # occupationalCategory:
-  #   - 15-1254 Web Developers
   - name: 'pages'
     label: 'Pages'
     files:

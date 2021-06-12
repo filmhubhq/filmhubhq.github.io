@@ -15,10 +15,7 @@ hero: true
         Interested? Apply right here.
       </p>
       <form name="Job-Applicatons" method="POST" data-netlify="true">
-        <div class="form-group">
-          <label for="position">Position</label>
-          <input type="text" class="form-control" id="position" name="position" value="{{ page.title }}" disabled>
-        </div>
+        <input type="hidden" id="position" name="position" value="{{ page.title }}">
         <div class="form-group">
           <label for="email">Email <sup class="text-info">*</sup></label>
           <input type="email" class="form-control" id="email" name="email aria-describedby="emailHelp" required>

@@ -1,11 +1,6 @@
 ---
-layout: bootstrap
-container: true
-# offset: 2
-title: Content Operations Technician
-hero: |
-  # Content Operations Technician - Contract
-  [Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-outline-warning .mt-3}
+layout: job
+title: Content Operations Technician (Contract)
 jsonld:
   template: _jsonld_job_posting.json
   baseSalary:
@@ -17,12 +12,6 @@ jsonld:
     - '27-4012.00 Broadcast Technicians'
     - '27-4014.00 Sound Engineering Technicians'
     - '27-4099.00 Media and Communication Equipment Workers, All Other'
-breadcrumb:
-  - name: Home
-    href: /
-  - name: Jobs
-    href: /jobs
-  - name: Content Operations Technicican
 ---
 You're a post production tech whiz? Get out of your dark backroom and join us. You'll be keeping our quality standards high and users happy. If video codecs, extreme attention to detail, and great communication skills are in your DNA, read on.
 
@@ -88,5 +77,3 @@ Our ideal candidate worked as tech in video or audio post, film and TV editorial
 Filmhub takes the entire film distribution process online. For that, we're building web, mobile and TV applications in the cloud, using latest cutting-edge technologies for cloud services, frontend, video processing, and machine learning.
 
 Filmhub is well funded by Silicon Valley investors, and co-founded by a Hollywood veteran (_Pirates of the Caribbean_).  We offer the perks of the big guys without the corporate feel. While we acknowledge film has a home in Los Angeles, we're a remote first team and believe you can work from wherever.
-
-[Apply](https://docs.google.com/forms/d/e/1FAIpQLSf6NXBv17Gdo9CWG-TVK3Fv4T_DkC1Bq5grNIesfg8HRxJJQg/viewform?usp=sf_link){: .btn .btn-primary}

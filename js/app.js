@@ -38,7 +38,7 @@ $(function() {
 
     const image1x = btoa(JSON.stringify(imageProps({ width, height, key })))
     const image2x = btoa(JSON.stringify(imageProps({ width: width * 2, height: height * 2, key })))
-    
+
     img.srcset = `
       {{ site.image_cdn }}/${image1x} 1x,
       {{ site.image_cdn }}/${image2x} 2x

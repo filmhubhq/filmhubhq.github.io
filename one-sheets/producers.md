@@ -1,11 +1,11 @@
 ---
-layout: bootstrap
-title: Producers One-Sheet
-hero: |
-  # Filmhub for Producers
-  Distribute your film smarter, wider, and recoup faster
+layout: one-sheet
+title: Filmhub for Independent Producers
 container: true
 ---
+<h1 class="display-4 pb-4">
+  Distribute your film smarter, wider, and recoup faster
+</h1>
 <div class="row">
 <div class="col-lg-8 offset-lg-2">
 

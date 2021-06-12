@@ -32,7 +32,39 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'bootstrap' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Hero', name: 'hero', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'markdown', minimal: true }
+  - name: 'jobs'
+    label: 'Jobs'
+    folder: 'jobs/_posts'
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'job' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - label: JSON-LD
+        name: jsonld
+        widget: object
+        # summary: '{{fields.baseSalary.minValue}} - {{fields.baseSalary.maxValue}}'
+        fields:
+          - { name: 'template', widget: 'hidden', default: '_jsonld_job_posting.json' }
+          - label: Base Salary
+            name: baseSalary
+            widget: object
+            collapsed: true
+            summary: '{{fields.minValue}} - {{fields.maxValue}}'
+            fields:
+              - { label: 'minValue', name: 'minValue', widget: 'number', value_type: 'float' }
+              - { label: 'maxValue', name: 'maxValue', widget: 'number', value_type: 'float' }
+          - label: 'Experience Requirements'
+            name: 'experienceRequirements'
+            widget: 'text'
+          - label: Occupational Categories
+            name: occupationalCategory
+            widget: list
+            collapsed: true
+            summary: '{{fields.category}}'
+            field: { name: 'category', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown', minimal: true }
   - name: 'pages'
     label: 'Pages'

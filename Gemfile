@@ -6,5 +6,5 @@ gem 'gsl'
 group :jekyll_plugins do
   gem 'jekyll-sitemap', '~> 1.4'
   gem 'jekyll-feed'
-  gem 'jekyll-autoprefixer', '~> 1.0.2'
+  gem 'jekyll-autoprefixer', github: 'lunacodes/jekyll-autoprefixer', branch: 'patch-1'
 end

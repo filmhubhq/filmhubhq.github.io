@@ -102,7 +102,7 @@
         100% { background-position: 100% center; }
       }
       &.shine-group2 {
-        // background-image: linear-gradient(to right, $body-color 20%, $success 40%, $success 60%, $body-color 80%);
+        background-image: linear-gradient(to right, $body-color 20%, $success 40%, $success 60%, $body-color 80%);
         animation-delay: 7s;
       }
       &.shine-group3 {

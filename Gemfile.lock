@@ -1,10 +1,18 @@
+GIT
+  remote: https://github.com/lunacodes/jekyll-autoprefixer.git
+  revision: 7ecbb8d9fa5405b01e4a778b44511cc5ccbe9f9c
+  branch: patch-1
+  specs:
+    jekyll-autoprefixer (1.0.2)
+      autoprefixer-rails (~> 10.2.5.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (9.8.6.5)
-      execjs
+    autoprefixer-rails (10.2.5.1)
+      execjs (> 0)
     charlock_holmes (0.7.7)
     classifier-reborn (2.2.0)
       fast-stemmer (~> 1.0)
@@ -37,8 +45,6 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
-    jekyll-autoprefixer (1.0.2)
-      autoprefixer-rails (~> 9.3)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (2.1.0)
@@ -79,7 +85,7 @@ DEPENDENCIES
   classifier-reborn
   gsl
   jekyll (~> 4)
-  jekyll-autoprefixer (~> 1.0.2)
+  jekyll-autoprefixer!
   jekyll-feed
   jekyll-sitemap (~> 1.4)
 

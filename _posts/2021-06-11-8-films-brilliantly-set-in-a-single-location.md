@@ -3,10 +3,10 @@ layout: post
 title: 8 Films Brilliantly Set in a Single Location
 author: Keju Luo
 category: Articles
-date: 2021-06-15T17:42:55.708Z
-image: /images/blog/single-location-films.jpeg
+date: 2021-06-16T17:42:55.708Z
+image: /images/blog/single-loacation.jpg
 ---
-> Lockdown has come to an end for good (hopefully), and we honor the peculiar times of entrapment and isolation with this special feature. Setting an entire film in one location is a creative challenge to put it lightly. Filmmakers over the years have brilliantly turned such confinement into great strength across all genres - from 12 Angry Men (1957) to Saw (2004) to the latest Bo Burnham film Inside made during the lockdown. Here are 8 single-location films from the Filmhub catalog.
+> Lockdown has come to an end for good (hopefully), and we honor the peculiar times of entrapment and isolation with this special feature. Setting an entire film in one location is a creative challenge to put it lightly. From 12 Angry Men (1957) to Saw (2004) to the latest Bo Burnham film Inside made during the lockdown, filmmakers over the years have brilliantly turned such confinement into great strength across all genres. Here are 8 single-location films from the Filmhub catalog.
 
 ![Bedroom Story](/images/blog/single-location-films-bedroom_story.jpg)
 

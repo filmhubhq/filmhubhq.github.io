@@ -6,7 +6,7 @@ category: Articles
 date: 2021-06-16T17:42:55.708Z
 image: /images/blog/single-loacation.jpg
 ---
-> Lockdown has come to an end for good (hopefully), and we honor the peculiar times of entrapment and isolation with this special feature. Setting an entire film in one location is a creative challenge to put it lightly. From 12 Angry Men (1957) to Saw (2004) to the latest Bo Burnham film Inside made during the lockdown, filmmakers over the years have brilliantly turned such confinement into great strength across all genres. Here are 8 single-location films from the Filmhub catalog.
+> Lockdown has come to an end for good in the U.S. (hopefully), and we honor the peculiar times of entrapment and isolation with this special feature. Setting an entire film in one location is a creative challenge to put it lightly. From [12 Angry Men (1957)](https://www.themoviedb.org/movie/389-12-angry-men) to [Saw (2004)](https://www.themoviedb.org/movie/176-saw?language=en-US) to the latest Bo Burnham film, [Inside](https://www.themoviedb.org/movie/823754-inside-bo-burnham), made during the lockdown, filmmakers over the years have brilliantly turned such confinement into great strength across all genres. Here are 8 single-location films from the Filmhub catalog.  
 
 ![Bedroom Story](/images/blog/single-location-films-bedroom_story.jpg)
 

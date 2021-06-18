@@ -12,7 +12,7 @@ image: /images/blog/single-loacation.jpg
 
 ## Bedroom Story
 
-*Directed by Courtney Daniels | Comedy/Romance | 2019 | 90 mins | United States*
+*Directed by Courtney Daniels \| Comedy/Romance \| 2019 \| 90 mins \| United States*
 
 **Synopsis:** After the disappointing debut of her novel, a woman engages in escapist behavior, creating trouble in her marriage. A relatable exploration of our obsessions: the pursuit of success, happiness, social media, nostalgia, monogamy, and the meaning of life.
 

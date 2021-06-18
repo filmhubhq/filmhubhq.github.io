@@ -18,25 +18,25 @@ image: /images/blog/single-loacation.jpg
 
 **What makes it special:** Director Courtney Daniels' debut film "[What Other Couples Do](https://www.amazon.com/What-Other-Couples-Michael-Friedman/dp/B00QQV1U1U)" has been one of Filmhub's all-time top performers across streaming channels worldwide. Her sophomore feature takes a stripped-down and minimalist approach to the story and the setting but delves into themes beyond marriage and relationships.
 
-**Where to stream it:** [Amazon](https://www.amazon.com/Bedroom-Story-Annie-Cavalero/dp/B08NDP5SG6) | [Tubi](https://tubitv.com/movies/565773/bedroom-story)
+**Where to stream it:** [Amazon](https://www.amazon.com/Bedroom-Story-Annie-Cavalero/dp/B08NDP5SG6) \| [Tubi](https://tubitv.com/movies/565773/bedroom-story)
 
 ![Our House for the Weekend](/images/blog/single-location-films-our_hour_for_the_weekend.png)
 
 ## Our House for the Weekend
 
-*Directed by Ryan Balas | Comedy/Romance | 2017 | 57 mins | United States*
+*Directed by Ryan Balas \| Comedy/Romance \| 2017 \| 57 mins \| United States*
 
 **Synopsis:** While house sitting for their in-laws, a married couple's relationship is put to the test when they lose the family cat. This freewheeling faux-doc is a hilarious look at sex, love and marriage, and house sitting.
 
 **What makes it special:** Another bittersweet and honest portrayal of marriage. In this film put together entirely by Ryan Balas and Dee Herlihy - a filmmaker couple in real life, the line between fiction and reality begins to blur.
 
-**Where to stream it:** [Amazon](https://www.amazon.com/Our-House-Weekend-Dee-Herlihy/dp/B0742J72S5) | [Tubi](https://tubitv.com/movies/577133/our-house-for-the-weekend)
+**Where to stream it:** [Amazon](https://www.amazon.com/Our-House-Weekend-Dee-Herlihy/dp/B0742J72S5) \| [Tubi](https://tubitv.com/movies/577133/our-house-for-the-weekend)
 
 ![Hippopotamus](/images/blog/single-location-films-hippopotamus.jpg)
 
 ## Hippopotamus
 
-*Directed by Edward Palmer | Thriller | 2020 | 77 mins | United Kingdom*
+*Directed by Edward Palmer \| Thriller \| 2020 \| 77 mins \| United Kingdom*
 
 **Synopsis:** Ruby has been kidnapped, but her kidnapper doesn’t want a ransom. He wants her to fall in love with him.
 
@@ -48,43 +48,43 @@ image: /images/blog/single-loacation.jpg
 
 ## Midnight Delight
 
-*Directed by Rohit Gupta | Comedy | 2016 | 85 mins | United States*
+*Directed by Rohit Gupta \| Comedy \| 2016 \| 85 mins \| United States*
 
 **Synopsis:** A set of characters in a marijuana smoking lounge reflect over daily existence, societal curiosities conversing about various topics with people never met before.
 
 **What makes it special:** A reincarnation of Clerks (1994) amped-up with smoky haze. Best enjoyed stoned.
 
-**Where to stream it:** [Tubi](https://tubitv.com/movies/578888/midnight-delight) | [Plex](https://watch.plex.tv/movie/midnight-delight)
+**Where to stream it:** [Tubi](https://tubitv.com/movies/578888/midnight-delight) \| [Plex](https://watch.plex.tv/movie/midnight-delight)
 
 ![Down There in Heaven](/images/blog/single-location-films-down_there_in_heaven.jpeg)
 
 ## Down There in Heaven
 
-*Directed by Felix Schäfer | 2018 | 82 mins | Germany*
+*Directed by Felix Schäfer \| 2018 \| 82 mins \| Germany*
 
 **Synopsis:** Six men meet at a surprise party. A note left behind reveals that they are part of a therapeutic intervention. Reluctantly, they surrender to their destiny and embark on a journey to explore their own selves.
 
 **What makes it special:** Ideas of masculinity clash in this equally intense and hilarious spin on the "strangers trapped in a room" subgenre.
 
-**Where to stream it:** [Amazon](https://www.amazon.com/Down-There-Heaven-Roger-Bonjour/dp/B087C16ZV7) | [Tubi](https://tubitv.com/movies/555581/down-there-in-heaven)
+**Where to stream it:** [Amazon](https://www.amazon.com/Down-There-Heaven-Roger-Bonjour/dp/B087C16ZV7) \| [Tubi](https://tubitv.com/movies/555581/down-there-in-heaven)
 
 ![Something](/images/blog/single-location-films-something.jpg)
 
 ## Something
 
-*Directed by Stephen Portland | Thriller | 2018 | 86 mins | United States*
+*Directed by Stephen Portland \| Thriller \| 2018 \| 86 mins \| United States*
 
 **Synopsis:** A man and woman are struggling to adjust to life with their new baby. But their situation begins to unravel when they suspect a menacing stranger could be lurking, watching... even entering their home.
 
 **What makes it special:** Not many films have been made about the anxiety and fatigue and paranoia of new parents, and this one stands out. Underneath a light touch of horror is a well-written and well-acted character-driven drama.
 
-**Where to stream it:** [Amazon](https://www.amazon.com/Something-Michael-Gazin/dp/B07LFJFL7Q) | [Xumo](https://www.xumo.tv/channel/9999734/free-horror-and-thriller-movies?v=XM0BUAVBXQ6AWH&p=27662)
+**Where to stream it:** [Amazon](https://www.amazon.com/Something-Michael-Gazin/dp/B07LFJFL7Q) \| [Xumo](https://www.xumo.tv/channel/9999734/free-horror-and-thriller-movies?v=XM0BUAVBXQ6AWH&p=27662)
 
 ![Back Four](/images/blog/single-location-films-back_four.jpeg)
 
 ## Back Four
 
-*Directed by Diego Bliffeld & Nicolás Diodovich | Comedy | 2017 | 91 mins | Argentina*
+*Directed by Diego Bliffeld & Nicolás Diodovich \| Comedy \| 2017 \| 91 mins \| Argentina*
 
 **Synopsis:** Four friends in their 30s are reunited to watch the World Cup. After a long debate, they decide to make a gamble, where the two losers have to reveal an awful truth. Tension mounts as the truth in each case brings challenges to their friendship.
 
@@ -96,10 +96,10 @@ image: /images/blog/single-loacation.jpg
 
 ## Sampan
 
-*Directed by Maxim Bessmertny | Crime/Drama | 2016 | 19 mins | Macau, China*
+*Directed by Maxim Bessmertny \| Crime/Drama \| 2016 \| 19 mins \| Macau, China*
 
 **Synopsis:** A fishing net entangles a fisherman, a foreigner and an actress into a love triangle off the coast of Sai Kung in Hong Kong.
 
 **What makes it special:** Russia-born director Maxim Bessmertny grew up in Macau. He makes subtle commentaries on Macau's uniquely complex society in a short film that features a classic triangular relationship set in the middle of the sea, all beautifully shot on Kodak Super 16mm film.
 
-**Where to stream it:** [Amazon](https://www.amazon.com/Sampan-JuJu-Chan/dp/B08695CLQG/) | [Hoopla](https://www.hoopladigital.com/title/13622040)
+**Where to stream it:** [Amazon](https://www.amazon.com/Sampan-JuJu-Chan/dp/B08695CLQG/) \| [Hoopla](https://www.hoopladigital.com/title/13622040)

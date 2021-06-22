@@ -25,10 +25,10 @@ topics:
     description: |
       Black cinema
     color: 3ec2dd
-  debut:
-    name: Directorial Debuts
+  soccer:
+    name: Soccer Films
     description: |
-      Directorial debut
+      Films about soccer
     color: f25959
   neonoir:
     name: Neo-Noir
@@ -63,10 +63,9 @@ titles:
   - name: The Rise and Fall of Miss Thang
     image_filename: image_id_4746_0ee4950a442140d9fc6bb45a1e598b8f.jpg
     topic: blackcinema
-  - name: Sister
-    image_filename: image_id_118846_09270b1632aed6f261c53c21d2f9f3e1.png
-    topic: debut
-    new: true
+  - name: Funke!
+    image_filename: image_id_39857_f7ae135ae69e48b37aeb1b4d24e7b6b4.png
+    topic: soccer
   - name: Love Arcadia
     image_filename: image_id_6695_5ad9a4f2b072f6b16c04cf49ddd7d8f3.jpg
     topic: aapi
@@ -79,9 +78,9 @@ titles:
   - name: Motif
     image_filename: image_id_61603_abe468f40de28360cf23f8d9cfc793d6.png
     topic: neonoir
-  - name: Wedding Guests
-    image_filename: image_id_114186_63066b8715101eba68fde7cf427c69c8.png
-    topic: debut
+  - name: Offside
+    image_filename: image_id_95161_2c23bbf2d090ed6804b37af8b0dffc56.png
+    topic: soccer
   - name: La Doctrine
     image_filename: image_id_120809_46671d8b41db2a93da433c90ca9a41e3.png
     topic: genre-bending
@@ -92,9 +91,9 @@ titles:
   - name: To the New Girl
     image_filename: image_id_78478_a866f03795a13c2ccddb883c98d7bbb2.jpg
     topic: womenfilmmakers
-  - name: Anticipation
-    image_filename: image_id_86077_a5d0f57821ba09f4708a2271dae48fcd.jpg
-    topic: debut
+  - name: The Team
+    image_filename: image_id_53902_306c0c694871708f2237d5bdcc12bec3.jpg
+    topic: soccer
   - name: "Speechless: The Polar Realm"
     image_filename: image_id_90913_4cdf1bb3f440f745c6ebe0ba93a0d202.jpg
     topic: climate
@@ -111,7 +110,7 @@ titles:
     image_filename: image_id_33569_d34d1888c0badfb60c973b5fc705aba6.png
     topic: debut
   - name: The Pink Chateau
-    image_filename: image_id_60877_9c722e9e1c252566fd3be44f360fbfbe.jpg
+    image_filename: image_id_139501_a88fdd68002a5c7a537f640c9e4c61a5.jpg
     topic: womenfilmmakers
   - name: Victor's History
     image_filename: image_id_64438_c2ba0d000fc66888b6eb68280b875c59.png

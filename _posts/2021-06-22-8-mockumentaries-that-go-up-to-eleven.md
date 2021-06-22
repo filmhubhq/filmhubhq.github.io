@@ -76,7 +76,7 @@ image: /images/blog/mockumentaries.jpg
 
 **Synopsis:** A dysfunctional glam metal band travels to the Middle East to shoot their music videos. What could possibly go wrong?
 
-**What makes it special:** A spiritual successor to Spinal Tap 30+ years later developed around the same music genre (yes, hair metal is still alive) and executed with equally raw energy. Bonus points for its Jordan settings and as a result jokes that test the limits.
+**What makes it special:** A spiritual successor to Spinal Tap 30+ years later developed around the same music genre (yes, hair metal is still alive) and executed with equally raw energy. Bonus points for its Jordan settings and as a result jokes that get dangerously close to the line between funny and offensive.
 
 **Where to stream it:** [Tubi](https://tubitv.com/movies/499605/thunderlust-and-the-middle-beast)
 

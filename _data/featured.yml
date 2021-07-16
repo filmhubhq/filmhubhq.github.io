@@ -10,10 +10,10 @@ topics:
     description: |
       AAPI Filmmakers
     color: 24c7ae
-  genre-bending:
-    name: Genre-Bending
+  summertime:
+    name: Summertime
     description: |
-      Genre-Bending films. 
+      Summertime films. 
     color: 68abff
   climate:
     name: Climate Change
@@ -51,9 +51,9 @@ titles:
   - name: Reunification
     image_filename: image_id_127564_fadd41a9875f0914036545df6dffe7e7.jpg
     topic: aapi
-  - name: Rites of Passage
-    image_filename: image_id_138823_3a4d0d0be4e12a2f5692afbf26e4077d.jpg
-    topic: genre-bending
+  - name: Loud Places
+    image_filename: image_id_63355_edd13298c7d1108a561e8ccdd13f99b9.jpg
+    topic: summertime
   - name: Endgame 2050
     image_filename: image_id_77990_09468589dbe99f257faeb41950718e39.jpg
     topic: climate
@@ -81,10 +81,9 @@ titles:
   - name: Offside
     image_filename: image_id_95161_2c23bbf2d090ed6804b37af8b0dffc56.png
     topic: soccer
-  - name: La Doctrine
-    image_filename: image_id_120809_46671d8b41db2a93da433c90ca9a41e3.png
-    topic: genre-bending
-    new: true
+  - name: Summertime in New York
+    image_filename: image_id_4304_757b4e4356e3382815323eb092c095c5.jpg
+    topic: summertime
   - name: The Crumbles
     image_filename: image_id_121649_14508400de46e10774773db2a1c43d4f.png
     topic: aapi
@@ -103,15 +102,15 @@ titles:
   - name: Wink
     image_filename: image_id_39712_9ea426d164eaa26780f7f1de530bd631.jpg
     topic: womenfilmmakers
-  - name: Crucify
-    image_filename: image_id_65555_1265731cfd84230a8e5773558ba5d8a6.png
-    topic: genre-bending
+  - name: The Beautiful Washing Machine
+    image_filename: image_id_22823_d06f4414045332626e783bc47ebaabc8.jpg
+    topic: summertime
   - name: "Street Soccer: New York"
     image_filename: image_id_108343_207b23b10cd0b277c1ac5ead25da368e.jpg
     topic: soccer
   - name: The Pink Chateau
     image_filename: image_id_139501_a88fdd68002a5c7a537f640c9e4c61a5.jpg
     topic: womenfilmmakers
-  - name: Victor's History
-    image_filename: image_id_64438_c2ba0d000fc66888b6eb68280b875c59.png
-    topic: genre-bending
+  - name: Xolo
+    image_filename: image_id_48518_7bff8fba68940e04c8e87d0a30380276.jpg
+    topic: summertime

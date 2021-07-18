@@ -24,7 +24,7 @@ image: /images/blog/mockumentaries.jpg
 
 ## Noseland
 
-*Directed by Aleksey Igudesman | Comedy | 2012 | 80 mins | Austria*
+_Directed by Aleksey Igudesman \| Comedy \| 2012 \| 80 mins \| Austria_
 
 **Synopsis:** The world-famous violinist with a nose fetish, Julian Rachlin, takes over the town of Dubrovnik, Croatia, every year to bring together some of the world's greatest musicians, actors, and composers and create a unique classical music festival. His oldest friend Aleksey Igudesman offers to make a documentary film that will take an "inside look" at this "fairytale" festival but things seem to go wrong from the start.
 

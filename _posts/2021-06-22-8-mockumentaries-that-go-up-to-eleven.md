@@ -3,7 +3,7 @@ layout: post
 title: 8 Mockumentaries that Go Up to Eleven
 author: Keju Luo
 category: Articles
-date: 2021-06-22T17:14:58.701Z
+date: 2021-07-19T17:14:58.701Z
 image: /images/blog/mockumentaries.jpg
 ---
 > Few films have achieved what 1984's [This Is Spinal Tap](https://www.themoviedb.org/movie/11031-this-is-spinal-tap) did - developing into a cult phenomenon and spawning a whole new genre. Though the history of mockumentary traces back to the 60s masters like Shirley Clarke and Richard Lester, Spinal Tap is inarguably the one that set modern standards and is often referenced to this day. Some of the funniest films of our time carried its torch, from [Borat (2006)](https://www.themoviedb.org/movie/496-borat-cultural-learnings-of-america-for-make-benefit-glorious-nation-of-kazakhstan) to [What We Do in the Shadows (2014)](https://www.themoviedb.org/movie/246741-what-we-do-in-the-shadows). Here are 8 films in the Filmhub catalog that channel the Spinal Tap spirit and [go up to eleven](https://www.youtube.com/watch?v=4xgx4k83zzc).
@@ -64,7 +64,7 @@ _Directed by Aleksey Igudesman \| Comedy \| 2012 \| 80 mins \| Austria_
 
 **Synopsis:** US Soccer superstar Keeley Jones visits England to find out a bit more about one of the oldest soccer teams in the world. When she gets there she finds a club in turmoil and a manager on the brink.
 
-**What makes it special:** What a fitting time to rediscover this film as European Championship and Copa América are both heating up in an overdue post-pandemic sports season. Created by Warren Dudley, the writer of UK hit comedy [The Bromley Boys](https://www.themoviedb.org/movie/512747-the-bromley-boys), the film features astonishing performances by Hannaj Bang Bendz and Roger O'Hara, real locations, adorable non-actor kids, extremely dry humor, and jokes for true soccer fans.
+**What makes it special:** If you are still feeling blue over England's Euro 2020 final defeat, this just might be the film you need right now. Created by Warren Dudley, the writer of UK hit comedy [The Bromley Boys](https://www.themoviedb.org/movie/512747-the-bromley-boys), it features astonishing performances by Hannaj Bang Bendz and Roger O'Hara, real locations, adorable non-actor kids, extremely dry humor, and jokes for true soccer fans.
 
 **Where to stream it:** [Amazon](https://www.amazon.com/English-Soccer-Adventure-Hannaj-Bendz/dp/B07NBT9P98/) \| [Tubi](https://tubitv.com/movies/594399/my-english-soccer-adventure?start=true)
 

@@ -88,6 +88,6 @@ image: /images/blog/summertime-films.png
 
 **Synopsis:** A black-and-white visual meditation of wilderness and the elements. Filmed over five years on seven continents, Elementa is an immersive cinematic experience like no other.
 
-**What makes it special:** The final installment in director Richard Sidey's 'Speechless' trilogy - an ambitious project most comparable to [The Qatsi Trilogy](https://en.wikipedia.org/wiki/Qatsi_trilogy), Elementa is a transcendental experience and an alarming message without words. As we reach a tipping point in climate change, the frightening yet stunning sight of melting glaciers might be the only thing we really need to see this summer.
+**What makes it special:** The final installment in seasoned nature photographer and filmmaker Richard Sidey's 'Speechless' trilogy - an ambitious project most comparable to The Qatsi Trilogy, Elementa is a transcendental experience and an alarming message without words. As we reach a tipping point in climate change, the frightening yet stunning sight of calving glaciers might be the only thing we really need to see this summer.
 
 **Where to stream it:** [Amazon](https://www.amazon.com/Elementa-Richard-Sidey/dp/B08NCZCV1T/) \| [Tubi](https://tubitv.com/movies/569024/elementa)

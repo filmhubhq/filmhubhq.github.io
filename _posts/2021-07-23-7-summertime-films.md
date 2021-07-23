@@ -3,7 +3,7 @@ layout: post
 title: 7 Summertime Films
 author: Keju Luo
 category: Articles
-date: 2021-07-23T19:16:10.935Z
+date: 2021-07-22T19:16:10.935Z
 image: /images/blog/summertime-films.png
 ---
 > Summer 2021 is special because we didn't get to enjoy the last one. Though some of us are lucky enough to take a breather from COVID, it's not quite a summer of joy, as new variants pose threats, and we see wildfires, floods, and record-breaking high temperatures all around the globe...We'd love to stick with fun and light summertime films - we still need those, but it would be an oversight to leave out the more challenging ones. Here are 7 films covering a wide range of themes and styles for summertime viewing.

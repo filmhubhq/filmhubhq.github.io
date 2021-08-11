@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Filmhub Launches Dynamic Acquisitions Feature 'Collections'
+title: Film distribution disruptor Filmhub launches new product to help Channel
+  Buyers license titles based on data and topics
 author: Alan d'Escragnolle
 category: Articles
 date: 2021-08-11T20:40:42.343Z

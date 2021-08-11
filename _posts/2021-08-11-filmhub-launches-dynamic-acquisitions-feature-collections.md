@@ -2,7 +2,7 @@
 layout: post
 title: Filmhub Launches Dynamic Acquisitions Feature 'Collections'
 author: Alan d'Escragnolle
-category: Articles
+category: Press
 date: 2021-08-11T20:40:42.343Z
 image: /images/blog/screen-shot-2021-08-11-at-2.04.30-pm.png
 ---

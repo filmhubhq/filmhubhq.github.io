@@ -6,6 +6,8 @@ category: Updates
 date: 2021-08-16T16:48:05.194Z
 image: /images/blog/peter-stumpf-yk9vxp4w5-q-unsplash.jpeg
 ---
+
+
 Dear ​Filmmaker,
 
 One of the hardest pieces of distribution for filmmakers is getting their assets to meet the technical standards of streaming services.\

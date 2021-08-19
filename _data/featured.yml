@@ -25,10 +25,10 @@ topics:
     description: |
       Black cinema
     color: 3ec2dd
-  soccer:
-    name: Soccer Films
+  chinese:
+    name: Chinese Blockbusters
     description: |
-      Films about soccer
+      Films about Chinese blockbusters
     color: f25959
   neonoir:
     name: Neo-Noir
@@ -54,6 +54,10 @@ titles:
   - name: Loud Places
     image_filename: image_id_63355_edd13298c7d1108a561e8ccdd13f99b9.jpg
     topic: summertime
+  - name: Project Gutenberg
+    image_filename: image_id_153009_3181a3dee18ff4c047cf0a21bef349cd.jpg
+    topic: chinese
+    new: true
   - name: Endgame 2050
     image_filename: image_id_77990_09468589dbe99f257faeb41950718e39.jpg
     topic: climate
@@ -63,9 +67,9 @@ titles:
   - name: The Rise and Fall of Miss Thang
     image_filename: image_id_4746_0ee4950a442140d9fc6bb45a1e598b8f.jpg
     topic: blackcinema
-  - name: Funke!
-    image_filename: image_id_39857_f7ae135ae69e48b37aeb1b4d24e7b6b4.png
-    topic: soccer
+  - name: Shock Wave
+    image_filename: image_id_152145_47fb4816bc6faaf1ba3e84e574418434.jpg
+    topic: chinese
   - name: Love Arcadia
     image_filename: image_id_6695_5ad9a4f2b072f6b16c04cf49ddd7d8f3.jpg
     topic: aapi
@@ -78,9 +82,9 @@ titles:
   - name: Motif
     image_filename: image_id_61603_abe468f40de28360cf23f8d9cfc793d6.png
     topic: neonoir
-  - name: Offside
-    image_filename: image_id_95161_2c23bbf2d090ed6804b37af8b0dffc56.png
-    topic: soccer
+  - name: The Whistleblower
+    image_filename: image_id_151576_3ba0cafe60a127b1571268cf1219ea6e.jpg
+    topic: chinese
   - name: Summertime in New York
     image_filename: image_id_4304_757b4e4356e3382815323eb092c095c5.jpg
     topic: summertime
@@ -90,9 +94,10 @@ titles:
   - name: To the New Girl
     image_filename: image_id_78478_a866f03795a13c2ccddb883c98d7bbb2.jpg
     topic: womenfilmmakers
-  - name: The Team
-    image_filename: image_id_53902_306c0c694871708f2237d5bdcc12bec3.jpg
-    topic: soccer
+  - name: Leap
+    image_filename: image_id_153370_23985f07e63011db509c069f3274f32e.jpg
+    topic: chinese
+    new: true
   - name: "Speechless: The Polar Realm"
     image_filename: image_id_90913_4cdf1bb3f440f745c6ebe0ba93a0d202.jpg
     topic: climate
@@ -105,9 +110,6 @@ titles:
   - name: The Beautiful Washing Machine
     image_filename: image_id_22823_d06f4414045332626e783bc47ebaabc8.jpg
     topic: summertime
-  - name: "Street Soccer: New York"
-    image_filename: image_id_108343_207b23b10cd0b277c1ac5ead25da368e.jpg
-    topic: soccer
   - name: The Pink Chateau
     image_filename: image_id_139501_a88fdd68002a5c7a537f640c9e4c61a5.jpg
     topic: womenfilmmakers
